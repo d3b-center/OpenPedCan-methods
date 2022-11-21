@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/PediatricOpenTargets/OpenPedCan-manuscript/tree/gh-pages) branch hosts the contents of this directory at <https://PediatricOpenTargets.github.io/OpenPedCan-manuscript/>.
-The permalink for this webpage version is <https://PediatricOpenTargets.github.io/OpenPedCan-manuscript/v/708a32d3da61783c271411cb4b9130bc83e8de5b/>.
+The permalink for this webpage version is <https://PediatricOpenTargets.github.io/OpenPedCan-manuscript/v/ee87ca0f9cf7578e1ba9149e05158988c2d4e5d3/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://PediatricOpenTargets.github.io/OpenPedCan-manuscript/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`708a32d3da61783c271411cb4b9130bc83e8de5b`](https://github.com/PediatricOpenTargets/OpenPedCan-manuscript/commit/708a32d3da61783c271411cb4b9130bc83e8de5b).
+[`ee87ca0f9cf7578e1ba9149e05158988c2d4e5d3`](https://github.com/PediatricOpenTargets/OpenPedCan-manuscript/commit/ee87ca0f9cf7578e1ba9149e05158988c2d4e5d3).
