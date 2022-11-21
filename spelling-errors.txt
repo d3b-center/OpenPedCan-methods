@@ -3,7 +3,7 @@ Biospecimen
 CNV
 Germline
 Hotspots
-indel
+INDEL
 janeroe
 johndoe
 MAF
