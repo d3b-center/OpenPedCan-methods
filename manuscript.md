@@ -7,7 +7,7 @@ keywords:
 - classification
 - somatic variation
 lang: en-US
-date-meta: '2023-06-05'
+date-meta: '2023-06-11'
 author-meta:
 - Eric Wafula
 - Krutika S. Gaonkar
@@ -39,8 +39,8 @@ header-includes: |-
   <meta name="citation_title" content="The Open Pediatric Cancer Project" />
   <meta property="og:title" content="The Open Pediatric Cancer Project" />
   <meta property="twitter:title" content="The Open Pediatric Cancer Project" />
-  <meta name="dc.date" content="2023-06-05" />
-  <meta name="citation_publication_date" content="2023-06-05" />
+  <meta name="dc.date" content="2023-06-11" />
+  <meta name="citation_publication_date" content="2023-06-11" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -141,9 +141,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://d3b-center.github.io/OpenPedCan-methods/" />
   <meta name="citation_pdf_url" content="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/527843103fed7b9995af732485d22bd3b8f72fea/" />
-  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/527843103fed7b9995af732485d22bd3b8f72fea/" />
-  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/527843103fed7b9995af732485d22bd3b8f72fea/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/c203c91cb4e2a766bf5f432a23fbecd6e13b90de/" />
+  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/c203c91cb4e2a766bf5f432a23fbecd6e13b90de/" />
+  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/c203c91cb4e2a766bf5f432a23fbecd6e13b90de/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -165,10 +165,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/527843103fed7b9995af732485d22bd3b8f72fea/))
+([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/c203c91cb4e2a766bf5f432a23fbecd6e13b90de/))
 was automatically generated
-from [d3b-center/OpenPedCan-methods@5278431](https://github.com/d3b-center/OpenPedCan-methods/tree/527843103fed7b9995af732485d22bd3b8f72fea)
-on June 5, 2023.
+from [d3b-center/OpenPedCan-methods@c203c91](https://github.com/d3b-center/OpenPedCan-methods/tree/c203c91cb4e2a766bf5f432a23fbecd6e13b90de)
+on June 11, 2023.
 </em></small>
 
 ## Authors
@@ -572,7 +572,8 @@ Please refer to the OpenPBTA manuscript for details [@doi:10.1016/j.xgen.2023.10
 
 #### Selection of independent samples (`independent-samples` analysis module)
 
-
+For analyses that require all input biospecimens to be independent, we use the OpenPedCan-analysis [independent-samples](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/d397339d567ddeff17e7a8cdca892f6a9dd2a0ba/analyses/independent-samples) module to select only one biospecimen from each input participant.
+For each input participant of an analysis, the independent biospecimen is selected based on the analysis-specific filters and preferences for the biospecimen metadata, such as experimental strategy, cancer group, and tumor descriptor.
 
 
 
