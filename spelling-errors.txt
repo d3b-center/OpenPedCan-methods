@@ -12,7 +12,7 @@ CNV
 consortiums
 Corbett
 CpG
-Curation
+curation
 cytobands
 dataset
 dbSNP
@@ -41,7 +41,7 @@ Krutika
 Kuren
 MAF
 Mariarita
-methylation
+Methylation
 MGMT
 minfi
 NCI
@@ -51,7 +51,7 @@ neuroblastoma
 ONCOSEQ
 OPC
 OpenPBTA
-OpenPedCan
+OpenPedcan
 PBTA
 PedcBioPortal
 Phul
@@ -70,10 +70,11 @@ SNP
 SNPs
 SNV
 subtype
-Subtyping
+subtyping
 TCGA
 teratoid
 TP
+TPM
 VCF
 Wafula
 WGS

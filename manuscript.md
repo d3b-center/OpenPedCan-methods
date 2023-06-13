@@ -161,9 +161,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://d3b-center.github.io/OpenPedCan-methods/" />
   <meta name="citation_pdf_url" content="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/c3a29abd6a6b5665a87aa15449c606cf734fa7d8/" />
-  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/c3a29abd6a6b5665a87aa15449c606cf734fa7d8/" />
-  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/c3a29abd6a6b5665a87aa15449c606cf734fa7d8/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/713b5e13856d36f15f36a512528d6f0c4160f6b3/" />
+  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/713b5e13856d36f15f36a512528d6f0c4160f6b3/" />
+  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/713b5e13856d36f15f36a512528d6f0c4160f6b3/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -185,9 +185,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/c3a29abd6a6b5665a87aa15449c606cf734fa7d8/))
+([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/713b5e13856d36f15f36a512528d6f0c4160f6b3/))
 was automatically generated
-from [d3b-center/OpenPedCan-methods@c3a29ab](https://github.com/d3b-center/OpenPedCan-methods/tree/c3a29abd6a6b5665a87aa15449c606cf734fa7d8)
+from [d3b-center/OpenPedCan-methods@713b5e1](https://github.com/d3b-center/OpenPedCan-methods/tree/713b5e13856d36f15f36a512528d6f0c4160f6b3)
 on June 13, 2023.
 </em></small>
 
@@ -596,8 +596,15 @@ Unprocessed IDAT-files from the [Children's Brain Tumor Network (CBTN)](https://
 <!-- TODO: needs update, include liftover for TCGA/GTEX -->
 
 
+##### Gene Expression Summary Statistics
+We generated RNA-Seq gene expression (TPM) summary statistics for independent tumor samples from the combined OpenPedCan gene expression matrices, including cancers from pediatric cohorts (`PBTA`, `GMKF`, and `TARGET`) and adult cancers from the `TCGA` cohort.
+We grouped selected samples into two groups containing samples from a cancer group in either each cohort or all cohorts, and calculated `TPM means`, `standard deviations`, `gene-wise z-scores`, `group-wise z-scores`, and `ranks` for each group as described in the [OpenPedCan rna-seq-expression-summary-stats module](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/rna-seq-expression-summary-stats) in detail. 
+The resulting `gene-wise` and `group-wise` summary statistics tables were annotated with `EFO` and `MONDO` disease codes associated with the cancer groups.
+
+
 ##### Gene fusion detection
 <!-- TODO: needs update -->
+
 
 
 ### QUANTIFICATION AND STATISTICAL ANALYSIS
