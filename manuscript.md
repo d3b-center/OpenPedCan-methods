@@ -146,9 +146,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://d3b-center.github.io/OpenPedCan-methods/" />
   <meta name="citation_pdf_url" content="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/24e6ad96063b8b3149483bbc92bcce73c5a970e1/" />
-  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/24e6ad96063b8b3149483bbc92bcce73c5a970e1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/24e6ad96063b8b3149483bbc92bcce73c5a970e1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/c6d31589130197b27233c0be81a7d3c5905fac6f/" />
+  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/c6d31589130197b27233c0be81a7d3c5905fac6f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/c6d31589130197b27233c0be81a7d3c5905fac6f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -170,9 +170,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/24e6ad96063b8b3149483bbc92bcce73c5a970e1/))
+([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/c6d31589130197b27233c0be81a7d3c5905fac6f/))
 was automatically generated
-from [d3b-center/OpenPedCan-methods@24e6ad9](https://github.com/d3b-center/OpenPedCan-methods/tree/24e6ad96063b8b3149483bbc92bcce73c5a970e1)
+from [d3b-center/OpenPedCan-methods@c6d3158](https://github.com/d3b-center/OpenPedCan-methods/tree/c6d31589130197b27233c0be81a7d3c5905fac6f)
 on June 13, 2023.
 </em></small>
 
@@ -535,7 +535,10 @@ Please refer to the OpenPBTA manuscript for details [@doi:10.1016/j.xgen.2023.10
 ### QUANTIFICATION AND STATISTICAL ANALYSIS
 
 ##### Focal Copy Number Calling (`focal-cn-file-preparation` analysis module)
-
+Please refer to the OpenPBTA manuscript for details on assignment of copy number status values to CNV segments, cytobands, and genes [@doi:10.1016/j.xgen.2023.100340]. 
+We applied criteria to resolve instances of multiple conflicting status calls for the same gene and sample, which are described in detail in the [focal-cn-file-preparation](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/focal-cn-file-preparation) module. 
+Briefly, we prioritized 1) non-neutral status calls, 2) calls made from dominant segments with respect to gene overlap, and 3) amplification and deep deletion status calls over gain and loss calls, respectively, when selecting a dominant status call per gene and sample. 
+These methods resolved >99% of duplicated gene-level status calls.    
 
 
 ##### Gene Set Variation Analysis (`gene-set-enrichment-analysis` analysis module)
