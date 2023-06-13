@@ -16,7 +16,7 @@ Gaonkar
 gliomas
 HL
 Hotspots
-INDEL
+indel
 Jin
 Komal
 Kraya
@@ -24,7 +24,7 @@ Krutika
 Kuren
 MAF
 Mariarita
-methylation
+Methylation
 NCI
 NCI’s
 Neuroblastoma
@@ -38,6 +38,7 @@ rhabdoid
 Rokita
 Saksham
 Santi
+Sickler
 SNP
 SNV
 subtyping
