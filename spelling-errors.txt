@@ -24,12 +24,12 @@ Krutika
 Kuren
 MAF
 Mariarita
-Methylation
+methylation
 NCI
 NCI’s
 Neuroblastoma
 OpenPBTA
-OpenPedCan
+OPENPEDCAN
 PedcBioPortal
 Phul
 Rathi

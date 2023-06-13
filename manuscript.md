@@ -32,6 +32,7 @@ author-meta:
 - Alex Sickler
 - Adam C. Resnick
 - Jo Lynne Rokita^
+- Kelsey Keith
 header-includes: |-
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -151,15 +152,18 @@ header-includes: |-
   <meta name="citation_author_institution" content="Department of Bioinformatics and Health Informatics, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_orcid" content="0000-0003-2171-3627" />
   <meta name="twitter:creator" content="@jolynnerokita" />
+  <meta name="citation_author" content="Kelsey Keith" />
+  <meta name="citation_author_institution" content="Department of Biomedical and Health Informatics, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_orcid" content="0000-0002-7451-5117" />
   <link rel="canonical" href="https://d3b-center.github.io/OpenPedCan-methods/" />
   <meta property="og:url" content="https://d3b-center.github.io/OpenPedCan-methods/" />
   <meta property="twitter:url" content="https://d3b-center.github.io/OpenPedCan-methods/" />
   <meta name="citation_fulltext_html_url" content="https://d3b-center.github.io/OpenPedCan-methods/" />
   <meta name="citation_pdf_url" content="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/b671cb68c14f946ce555a76d7a60ac5a80730933/" />
-  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/b671cb68c14f946ce555a76d7a60ac5a80730933/" />
-  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/b671cb68c14f946ce555a76d7a60ac5a80730933/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/0399139f2a8dede5939e919e2bca3954b2844611/" />
+  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/0399139f2a8dede5939e919e2bca3954b2844611/" />
+  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/0399139f2a8dede5939e919e2bca3954b2844611/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -181,9 +185,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/b671cb68c14f946ce555a76d7a60ac5a80730933/))
+([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/0399139f2a8dede5939e919e2bca3954b2844611/))
 was automatically generated
-from [d3b-center/OpenPedCan-methods@b671cb6](https://github.com/d3b-center/OpenPedCan-methods/tree/b671cb68c14f946ce555a76d7a60ac5a80730933)
+from [d3b-center/OpenPedCan-methods@0399139](https://github.com/d3b-center/OpenPedCan-methods/tree/0399139f2a8dede5939e919e2bca3954b2844611)
 on June 13, 2023.
 </em></small>
 
@@ -374,6 +378,14 @@ on June 13, 2023.
      · Funded by NCI/NIH Contract No. 75N91019D00024, Task Order No. 75N91020F00003
   </small>
 
++ **Kelsey Keith**<br>
+    ![ORCID icon](images/orcid.png){.inline_icon}
+    [0000-0002-7451-5117](https://orcid.org/0000-0002-7451-5117)
+  <br>
+  <small>
+     Department of Biomedical and Health Informatics, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  </small>
+
 
 ## Contact information
 
@@ -447,6 +459,7 @@ on June 13, 2023.
 |Alex Sickler|Methodology, Formal analysis|
 |Adam C. Resnick|Conceptualization, Funding acquisition, Resources, Supervision|
 |Jo Lynne Rokita^|Conceptualization, Data curation, Formal analysis, Funding acquisition, Investigation, Methodology, Software, Supervision, Writing – Original draft, Writing - Review and editing|
+|Kelsey Keith|Software, Writing - original draft, API, Formal Analysis, Data Curation, Visualization|
 
 
 ## Declarations of Interest
