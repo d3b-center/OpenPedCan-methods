@@ -161,9 +161,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://d3b-center.github.io/OpenPedCan-methods/" />
   <meta name="citation_pdf_url" content="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/0399139f2a8dede5939e919e2bca3954b2844611/" />
-  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/0399139f2a8dede5939e919e2bca3954b2844611/" />
-  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/0399139f2a8dede5939e919e2bca3954b2844611/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/148260035b44fe7478dfd263a0d7e93466d538b2/" />
+  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/148260035b44fe7478dfd263a0d7e93466d538b2/" />
+  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/148260035b44fe7478dfd263a0d7e93466d538b2/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -185,9 +185,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/0399139f2a8dede5939e919e2bca3954b2844611/))
+([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/148260035b44fe7478dfd263a0d7e93466d538b2/))
 was automatically generated
-from [d3b-center/OpenPedCan-methods@0399139](https://github.com/d3b-center/OpenPedCan-methods/tree/0399139f2a8dede5939e919e2bca3954b2844611)
+from [d3b-center/OpenPedCan-methods@1482600](https://github.com/d3b-center/OpenPedCan-methods/tree/148260035b44fe7478dfd263a0d7e93466d538b2)
 on June 13, 2023.
 </em></small>
 
@@ -557,7 +557,24 @@ Please refer to the OpenPBTA manuscript for details [@doi:10.1016/j.xgen.2023.10
 
 
 #### Methylation Analysis
-<!-- include QC, b-value/m-value calculations, packages, dkfz classification -->
+##### Methylation array preprocessing
+We preprocessed raw Illumina 450K and EPIC 850K Infinium Human Methylation Bead Array intensities using the array preprocessing methods implemented in the `minfi Bioconductor package` [@doi:10.1093/bioinformatics/btw691]. 
+We utilized either `preprocessFunnorm` when an array dataset had both tumor and normal samples or multiple OpenPedcan-defined `cancer_groups` and `preprocessQuantile` when an array dataset had only tumor samples from a single OpenPedcan-defined `cancer_group` to estimate usable methylation measurements (`beta-values` and `m-values`) and copy number (`cn-values`). 
+Some Illumina Infinium array probes targeting CpG loci contain single-nucleotide polymorphisms (SNPs) near or within the probe [@doi:10.1038/bjc.2013.496], which could affect DNA methylation measurements [@doi:10.1186/s12864-015-2202-0]. 
+As the minfi preprocessing workflow recommends, we dropped probes containing common SNPs in dbSNP (minor allele frequency > 1%) at the CpG interrogation or the single nucleotide extensions.
+
+Details of methylation array preprocessing are available in the [OpenPedCan methylation-preprocessing module](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/methylation-preprocessing).
+
+##### Methylation beta-values summaries
+We comprehensively summarized gene-level and isoform-level metrics for the methylation `beta-values` estimated by array preprocessing to provide insight into the variations in overall genomic DNA methylation levels observed across different pediatric tumors by computing CpG probe-level summary metrics in each cancer group within a cohort, including 1) `beta-values quantiles`, 2) `gene expression (TPM) and methylation (beta-values) correlation`, 3) `TPM median expression`, and 4) `transcript representation` - a proxy for percent isoform expression in a gene. 
+In addition, each CpG probe was annotated with a gene feature to identify the genomic regions likely involved in regulating gene expression. 
+
+Details of the analysis are available in the [OpenPedCan methylation-summary module](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/methylation-summary).
+
+##### Methylation sample classification
+We ran the [dkfz's brain classifier version 12.5](https://www.molecularneuropathology.org/mnp/classifiers/11), a comprehensive DNA methylation-based classification of CNS tumors across all entities and age groups [@doi:10.1038/nature26000]. 
+Unprocessed IDAT-files from the [Children's Brain Tumor Network (CBTN)](https://cbtn.org/) `Infinium Human Methylation EPIC (850k) BeadChip arrays` were used as input and the following information was compiled into the `histologies.tsv` file: `dkfz_v12_methylation_subclass` (predicted methylation subtype), `dkfz_v12_methylation_subclass_score` (classification score), `dkfz_v12_methylation_mgmt_status` (_MGMT_ methylation status), and `dkfz_v12_methylation_mgmt_estimated` (estimated _MGMT_ methylation fraction).
+
 
 
 #### Gene Expression
