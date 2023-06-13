@@ -6,6 +6,7 @@ biospecimens
 Blackden
 CAVATICA
 CNV
+Corbett
 curation
 Diskin
 Ennis
@@ -13,7 +14,7 @@ Gaonkar
 gliomas
 HL
 Hotspots
-indel
+INDEL
 Jin
 Komal
 Kraya
@@ -21,12 +22,12 @@ Krutika
 Kuren
 MAF
 Mariarita
-methylation
+Methylation
 NCI
 NCI’s
 Neuroblastoma
 OpenPBTA
-OPENPEDCAN
+OpenPedCan
 PedcBioPortal
 Rathi
 Resnick
@@ -35,7 +36,7 @@ Rokita
 Santi
 SNP
 SNV
-Subtyping
+subtyping
 teratoid
 TP
 VCF

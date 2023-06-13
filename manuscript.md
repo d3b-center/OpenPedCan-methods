@@ -7,7 +7,7 @@ keywords:
 - classification
 - somatic variation
 lang: en-US
-date-meta: '2023-06-11'
+date-meta: '2023-06-13'
 author-meta:
 - Eric Wafula
 - Krutika S. Gaonkar
@@ -21,6 +21,7 @@ author-meta:
 - Xiaoyan Huang
 - Bo Zhang
 - Brian M. Ennis
+- Ryan J. Corbett
 - Sharon J. Diskin
 - Nicholas Van Kuren
 - Noel Coleman
@@ -39,8 +40,8 @@ header-includes: |-
   <meta name="citation_title" content="The Open Pediatric Cancer Project" />
   <meta property="og:title" content="The Open Pediatric Cancer Project" />
   <meta property="twitter:title" content="The Open Pediatric Cancer Project" />
-  <meta name="dc.date" content="2023-06-11" />
-  <meta name="citation_publication_date" content="2023-06-11" />
+  <meta name="dc.date" content="2023-06-13" />
+  <meta name="citation_publication_date" content="2023-06-13" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -99,6 +100,10 @@ header-includes: |-
   <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_orcid" content="0000-0002-2653-5009" />
+  <meta name="citation_author" content="Ryan J. Corbett" />
+  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_orcid" content="0000-0002-3478-0784" />
   <meta name="citation_author" content="Sharon J. Diskin" />
   <meta name="citation_author_institution" content="Division of Oncology, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_institution" content="Department of Pediatrics, University of Pennsylvania, Philadelphia, PA, 19104, USA" />
@@ -141,9 +146,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://d3b-center.github.io/OpenPedCan-methods/" />
   <meta name="citation_pdf_url" content="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/c203c91cb4e2a766bf5f432a23fbecd6e13b90de/" />
-  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/c203c91cb4e2a766bf5f432a23fbecd6e13b90de/" />
-  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/c203c91cb4e2a766bf5f432a23fbecd6e13b90de/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/24e6ad96063b8b3149483bbc92bcce73c5a970e1/" />
+  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/24e6ad96063b8b3149483bbc92bcce73c5a970e1/" />
+  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/24e6ad96063b8b3149483bbc92bcce73c5a970e1/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -165,10 +170,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/c203c91cb4e2a766bf5f432a23fbecd6e13b90de/))
+([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/24e6ad96063b8b3149483bbc92bcce73c5a970e1/))
 was automatically generated
-from [d3b-center/OpenPedCan-methods@c203c91](https://github.com/d3b-center/OpenPedCan-methods/tree/c203c91cb4e2a766bf5f432a23fbecd6e13b90de)
-on June 11, 2023.
+from [d3b-center/OpenPedCan-methods@24e6ad9](https://github.com/d3b-center/OpenPedCan-methods/tree/24e6ad96063b8b3149483bbc92bcce73c5a970e1)
+on June 13, 2023.
 </em></small>
 
 ## Authors
@@ -266,6 +271,14 @@ on June 11, 2023.
 + **Brian M. Ennis**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0002-2653-5009](https://orcid.org/0000-0002-2653-5009)
+  <br>
+  <small>
+     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  </small>
+
++ **Ryan J. Corbett**<br>
+    ![ORCID icon](images/orcid.png){.inline_icon}
+    [0000-0002-3478-0784](https://orcid.org/0000-0002-3478-0784)
   <br>
   <small>
      Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
@@ -396,6 +409,7 @@ on June 11, 2023.
 |Xiaoyan Huang|Formal analysis|
 |Bo Zhang|Data curation, Formal analysis|
 |Brian M. Ennis|Data curation, Formal analysis|
+|Ryan J. Corbett|Formal analysis|
 |Sharon J. Diskin|Investigation, Supervision, Validation, Funding acquisition, Writing - Review and editing|
 |Nicholas Van Kuren|Data curation, Software|
 |Noel Coleman|Data curation|
