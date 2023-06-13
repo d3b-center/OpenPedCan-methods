@@ -12,7 +12,7 @@ CNV
 consortiums
 Corbett
 CpG
-curation
+Curation
 cytobands
 dataset
 dbSNP
@@ -22,7 +22,7 @@ dkfz’s
 Ennis
 Gabriella
 Gaonkar
-genomic
+Genomic
 genomically
 gliomas
 GMKF
@@ -51,7 +51,7 @@ neuroblastoma
 ONCOSEQ
 OPC
 OpenPBTA
-OpenPedcan
+OPENPEDCAN
 PBTA
 PedcBioPortal
 Phul
@@ -64,7 +64,9 @@ Resnick
 rhabdoid
 Rokita
 Saksham
+Sangeeta
 Santi
+Shukla
 Sickler
 SNP
 SNPs

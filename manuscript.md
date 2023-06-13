@@ -10,6 +10,7 @@ lang: en-US
 date-meta: '2023-06-13'
 author-meta:
 - Eric Wafula
+- Sangeeta Shukla
 - Krutika S. Gaonkar
 - Run Jin
 - Komal S. Rathi
@@ -54,6 +55,9 @@ header-includes: |-
   <meta name="citation_author" content="Eric Wafula" />
   <meta name="citation_author_institution" content="Department of Bioinformatics and Health Informatics, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_orcid" content="0000-0001-8073-3797" />
+  <meta name="citation_author" content="Sangeeta Shukla" />
+  <meta name="citation_author_institution" content="Department of Bioinformatics and Health Informatics, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_orcid" content="0000-0002-3727-9602" />
   <meta name="citation_author" content="Krutika S. Gaonkar" />
   <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
@@ -161,9 +165,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://d3b-center.github.io/OpenPedCan-methods/" />
   <meta name="citation_pdf_url" content="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/713b5e13856d36f15f36a512528d6f0c4160f6b3/" />
-  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/713b5e13856d36f15f36a512528d6f0c4160f6b3/" />
-  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/713b5e13856d36f15f36a512528d6f0c4160f6b3/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/22bf7ca1c43559e935a7075678f1856163da2bc6/" />
+  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/22bf7ca1c43559e935a7075678f1856163da2bc6/" />
+  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/22bf7ca1c43559e935a7075678f1856163da2bc6/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -185,9 +189,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/713b5e13856d36f15f36a512528d6f0c4160f6b3/))
+([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/22bf7ca1c43559e935a7075678f1856163da2bc6/))
 was automatically generated
-from [d3b-center/OpenPedCan-methods@713b5e1](https://github.com/d3b-center/OpenPedCan-methods/tree/713b5e13856d36f15f36a512528d6f0c4160f6b3)
+from [d3b-center/OpenPedCan-methods@22bf7ca](https://github.com/d3b-center/OpenPedCan-methods/tree/22bf7ca1c43559e935a7075678f1856163da2bc6)
 on June 13, 2023.
 </em></small>
 
@@ -198,6 +202,14 @@ on June 13, 2023.
 + **Eric Wafula**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0001-8073-3797](https://orcid.org/0000-0001-8073-3797)
+  <br>
+  <small>
+     Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  </small>
+
++ **Sangeeta Shukla**<br>
+    ![ORCID icon](images/orcid.png){.inline_icon}
+    [0000-0002-3727-9602](https://orcid.org/0000-0002-3727-9602)
   <br>
   <small>
      Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
@@ -437,6 +449,7 @@ on June 13, 2023.
 |Author|Contributions|
 |---|---|
 |Eric Wafula|Formal analysis, Software|
+|Sangeeta Shukla|Data curation, Formal analysis, Investigation, Methodology, Software, Writing – Original draft, Writing - Review and editing|
 |Krutika S. Gaonkar|Data curation, Formal analysis, Investigation, Methodology, Software, Writing – Original draft, Writing - Review and editing|
 |Run Jin|Data curation, Formal analysis, Visualization, Writing – Original draft, Writing - Review and editing|
 |Komal S. Rathi|Formal analysis, Investigation, Methodology, Writing – Original draft|
