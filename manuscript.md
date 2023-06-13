@@ -27,6 +27,7 @@ author-meta:
 - Noel Coleman
 - Christopher Blackden
 - Jennifer L. Mason
+- Saksham Phul
 - Miguel A. Brown
 - Adam C. Resnick
 - Jo Lynne Rokita^
@@ -124,6 +125,11 @@ header-includes: |-
   <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="twitter:creator" content="@jenn0307" />
+  <meta name="citation_author" content="Saksham Phul" />
+  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_orcid" content="0000-0002-2771-2572" />
+  <meta name="twitter:creator" content="@migbro" />
   <meta name="citation_author" content="Miguel A. Brown" />
   <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
@@ -146,9 +152,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://d3b-center.github.io/OpenPedCan-methods/" />
   <meta name="citation_pdf_url" content="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/c6d31589130197b27233c0be81a7d3c5905fac6f/" />
-  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/c6d31589130197b27233c0be81a7d3c5905fac6f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/c6d31589130197b27233c0be81a7d3c5905fac6f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/4718374200b2c101a255edda327d4e3f77e6e878/" />
+  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/4718374200b2c101a255edda327d4e3f77e6e878/" />
+  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/4718374200b2c101a255edda327d4e3f77e6e878/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -170,9 +176,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/c6d31589130197b27233c0be81a7d3c5905fac6f/))
+([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/4718374200b2c101a255edda327d4e3f77e6e878/))
 was automatically generated
-from [d3b-center/OpenPedCan-methods@c6d3158](https://github.com/d3b-center/OpenPedCan-methods/tree/c6d31589130197b27233c0be81a7d3c5905fac6f)
+from [d3b-center/OpenPedCan-methods@4718374](https://github.com/d3b-center/OpenPedCan-methods/tree/4718374200b2c101a255edda327d4e3f77e6e878)
 on June 13, 2023.
 </em></small>
 
@@ -320,6 +326,14 @@ on June 13, 2023.
      Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
   </small>
 
++ **Saksham Phul**<br>
+    ![ORCID icon](images/orcid.png){.inline_icon}
+    [0000-0002-2771-2572](https://orcid.org/0000-0002-2771-2572)
+  <br>
+  <small>
+     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  </small>
+
 + **Miguel A. Brown**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0001-6782-1442](https://orcid.org/0000-0001-6782-1442)
@@ -415,6 +429,7 @@ on June 13, 2023.
 |Noel Coleman|Data curation|
 |Christopher Blackden|Resources|
 |Jennifer L. Mason|Supervision|
+|Saksham Phul|Data curation, Methodology, Formal analysis|
 |Miguel A. Brown|Data curation, Methodology, Formal analysis|
 |Adam C. Resnick|Conceptualization, Funding acquisition, Resources, Supervision|
 |Jo Lynne Rokita^|Conceptualization, Data curation, Formal analysis, Funding acquisition, Investigation, Methodology, Software, Supervision, Writing – Original draft, Writing - Review and editing|

@@ -16,7 +16,7 @@ Gaonkar
 gliomas
 HL
 Hotspots
-indel
+INDEL
 Jin
 Komal
 Kraya
@@ -31,10 +31,12 @@ Neuroblastoma
 OpenPBTA
 OpenPedCan
 PedcBioPortal
+Phul
 Rathi
 Resnick
 rhabdoid
 Rokita
+Saksham
 Santi
 SNP
 SNV
