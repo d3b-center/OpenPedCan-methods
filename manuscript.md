@@ -165,9 +165,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://d3b-center.github.io/OpenPedCan-methods/" />
   <meta name="citation_pdf_url" content="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/48da98836d3295c228b57f2ab2aae566ab2fcb02/" />
-  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/48da98836d3295c228b57f2ab2aae566ab2fcb02/" />
-  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/48da98836d3295c228b57f2ab2aae566ab2fcb02/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/b1b0bdce8e69a88d4371bc6b3b2554797b0237bf/" />
+  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/b1b0bdce8e69a88d4371bc6b3b2554797b0237bf/" />
+  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/b1b0bdce8e69a88d4371bc6b3b2554797b0237bf/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -189,9 +189,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/48da98836d3295c228b57f2ab2aae566ab2fcb02/))
+([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/b1b0bdce8e69a88d4371bc6b3b2554797b0237bf/))
 was automatically generated
-from [d3b-center/OpenPedCan-methods@48da988](https://github.com/d3b-center/OpenPedCan-methods/tree/48da98836d3295c228b57f2ab2aae566ab2fcb02)
+from [d3b-center/OpenPedCan-methods@b1b0bdc](https://github.com/d3b-center/OpenPedCan-methods/tree/b1b0bdce8e69a88d4371bc6b3b2554797b0237bf)
 on June 14, 2023.
 </em></small>
 
@@ -654,18 +654,19 @@ Unprocessed IDAT-files from the [Children's Brain Tumor Network (CBTN)](https://
 #### Gene Expression
 
 ##### Abundance Estimation
-<!-- TODO: needs update -->
-
-
-##### Gene Expression Matrices with Unique HUGO Symbols
-<!-- TODO: needs update, include liftover for TCGA/GTEX -->
-
+Among the data sources used for OpenPedCan, GTEx and TCGA used GENCODE versions v26 and v36, respectively. 
+Moreover, the gene symbols used in these different GENCODE versions also varied. 
+Therefore, the gene symbols had to be harmonized for compatibility to map unique gene identifiers to their gene symbols.
+ENSG IDs from each data source were pulled and mapped to the GTF/GFF3 file from [`GENCODE v39`](https://www.gencodegenes.org/human/release_39.html) to extract unique gene symbols and remove duplicates.
+Additionally, the gene expression matrices had some instances where multiple Ensembl gene identifiers mapped to the same gene symbol.
+This was dealt with by filtering the expression matrix to only genes with [FPKM/TPM] > 0 and then selecting the instance of the gene symbol with the maximum mean [FPKM/TPM/Expected_count] value across samples. 
+This enabled many downstream modules that require RNA-seq data have gene symbols as unique gene identifiers.
+Refer to [collapse-rnaseq](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/collapse-rnaseq) module for scripts and details.
 
 ##### Gene Expression Summary Statistics
 We generated RNA-Seq gene expression (TPM) summary statistics for independent tumor samples from the combined OpenPedCan gene expression matrices, including cancers from pediatric cohorts (`PBTA`, `GMKF`, and `TARGET`) and adult cancers from the `TCGA` cohort.
 We grouped selected samples into two groups containing samples from a cancer group in either each cohort or all cohorts, and calculated `TPM means`, `standard deviations`, `gene-wise z-scores`, `group-wise z-scores`, and `ranks` for each group as described in the [OpenPedCan rna-seq-expression-summary-stats module](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/rna-seq-expression-summary-stats) in detail. 
 The resulting `gene-wise` and `group-wise` summary statistics tables were annotated with `EFO` and `MONDO` disease codes associated with the cancer groups.
-
 
 ##### Gene fusion detection
 <!-- TODO: needs update -->
