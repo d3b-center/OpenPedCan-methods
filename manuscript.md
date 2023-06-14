@@ -165,9 +165,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://d3b-center.github.io/OpenPedCan-methods/" />
   <meta name="citation_pdf_url" content="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/a11a13aa2d05bc46d87f4dc2243af4faf12ceb43/" />
-  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/a11a13aa2d05bc46d87f4dc2243af4faf12ceb43/" />
-  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/a11a13aa2d05bc46d87f4dc2243af4faf12ceb43/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/48da98836d3295c228b57f2ab2aae566ab2fcb02/" />
+  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/48da98836d3295c228b57f2ab2aae566ab2fcb02/" />
+  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/48da98836d3295c228b57f2ab2aae566ab2fcb02/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -189,9 +189,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/a11a13aa2d05bc46d87f4dc2243af4faf12ceb43/))
+([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/48da98836d3295c228b57f2ab2aae566ab2fcb02/))
 was automatically generated
-from [d3b-center/OpenPedCan-methods@a11a13a](https://github.com/d3b-center/OpenPedCan-methods/tree/a11a13aa2d05bc46d87f4dc2243af4faf12ceb43)
+from [d3b-center/OpenPedCan-methods@48da988](https://github.com/d3b-center/OpenPedCan-methods/tree/48da98836d3295c228b57f2ab2aae566ab2fcb02)
 on June 14, 2023.
 </em></small>
 
@@ -707,13 +707,32 @@ Please refer to the OpenPBTA manuscript for details [@doi:10.1016/j.xgen.2023.10
 ##### Molecular Subtyping
 Here, we build upon the molecular subtyping performed in OpenPBTA [@doi:10.1016/j.xgen.2023.100340].
 
-High-grade gliomas..
+**High-grade gliomas.**
 <!-- TODO: needs update - DHG, IHG -->
 
-Atypical teratoid rhabdoid tumors..
+A new high-grade glioma entity called infant-type hemispheric gliomas (IHGs), characterized by distinct gene fusions enriched in receptor tyrosine kinase (RTK) genes including _ALK_, _NTRK1/2/3_, _ROS1_ or _MET_, was identified in 2021 [@doi: 10.1038/s41467-019-12187-5].
+To identify IHG tumors, first, tumors which were classified as "IHG" by the DKFZ methylation classifier or diagnosed as "infant type hemispheric glioma" from `pathology_free_text_diagnosis` were selected [@doi:10.1038/nature26000]. 
+Then, the corresponding tumor RNA-seq data were utilized to seek the evidence for RTK gene fusion. 
+Based on the specific RTK gene fusion present in the samples, IHGs were further classified as "IHG, ALK-altered", "IHG, NTRK-altered", "IHG, ROS1-altered", or "IHG, MET-altered". 
+If no fusion was observed, the samples were identified as "IHG, To be classified". 
 
 
-Neuroblastoma tumors...
+**Atypical teratoid rhabdoid tumors.**
+
+Atypical teratoid rhabdoid tumors (ATRT) tumors were categorized into three subtypes: "ATRT, MYC", "ATRT, SHH", and "ATRT, TYR" [@doi:10.1093/neuonc/noz235]. 
+In OpenPedCan, the molecular subtyping of ATRT was based solely on the DNA methylation data. 
+Briefly, ATRT samples with a high confidence DKFZ methylation subclass score (>= 0.8) were selected and subtypes were assigned based on the DKFZ methylation subclass [@doi10.1038/nature26000]. 
+Samples with low confidence DKFZ methylation subclass scores (< 0.8) were identified as "ATRT, To be classified". 
+
+**Neuroblastoma tumors.**
+
+Neuroblastoma (NBL) tumors with a pathology diagnosis of neuroblastoma, ganglioneuroblastoma, or ganglioneuroma were subtyped based on their MYCN copy number status as either "NBL, MYCN amplified" or "NBL, MYCN non-amplified". 
+If `pathology_free_text_diagnosis` was "NBL, MYCN non-amplified" and the genetic data suggested MYCN amplification, the samples were subtyped as "NBL, MYCN amplified". 
+On the other hand, if `pathology_free_text_diagnosis` was "NBL, MYCN amplified" and the genetic data suggested MYCN non-amplification, the RNA-Seq gene expression level of _MYCN_ was used as a prediction indicator. 
+In those cases, samples with _MYCN_ gene expression above or below the cutoff (TPM >= 140.83 based on visual inspection of MYCN CNV status) were subtyped as "NBL, MYCN amplified" and "NBL, MYCN non-amplified", respectively. 
+_MYCN_ gene expression was also used to subtype samples without DNA sequencing data. 
+If a sample did not fit none of these situations, it was denoted as "NBL, To be classified".  
+
 
 
 ###### Integration of brain tumor methylation classifications 

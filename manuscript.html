@@ -189,9 +189,9 @@
   <meta name="citation_fulltext_html_url" content="https://d3b-center.github.io/OpenPedCan-methods/" />
   <meta name="citation_pdf_url" content="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/a11a13aa2d05bc46d87f4dc2243af4faf12ceb43/" />
-  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/a11a13aa2d05bc46d87f4dc2243af4faf12ceb43/" />
-  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/a11a13aa2d05bc46d87f4dc2243af4faf12ceb43/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/48da98836d3295c228b57f2ab2aae566ab2fcb02/" />
+  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/48da98836d3295c228b57f2ab2aae566ab2fcb02/" />
+  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/48da98836d3295c228b57f2ab2aae566ab2fcb02/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -208,9 +208,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://d3b-center.github.io/OpenPedCan-methods/v/a11a13aa2d05bc46d87f4dc2243af4faf12ceb43/">permalink</a>)
+(<a href="https://d3b-center.github.io/OpenPedCan-methods/v/48da98836d3295c228b57f2ab2aae566ab2fcb02/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/d3b-center/OpenPedCan-methods/tree/a11a13aa2d05bc46d87f4dc2243af4faf12ceb43">d3b-center/OpenPedCan-methods@a11a13a</a>
+from <a href="https://github.com/d3b-center/OpenPedCan-methods/tree/48da98836d3295c228b57f2ab2aae566ab2fcb02">d3b-center/OpenPedCan-methods@48da988</a>
 on June 14, 2023.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -665,10 +665,25 @@ These methods resolved &gt;99% of duplicated gene-level status calls.</p>
 <h5 id="who-classification-of-disease-types">WHO Classification of Disease Types</h5>
 <h5 id="molecular-subtyping">Molecular Subtyping</h5>
 <p>Here, we build upon the molecular subtyping performed in OpenPBTA <span class="citation" data-cites="5VXMHJ7N">[<a href="#ref-5VXMHJ7N" role="doc-biblioref">4</a>]</span>.</p>
-<p>High-grade gliomas..
+<p><strong>High-grade gliomas.</strong>
 <!-- TODO: needs update - DHG, IHG --></p>
-<p>Atypical teratoid rhabdoid tumors..</p>
-<p>Neuroblastoma tumors…</p>
+<p>A new high-grade glioma entity called infant-type hemispheric gliomas (IHGs), characterized by distinct gene fusions enriched in receptor tyrosine kinase (RTK) genes including <em>ALK</em>, <em>NTRK1/2/3</em>, <em>ROS1</em> or <em>MET</em>, was identified in 2021 <span class="citation" data-cites="doi">[<a href="#ref-doi" role="doc-biblioref"><strong>doi?</strong></a> 10.1038/s41467-019-12187-5]</span>.
+To identify IHG tumors, first, tumors which were classified as “IHG” by the DKFZ methylation classifier or diagnosed as “infant type hemispheric glioma” from <code>pathology_free_text_diagnosis</code> were selected <span class="citation" data-cites="19a3Xf4h3">[<a href="#ref-19a3Xf4h3" role="doc-biblioref">13</a>]</span>.
+Then, the corresponding tumor RNA-seq data were utilized to seek the evidence for RTK gene fusion.
+Based on the specific RTK gene fusion present in the samples, IHGs were further classified as “IHG, ALK-altered”, “IHG, NTRK-altered”, “IHG, ROS1-altered”, or “IHG, MET-altered”.
+If no fusion was observed, the samples were identified as “IHG, To be classified”.</p>
+<p><strong>Atypical teratoid rhabdoid tumors.</strong></p>
+<p>Atypical teratoid rhabdoid tumors (ATRT) tumors were categorized into three subtypes: “ATRT, MYC”, “ATRT, SHH”, and “ATRT, TYR” <span class="citation" data-cites="5NHLHVO3">[<a href="#ref-5NHLHVO3" role="doc-biblioref">14</a>]</span>.
+In OpenPedCan, the molecular subtyping of ATRT was based solely on the DNA methylation data.
+Briefly, ATRT samples with a high confidence DKFZ methylation subclass score (&gt;= 0.8) were selected and subtypes were assigned based on the DKFZ methylation subclass <span class="citation" data-cites="doi10.1038/nature26000">[<a href="#ref-doi10.1038/nature26000" role="doc-biblioref"><strong>doi10.1038/nature26000?</strong></a>]</span>.
+Samples with low confidence DKFZ methylation subclass scores (&lt; 0.8) were identified as “ATRT, To be classified”.</p>
+<p><strong>Neuroblastoma tumors.</strong></p>
+<p>Neuroblastoma (NBL) tumors with a pathology diagnosis of neuroblastoma, ganglioneuroblastoma, or ganglioneuroma were subtyped based on their MYCN copy number status as either “NBL, MYCN amplified” or “NBL, MYCN non-amplified”.
+If <code>pathology_free_text_diagnosis</code> was “NBL, MYCN non-amplified” and the genetic data suggested MYCN amplification, the samples were subtyped as “NBL, MYCN amplified”.
+On the other hand, if <code>pathology_free_text_diagnosis</code> was “NBL, MYCN amplified” and the genetic data suggested MYCN non-amplification, the RNA-Seq gene expression level of <em>MYCN</em> was used as a prediction indicator.
+In those cases, samples with <em>MYCN</em> gene expression above or below the cutoff (TPM &gt;= 140.83 based on visual inspection of MYCN CNV status) were subtyped as “NBL, MYCN amplified” and “NBL, MYCN non-amplified”, respectively.
+<em>MYCN</em> gene expression was also used to subtype samples without DNA sequencing data.
+If a sample did not fit none of these situations, it was denoted as “NBL, To be classified”.</p>
 <h6 id="integration-of-brain-tumor-methylation-classifications">Integration of brain tumor methylation classifications</h6>
 <h4 id="tp53-alteration-annotation-tp53_nf1_score-analysis-module">TP53 Alteration Annotation (<code>tp53_nf1_score</code> analysis module)</h4>
 <p>Please refer to the OpenPBTA manuscript for details <span class="citation" data-cites="5VXMHJ7N">[<a href="#ref-5VXMHJ7N" role="doc-biblioref">4</a>]</span>.</p>
@@ -720,6 +735,9 @@ For each input participant of an analysis, the independent biospecimen is select
 </div>
 <div id="ref-19a3Xf4h3" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">13. </div><div class="csl-right-inline"><strong>DNA methylation-based classification of central nervous system tumours</strong> <div class="csl-block">David Capper, David TW Jones, Martin Sill, Volker Hovestadt, Daniel Schrimpf, Dominik Sturm, Christian Koelsche, Felix Sahm, Lukas Chavez, David E Reuss, … Stefan M Pfister</div> <em>Nature</em> (2018-03-14) <a href="https://doi.org/gc5t36">https://doi.org/gc5t36</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/nature26000">10.1038/nature26000</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29539639">29539639</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6093218">PMC6093218</a></div></div>
+</div>
+<div id="ref-5NHLHVO3" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">14. </div><div class="csl-right-inline"><strong>Molecular subgrouping of atypical teratoid/rhabdoid tumors—a reinvestigation and current consensus</strong> <div class="csl-block">Ben Ho, Pascal D Johann, Yura Grabovska, Mamy Jean De Dieu Andrianteranagna, Fupan Yao, Michael Frühwald, Martin Hasselblatt, Franck Bourdeaut, Daniel Williamson, Annie Huang, Marcel Kool</div> <em>Neuro-Oncology</em> (2019-12-31) <a href="https://doi.org/gn3kcm">https://doi.org/gn3kcm</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/neuonc/noz235">10.1093/neuonc/noz235</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31889194">31889194</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7229260">PMC7229260</a></div></div>
 </div>
 </div>
 <!-- default theme -->
