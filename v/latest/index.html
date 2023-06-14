@@ -189,9 +189,9 @@
   <meta name="citation_fulltext_html_url" content="https://d3b-center.github.io/OpenPedCan-methods/" />
   <meta name="citation_pdf_url" content="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/48da98836d3295c228b57f2ab2aae566ab2fcb02/" />
-  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/48da98836d3295c228b57f2ab2aae566ab2fcb02/" />
-  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/48da98836d3295c228b57f2ab2aae566ab2fcb02/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/b1b0bdce8e69a88d4371bc6b3b2554797b0237bf/" />
+  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/b1b0bdce8e69a88d4371bc6b3b2554797b0237bf/" />
+  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/b1b0bdce8e69a88d4371bc6b3b2554797b0237bf/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -208,9 +208,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://d3b-center.github.io/OpenPedCan-methods/v/48da98836d3295c228b57f2ab2aae566ab2fcb02/">permalink</a>)
+(<a href="https://d3b-center.github.io/OpenPedCan-methods/v/b1b0bdce8e69a88d4371bc6b3b2554797b0237bf/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/d3b-center/OpenPedCan-methods/tree/48da98836d3295c228b57f2ab2aae566ab2fcb02">d3b-center/OpenPedCan-methods@48da988</a>
+from <a href="https://github.com/d3b-center/OpenPedCan-methods/tree/b1b0bdce8e69a88d4371bc6b3b2554797b0237bf">d3b-center/OpenPedCan-methods@b1b0bdc</a>
 on June 14, 2023.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -641,9 +641,14 @@ In addition, each CpG probe was annotated with a gene feature to identify the ge
 Unprocessed IDAT-files from the <a href="https://cbtn.org/">Children’s Brain Tumor Network (CBTN)</a> <code>Infinium Human Methylation EPIC (850k) BeadChip arrays</code> were used as input and the following information was compiled into the <code>histologies.tsv</code> file: <code>dkfz_v12_methylation_subclass</code> (predicted methylation subtype), <code>dkfz_v12_methylation_subclass_score</code> (classification score), <code>dkfz_v12_methylation_mgmt_status</code> (<em>MGMT</em> methylation status), and <code>dkfz_v12_methylation_mgmt_estimated</code> (estimated <em>MGMT</em> methylation fraction).</p>
 <h4 id="gene-expression">Gene Expression</h4>
 <h5 id="abundance-estimation">Abundance Estimation</h5>
-<!-- TODO: needs update -->
-<h5 id="gene-expression-matrices-with-unique-hugo-symbols">Gene Expression Matrices with Unique HUGO Symbols</h5>
-<!-- TODO: needs update, include liftover for TCGA/GTEX -->
+<p>Among the data sources used for OpenPedCan, GTEx and TCGA used GENCODE versions v26 and v36, respectively.
+Moreover, the gene symbols used in these different GENCODE versions also varied.
+Therefore, the gene symbols had to be harmonized for compatibility to map unique gene identifiers to their gene symbols.
+ENSG IDs from each data source were pulled and mapped to the GTF/GFF3 file from <a href="https://www.gencodegenes.org/human/release_39.html"><code>GENCODE v39</code></a> to extract unique gene symbols and remove duplicates.
+Additionally, the gene expression matrices had some instances where multiple Ensembl gene identifiers mapped to the same gene symbol.
+This was dealt with by filtering the expression matrix to only genes with [FPKM/TPM] &gt; 0 and then selecting the instance of the gene symbol with the maximum mean [FPKM/TPM/Expected_count] value across samples.
+This enabled many downstream modules that require RNA-seq data have gene symbols as unique gene identifiers.
+Refer to <a href="https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/collapse-rnaseq">collapse-rnaseq</a> module for scripts and details.</p>
 <h5 id="gene-expression-summary-statistics">Gene Expression Summary Statistics</h5>
 <p>We generated RNA-Seq gene expression (TPM) summary statistics for independent tumor samples from the combined OpenPedCan gene expression matrices, including cancers from pediatric cohorts (<code>PBTA</code>, <code>GMKF</code>, and <code>TARGET</code>) and adult cancers from the <code>TCGA</code> cohort.
 We grouped selected samples into two groups containing samples from a cancer group in either each cohort or all cohorts, and calculated <code>TPM means</code>, <code>standard deviations</code>, <code>gene-wise z-scores</code>, <code>group-wise z-scores</code>, and <code>ranks</code> for each group as described in the <a href="https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/rna-seq-expression-summary-stats">OpenPedCan rna-seq-expression-summary-stats module</a> in detail.
