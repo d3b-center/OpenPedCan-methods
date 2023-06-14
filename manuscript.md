@@ -165,9 +165,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://d3b-center.github.io/OpenPedCan-methods/" />
   <meta name="citation_pdf_url" content="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/b1b0bdce8e69a88d4371bc6b3b2554797b0237bf/" />
-  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/b1b0bdce8e69a88d4371bc6b3b2554797b0237bf/" />
-  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/b1b0bdce8e69a88d4371bc6b3b2554797b0237bf/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/ab999f411e80de20e8535b8530f9e3a09332ec29/" />
+  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/ab999f411e80de20e8535b8530f9e3a09332ec29/" />
+  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/ab999f411e80de20e8535b8530f9e3a09332ec29/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -189,9 +189,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/b1b0bdce8e69a88d4371bc6b3b2554797b0237bf/))
+([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/ab999f411e80de20e8535b8530f9e3a09332ec29/))
 was automatically generated
-from [d3b-center/OpenPedCan-methods@b1b0bdc](https://github.com/d3b-center/OpenPedCan-methods/tree/b1b0bdce8e69a88d4371bc6b3b2554797b0237bf)
+from [d3b-center/OpenPedCan-methods@ab999f4](https://github.com/d3b-center/OpenPedCan-methods/tree/ab999f411e80de20e8535b8530f9e3a09332ec29)
 on June 14, 2023.
 </em></small>
 
@@ -624,6 +624,17 @@ Please refer to the OpenPBTA manuscript for details [@doi:10.1016/j.xgen.2023.10
 
 ##### Consensus CNV Calling
 <!-- TODO: needs update -->
+
+We adopted the consensus CNV calling described in OpenPBTA manuscript [doi:10.1016/j.xgen.2023.100340] with minor adjustments. 
+For each caller and sample with WGS performed, we called CNVs based on consensus among Control-FREEC ([@https://doi.org/10.1093/bioinformatics/btq635]; [@https://doi.org/10.1093/bioinformatics/btr670]), CNVkit ([@doi: 10.1371/journal.pcbi.1004873]), and GATK ([@doi:
+10.1101/gr.107524.110]). 
+Sample and consensus caller files with more than 2,500 CNVs were removed to de-noise and increase data quality, based on cutoffs used in GISTIC ([@https://doi.org/10.1186/gb-2011-12-4-r41]). 
+For each sample, we included the following regions in the final consensus set: 1) regions with reciprocal overlap of 50% or more between at least two of the callers; 2) smaller CNV regions in which more than 90% of regions were covered by another caller. 
+For GATK, if a panel of normal was not able to be created (required 30 male and 30 female with the same sequencing platform), consensus was not run for tumors with WGS performed on that sequencing platform. 
+We defined copy number as NA for any regions that had a neutral call for the samples included in the consensus file. 
+We merged CNV regions within 10,000 bp of each other with the same direction of gain or loss into single region. 
+Any CNVs that overlapped 50% or more with immunoglobulin, telomeric, centromeric, segment duplicated regions, or that were shorter than 3000 bp were filtered out.
+The CNVKit calls for WXS samples were appended to the consensus CNV file.
 
 
 #### Somatic Structural Variant Calling (WGS samples only)
