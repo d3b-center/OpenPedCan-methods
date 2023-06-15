@@ -169,9 +169,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://d3b-center.github.io/OpenPedCan-methods/" />
   <meta name="citation_pdf_url" content="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/f0e58a6b2d4a005fc2900dbf4e68eb39f2390d76/" />
-  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/f0e58a6b2d4a005fc2900dbf4e68eb39f2390d76/" />
-  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/f0e58a6b2d4a005fc2900dbf4e68eb39f2390d76/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/0b42413aa0159430f5e627dd3154b69980bdffc8/" />
+  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/0b42413aa0159430f5e627dd3154b69980bdffc8/" />
+  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/0b42413aa0159430f5e627dd3154b69980bdffc8/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -193,9 +193,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/f0e58a6b2d4a005fc2900dbf4e68eb39f2390d76/))
+([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/0b42413aa0159430f5e627dd3154b69980bdffc8/))
 was automatically generated
-from [d3b-center/OpenPedCan-methods@f0e58a6](https://github.com/d3b-center/OpenPedCan-methods/tree/f0e58a6b2d4a005fc2900dbf4e68eb39f2390d76)
+from [d3b-center/OpenPedCan-methods@0b42413](https://github.com/d3b-center/OpenPedCan-methods/tree/0b42413aa0159430f5e627dd3154b69980bdffc8)
 on June 15, 2023.
 </em></small>
 
@@ -594,7 +594,25 @@ As we produced new results that we expected to be used across multiple analyses,
 ### EXPERIMENTAL MODEL AND STUDY PARTICIPANT DETAILS
 <!-- TODO: add description of all studies here -->
 
+Please refer to the OpenPBTA manuscript [@doi:10.1016/j.xgen.2023.100340] for additional details for the CBTN and PNOC cohorts and project-specific study details for GMKF, TARGET, and TCGA cohorts.
+For the PBTA X01 cohort, libraries were prepped using the Illumina TruSeq Strand-Specific Protocol to pull out poly-adenylated transcripts.
 
+cDNA Library Construction
+
+Total RNA was quantified using the Quant-iT™ RiboGreen® RNA Assay Kit and normalized to 5ng/ul. 
+Following plating, 2 uL of ERCC controls (using a 1:1000 dilution) were spiked into each sample. 
+An aliquot of 325 ng for each sample was transferred into library preparation. 
+The resultant 400bp cDNA went through dual-indexed library preparation: ‘A’ base addition, adapter ligation using P7 adapters, and PCR enrichment using P5 adapters. 
+After enrichment, the libraries were quantified using Quant-iT PicoGreen (1:200 dilution). 
+Samples were normalized to 5 ng/uL. 
+The sample set was pooled and quantified using the KAPA Library Quantification Kit for Illumina Sequencing Platforms. 
+
+Illumina Sequencing
+
+Pooled libraries were normalized to 2nM and denatured using 0.1 N NaOH prior to sequencing. 
+Flowcell cluster amplification and sequencing were performed according to the manufacturer’s protocols using the NovaSeq 6000. 
+Each run was a 151bp paired-end with an eight-base index barcode read. 
+Data was analyzed using the Broad Picard Pipeline which includes de-multiplexing and data aggregation.
 
 ### METHOD DETAILS
 
