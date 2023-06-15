@@ -169,9 +169,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://d3b-center.github.io/OpenPedCan-methods/" />
   <meta name="citation_pdf_url" content="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/0b42413aa0159430f5e627dd3154b69980bdffc8/" />
-  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/0b42413aa0159430f5e627dd3154b69980bdffc8/" />
-  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/0b42413aa0159430f5e627dd3154b69980bdffc8/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/12edee652e6823f6d7d14e29f1e020be3d04fb23/" />
+  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/12edee652e6823f6d7d14e29f1e020be3d04fb23/" />
+  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/12edee652e6823f6d7d14e29f1e020be3d04fb23/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -193,9 +193,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/0b42413aa0159430f5e627dd3154b69980bdffc8/))
+([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/12edee652e6823f6d7d14e29f1e020be3d04fb23/))
 was automatically generated
-from [d3b-center/OpenPedCan-methods@0b42413](https://github.com/d3b-center/OpenPedCan-methods/tree/0b42413aa0159430f5e627dd3154b69980bdffc8)
+from [d3b-center/OpenPedCan-methods@12edee6](https://github.com/d3b-center/OpenPedCan-methods/tree/12edee652e6823f6d7d14e29f1e020be3d04fb23)
 on June 15, 2023.
 </em></small>
 
@@ -652,6 +652,16 @@ Please refer to the OpenPBTA manuscript for details [@doi:10.1016/j.xgen.2023.10
 ##### Consensus SNV Calling
 <!-- TODO: needs update -->
 
+We adopted the consensus SNV calling method described in OpenPBTA manuscript with adjustment [@doi:10.1016/j.xgen.2023.100340]. 
+For SNV calling, we combined four consensus SNV calling algorithms, including Strelka2[@doi:10.1038/s41592-018-0051-x], Mutect2[@doi:10.1101/861054], Lancet[@doi:10.1038/s42003-018-0023-9], and VarDict[@doi: 10.1093/nar/gkw227].
+Strelka2 outputs multi-nucleotide polymorphisms (MNPs) as consecutive single-nucleotide polymorphisms.
+In order preserve MNPs, we gather MNP calls from the other caller inputs, and search for evidence supporting these consecutive SNP calls as MNP candidates.
+Once found, the Strelka2 SNP calls supporting a MNP are converted to a single MNP call.
+This is done to preserve the predicted gene model as accurately as possible in our consensus calls.
+Consensus SNV from all four callers were collected and by default, calls that were detected in at least two calling algorithms or marked as "HotSpotAllele" were retained. 
+Retained SNV were annotated by the Ensembl Variant Effect Predictor (VEF v.105) [@doi:10.1186/s13059-016-0974-4].
+Potential non-hotspot germline variants were removed if they had a normal depth <= 7 and gnomAD allele frequency > 0.001.
+Final results were saved in MAF format.
 
 #### Somatic Copy Number Variant Calling (WGS samples only)
 <!-- TODO: needs update -->
