@@ -35,6 +35,7 @@ author-meta:
 - Jo Lynne Rokita^
 - Kelsey Keith
 - Asif T Chinwalla
+- Yuanchao Zhang
 header-includes: |-
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -163,15 +164,17 @@ header-includes: |-
   <meta name="citation_author" content="Asif T Chinwalla" />
   <meta name="citation_author_institution" content="Department of Biomedical and Health Informatics, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_orcid" content="0000-0001-7831-3996" />
+  <meta name="citation_author" content="Yuanchao Zhang" />
+  <meta name="citation_author_institution" content="Department of Biomedical and Health Informatics, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <link rel="canonical" href="https://d3b-center.github.io/OpenPedCan-methods/" />
   <meta property="og:url" content="https://d3b-center.github.io/OpenPedCan-methods/" />
   <meta property="twitter:url" content="https://d3b-center.github.io/OpenPedCan-methods/" />
   <meta name="citation_fulltext_html_url" content="https://d3b-center.github.io/OpenPedCan-methods/" />
   <meta name="citation_pdf_url" content="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/12edee652e6823f6d7d14e29f1e020be3d04fb23/" />
-  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/12edee652e6823f6d7d14e29f1e020be3d04fb23/" />
-  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/12edee652e6823f6d7d14e29f1e020be3d04fb23/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/06e09039db6a2c6a8ae0c6902d9361e423a7c9dd/" />
+  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/06e09039db6a2c6a8ae0c6902d9361e423a7c9dd/" />
+  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/06e09039db6a2c6a8ae0c6902d9361e423a7c9dd/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -193,9 +196,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/12edee652e6823f6d7d14e29f1e020be3d04fb23/))
+([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/06e09039db6a2c6a8ae0c6902d9361e423a7c9dd/))
 was automatically generated
-from [d3b-center/OpenPedCan-methods@12edee6](https://github.com/d3b-center/OpenPedCan-methods/tree/12edee652e6823f6d7d14e29f1e020be3d04fb23)
+from [d3b-center/OpenPedCan-methods@06e0903](https://github.com/d3b-center/OpenPedCan-methods/tree/06e09039db6a2c6a8ae0c6902d9361e423a7c9dd)
 on June 15, 2023.
 </em></small>
 
@@ -410,6 +413,12 @@ on June 15, 2023.
      Department of Biomedical and Health Informatics, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
   </small>
 
++ **Yuanchao Zhang**<br>
+  <br>
+  <small>
+     Department of Biomedical and Health Informatics, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  </small>
+
 
 ## Contact information
 
@@ -486,6 +495,7 @@ on June 15, 2023.
 |Jo Lynne Rokita^|Conceptualization, Data curation, Formal analysis, Funding acquisition, Investigation, Methodology, Software, Supervision, Writing – Original draft, Writing - Review and editing|
 |Kelsey Keith|Software, Writing - original draft, API, Formal Analysis, Data Curation, Visualization|
 |Asif T Chinwalla|Project Administration, Supervision, Methodology, Investigation, Validation, API|
+|Yuanchao Zhang|API, Software, Formal Analysis, Writing - original draft|
 
 
 ## Declarations of Interest

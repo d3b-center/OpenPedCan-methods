@@ -25,9 +25,9 @@ Corbett
 CpG
 CPUs
 CRANIO
-Curation
+curation
 cytobands
-dataset
+Dataset
 dbSNP
 deconv
 DESeq
@@ -52,11 +52,11 @@ ganglioneuroma
 Gaonkar
 GATK
 GENCODE
-Genomic
+genomic
 genomically
 germline
 GFF
-gistic
+GISTIC
 glioma
 gliomas
 GMKF
@@ -152,7 +152,7 @@ TCGA
 telomeric
 teratoid
 tmb
-TP
+tp
 TPM
 TruSeq
 TYR
@@ -165,6 +165,7 @@ Wafula
 WGS
 WXS
 Xiaoyan
+Yuanchao
 Yuankun
 Zhang
 Zhu
