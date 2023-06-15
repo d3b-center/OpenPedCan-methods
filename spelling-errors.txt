@@ -11,10 +11,10 @@ CAVATICA
 CBTN
 centromeric
 Chinwalla
-Chordoma
+chordoma
 cn
 cnv
-CNVkit
+CNVKit
 CNVs
 consortiums
 Corbett
@@ -23,7 +23,7 @@ CPUs
 CRANIO
 curation
 cytobands
-Dataset
+dataset
 dbSNP
 deconv
 DESeq
@@ -92,7 +92,7 @@ NTRK
 ONCOSEQ
 OPC
 OpenPBTA
-OPENPEDCAN
+OpenPedcan
 PBTA
 pedcbio
 PedcBioPortal
@@ -120,7 +120,7 @@ Sickler
 Slurm
 SNP
 SNPs
-SNV
+snv
 subtype
 subtyped
 subtypes
