@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/d3b-center/OpenPedCan-methods/tree/gh-pages) branch hosts the contents of this directory at <https://d3b-center.github.io/OpenPedCan-methods/>.
-The permalink for this webpage version is <https://d3b-center.github.io/OpenPedCan-methods/v/12edee652e6823f6d7d14e29f1e020be3d04fb23/>.
+The permalink for this webpage version is <https://d3b-center.github.io/OpenPedCan-methods/v/06e09039db6a2c6a8ae0c6902d9361e423a7c9dd/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://d3b-center.github.io/OpenPedCan-methods/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`12edee652e6823f6d7d14e29f1e020be3d04fb23`](https://github.com/d3b-center/OpenPedCan-methods/commit/12edee652e6823f6d7d14e29f1e020be3d04fb23).
+[`06e09039db6a2c6a8ae0c6902d9361e423a7c9dd`](https://github.com/d3b-center/OpenPedCan-methods/commit/06e09039db6a2c6a8ae0c6902d9361e423a7c9dd).
