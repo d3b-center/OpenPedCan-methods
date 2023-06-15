@@ -7,7 +7,7 @@ keywords:
 - classification
 - somatic variation
 lang: en-US
-date-meta: '2023-06-14'
+date-meta: '2023-06-15'
 author-meta:
 - Eric Wafula
 - Sangeeta Shukla
@@ -34,6 +34,7 @@ author-meta:
 - Adam C. Resnick
 - Jo Lynne Rokita^
 - Kelsey Keith
+- Asif T Chinwalla
 header-includes: |-
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -44,8 +45,8 @@ header-includes: |-
   <meta name="citation_title" content="The Open Pediatric Cancer Project" />
   <meta property="og:title" content="The Open Pediatric Cancer Project" />
   <meta property="twitter:title" content="The Open Pediatric Cancer Project" />
-  <meta name="dc.date" content="2023-06-14" />
-  <meta name="citation_publication_date" content="2023-06-14" />
+  <meta name="dc.date" content="2023-06-15" />
+  <meta name="citation_publication_date" content="2023-06-15" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -159,15 +160,18 @@ header-includes: |-
   <meta name="citation_author" content="Kelsey Keith" />
   <meta name="citation_author_institution" content="Department of Biomedical and Health Informatics, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_orcid" content="0000-0002-7451-5117" />
+  <meta name="citation_author" content="Asif T Chinwalla" />
+  <meta name="citation_author_institution" content="Department of Biomedical and Health Informatics, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_orcid" content="0000-0001-7831-3996" />
   <link rel="canonical" href="https://d3b-center.github.io/OpenPedCan-methods/" />
   <meta property="og:url" content="https://d3b-center.github.io/OpenPedCan-methods/" />
   <meta property="twitter:url" content="https://d3b-center.github.io/OpenPedCan-methods/" />
   <meta name="citation_fulltext_html_url" content="https://d3b-center.github.io/OpenPedCan-methods/" />
   <meta name="citation_pdf_url" content="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/ab999f411e80de20e8535b8530f9e3a09332ec29/" />
-  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/ab999f411e80de20e8535b8530f9e3a09332ec29/" />
-  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/ab999f411e80de20e8535b8530f9e3a09332ec29/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/cfd3786f72b58cadbb6776a8bdf36795ed794df5/" />
+  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/cfd3786f72b58cadbb6776a8bdf36795ed794df5/" />
+  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/cfd3786f72b58cadbb6776a8bdf36795ed794df5/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -189,10 +193,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/ab999f411e80de20e8535b8530f9e3a09332ec29/))
+([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/cfd3786f72b58cadbb6776a8bdf36795ed794df5/))
 was automatically generated
-from [d3b-center/OpenPedCan-methods@ab999f4](https://github.com/d3b-center/OpenPedCan-methods/tree/ab999f411e80de20e8535b8530f9e3a09332ec29)
-on June 14, 2023.
+from [d3b-center/OpenPedCan-methods@cfd3786](https://github.com/d3b-center/OpenPedCan-methods/tree/cfd3786f72b58cadbb6776a8bdf36795ed794df5)
+on June 15, 2023.
 </em></small>
 
 ## Authors
@@ -398,6 +402,14 @@ on June 14, 2023.
      Department of Biomedical and Health Informatics, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
   </small>
 
++ **Asif T Chinwalla**<br>
+    ![ORCID icon](images/orcid.png){.inline_icon}
+    [0000-0001-7831-3996](https://orcid.org/0000-0001-7831-3996)
+  <br>
+  <small>
+     Department of Biomedical and Health Informatics, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  </small>
+
 
 ## Contact information
 
@@ -473,6 +485,7 @@ on June 14, 2023.
 |Adam C. Resnick|Conceptualization, Funding acquisition, Resources, Supervision|
 |Jo Lynne Rokita^|Conceptualization, Data curation, Formal analysis, Funding acquisition, Investigation, Methodology, Software, Supervision, Writing – Original draft, Writing - Review and editing|
 |Kelsey Keith|Software, Writing - original draft, API, Formal Analysis, Data Curation, Visualization|
+|Asif T Chinwalla|Project Administration, Supervision, Methodology, Investigation, Validation, API|
 
 
 ## Declarations of Interest

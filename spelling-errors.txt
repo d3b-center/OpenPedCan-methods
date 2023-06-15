@@ -1,4 +1,5 @@
 ALK
+Asif
 ATRT
 BAF
 Bioinformatics
@@ -9,16 +10,17 @@ Blackden
 CAVATICA
 CBTN
 centromeric
+Chinwalla
 chordoma
 cn
 cnv
-CNVKit
+CNVkit
 CNVs
 consortiums
 Corbett
 CpG
 CRANIO
-curation
+Curation
 cytobands
 dataset
 dbSNP
@@ -42,7 +44,7 @@ ganglioneuroma
 Gaonkar
 GATK
 GENCODE
-genomic
+Genomic
 genomically
 GFF
 gistic
@@ -69,7 +71,7 @@ Kuren
 LGAT
 MAF
 Mariarita
-methylation
+Methylation
 MGMT
 minfi
 mondo
@@ -86,7 +88,7 @@ NTRK
 ONCOSEQ
 OPC
 OpenPBTA
-OpenPedCan
+OPENPEDCAN
 PBTA
 pedcbio
 PedcBioPortal
@@ -121,7 +123,7 @@ TCGA
 telomeric
 teratoid
 tmb
-TP
+tp
 TPM
 TYR
 tyrosine
