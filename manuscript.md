@@ -169,9 +169,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://d3b-center.github.io/OpenPedCan-methods/" />
   <meta name="citation_pdf_url" content="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/cfd3786f72b58cadbb6776a8bdf36795ed794df5/" />
-  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/cfd3786f72b58cadbb6776a8bdf36795ed794df5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/cfd3786f72b58cadbb6776a8bdf36795ed794df5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/db41fe290d04a5cd740e4007fffc448e1efbd806/" />
+  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/db41fe290d04a5cd740e4007fffc448e1efbd806/" />
+  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/db41fe290d04a5cd740e4007fffc448e1efbd806/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -193,9 +193,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/cfd3786f72b58cadbb6776a8bdf36795ed794df5/))
+([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/db41fe290d04a5cd740e4007fffc448e1efbd806/))
 was automatically generated
-from [d3b-center/OpenPedCan-methods@cfd3786](https://github.com/d3b-center/OpenPedCan-methods/tree/cfd3786f72b58cadbb6776a8bdf36795ed794df5)
+from [d3b-center/OpenPedCan-methods@db41fe2](https://github.com/d3b-center/OpenPedCan-methods/tree/db41fe290d04a5cd740e4007fffc448e1efbd806)
 on June 15, 2023.
 </em></small>
 
@@ -533,54 +533,99 @@ OpenPedCan api code can be found at [https://github.com/PediatricOpenTargets/Ope
 
 All original code was developed within the following modules in the OpenPedCan analyses repository as listed below. Links to the modules are available here, and within each module is a detailed README that describes the purpose and intended usage of the scripts, along with pointers to the results from the data those scripts process. 
 
-[chromosomal-instability](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/chromosomal-instability)
-[cnv-frequencies](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/cnv-frequencies)
-[collapse-rnaseq](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/collapse-rnaseq)
-[compare-gistic](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/compare-gistic)
-[copy_number_consensus_call](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/copy_number_consensus_call)
-[create-subset-files](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/create-subset-files)
-[data-pre-release-qc](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/data-pre-release-qc)
-[efo-mondo-mapping](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/efo-mondo-mapping)
-[filter-mtp-tables](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/filter-mtp-tables)
-[focal-cn-file-preparation](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/focal-cn-file-preparation)
-[fusion-frequencies](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/fusion-frequencies)
-[fusion-summary](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/fusion-summary)
-[fusion_filtering](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/fusion_filtering)
-[gene-set-enrichment-analysis](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/gene-set-enrichment-analysis)
-[gene_match](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/gene_match)
-[immune-deconv](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/immune-deconv)
-[independent-samples](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/independent-samples)
-[long-format-table-utils](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/long-format-table-utils)
-[methylation-preprocessing](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/methylation-preprocessing)
-[methylation-summary](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/methylation-summary)
-[molecular-subtyping-ATRT](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/molecular-subtyping-ATRT)
-[molecular-subtyping-CRANIO](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/molecular-subtyping-CRANIO)
-[molecular-subtyping-EPN](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/molecular-subtyping-EPN)
-[molecular-subtyping-EWS](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/molecular-subtyping-EWS)
-[molecular-subtyping-HGG](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/molecular-subtyping-HGG)
-[molecular-subtyping-LGAT](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/molecular-subtyping-LGAT)
-[molecular-subtyping-MB](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/molecular-subtyping-MB)
-[molecular-subtyping-NBL](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/molecular-subtyping-NBL)
-[molecular-subtyping-chordoma](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/molecular-subtyping-chordoma)
-[molecular-subtyping-embryonal](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/molecular-subtyping-embryonal)
-[molecular-subtyping-integrate](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/molecular-subtyping-integrate)
-[molecular-subtyping-neurocytoma](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/molecular-subtyping-neurocytoma)
-[molecular-subtyping-pathology](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/molecular-subtyping-pathology)
-[mtp-annotations](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/mtp-annotations)
-[mtp-tables-qc-checks](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/mtp-tables-qc-checks)
-[mutational-signatures](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/mutational-signatures)
-[pedcbio-cnv-prepare](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/pedcbio-cnv-prepare)
-[pedcbio-sample-name](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/pedcbio-sample-name)
-[pedot-table-column-display-order-name](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/pedot-table-column-display-order-name)
-[rna-seq-expression-summary-stats](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/rna-seq-expression-summary-stats)
-[rnaseq-batch-correct](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/rnaseq-batch-correct)
-[run-gistic](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/run-gistic)
-[snv-frequencies](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/snv-frequencies)
-[tmb-calculation](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/tmb-calculation)
-[tp53_nf1_score](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/tp53_nf1_score)
-[tumor-gtex-plots](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/tumor-gtex-plots)
-[tumor-normal-differential-expression](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/tumor-normal-differential-expression)
+| [chromosomal-instability](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/chromosomal-instability) |
 
+| [cnv-frequencies](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/cnv-frequencies) |
+
+| [collapse-rnaseq](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/collapse-rnaseq) |
+
+| [compare-gistic](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/compare-gistic) |
+
+| [copy_number_consensus_call](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/copy_number_consensus_call) |
+
+| [create-subset-files](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/create-subset-files) |
+
+| [data-pre-release-qc](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/data-pre-release-qc) |
+
+| [efo-mondo-mapping](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/efo-mondo-mapping) |
+
+| [filter-mtp-tables](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/filter-mtp-tables) |
+
+| [focal-cn-file-preparation](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/focal-cn-file-preparation) |
+
+| [fusion-frequencies](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/fusion-frequencies) |
+
+| [fusion-summary](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/fusion-summary) |
+
+| [fusion_filtering](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/fusion_filtering) |
+
+| [gene-set-enrichment-analysis](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/gene-set-enrichment-analysis) |
+
+| [gene_match](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/gene_match) |
+
+| [immune-deconv](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/immune-deconv) |
+
+| [independent-samples](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/independent-samples) |
+
+| [long-format-table-utils](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/long-format-table-utils) |
+
+| [methylation-preprocessing](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/methylation-preprocessing) |
+
+| [methylation-summary](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/methylation-summary) |
+
+| [molecular-subtyping-ATRT](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/molecular-subtyping-ATRT) |
+
+| [molecular-subtyping-CRANIO](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/molecular-subtyping-CRANIO) |
+
+| [molecular-subtyping-EPN](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/molecular-subtyping-EPN) |
+
+| [molecular-subtyping-EWS](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/molecular-subtyping-EWS) |
+
+| [molecular-subtyping-HGG](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/molecular-subtyping-HGG) |
+
+| [molecular-subtyping-LGAT](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/molecular-subtyping-LGAT) |
+
+| [molecular-subtyping-MB](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/molecular-subtyping-MB) |
+
+| [molecular-subtyping-NBL](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/molecular-subtyping-NBL) |
+
+| [molecular-subtyping-chordoma](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/molecular-subtyping-chordoma) |
+
+| [molecular-subtyping-embryonal](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/molecular-subtyping-embryonal) |
+
+| [molecular-subtyping-integrate](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/molecular-subtyping-integrate) |
+
+| [molecular-subtyping-neurocytoma](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/molecular-subtyping-neurocytoma) |
+
+| [molecular-subtyping-pathology](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/molecular-subtyping-pathology) |
+
+| [mtp-annotations](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/mtp-annotations) |
+
+| [mtp-tables-qc-checks](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/mtp-tables-qc-checks) |
+
+| [mutational-signatures](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/mutational-signatures) |
+
+| [pedcbio-cnv-prepare](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/pedcbio-cnv-prepare) |
+
+| [pedcbio-sample-name](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/pedcbio-sample-name) |
+
+| [pedot-table-column-display-order-name](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/pedot-table-column-display-order-name) |
+
+| [rna-seq-expression-summary-stats](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/rna-seq-expression-summary-stats) |
+
+| [rnaseq-batch-correct](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/rnaseq-batch-correct) |
+
+| [run-gistic](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/run-gistic) |
+
+| [snv-frequencies](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/snv-frequencies) |
+
+| [tmb-calculation](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/tmb-calculation) |
+
+| [tp53_nf1_score](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/tp53_nf1_score) |
+
+| [tumor-gtex-plots](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/tumor-gtex-plots) |
+
+| [tumor-normal-differential-expression](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/tumor-normal-differential-expression) |
 
 Software versions are documented in **Table XX**.
 
@@ -676,6 +721,15 @@ Unprocessed IDAT-files from the [Children's Brain Tumor Network (CBTN)](https://
 
 
 #### Gene Expression
+The [`tumor-normal-differential-expression`](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/tumor-normal-differential-expression) module perfoms differential expression analyses for all sets of Disease (`cancer_group`) and Dataset (`cohort`) across all genes found in the `gene-expression-rsem-tpm-collapsed.rds` table. 
+The purpose of this analysis is to highlight the correlation and understand the variability in gene expression in different cancer conditions across different histological tissues. 
+For OpenPedCan v12 data release, this module performs expression analysis over 102 cancer groups across 52 histological tissues for all 54,346 genes found in the dataset. 
+This analysis was performed on the Children's Hospital of Philadelphia HPC and was configured to use 96G of RAM per CPU, with one task (one iteration of expression analysis for each set of tissue and cancer group) per CPU (total 102*52=5304 CPUs) using the [R/DESeq2](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-014-0550-8) package. 
+Please refer to script `run-tumor-normal-differential-expression.sh` in the module for additional details on Slurm processing configuration. 
+The same analysis can also be performed on CAVATICA, but requires further optimization.
+The module describes the steps for CAVATICA set up, and scripts to publish an application on the portal. 
+The required data files are also available publicly on CAVATICA under the [Open Pediatric Cancer (OpenPedCan) Open Access](https://cavatica.sbgenomics.com/u/cavatica/opentarget/files/#q?path=v12). 
+Refer to the module for detailed description and scripts.
 
 ##### Abundance Estimation
 Among the data sources used for OpenPedCan, GTEx and TCGA used GENCODE versions v26 and v36, respectively. 
