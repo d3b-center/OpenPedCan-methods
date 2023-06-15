@@ -31,11 +31,12 @@ author-meta:
 - Saksham Phul
 - Miguel A. Brown
 - Alex Sickler
-- Adam C. Resnick
-- Jo Lynne Rokita^
 - Kelsey Keith
 - Asif T Chinwalla
 - Yuanchao Zhang
+- Adam C. Resnick
+- Deanne Taylor
+- Jo Lynne Rokita^
 header-includes: |-
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -147,17 +148,6 @@ header-includes: |-
   <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_orcid" content="0000-0001-7830-7537" />
-  <meta name="citation_author" content="Adam C. Resnick" />
-  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
-  <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
-  <meta name="citation_author_orcid" content="0000-0003-0436-4189" />
-  <meta name="twitter:creator" content="@adamcresnick" />
-  <meta name="citation_author" content="Jo Lynne Rokita^" />
-  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
-  <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
-  <meta name="citation_author_institution" content="Department of Bioinformatics and Health Informatics, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
-  <meta name="citation_author_orcid" content="0000-0003-2171-3627" />
-  <meta name="twitter:creator" content="@jolynnerokita" />
   <meta name="citation_author" content="Kelsey Keith" />
   <meta name="citation_author_institution" content="Department of Biomedical and Health Informatics, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_orcid" content="0000-0002-7451-5117" />
@@ -166,15 +156,30 @@ header-includes: |-
   <meta name="citation_author_orcid" content="0000-0001-7831-3996" />
   <meta name="citation_author" content="Yuanchao Zhang" />
   <meta name="citation_author_institution" content="Department of Biomedical and Health Informatics, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author" content="Adam C. Resnick" />
+  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_orcid" content="0000-0003-0436-4189" />
+  <meta name="twitter:creator" content="@adamcresnick" />
+  <meta name="citation_author" content="Deanne Taylor" />
+  <meta name="citation_author_institution" content="Department of Bioinformatics and Health Informatics, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_institution" content="Department of Pediatrics, University of Pennsylvania Perelman Medical School, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_orcid" content="0000-0002-3302-4610" />
+  <meta name="citation_author" content="Jo Lynne Rokita^" />
+  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_institution" content="Department of Bioinformatics and Health Informatics, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_orcid" content="0000-0003-2171-3627" />
+  <meta name="twitter:creator" content="@jolynnerokita" />
   <link rel="canonical" href="https://d3b-center.github.io/OpenPedCan-methods/" />
   <meta property="og:url" content="https://d3b-center.github.io/OpenPedCan-methods/" />
   <meta property="twitter:url" content="https://d3b-center.github.io/OpenPedCan-methods/" />
   <meta name="citation_fulltext_html_url" content="https://d3b-center.github.io/OpenPedCan-methods/" />
   <meta name="citation_pdf_url" content="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/06e09039db6a2c6a8ae0c6902d9361e423a7c9dd/" />
-  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/06e09039db6a2c6a8ae0c6902d9361e423a7c9dd/" />
-  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/06e09039db6a2c6a8ae0c6902d9361e423a7c9dd/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/eb659389848b188f54128eb150fe05a1e32c5078/" />
+  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/eb659389848b188f54128eb150fe05a1e32c5078/" />
+  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/eb659389848b188f54128eb150fe05a1e32c5078/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -196,9 +201,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/06e09039db6a2c6a8ae0c6902d9361e423a7c9dd/))
+([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/eb659389848b188f54128eb150fe05a1e32c5078/))
 was automatically generated
-from [d3b-center/OpenPedCan-methods@06e0903](https://github.com/d3b-center/OpenPedCan-methods/tree/06e09039db6a2c6a8ae0c6902d9361e423a7c9dd)
+from [d3b-center/OpenPedCan-methods@eb65938](https://github.com/d3b-center/OpenPedCan-methods/tree/eb659389848b188f54128eb150fe05a1e32c5078)
 on June 15, 2023.
 </em></small>
 
@@ -378,25 +383,6 @@ on June 15, 2023.
      Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
   </small>
 
-+ **Adam C. Resnick**<br>
-    ![ORCID icon](images/orcid.png){.inline_icon}
-    [0000-0003-0436-4189](https://orcid.org/0000-0003-0436-4189)
-  <br>
-  <small>
-     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
-     · Funded by Children's Brain Tumor Network; NIH 3P30 CA016520-44S5, U2C HL138346-03, U24 CA220457-03; NCI/NIH Contract No. 75N91019D00024, Task Order No. 75N91020F00003; Children’s Hospital of Philadelphia Division of Neurosurgery
-  </small>
-
-+ **Jo Lynne Rokita^**
-    ^[✉](#correspondence)^<br>
-    ![ORCID icon](images/orcid.png){.inline_icon}
-    [0000-0003-2171-3627](https://orcid.org/0000-0003-2171-3627)
-  <br>
-  <small>
-     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
-     · Funded by NCI/NIH Contract No. 75N91019D00024, Task Order No. 75N91020F00003
-  </small>
-
 + **Kelsey Keith**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0002-7451-5117](https://orcid.org/0000-0002-7451-5117)
@@ -417,6 +403,34 @@ on June 15, 2023.
   <br>
   <small>
      Department of Biomedical and Health Informatics, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  </small>
+
++ **Adam C. Resnick**<br>
+    ![ORCID icon](images/orcid.png){.inline_icon}
+    [0000-0003-0436-4189](https://orcid.org/0000-0003-0436-4189)
+  <br>
+  <small>
+     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+     · Funded by Children's Brain Tumor Network; NIH 3P30 CA016520-44S5, U2C HL138346-03, U24 CA220457-03; NCI/NIH Contract No. 75N91019D00024, Task Order No. 75N91020F00003; Children’s Hospital of Philadelphia Division of Neurosurgery
+  </small>
+
++ **Deanne Taylor**<br>
+    ![ORCID icon](images/orcid.png){.inline_icon}
+    [0000-0002-3302-4610](https://orcid.org/0000-0002-3302-4610)
+  <br>
+  <small>
+     Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Department of Pediatrics, University of Pennsylvania Perelman Medical School, Philadelphia, PA, 19104, USA
+     · Funded by NCI/NIH Contract No. 75N91019D00024, Task Order No. 75N91020F00003
+  </small>
+
++ **Jo Lynne Rokita^**
+    ^[✉](#correspondence)^<br>
+    ![ORCID icon](images/orcid.png){.inline_icon}
+    [0000-0003-2171-3627](https://orcid.org/0000-0003-2171-3627)
+  <br>
+  <small>
+     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+     · Funded by NCI/NIH Contract No. 75N91019D00024, Task Order No. 75N91020F00003
   </small>
 
 
@@ -491,11 +505,12 @@ on June 15, 2023.
 |Saksham Phul|Data curation, Methodology, Formal analysis|
 |Miguel A. Brown|Data curation, Methodology, Formal analysis|
 |Alex Sickler|Methodology, Formal analysis|
-|Adam C. Resnick|Conceptualization, Funding acquisition, Resources, Supervision|
-|Jo Lynne Rokita^|Conceptualization, Data curation, Formal analysis, Funding acquisition, Investigation, Methodology, Software, Supervision, Writing – Original draft, Writing - Review and editing|
 |Kelsey Keith|Software, Writing - original draft, API, Formal Analysis, Data Curation, Visualization|
 |Asif T Chinwalla|Project Administration, Supervision, Methodology, Investigation, Validation, API|
 |Yuanchao Zhang|API, Software, Formal Analysis, Writing - original draft|
+|Adam C. Resnick|Conceptualization, Funding acquisition, Resources, Supervision|
+|Deanne Taylor|Conceptualization, Data curation, Formal analysis, Funding acquisition, Investigation, Methodology, Software, Supervision, Writing – Original draft, Writing - Review and editing|
+|Jo Lynne Rokita^|Conceptualization, Data curation, Formal analysis, Funding acquisition, Investigation, Methodology, Software, Supervision, Writing – Original draft, Writing - Review and editing|
 
 
 ## Declarations of Interest

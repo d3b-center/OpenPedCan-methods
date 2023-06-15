@@ -15,7 +15,7 @@ CBTN
 cDNA
 centromeric
 Chinwalla
-chordoma
+Chordoma
 cn
 cnv
 CNVKit
@@ -27,7 +27,7 @@ CPUs
 CRANIO
 curation
 cytobands
-Dataset
+dataset
 dbSNP
 deconv
 DESeq
@@ -52,16 +52,16 @@ ganglioneuroma
 Gaonkar
 GATK
 GENCODE
-genomic
+Genomic
 genomically
 germline
 GFF
-GISTIC
+gistic
 glioma
 gliomas
 GMKF
 gnomAD
-gtex
+GTEx
 GTF
 HGG
 histological
@@ -86,7 +86,7 @@ Kuren
 LGAT
 MAF
 Mariarita
-methylation
+Methylation
 MGMT
 minfi
 MNP
@@ -109,7 +109,7 @@ NTRK
 ONCOSEQ
 OPC
 OpenPBTA
-OPENPEDCAN
+OpenPedCan
 PBTA
 PCR
 pedcbio
@@ -142,7 +142,7 @@ Sickler
 Slurm
 SNP
 SNPs
-snv
+SNV
 Strelka
 subtype
 subtyped
@@ -152,7 +152,7 @@ TCGA
 telomeric
 teratoid
 tmb
-tp
+TP
 TPM
 TruSeq
 TYR
