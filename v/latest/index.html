@@ -211,9 +211,9 @@
   <meta name="citation_fulltext_html_url" content="https://d3b-center.github.io/OpenPedCan-methods/" />
   <meta name="citation_pdf_url" content="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/3ba2bcd4911a30b147788ae087d359cd32c255d0/" />
-  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/3ba2bcd4911a30b147788ae087d359cd32c255d0/" />
-  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/3ba2bcd4911a30b147788ae087d359cd32c255d0/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/40fdd1e9c20686e5dedb41f870eea80e482a741b/" />
+  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/40fdd1e9c20686e5dedb41f870eea80e482a741b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/40fdd1e9c20686e5dedb41f870eea80e482a741b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -230,9 +230,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://d3b-center.github.io/OpenPedCan-methods/v/3ba2bcd4911a30b147788ae087d359cd32c255d0/">permalink</a>)
+(<a href="https://d3b-center.github.io/OpenPedCan-methods/v/40fdd1e9c20686e5dedb41f870eea80e482a741b/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/d3b-center/OpenPedCan-methods/tree/3ba2bcd4911a30b147788ae087d359cd32c255d0">d3b-center/OpenPedCan-methods@3ba2bcd</a>
+from <a href="https://github.com/d3b-center/OpenPedCan-methods/tree/40fdd1e9c20686e5dedb41f870eea80e482a741b">d3b-center/OpenPedCan-methods@40fdd1e</a>
 on June 16, 2023.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -780,57 +780,48 @@ OpenPedCan api code can be found at <a href="https://github.com/PediatricOpenTar
 <h4 id="data-releases">Data releases</h4>
 <p>We maintained a data release folder on Amazon S3, downloadable directly from S3 or our open-access CAVATICA project, with merged files for each analysis (See data and code availability section).
 As we produced new results that we expected to be used across multiple analyses, or identified data issues, we created new data releases in a versioned manner.</p>
-<h3 id="experimental-model-and-study-participant-details">EXPERIMENTAL MODEL AND STUDY PARTICIPANT DETAILS</h3>
-<!-- TODO: add description of all studies here -->
-<p>Please refer to the OpenPBTA manuscript <span class="citation" data-cites="5VXMHJ7N">[<a href="#ref-5VXMHJ7N" role="doc-biblioref">4</a>]</span> for additional details for the CBTN and PNOC cohorts and project-specific study details for GMKF, TARGET, and TCGA cohorts.
-For the PBTA X01 cohort, libraries were prepped using the Illumina TruSeq Strand-Specific Protocol to pull out poly-adenylated transcripts.</p>
-<p>cDNA Library Construction</p>
-<p>Total RNA was quantified using the Quant-iT™ RiboGreen® RNA Assay Kit and normalized to 5ng/ul.
+<h3 id="method-details">METHOD DETAILS</h3>
+<h4 id="nucleic-acids-extraction-and-library-preparation">Nucleic acids extraction and library preparation</h4>
+<p>For the PBTA X01 cohort, libraries were prepped using the Illumina TruSeq Strand-Specific Protocol to pull out poly-adenylated transcripts.</p>
+<p><strong>cDNA Library Construction</strong>
+Total RNA was quantified using the Quant-iT™ RiboGreen® RNA Assay Kit and normalized to 5ng/ul.
 Following plating, 2 uL of ERCC controls (using a 1:1000 dilution) were spiked into each sample.
 An aliquot of 325 ng for each sample was transferred into library preparation.
 The resultant 400bp cDNA went through dual-indexed library preparation: ‘A’ base addition, adapter ligation using P7 adapters, and PCR enrichment using P5 adapters.
 After enrichment, the libraries were quantified using Quant-iT PicoGreen (1:200 dilution).
 Samples were normalized to 5 ng/uL.
 The sample set was pooled and quantified using the KAPA Library Quantification Kit for Illumina Sequencing Platforms.</p>
-<p>Illumina Sequencing</p>
-<p>Pooled libraries were normalized to 2nM and denatured using 0.1 N NaOH prior to sequencing.
+<h4 id="data-generation">Data generation</h4>
+<p><strong>PBTA X01 Illumina Sequencing</strong>
+Pooled libraries were normalized to 2nM and denatured using 0.1 N NaOH prior to sequencing.
 Flowcell cluster amplification and sequencing were performed according to the manufacturer’s protocols using the NovaSeq 6000.
 Each run was a 151bp paired-end with an eight-base index barcode read.
 Data was analyzed using the Broad Picard Pipeline which includes de-multiplexing and data aggregation.</p>
-<h3 id="method-details">METHOD DETAILS</h3>
-<h4 id="nucleic-acids-extraction-and-library-preparation">Nucleic acids extraction and library preparation</h4>
-<!-- TODO: add by study here, or refer to publication -->
-<h4 id="data-generation">Data generation</h4>
-<!-- TODO: add by study here, or refer to publication -->
 <h4 id="dna-wgs-alignment">DNA WGS Alignment</h4>
 <p>Please refer to the OpenPBTA manuscript for details <span class="citation" data-cites="5VXMHJ7N">[<a href="#ref-5VXMHJ7N" role="doc-biblioref">4</a>]</span>.</p>
 <h4 id="quality-control-of-sequencing-data">Quality Control of Sequencing Data</h4>
 <p>Please refer to the OpenPBTA manuscript for details <span class="citation" data-cites="5VXMHJ7N">[<a href="#ref-5VXMHJ7N" role="doc-biblioref">4</a>]</span>.</p>
 <h5 id="snp-calling-for-b-allele-frequency-baf-generation">SNP calling for B-allele Frequency (BAF) generation</h5>
 <p>Please refer to the OpenPBTA manuscript for details <span class="citation" data-cites="5VXMHJ7N">[<a href="#ref-5VXMHJ7N" role="doc-biblioref">4</a>]</span>.</p>
-<h4 id="somatic-mutation-calling">Somatic Mutation Calling</h4>
-<h5 id="snv-and-indel-calling">SNV and indel calling</h5>
-<p>Please refer to the OpenPBTA manuscript for details <span class="citation" data-cites="5VXMHJ7N">[<a href="#ref-5VXMHJ7N" role="doc-biblioref">4</a>]</span>.</p>
+<h4 id="somatic-mutation-and-indel-calling">Somatic Mutation and INDEL Calling</h4>
+<p>We used the same mutation calling methods as described in OpenPBTA manuscript for details <span class="citation" data-cites="5VXMHJ7N">[<a href="#ref-5VXMHJ7N" role="doc-biblioref">4</a>]</span>.</p>
 <h5 id="vcf-annotation-and-maf-creation">VCF annotation and MAF creation</h5>
-<!-- TODO: update VEP version -->
+<p>Somatic variants were annotated by the Ensembl Variant Effect Predictor (VEP v.105) <span class="citation" data-cites="p1f5DxRQ">[<a href="#ref-p1f5DxRQ" role="doc-biblioref">10</a>]</span>.</p>
 <h5 id="gather-snv-and-indel-hotspots">Gather SNV and INDEL Hotspots</h5>
 <!-- TODO: needs update -->
 <h5 id="consensus-snv-calling">Consensus SNV Calling</h5>
-<!-- TODO: needs update -->
 <p>We adopted the consensus SNV calling method described in OpenPBTA manuscript with adjustment <span class="citation" data-cites="5VXMHJ7N">[<a href="#ref-5VXMHJ7N" role="doc-biblioref">4</a>]</span>.
-For SNV calling, we combined four consensus SNV calling algorithms, including Strelka2<span class="citation" data-cites="REfkDUtE">[<a href="#ref-REfkDUtE" role="doc-biblioref">10</a>]</span>, Mutect2<span class="citation" data-cites="149BEKISi">[<a href="#ref-149BEKISi" role="doc-biblioref">11</a>]</span>, Lancet<span class="citation" data-cites="V6KdWVYi">[<a href="#ref-V6KdWVYi" role="doc-biblioref">12</a>]</span>, and VarDict<span class="citation" data-cites="doi">[<a href="#ref-doi" role="doc-biblioref"><strong>doi?</strong></a> 10.1093/nar/gkw227]</span>.
+For SNV calling, we combined four consensus SNV calling algorithms, including Strelka2<span class="citation" data-cites="REfkDUtE">[<a href="#ref-REfkDUtE" role="doc-biblioref">11</a>]</span>, Mutect2<span class="citation" data-cites="149BEKISi">[<a href="#ref-149BEKISi" role="doc-biblioref">12</a>]</span>, Lancet<span class="citation" data-cites="V6KdWVYi">[<a href="#ref-V6KdWVYi" role="doc-biblioref">13</a>]</span>, and VarDict<span class="citation" data-cites="doi">[<a href="#ref-doi" role="doc-biblioref"><strong>doi?</strong></a> 10.1093/nar/gkw227]</span>.
 Strelka2 outputs multi-nucleotide polymorphisms (MNPs) as consecutive single-nucleotide polymorphisms.
 In order preserve MNPs, we gather MNP calls from the other caller inputs, and search for evidence supporting these consecutive SNP calls as MNP candidates.
 Once found, the Strelka2 SNP calls supporting a MNP are converted to a single MNP call.
 This is done to preserve the predicted gene model as accurately as possible in our consensus calls.
 Consensus SNV from all four callers were collected and by default, calls that were detected in at least two calling algorithms or marked as “HotSpotAllele” were retained.
-Retained SNV were annotated by the Ensembl Variant Effect Predictor (VEF v.105) <span class="citation" data-cites="p1f5DxRQ">[<a href="#ref-p1f5DxRQ" role="doc-biblioref">13</a>]</span>.
 Potential non-hotspot germline variants were removed if they had a normal depth &lt;= 7 and gnomAD allele frequency &gt; 0.001.
 Final results were saved in MAF format.</p>
-<h4 id="somatic-copy-number-variant-calling-wgs-samples-only">Somatic Copy Number Variant Calling (WGS samples only)</h4>
+<h4 id="somatic-copy-number-variant-calling">Somatic Copy Number Variant Calling</h4>
 <!-- TODO: needs update -->
 <h5 id="consensus-cnv-calling">Consensus CNV Calling</h5>
-<!-- TODO: needs update -->
 <p>We adopted the consensus CNV calling described in OpenPBTA manuscript [doi:10.1016/j.xgen.2023.100340] with minor adjustments.
 For each caller and sample with WGS performed, we called CNVs based on consensus among Control-FREEC (<span class="citation" data-cites="lxeJKtdW">[<a href="#ref-lxeJKtdW" role="doc-biblioref">14</a>]</span>; <span class="citation" data-cites="SkCgiJ0s">[<a href="#ref-SkCgiJ0s" role="doc-biblioref">15</a>]</span>), CNVkit (<span class="citation" data-cites="doi">[<a href="#ref-doi" role="doc-biblioref"><strong>doi?</strong></a> 10.1371/journal.pcbi.1004873]</span>), and GATK (<span class="citation" data-cites="doi">[<a href="#ref-doi" role="doc-biblioref"><strong>doi?</strong></a>
 10.1101/gr.107524.110]</span>).
@@ -956,17 +947,17 @@ For each input participant of an analysis, the independent biospecimen is select
 <div id="ref-VcHKLBtL" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">9. </div><div class="csl-right-inline"><strong>The Cancer Genome Atlas Program (TCGA) - NCI</strong> (2022-05-13) <a href="https://www.cancer.gov/ccg/research/genome-sequencing/tcga">https://www.cancer.gov/ccg/research/genome-sequencing/tcga</a></div>
 </div>
+<div id="ref-p1f5DxRQ" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">10. </div><div class="csl-right-inline"><strong>The Ensembl Variant Effect Predictor</strong> <div class="csl-block">William McLaren, Laurent Gil, Sarah E Hunt, Harpreet Singh Riat, Graham RS Ritchie, Anja Thormann, Paul Flicek, Fiona Cunningham</div> <em>Genome Biology</em> (2016-06-06) <a href="https://doi.org/gdz75c">https://doi.org/gdz75c</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/s13059-016-0974-4">10.1186/s13059-016-0974-4</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27268795">27268795</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4893825">PMC4893825</a></div></div>
+</div>
 <div id="ref-REfkDUtE" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">10. </div><div class="csl-right-inline"><strong>Strelka2: fast and accurate calling of germline and somatic variants</strong> <div class="csl-block">Sangtae Kim, Konrad Scheffler, Aaron L Halpern, Mitchell A Bekritsky, Eunho Noh, Morten Källberg, Xiaoyu Chen, Yeonbin Kim, Doruk Beyter, Peter Krusche, Christopher T Saunders</div> <em>Nature Methods</em> (2018-07-16) <a href="https://doi.org/10.1038/s41592-018-0051-x">https://doi.org/10.1038/s41592-018-0051-x</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41592-018-0051-x">10.1038/s41592-018-0051-x</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30013048">30013048</a></div></div>
+<div class="csl-left-margin">11. </div><div class="csl-right-inline"><strong>Strelka2: fast and accurate calling of germline and somatic variants</strong> <div class="csl-block">Sangtae Kim, Konrad Scheffler, Aaron L Halpern, Mitchell A Bekritsky, Eunho Noh, Morten Källberg, Xiaoyu Chen, Yeonbin Kim, Doruk Beyter, Peter Krusche, Christopher T Saunders</div> <em>Nature Methods</em> (2018-07-16) <a href="https://doi.org/gdwrp4">https://doi.org/gdwrp4</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41592-018-0051-x">10.1038/s41592-018-0051-x</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30013048">30013048</a></div></div>
 </div>
 <div id="ref-149BEKISi" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">11. </div><div class="csl-right-inline"><strong>Calling Somatic SNVs and Indels with Mutect2</strong> <div class="csl-block">David Benjamin, Takuto Sato, Kristian Cibulskis, Gad Getz, Chip Stewart, Lee Lichtenstein</div> <em>Cold Spring Harbor Laboratory</em> (2019-12-02) <a href="https://doi.org/10.1101/861054">https://doi.org/10.1101/861054</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1101/861054">10.1101/861054</a></div></div>
+<div class="csl-left-margin">12. </div><div class="csl-right-inline"><strong>Calling Somatic SNVs and Indels with Mutect2</strong> <div class="csl-block">David Benjamin, Takuto Sato, Kristian Cibulskis, Gad Getz, Chip Stewart, Lee Lichtenstein</div> <em>Cold Spring Harbor Laboratory</em> (2019-12-02) <a href="https://doi.org/ggntwv">https://doi.org/ggntwv</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1101/861054">10.1101/861054</a></div></div>
 </div>
 <div id="ref-V6KdWVYi" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">12. </div><div class="csl-right-inline"><strong>Genome-wide somatic variant calling using localized colored de Bruijn graphs</strong> <div class="csl-block">Giuseppe Narzisi, André Corvelo, Kanika Arora, Ewa A Bergmann, Minita Shah, Rajeeva Musunuri, Anne-Katrin Emde, Nicolas Robine, Vladimir Vacic, Michael C Zody</div> <em>Communications Biology</em> (2018-03-22) <a href="https://doi.org/10.1038/s42003-018-0023-9">https://doi.org/10.1038/s42003-018-0023-9</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s42003-018-0023-9">10.1038/s42003-018-0023-9</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30271907">30271907</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6123722">PMC6123722</a></div></div>
-</div>
-<div id="ref-p1f5DxRQ" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">13. </div><div class="csl-right-inline"><strong>The Ensembl Variant Effect Predictor</strong> <div class="csl-block">William McLaren, Laurent Gil, Sarah E Hunt, Harpreet Singh Riat, Graham RS Ritchie, Anja Thormann, Paul Flicek, Fiona Cunningham</div> <em>Genome Biology</em> (2016-06-06) <a href="https://doi.org/10.1186/s13059-016-0974-4">https://doi.org/10.1186/s13059-016-0974-4</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/s13059-016-0974-4">10.1186/s13059-016-0974-4</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27268795">27268795</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4893825">PMC4893825</a></div></div>
+<div class="csl-left-margin">13. </div><div class="csl-right-inline"><strong>Genome-wide somatic variant calling using localized colored de Bruijn graphs</strong> <div class="csl-block">Giuseppe Narzisi, André Corvelo, Kanika Arora, Ewa A Bergmann, Minita Shah, Rajeeva Musunuri, Anne-Katrin Emde, Nicolas Robine, Vladimir Vacic, Michael C Zody</div> <em>Communications Biology</em> (2018-03-22) <a href="https://doi.org/gfcfr8">https://doi.org/gfcfr8</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s42003-018-0023-9">10.1038/s42003-018-0023-9</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30271907">30271907</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6123722">PMC6123722</a></div></div>
 </div>
 <div id="ref-lxeJKtdW" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">14. </div><div class="csl-right-inline"><a href="https://academic.oup.com/bioinformatics/article/27/2/268/285534?login=false">https://academic.oup.com/bioinformatics/article/27/2/268/285534?login=false</a></div>
@@ -978,19 +969,19 @@ For each input participant of an analysis, the independent biospecimen is select
 <div class="csl-left-margin">16. </div><div class="csl-right-inline"><strong>GISTIC2.0 facilitates sensitive and confident localization of the targets of focal somatic copy-number alteration in human cancers</strong> <div class="csl-block">Craig H Mermel, Steven E Schumacher, Barbara Hill, Matthew L Meyerson, Rameen Beroukhim, Gad Getz</div> <em>Genome Biology</em> (2011-04-28) <a href="https://doi.org/10.1186/gb-2011-12-4-r41">https://doi.org/10.1186/gb-2011-12-4-r41</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/gb-2011-12-4-r41">10.1186/gb-2011-12-4-r41</a></div></div>
 </div>
 <div id="ref-dxeON3tz" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">17. </div><div class="csl-right-inline"><strong>Preprocessing, normalization and integration of the Illumina HumanMethylationEPIC array with minfi</strong> <div class="csl-block">Jean-Philippe Fortin, Timothy J Triche Jr, Kasper D Hansen</div> <em>Bioinformatics</em> (2016-11-29) <a href="https://doi.org/10.1093/bioinformatics/btw691">https://doi.org/10.1093/bioinformatics/btw691</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/bioinformatics/btw691">10.1093/bioinformatics/btw691</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/28035024">28035024</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5408810">PMC5408810</a></div></div>
+<div class="csl-left-margin">17. </div><div class="csl-right-inline"><strong>Preprocessing, normalization and integration of the Illumina HumanMethylationEPIC array with minfi</strong> <div class="csl-block">Jean-Philippe Fortin, Timothy J Triche Jr, Kasper D Hansen</div> <em>Bioinformatics</em> (2016-11-29) <a href="https://doi.org/f9x7kd">https://doi.org/f9x7kd</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/bioinformatics/btw691">10.1093/bioinformatics/btw691</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/28035024">28035024</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5408810">PMC5408810</a></div></div>
 </div>
 <div id="ref-15Yz3j9AA" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">18. </div><div class="csl-right-inline"><strong>Review of processing and analysis methods for DNA methylation array data</strong> <div class="csl-block">CS Wilhelm-Benartzi, DC Koestler, MR Karagas, JM Flanagan, BC Christensen, KT Kelsey, CJ Marsit, EA Houseman, R Brown</div> <em>British Journal of Cancer</em> (2013-08-27) <a href="https://doi.org/10.1038/bjc.2013.496">https://doi.org/10.1038/bjc.2013.496</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/bjc.2013.496">10.1038/bjc.2013.496</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/23982603">23982603</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3777004">PMC3777004</a></div></div>
+<div class="csl-left-margin">18. </div><div class="csl-right-inline"><strong>Review of processing and analysis methods for DNA methylation array data</strong> <div class="csl-block">CS Wilhelm-Benartzi, DC Koestler, MR Karagas, JM Flanagan, BC Christensen, KT Kelsey, CJ Marsit, EA Houseman, R Brown</div> <em>British Journal of Cancer</em> (2013-08-27) <a href="https://doi.org/gb9qvv">https://doi.org/gb9qvv</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/bjc.2013.496">10.1038/bjc.2013.496</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/23982603">23982603</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3777004">PMC3777004</a></div></div>
 </div>
 <div id="ref-HOfcb651" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">19. </div><div class="csl-right-inline"><strong>Impact of SNPs on methylation readouts by Illumina Infinium HumanMethylation450 BeadChip Array: implications for comparative population studies</strong> <div class="csl-block">Patrycja Daca-Roszak, Aleksandra Pfeifer, Jadwiga Żebracka-Gala, Dagmara Rusinek, Aleksandra Szybińska, Barbara Jarząb, Michał Witt, Ewa Ziętkiewicz</div> <em>BMC Genomics</em> (2015-11-25) <a href="https://doi.org/10.1186/s12864-015-2202-0">https://doi.org/10.1186/s12864-015-2202-0</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/s12864-015-2202-0">10.1186/s12864-015-2202-0</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/26607064">26607064</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4659175">PMC4659175</a></div></div>
+<div class="csl-left-margin">19. </div><div class="csl-right-inline"><strong>Impact of SNPs on methylation readouts by Illumina Infinium HumanMethylation450 BeadChip Array: implications for comparative population studies</strong> <div class="csl-block">Patrycja Daca-Roszak, Aleksandra Pfeifer, Jadwiga Żebracka-Gala, Dagmara Rusinek, Aleksandra Szybińska, Barbara Jarząb, Michał Witt, Ewa Ziętkiewicz</div> <em>BMC Genomics</em> (2015-11-25) <a href="https://doi.org/gb3h5r">https://doi.org/gb3h5r</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/s12864-015-2202-0">10.1186/s12864-015-2202-0</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/26607064">26607064</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4659175">PMC4659175</a></div></div>
 </div>
 <div id="ref-19a3Xf4h3" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">20. </div><div class="csl-right-inline"><strong>DNA methylation-based classification of central nervous system tumours</strong> <div class="csl-block">David Capper, David TW Jones, Martin Sill, Volker Hovestadt, Daniel Schrimpf, Dominik Sturm, Christian Koelsche, Felix Sahm, Lukas Chavez, David E Reuss, … Stefan M Pfister</div> <em>Nature</em> (2018-03-14) <a href="https://doi.org/10.1038/nature26000">https://doi.org/10.1038/nature26000</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/nature26000">10.1038/nature26000</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29539639">29539639</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6093218">PMC6093218</a></div></div>
+<div class="csl-left-margin">20. </div><div class="csl-right-inline"><strong>DNA methylation-based classification of central nervous system tumours</strong> <div class="csl-block">David Capper, David TW Jones, Martin Sill, Volker Hovestadt, Daniel Schrimpf, Dominik Sturm, Christian Koelsche, Felix Sahm, Lukas Chavez, David E Reuss, … Stefan M Pfister</div> <em>Nature</em> (2018-03-14) <a href="https://doi.org/gc5t36">https://doi.org/gc5t36</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/nature26000">10.1038/nature26000</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29539639">29539639</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6093218">PMC6093218</a></div></div>
 </div>
 <div id="ref-5NHLHVO3" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">21. </div><div class="csl-right-inline"><strong>Molecular subgrouping of atypical teratoid/rhabdoid tumors—a reinvestigation and current consensus</strong> <div class="csl-block">Ben Ho, Pascal D Johann, Yura Grabovska, Mamy Jean De Dieu Andrianteranagna, Fupan Yao, Michael Frühwald, Martin Hasselblatt, Franck Bourdeaut, Daniel Williamson, Annie Huang, Marcel Kool</div> <em>Neuro-Oncology</em> (2019-12-31) <a href="https://doi.org/10.1093/neuonc/noz235">https://doi.org/10.1093/neuonc/noz235</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/neuonc/noz235">10.1093/neuonc/noz235</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31889194">31889194</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7229260">PMC7229260</a></div></div>
+<div class="csl-left-margin">21. </div><div class="csl-right-inline"><strong>Molecular subgrouping of atypical teratoid/rhabdoid tumors—a reinvestigation and current consensus</strong> <div class="csl-block">Ben Ho, Pascal D Johann, Yura Grabovska, Mamy Jean De Dieu Andrianteranagna, Fupan Yao, Michael Frühwald, Martin Hasselblatt, Franck Bourdeaut, Daniel Williamson, Annie Huang, Marcel Kool</div> <em>Neuro-Oncology</em> (2019-12-31) <a href="https://doi.org/gn3kcm">https://doi.org/gn3kcm</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/neuonc/noz235">10.1093/neuonc/noz235</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31889194">31889194</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7229260">PMC7229260</a></div></div>
 </div>
 </div>
 <!-- default theme -->
