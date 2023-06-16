@@ -7,7 +7,7 @@ keywords:
 - classification
 - somatic variation
 lang: en-US
-date-meta: '2023-06-15'
+date-meta: '2023-06-16'
 author-meta:
 - Eric Wafula
 - Sangeeta Shukla
@@ -35,6 +35,7 @@ author-meta:
 - Asif T Chinwalla
 - Yuanchao Zhang
 - Adam C. Resnick
+- Alvin Farrel
 - Deanne Taylor
 - Jo Lynne Rokita^
 header-includes: |-
@@ -47,8 +48,8 @@ header-includes: |-
   <meta name="citation_title" content="The Open Pediatric Cancer Project" />
   <meta property="og:title" content="The Open Pediatric Cancer Project" />
   <meta property="twitter:title" content="The Open Pediatric Cancer Project" />
-  <meta name="dc.date" content="2023-06-15" />
-  <meta name="citation_publication_date" content="2023-06-15" />
+  <meta name="dc.date" content="2023-06-16" />
+  <meta name="citation_publication_date" content="2023-06-16" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -161,6 +162,11 @@ header-includes: |-
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_orcid" content="0000-0003-0436-4189" />
   <meta name="twitter:creator" content="@adamcresnick" />
+  <meta name="citation_author" content="Alvin Farrel" />
+  <meta name="citation_author_institution" content="Department of Biomedical and Health Informatics, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_institution" content="Division of Oncology, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_institution" content="Center for Childhood Cancer Research, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_orcid" content="0000-0003-1087-9840" />
   <meta name="citation_author" content="Deanne Taylor" />
   <meta name="citation_author_institution" content="Department of Bioinformatics and Health Informatics, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_institution" content="Department of Pediatrics, University of Pennsylvania Perelman Medical School, Philadelphia, PA, 19104, USA" />
@@ -177,9 +183,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://d3b-center.github.io/OpenPedCan-methods/" />
   <meta name="citation_pdf_url" content="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/eb659389848b188f54128eb150fe05a1e32c5078/" />
-  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/eb659389848b188f54128eb150fe05a1e32c5078/" />
-  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/eb659389848b188f54128eb150fe05a1e32c5078/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/c9e642c82a7edcba7c2368fab01062619bb508cf/" />
+  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/c9e642c82a7edcba7c2368fab01062619bb508cf/" />
+  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/c9e642c82a7edcba7c2368fab01062619bb508cf/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -201,10 +207,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/eb659389848b188f54128eb150fe05a1e32c5078/))
+([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/c9e642c82a7edcba7c2368fab01062619bb508cf/))
 was automatically generated
-from [d3b-center/OpenPedCan-methods@eb65938](https://github.com/d3b-center/OpenPedCan-methods/tree/eb659389848b188f54128eb150fe05a1e32c5078)
-on June 15, 2023.
+from [d3b-center/OpenPedCan-methods@c9e642c](https://github.com/d3b-center/OpenPedCan-methods/tree/c9e642c82a7edcba7c2368fab01062619bb508cf)
+on June 16, 2023.
 </em></small>
 
 ## Authors
@@ -414,6 +420,15 @@ on June 15, 2023.
      · Funded by Children's Brain Tumor Network; NIH 3P30 CA016520-44S5, U2C HL138346-03, U24 CA220457-03; NCI/NIH Contract No. 75N91019D00024, Task Order No. 75N91020F00003; Children’s Hospital of Philadelphia Division of Neurosurgery
   </small>
 
++ **Alvin Farrel**<br>
+    ![ORCID icon](images/orcid.png){.inline_icon}
+    [0000-0003-1087-9840](https://orcid.org/0000-0003-1087-9840)
+  <br>
+  <small>
+     Department of Biomedical and Health Informatics, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Division of Oncology, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Center for Childhood Cancer Research, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+     · Funded by NCI/NIH Contract No. 75N91019D00024, Task Order No. 75N91020F00003
+  </small>
+
 + **Deanne Taylor**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0002-3302-4610](https://orcid.org/0000-0002-3302-4610)
@@ -509,6 +524,7 @@ on June 15, 2023.
 |Asif T Chinwalla|Project Administration, Supervision, Methodology, Investigation, Validation, API|
 |Yuanchao Zhang|API, Software, Formal Analysis, Writing - original draft|
 |Adam C. Resnick|Conceptualization, Funding acquisition, Resources, Supervision|
+|Alvin Farrel|Supervision, Investigation, Visualization, Methodology, Funding acquisition|
 |Deanne Taylor|Conceptualization, Data curation, Formal analysis, Funding acquisition, Investigation, Methodology, Software, Supervision, Writing – Original draft, Writing - Review and editing|
 |Jo Lynne Rokita^|Conceptualization, Data curation, Formal analysis, Funding acquisition, Investigation, Methodology, Software, Supervision, Writing – Original draft, Writing - Review and editing|
 
