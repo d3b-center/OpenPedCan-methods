@@ -2,6 +2,7 @@ adenylated
 Aditya
 aliquot
 ALK
+Arriba
 Asif
 ATRT
 BAF
@@ -18,7 +19,7 @@ centromeric
 Chinwalla
 Chordoma
 cn
-CNV
+cnv
 CNVkit
 CNVs
 consortiums
@@ -104,15 +105,16 @@ NBL
 NCI
 NCI’s
 Neuro
-neuroblastoma
+Neuroblastoma
 neurocytoma
 ng
 NovaSeq
 NTRK
+oncogenic
 ONCOSEQ
 OPC
 OpenPBTA
-OpenPedCan
+OpenPedcan
 PBTA
 PCR
 pedcbio
@@ -145,7 +147,7 @@ Sickler
 Slurm
 SNP
 SNPs
-SNV
+snv
 Strelka
 subtype
 subtyped
@@ -155,7 +157,7 @@ TCGA
 telomeric
 teratoid
 tmb
-tp
+TP
 TPM
 TruSeq
 TYR
