@@ -20,7 +20,7 @@ Chinwalla
 Chordoma
 cn
 cnv
-CNVkit
+CNVKit
 CNVs
 consortiums
 Corbett
@@ -55,7 +55,7 @@ ganglioneuroma
 Gaonkar
 GATK
 GENCODE
-Genomic
+genomic
 genomically
 germline
 GFF
@@ -90,7 +90,7 @@ Lahiri
 LGAT
 MAF
 Mariarita
-methylation
+Methylation
 MGMT
 minfi
 MNP
@@ -114,7 +114,7 @@ oncogenic
 ONCOSEQ
 OPC
 OpenPBTA
-OpenPedcan
+OpenPedCan
 PBTA
 PCR
 pedcbio
@@ -157,7 +157,7 @@ TCGA
 telomeric
 teratoid
 tmb
-TP
+tp
 TPM
 TruSeq
 TYR

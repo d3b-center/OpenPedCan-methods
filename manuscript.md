@@ -33,6 +33,7 @@ author-meta:
 - Miguel A. Brown
 - Alex Sickler
 - Kelsey Keith
+- Dave Hill
 - Asif T Chinwalla
 - Yuanchao Zhang
 - Adam C. Resnick
@@ -156,6 +157,9 @@ header-includes: |-
   <meta name="citation_author" content="Kelsey Keith" />
   <meta name="citation_author_institution" content="Department of Biomedical and Health Informatics, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_orcid" content="0000-0002-7451-5117" />
+  <meta name="citation_author" content="Dave Hill" />
+  <meta name="citation_author_institution" content="Department of Biomedical and Health Informatics, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_orcid" content="0000-0002-1337-1789" />
   <meta name="citation_author" content="Asif T Chinwalla" />
   <meta name="citation_author_institution" content="Department of Biomedical and Health Informatics, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_orcid" content="0000-0001-7831-3996" />
@@ -187,9 +191,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://d3b-center.github.io/OpenPedCan-methods/" />
   <meta name="citation_pdf_url" content="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/e802e67ce50c74c75c2ec82c259bb1ec5a2c8d72/" />
-  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/e802e67ce50c74c75c2ec82c259bb1ec5a2c8d72/" />
-  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/e802e67ce50c74c75c2ec82c259bb1ec5a2c8d72/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/e23cca4c5fa8ba2472eb96fa5f513c3ab774d891/" />
+  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/e23cca4c5fa8ba2472eb96fa5f513c3ab774d891/" />
+  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/e23cca4c5fa8ba2472eb96fa5f513c3ab774d891/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -211,9 +215,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/e802e67ce50c74c75c2ec82c259bb1ec5a2c8d72/))
+([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/e23cca4c5fa8ba2472eb96fa5f513c3ab774d891/))
 was automatically generated
-from [d3b-center/OpenPedCan-methods@e802e67](https://github.com/d3b-center/OpenPedCan-methods/tree/e802e67ce50c74c75c2ec82c259bb1ec5a2c8d72)
+from [d3b-center/OpenPedCan-methods@e23cca4](https://github.com/d3b-center/OpenPedCan-methods/tree/e23cca4c5fa8ba2472eb96fa5f513c3ab774d891)
 on June 16, 2023.
 </em></small>
 
@@ -409,6 +413,14 @@ on June 16, 2023.
      Department of Biomedical and Health Informatics, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
   </small>
 
++ **Dave Hill**<br>
+    ![ORCID icon](images/orcid.png){.inline_icon}
+    [0000-0002-1337-1789](https://orcid.org/0000-0002-1337-1789)
+  <br>
+  <small>
+     Department of Biomedical and Health Informatics, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  </small>
+
 + **Asif T Chinwalla**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0001-7831-3996](https://orcid.org/0000-0001-7831-3996)
@@ -534,6 +546,7 @@ on June 16, 2023.
 |Miguel A. Brown|Data curation, Methodology, Formal analysis|
 |Alex Sickler|Methodology, Formal analysis|
 |Kelsey Keith|Software, Writing - original draft, API, Formal Analysis, Data Curation, Visualization|
+|Dave Hill|Software, Writing - original draft, API, Data Curation|
 |Asif T Chinwalla|Project Administration, Supervision, Methodology, Investigation, Validation, API|
 |Yuanchao Zhang|API, Software, Formal Analysis, Writing - original draft|
 |Adam C. Resnick|Conceptualization, Funding acquisition, Resources, Supervision|
