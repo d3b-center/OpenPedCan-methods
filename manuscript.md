@@ -187,9 +187,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://d3b-center.github.io/OpenPedCan-methods/" />
   <meta name="citation_pdf_url" content="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/3ba2bcd4911a30b147788ae087d359cd32c255d0/" />
-  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/3ba2bcd4911a30b147788ae087d359cd32c255d0/" />
-  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/3ba2bcd4911a30b147788ae087d359cd32c255d0/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/40fdd1e9c20686e5dedb41f870eea80e482a741b/" />
+  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/40fdd1e9c20686e5dedb41f870eea80e482a741b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/40fdd1e9c20686e5dedb41f870eea80e482a741b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -211,9 +211,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/3ba2bcd4911a30b147788ae087d359cd32c255d0/))
+([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/40fdd1e9c20686e5dedb41f870eea80e482a741b/))
 was automatically generated
-from [d3b-center/OpenPedCan-methods@3ba2bcd](https://github.com/d3b-center/OpenPedCan-methods/tree/3ba2bcd4911a30b147788ae087d359cd32c255d0)
+from [d3b-center/OpenPedCan-methods@40fdd1e](https://github.com/d3b-center/OpenPedCan-methods/tree/40fdd1e9c20686e5dedb41f870eea80e482a741b)
 on June 16, 2023.
 </em></small>
 
@@ -645,14 +645,12 @@ Software versions are documented in **Table XX**.
 We maintained a data release folder on Amazon S3, downloadable directly from S3 or our open-access CAVATICA project, with merged files for each analysis (See data and code availability section). 
 As we produced new results that we expected to be used across multiple analyses, or identified data issues, we created new data releases in a versioned manner. 
 
-### EXPERIMENTAL MODEL AND STUDY PARTICIPANT DETAILS
-<!-- TODO: add description of all studies here -->
+### METHOD DETAILS
 
-Please refer to the OpenPBTA manuscript [@doi:10.1016/j.xgen.2023.100340] for additional details for the CBTN and PNOC cohorts and project-specific study details for GMKF, TARGET, and TCGA cohorts.
+#### Nucleic acids extraction and library preparation
 For the PBTA X01 cohort, libraries were prepped using the Illumina TruSeq Strand-Specific Protocol to pull out poly-adenylated transcripts.
 
-cDNA Library Construction
-
+**cDNA Library Construction**
 Total RNA was quantified using the Quant-iT™ RiboGreen® RNA Assay Kit and normalized to 5ng/ul. 
 Following plating, 2 uL of ERCC controls (using a 1:1000 dilution) were spiked into each sample. 
 An aliquot of 325 ng for each sample was transferred into library preparation. 
@@ -661,22 +659,13 @@ After enrichment, the libraries were quantified using Quant-iT PicoGreen (1:200 
 Samples were normalized to 5 ng/uL. 
 The sample set was pooled and quantified using the KAPA Library Quantification Kit for Illumina Sequencing Platforms. 
 
-Illumina Sequencing
 
+#### Data generation
+**PBTA X01 Illumina Sequencing**
 Pooled libraries were normalized to 2nM and denatured using 0.1 N NaOH prior to sequencing. 
 Flowcell cluster amplification and sequencing were performed according to the manufacturer’s protocols using the NovaSeq 6000. 
 Each run was a 151bp paired-end with an eight-base index barcode read. 
 Data was analyzed using the Broad Picard Pipeline which includes de-multiplexing and data aggregation.
-
-### METHOD DETAILS
-
-#### Nucleic acids extraction and library preparation
-<!-- TODO: add by study here, or refer to publication -->
-
-
-#### Data generation
-<!-- TODO: add by study here, or refer to publication -->
-
 
 #### DNA WGS Alignment
 Please refer to the OpenPBTA manuscript for details [@doi:10.1016/j.xgen.2023.100340].
@@ -684,28 +673,19 @@ Please refer to the OpenPBTA manuscript for details [@doi:10.1016/j.xgen.2023.10
 #### Quality Control of Sequencing Data
 Please refer to the OpenPBTA manuscript for details [@doi:10.1016/j.xgen.2023.100340].
 
-
 ##### SNP calling for B-allele Frequency (BAF) generation
 Please refer to the OpenPBTA manuscript for details [@doi:10.1016/j.xgen.2023.100340].
 
-
-#### Somatic Mutation Calling
-
-##### SNV and indel calling
-Please refer to the OpenPBTA manuscript for details [@doi:10.1016/j.xgen.2023.100340].
-
+#### Somatic Mutation and INDEL Calling
+We used the same mutation calling methods as described in OpenPBTA manuscript for details [@doi:10.1016/j.xgen.2023.100340].
 
 ##### VCF annotation and MAF creation
-<!-- TODO: update VEP version -->
-
+Somatic variants were annotated by the Ensembl Variant Effect Predictor (VEP v.105) [@doi:10.1186/s13059-016-0974-4].
 
 ##### Gather SNV and INDEL Hotspots
 <!-- TODO: needs update -->
 
-
 ##### Consensus SNV Calling
-<!-- TODO: needs update -->
-
 We adopted the consensus SNV calling method described in OpenPBTA manuscript with adjustment [@doi:10.1016/j.xgen.2023.100340]. 
 For SNV calling, we combined four consensus SNV calling algorithms, including Strelka2[@doi:10.1038/s41592-018-0051-x], Mutect2[@doi:10.1101/861054], Lancet[@doi:10.1038/s42003-018-0023-9], and VarDict[@doi: 10.1093/nar/gkw227].
 Strelka2 outputs multi-nucleotide polymorphisms (MNPs) as consecutive single-nucleotide polymorphisms.
@@ -713,16 +693,13 @@ In order preserve MNPs, we gather MNP calls from the other caller inputs, and se
 Once found, the Strelka2 SNP calls supporting a MNP are converted to a single MNP call.
 This is done to preserve the predicted gene model as accurately as possible in our consensus calls.
 Consensus SNV from all four callers were collected and by default, calls that were detected in at least two calling algorithms or marked as "HotSpotAllele" were retained. 
-Retained SNV were annotated by the Ensembl Variant Effect Predictor (VEF v.105) [@doi:10.1186/s13059-016-0974-4].
 Potential non-hotspot germline variants were removed if they had a normal depth <= 7 and gnomAD allele frequency > 0.001.
 Final results were saved in MAF format.
 
-#### Somatic Copy Number Variant Calling (WGS samples only)
+#### Somatic Copy Number Variant Calling
 <!-- TODO: needs update -->
 
 ##### Consensus CNV Calling
-<!-- TODO: needs update -->
-
 We adopted the consensus CNV calling described in OpenPBTA manuscript [doi:10.1016/j.xgen.2023.100340] with minor adjustments. 
 For each caller and sample with WGS performed, we called CNVs based on consensus among Control-FREEC ([@https://doi.org/10.1093/bioinformatics/btq635]; [@https://doi.org/10.1093/bioinformatics/btr670]), CNVkit ([@doi: 10.1371/journal.pcbi.1004873]), and GATK ([@doi:
 10.1101/gr.107524.110]). 
@@ -734,10 +711,8 @@ We merged CNV regions within 10,000 bp of each other with the same direction of 
 Any CNVs that overlapped 50% or more with immunoglobulin, telomeric, centromeric, segment duplicated regions, or that were shorter than 3000 bp were filtered out.
 The CNVKit calls for WXS samples were appended to the consensus CNV file.
 
-
 #### Somatic Structural Variant Calling (WGS samples only)
 Please refer to the OpenPBTA manuscript for details [@doi:10.1016/j.xgen.2023.100340].
-
 
 #### Methylation Analysis
 ##### Methylation array preprocessing
@@ -788,7 +763,6 @@ The resulting `gene-wise` and `group-wise` summary statistics tables were annota
 
 ##### Gene fusion detection
 <!-- TODO: needs update -->
-
 
 
 ### QUANTIFICATION AND STATISTICAL ANALYSIS
@@ -853,20 +827,16 @@ _MYCN_ gene expression was also used to subtype samples without DNA sequencing d
 If a sample did not fit none of these situations, it was denoted as "NBL, To be classified".  
 
 
-
 ###### Integration of brain tumor methylation classifications 
 
 
 #### TP53 Alteration Annotation (`tp53_nf1_score` analysis module)
 Please refer to the OpenPBTA manuscript for details [@doi:10.1016/j.xgen.2023.100340].
 
-
 #### Prediction of participants' genetic sex
 Please refer to the OpenPBTA manuscript for details [@doi:10.1016/j.xgen.2023.100340].
 
-
 #### Selection of independent samples (`independent-samples` analysis module)
-
 For analyses that require all input biospecimens to be independent, we use the OpenPedCan-analysis [independent-samples](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/d397339d567ddeff17e7a8cdca892f6a9dd2a0ba/analyses/independent-samples) module to select only one biospecimen from each input participant.
 For each input participant of an analysis, the independent biospecimen is selected based on the analysis-specific filters and preferences for the biospecimen metadata, such as experimental strategy, cancer group, and tumor descriptor.
 

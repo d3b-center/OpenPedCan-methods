@@ -26,7 +26,7 @@ Corbett
 CpG
 CPUs
 CRANIO
-Curation
+curation
 cytobands
 dataset
 dbSNP
@@ -104,7 +104,7 @@ NBL
 NCI
 NCI’s
 Neuro
-Neuroblastoma
+neuroblastoma
 neurocytoma
 ng
 NovaSeq
@@ -112,7 +112,7 @@ NTRK
 ONCOSEQ
 OPC
 OpenPBTA
-OPENPEDCAN
+OpenPedCan
 PBTA
 PCR
 pedcbio
@@ -145,7 +145,7 @@ Sickler
 Slurm
 SNP
 SNPs
-snv
+SNV
 Strelka
 subtype
 subtyped
@@ -163,7 +163,7 @@ tyrosine
 utils
 VarDict
 VCF
-VEF
+VEP
 Wafula
 WGS
 WXS
