@@ -211,9 +211,9 @@
   <meta name="citation_fulltext_html_url" content="https://d3b-center.github.io/OpenPedCan-methods/" />
   <meta name="citation_pdf_url" content="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/40fdd1e9c20686e5dedb41f870eea80e482a741b/" />
-  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/40fdd1e9c20686e5dedb41f870eea80e482a741b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/40fdd1e9c20686e5dedb41f870eea80e482a741b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/e802e67ce50c74c75c2ec82c259bb1ec5a2c8d72/" />
+  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/e802e67ce50c74c75c2ec82c259bb1ec5a2c8d72/" />
+  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/e802e67ce50c74c75c2ec82c259bb1ec5a2c8d72/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -230,9 +230,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://d3b-center.github.io/OpenPedCan-methods/v/40fdd1e9c20686e5dedb41f870eea80e482a741b/">permalink</a>)
+(<a href="https://d3b-center.github.io/OpenPedCan-methods/v/e802e67ce50c74c75c2ec82c259bb1ec5a2c8d72/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/d3b-center/OpenPedCan-methods/tree/40fdd1e9c20686e5dedb41f870eea80e482a741b">d3b-center/OpenPedCan-methods@40fdd1e</a>
+from <a href="https://github.com/d3b-center/OpenPedCan-methods/tree/e802e67ce50c74c75c2ec82c259bb1ec5a2c8d72">d3b-center/OpenPedCan-methods@e802e67</a>
 on June 16, 2023.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -882,6 +882,10 @@ These methods resolved &gt;99% of duplicated gene-level status calls.</p>
 <h5 id="gene-set-variation-analysis-gene-set-enrichment-analysis-analysis-module">Gene Set Variation Analysis (<code>gene-set-enrichment-analysis</code> analysis module)</h5>
 <p>Please refer to the OpenPBTA manuscript for details <span class="citation" data-cites="5VXMHJ7N">[<a href="#ref-5VXMHJ7N" role="doc-biblioref">4</a>]</span>.</p>
 <h5 id="fusion-prioritization-fusion_filtering-analysis-module">Fusion prioritization (<code>fusion_filtering</code> analysis module)</h5>
+<p>The <a href="https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/fusion_filtering"><code>fusion_filtering</code></a> module filters artifacts and annotates fusion calls, with prioritization for oncogenic fusions, for the fusion calls from STAR-Fusion and Arriba.
+After artifact filtering, fusions were prioritized and annotated as “putative oncogenic fusions” when at least one gene was a known kinase, oncogene, tumor suppressor, curated transcription factor, on the COSMIC Cancer Gene Census List, or observed in TCGA.
+Fusions were retained in this module if they were called by both callers, recurrent or specific to a cancer group, or annotated as a putative oncogenic fusion.
+Please refer to the module linked above for more detailed documentation and scripts.</p>
 <h4 id="mutational-signatures-mutational-signatures-analysis-module">Mutational Signatures (<code>mutational-signatures</code> analysis module)</h4>
 <h3 id="tumor-mutation-burden-snv-callers-analysis-module">Tumor Mutation Burden (<code>snv-callers</code> analysis module)</h3>
 <h4 id="clinical-data-harmonization">Clinical Data Harmonization</h4>
