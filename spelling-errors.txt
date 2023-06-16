@@ -1,4 +1,5 @@
 adenylated
+Aditya
 aliquot
 ALK
 Asif
@@ -15,17 +16,17 @@ CBTN
 cDNA
 centromeric
 Chinwalla
-chordoma
+Chordoma
 cn
-cnv
-CNVKit
+CNV
+CNVkit
 CNVs
 consortiums
 Corbett
 CpG
 CPUs
 CRANIO
-curation
+Curation
 cytobands
 dataset
 dbSNP
@@ -53,7 +54,7 @@ ganglioneuroma
 Gaonkar
 GATK
 GENCODE
-genomic
+Genomic
 genomically
 germline
 GFF
@@ -84,6 +85,7 @@ Komal
 Kraya
 Krutika
 Kuren
+Lahiri
 LGAT
 MAF
 Mariarita
@@ -102,7 +104,7 @@ NBL
 NCI
 NCI’s
 Neuro
-neuroblastoma
+Neuroblastoma
 neurocytoma
 ng
 NovaSeq
@@ -110,7 +112,7 @@ NTRK
 ONCOSEQ
 OPC
 OpenPBTA
-OpenPedCan
+OPENPEDCAN
 PBTA
 PCR
 pedcbio
