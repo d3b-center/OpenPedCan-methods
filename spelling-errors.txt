@@ -20,7 +20,7 @@ Chinwalla
 Chordoma
 cn
 cnv
-CNVKit
+CNVkit
 CNVs
 consortiums
 Corbett
@@ -29,7 +29,7 @@ CPUs
 CRANIO
 curation
 cytobands
-dataset
+Dataset
 dbSNP
 deconv
 DESeq
@@ -55,7 +55,8 @@ ganglioneuroma
 Gaonkar
 GATK
 GENCODE
-genomic
+Geng
+Genomic
 genomically
 germline
 GFF
@@ -105,7 +106,7 @@ NBL
 NCI
 NCI’s
 Neuro
-Neuroblastoma
+neuroblastoma
 neurocytoma
 ng
 NovaSeq
@@ -174,3 +175,4 @@ Yuanchao
 Yuankun
 Zhang
 Zhu
+Zhuangzhuang
