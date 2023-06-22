@@ -7,7 +7,7 @@ keywords:
 - classification
 - somatic variation
 lang: en-US
-date-meta: '2023-06-17'
+date-meta: '2023-06-22'
 author-meta:
 - Eric Wafula
 - Sangeeta Shukla
@@ -22,11 +22,13 @@ author-meta:
 - Adam A. Kraya
 - Xiaoyan Huang
 - Bo Zhang
+- Chuwei Zhong
 - Zhuangzhuang Geng
 - Brian M. Ennis
 - Ryan J. Corbett
 - Sharon J. Diskin
 - Nicholas Van Kuren
+- Matthew R. Lueder
 - Noel Coleman
 - Christopher Blackden
 - Jennifer L. Mason
@@ -51,8 +53,8 @@ header-includes: |-
   <meta name="citation_title" content="The Open Pediatric Cancer Project" />
   <meta property="og:title" content="The Open Pediatric Cancer Project" />
   <meta property="twitter:title" content="The Open Pediatric Cancer Project" />
-  <meta name="dc.date" content="2023-06-17" />
-  <meta name="citation_publication_date" content="2023-06-17" />
+  <meta name="dc.date" content="2023-06-22" />
+  <meta name="citation_publication_date" content="2023-06-22" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -113,6 +115,10 @@ header-includes: |-
   <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_orcid" content="0000-0002-0743-5379" />
+  <meta name="citation_author" content="Chuwei Zhong" />
+  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_orcid" content="0000-0003-2406-2735" />
   <meta name="citation_author" content="Zhuangzhuang Geng" />
   <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
@@ -134,6 +140,11 @@ header-includes: |-
   <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_orcid" content="0000-0002-7414-9516" />
+  <meta name="citation_author" content="Matthew R. Lueder" />
+  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_institution" content="Department of Pathology and Laboratory Medicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_orcid" content="0009-0002-7370-102X" />
   <meta name="citation_author" content="Noel Coleman" />
   <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
@@ -196,9 +207,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://d3b-center.github.io/OpenPedCan-methods/" />
   <meta name="citation_pdf_url" content="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/7c2cd6e4efb4545a56f522eeeeaafd74dd910518/" />
-  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/7c2cd6e4efb4545a56f522eeeeaafd74dd910518/" />
-  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/7c2cd6e4efb4545a56f522eeeeaafd74dd910518/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/fa7a92983cf7734f16e8e834c9529e1b9a9d2f50/" />
+  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/fa7a92983cf7734f16e8e834c9529e1b9a9d2f50/" />
+  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/fa7a92983cf7734f16e8e834c9529e1b9a9d2f50/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -220,10 +231,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/7c2cd6e4efb4545a56f522eeeeaafd74dd910518/))
+([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/fa7a92983cf7734f16e8e834c9529e1b9a9d2f50/))
 was automatically generated
-from [d3b-center/OpenPedCan-methods@7c2cd6e](https://github.com/d3b-center/OpenPedCan-methods/tree/7c2cd6e4efb4545a56f522eeeeaafd74dd910518)
-on June 17, 2023.
+from [d3b-center/OpenPedCan-methods@fa7a929](https://github.com/d3b-center/OpenPedCan-methods/tree/fa7a92983cf7734f16e8e834c9529e1b9a9d2f50)
+on June 22, 2023.
 </em></small>
 
 ## Authors
@@ -334,6 +345,14 @@ on June 17, 2023.
      Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
   </small>
 
++ **Chuwei Zhong**<br>
+    ![ORCID icon](images/orcid.png){.inline_icon}
+    [0000-0003-2406-2735](https://orcid.org/0000-0003-2406-2735)
+  <br>
+  <small>
+     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  </small>
+
 + **Zhuangzhuang Geng**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0009-0007-6883-0691](https://orcid.org/0009-0007-6883-0691)
@@ -372,6 +391,14 @@ on June 17, 2023.
   <br>
   <small>
      Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  </small>
+
++ **Matthew R. Lueder**<br>
+    ![ORCID icon](images/orcid.png){.inline_icon}
+    [0009-0002-7370-102X](https://orcid.org/0009-0002-7370-102X)
+  <br>
+  <small>
+     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Department of Pathology and Laboratory Medicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
   </small>
 
 + **Noel Coleman**<br>
@@ -548,11 +575,13 @@ on June 17, 2023.
 |Adam A. Kraya|Methodology|
 |Xiaoyan Huang|Formal analysis|
 |Bo Zhang|Data curation, Formal analysis|
+|Chuwei Zhong|Formal analysis|
 |Zhuangzhuang Geng|Data curation, Formal analysis, Investigation, Methodology, Software, Writing – Original draft|
 |Brian M. Ennis|Data curation, Formal analysis|
 |Ryan J. Corbett|Formal analysis|
 |Sharon J. Diskin|Investigation, Supervision, Validation, Funding acquisition, Writing - Review and editing|
 |Nicholas Van Kuren|Data curation, Software|
+|Matthew R. Lueder|Data curation|
 |Noel Coleman|Data curation|
 |Christopher Blackden|Resources|
 |Jennifer L. Mason|Supervision|
