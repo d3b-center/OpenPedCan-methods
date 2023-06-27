@@ -7,7 +7,7 @@ keywords:
 - classification
 - somatic variation
 lang: en-US
-date-meta: '2023-06-22'
+date-meta: '2023-06-27'
 author-meta:
 - Eric Wafula
 - Sangeeta Shukla
@@ -53,8 +53,8 @@ header-includes: |-
   <meta name="citation_title" content="The Open Pediatric Cancer Project" />
   <meta property="og:title" content="The Open Pediatric Cancer Project" />
   <meta property="twitter:title" content="The Open Pediatric Cancer Project" />
-  <meta name="dc.date" content="2023-06-22" />
-  <meta name="citation_publication_date" content="2023-06-22" />
+  <meta name="dc.date" content="2023-06-27" />
+  <meta name="citation_publication_date" content="2023-06-27" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -207,9 +207,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://d3b-center.github.io/OpenPedCan-methods/" />
   <meta name="citation_pdf_url" content="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/fa7a92983cf7734f16e8e834c9529e1b9a9d2f50/" />
-  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/fa7a92983cf7734f16e8e834c9529e1b9a9d2f50/" />
-  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/fa7a92983cf7734f16e8e834c9529e1b9a9d2f50/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/bbbb01b204201588f89d655a107f66b798a2ad18/" />
+  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/bbbb01b204201588f89d655a107f66b798a2ad18/" />
+  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/bbbb01b204201588f89d655a107f66b798a2ad18/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -231,10 +231,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/fa7a92983cf7734f16e8e834c9529e1b9a9d2f50/))
+([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/bbbb01b204201588f89d655a107f66b798a2ad18/))
 was automatically generated
-from [d3b-center/OpenPedCan-methods@fa7a929](https://github.com/d3b-center/OpenPedCan-methods/tree/fa7a92983cf7734f16e8e834c9529e1b9a9d2f50)
-on June 22, 2023.
+from [d3b-center/OpenPedCan-methods@bbbb01b](https://github.com/d3b-center/OpenPedCan-methods/tree/bbbb01b204201588f89d655a107f66b798a2ad18)
+on June 27, 2023.
 </em></small>
 
 ## Authors
@@ -846,8 +846,34 @@ Please refer to the module linked above for more detailed documentation and scri
 
 
 
-### Tumor Mutation Burden (`snv-callers` analysis module)
+### Tumor Mutation Burden [TMB] (`tmb-calculation` analysis module)
 
+Recent clinical studies have associated high TMB with improved patient response rates and survival benefit from immune checkpoint inhibitors [@doi.org/10.1002/gcc.22733]. 
+
+The [Tumor Mutation Burden (TMB) `tmb-calculation`](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/tmb-calculation) module was adapted from the [`snv-callers` module](https://github.com/AlexsLemonade/OpenPBTA-analysis/tree/master/analyses/snv-callers) of the OpenPBTA project [@doi:10.1016/j.xgen.2023.100340].
+Here, we use mutations in the `snv-consensus-plus-hotspots.maf.tsv.gz` file which is generated using [Kids First DRC Consensus Calling Workflow](https://github.com/kids-first/kf-somatic-workflow/blob/master/docs/kfdrc-consensus-calling.md) and is included in the OpenPedCan data download. 
+The consensus MAF contains SNVs or MNVs called in at least 2 of the 4 callers (Mutect2, Strelka2, Lancet, and Vardict) plus hotspot mutations if called in 1 of the 4 callers.
+We calculated TMB for tumor samples sequenced  with either WGS or WXS.
+Briefly, we split the SNV consensus MAF into SNVs and multinucleotide variants (MNVs). 
+We split the MNV subset into SNV calls, merged those back with the SNVs subset, and then removed sample-specific redundant calls.
+The resulting merged and non-redundant SNV consensus calls were used as input for the TMB calculation.
+We tallied only nonsynonymous variants with classifications of high/moderate consequence ("Missense_Mutation", "Frame_Shift_Del", "In_Frame_Ins", "Frame_Shift_Ins", "Splice_Site", "Nonsense_Mutation", "In_Frame_Del", "Nonstop_Mutation", and "Translation_Start_Site") for the numerator.
+
+**All mutation TMB**
+For WGS samples, we calculated the size of the genome covered as the intersection of Strelka2 and Mutect2's effectively surveyed areas, regions common to all variant callers, and used this as the denominator.
+`WGS_all_mutations_TMB = (total # mutations in consensus MAF) / intersection_strelka_mutect_vardict_genome_size`
+For WXS samples, we used the size of the WXS bed region file as the denominator.
+`WXS_all_mutations_TMB = (total # mutations in consensus MAF)) / wxs_genome_size`
+
+**Coding only TMB**
+We generated coding only TMB from the consensus MAF as well.
+We calculated the intersection for Strelka2 and Mutect2 surveyed regions using the coding sequence ranges in the GENCODE v39 gtf supplied in the OpenPedCan data download. 
+We removed SNVs outside of these coding sequences prior to implementing the TMB calculation below:
+`WGS_coding_only_TMB = (total # coding mutations in consensus MAF) / intersection_wgs_strelka_mutect_vardict_CDS_genome_size`
+For WXS samples, we intersected each WXS bed region file with the GENCODE v39 coding sequence, sum only variants within this region for the numerator, and calculate the size of this region as the denominator.
+`WXS_coding_only_TMB = (total # coding mutations in consensus MAF) / intersection_wxs_CDS_genome_size`
+
+Finally, we include an option (`nonsynfilter_focr`) to use specific nonsynonymous mutation variant classifications recommended from the [TMB Harmonization Project](https://friendsofcancerresearch.org/tmb/).
 
 
 #### Clinical Data Harmonization
