@@ -38,16 +38,21 @@
   <meta name="author" content="Alvin Farrel" />
   <meta name="author" content="Deanne Taylor" />
   <meta name="author" content="Jo Lynne Rokita^" />
-  <meta name="dcterms.date" content="2023-06-27" />
+  <meta name="dcterms.date" content="2024-05-07" />
   <meta name="keywords" content="pediatric cancer, reproducibility, open science, classification, somatic variation" />
   <title>The Open Pediatric Cancer Project</title>
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
     div.csl-bib-body { }
     div.csl-entry {
       clear: both;
@@ -73,12 +78,16 @@
   Suggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html
   -->
   <meta name="dc.format" content="text/html" />
+  <meta property="og:type" content="article" />
   <meta name="dc.title" content="The Open Pediatric Cancer Project" />
   <meta name="citation_title" content="The Open Pediatric Cancer Project" />
   <meta property="og:title" content="The Open Pediatric Cancer Project" />
   <meta property="twitter:title" content="The Open Pediatric Cancer Project" />
-  <meta name="dc.date" content="2023-06-27" />
-  <meta name="citation_publication_date" content="2023-06-27" />
+  <meta name="dc.date" content="2024-05-07" />
+  <meta name="citation_publication_date" content="2024-05-07" />
+  <meta property="article:published_time" content="2024-05-07" />
+  <meta name="dc.modified" content="2024-05-07T13:53:27+00:00" />
+  <meta property="article:modified_time" content="2024-05-07T13:53:27+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -231,9 +240,9 @@
   <meta name="citation_fulltext_html_url" content="https://d3b-center.github.io/OpenPedCan-methods/" />
   <meta name="citation_pdf_url" content="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/bbbb01b204201588f89d655a107f66b798a2ad18/" />
-  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/bbbb01b204201588f89d655a107f66b798a2ad18/" />
-  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/bbbb01b204201588f89d655a107f66b798a2ad18/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/721aab75e5dc02b14b325df4e744ecdb385fb0ac/" />
+  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/721aab75e5dc02b14b325df4e744ecdb385fb0ac/" />
+  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/721aab75e5dc02b14b325df4e744ecdb385fb0ac/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -250,10 +259,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://d3b-center.github.io/OpenPedCan-methods/v/bbbb01b204201588f89d655a107f66b798a2ad18/">permalink</a>)
+(<a href="https://d3b-center.github.io/OpenPedCan-methods/v/721aab75e5dc02b14b325df4e744ecdb385fb0ac/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/d3b-center/OpenPedCan-methods/tree/bbbb01b204201588f89d655a107f66b798a2ad18">d3b-center/OpenPedCan-methods@bbbb01b</a>
-on June 27, 2023.
+from <a href="https://github.com/d3b-center/OpenPedCan-methods/tree/721aab75e5dc02b14b325df4e744ecdb385fb0ac">d3b-center/OpenPedCan-methods@721aab7</a>
+on 2024-05-07.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -508,6 +517,43 @@ Center for Data-Driven Discovery in Biomedicine, Children’s Hospital of Philad
 <h2 id="keywords">Keywords</h2>
 <!-- We encourage you to include up to ten keywords with your paper. These keywords will be associated with your paper on Cell Press platforms and on PubMed. These keywords should be listed in the manuscript after the summary, separated by commas. -->
 <h2 id="introduction">Introduction</h2>
+<p>The Open Pediatric Cancer (OpenPedCan) project at the Children’s Hospital of Philadelphia is an open analysis effort in which we harmonize pediatric cancer data from multiple sources, perform downstream cancer analyses on these data, and provide them on PedcBioPortal and v2.1 of NCI’s <a href="https://moleculartargets.ccdi.cancer.gov/">Pediatric Molecular Targets Platform (MTP)</a>.
+The OpenPedCan analyses currently include the following datasets, described more fully below:</p>
+<ul>
+<li>TARGET</li>
+<li>Kids First Neuroblastoma</li>
+<li>OpenPBTA</li>
+<li>GTEx</li>
+<li>TCGA</li>
+<li>DGD (CHOP P30 Panel)</li>
+</ul>
+<p><strong>Open Pediatric Brain Tumor Atlas (OpenPBTA)</strong>
+In September of 2018, the <a href="https://cbtn.org/">Children’s Brain Tumor Network (CBTN)</a> released the <a href="https://cbtn.org/pediatric-brain-tumor-atlas/">Pediatric Brain Tumor Atlas (PBTA)</a>, a genomic dataset (whole genome sequencing, whole exome sequencing, RNA sequencing, proteomic, and clinical data) for nearly 1,000 tumors, available from the <a href="https://kidsfirstdrc.org/">Gabriella Miller Kids First Portal</a>.
+In September of 2019, the Open Pediatric Brain Tumor Atlas (OpenPBTA) Project was launched.
+OpenPBTA was a global open science initiative to comprehensively define the molecular landscape of tumors of 943 patients from the CBTN and the PNOC003 DIPG clinical trial from the <a href="http://www.pnoc.us/">Pediatric Pacific Neuro-oncology Consortium</a> through real-time, collaborative analyses and <a href="https://github.com/AlexsLemonade/OpenPBTA-manuscript/">collaborative manuscript writing</a> on GitHub, now published in <a href="10.1016/j.xgen.2023.100340"><em>Cell Genomics</em></a>.
+Additional PBTA data has been, and will be continually added to, OpenPedCan.</p>
+<p><strong>Therapeutically Applicable Research to Generate Effective Treatments <a href="https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000218.v23.p8">(TARGET)</a></strong>
+The Therapeutically Applicable Research to Generate Effective Treatments (TARGET) Initiative is an NCI-funded collection of disease-specific projects that seeks to identify the genomic changes of pediatric cancers.
+The overall goal is to collect genomic data to accelerate the development of more effective therapies.
+OpenPedCan analyses include the seven diseases present in the TARGET dataset: Acute Lymphoblastic Leukemia (ALL), Acute Myeloid Leukemia (AML), Clear cell sarcoma of the kidney, Neuroblastoma, Osteosarcoma, Rhabdoid tumor, and Wilm’s Tumor.</p>
+<p><strong>Gabriella Miller Kids First Neuroblastoma <a href="https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001436.v1.p1">(Kids First)</a></strong>
+The Gabriella Miller Kids First Pediatric Research Program (Kids First) is a large-scale effort to accelerate research and gene discovery in pediatric cancers and structural birth defects.
+The program includes whole genome sequencing (WGS) from patients with pediatric cancers and structural birth defects and their families.
+OpenPedCan analyses include Neuroblastoma data from the Kids First project.</p>
+<p><strong>The Genotype-Tissue Expression <a href="https://gtexportal.org/home/">(GTEx)</a></strong>
+GTEx project is an ongoing effort to build a comprehensive public data resource and tissue bank to study tissue-specific gene expression, regulation and their relationship with genetic variants.
+Samples were collected from 54 non-diseased tissue sites across nearly 1000 individuals, primarily for molecular assays including WGS, WES, and RNA-Seq.
+OpenPedCan project includes 17,382 GTEx RNA-Seq samples from GTEx v8 release, which span across 31 GTEx groups in the v12 release.</p>
+<p><strong>The Cancer Genome Atlas Program <a href="https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga">(TCGA)</a></strong>
+TCGA is a landmark cancer genomics program that molecularly characterized over 20,000 primary cancer and matched normal samples spanning 33 cancer types.
+It is a joint effort between NCI and the National Human Genome Research Institute.
+OpenPedCan project includes 10,414 TCGA RNA-Seq samples (716 normal and 9698 tumor) from <a href="https://github.com/PediatricOpenTargets/OpenPedCan-analysis/blob/0a5c14705a385c99a6a16e34e932e94009b7a11c/analyses/molecular-subtyping-integrate/results/tcga_cancer_groups.tsv">33 cancer types</a> in the v12 release.</p>
+<p><strong>DGD <a href="https://www.chop.edu/cancer-panels">(CHOP P30 Panel)</a></strong>
+CHOP’s <a href="https://www.chop.edu/centers-programs/division-genomic-diagnostics">Division of Genome Diagnostics</a> has partnered with CCDI to add somatic panel sequencing data to OpenPedCan and the Molecular Targets Platform.</p>
+<p>The OpenPedCan operates on a pull request model to accept contributions from community participants.
+The maintainers have set up continuous integration software via GitHub Actions to confirm the reproducibility of analyses within the project’s Docker container.</p>
+<p>The project maintainers include scientists from the <a href="https://d3b.center/">Center for Data-Driven Discovery in Biomedicine at the Children’s Hospital of Philadelphia</a>.
+We invite researchers to join OpenPedCan to help rigorously characterize the genomic landscape of these diseases to enable more rapid discovery of additional mechanisms contributing to the pathogenesis of pediatric brain and spinal cord tumors and overall accelerate clinical translation on behalf of patients.</p>
 <h2 id="results">Results</h2>
 <h2 id="discussion">Discussion</h2>
 <h2 id="acknowledgments">Acknowledgments</h2>
@@ -950,6 +996,9 @@ These methods resolved &gt;99% of duplicated gene-level status calls.</p>
 After artifact filtering, fusions were prioritized and annotated as “putative oncogenic fusions” when at least one gene was a known kinase, oncogene, tumor suppressor, curated transcription factor, on the COSMIC Cancer Gene Census List, or observed in TCGA.
 Fusions were retained in this module if they were called by both callers, recurrent or specific to a cancer group, or annotated as a putative oncogenic fusion.
 Please refer to the module linked above for more detailed documentation and scripts.</p>
+<h5 id="splicing-quantification">Splicing quantification</h5>
+<p>To detect alternative splicing events, we utilized rMATS turbo (v. 4.1.0) with Ensembl/GENCODE v39 GFF annotations using the <a href="https://github.com/kids-first/kf-rnaseq-workflow/blob/master/workflow/rmats_wf.cwl">Kids First RNA-Seq workflow</a>.
+We used <code>--variable-read-length</code> and <code>-t paired</code> options and applied an additional filter to include only splicing events with total junction read counts greater than 10.</p>
 <h4 id="mutational-signatures-mutational-signatures-analysis-module">Mutational Signatures (<code>mutational-signatures</code> analysis module)</h4>
 <h3 id="tumor-mutation-burden-tmb-tmb-calculation-analysis-module">Tumor Mutation Burden [TMB] (<code>tmb-calculation</code> analysis module)</h3>
 <p>Recent clinical studies have associated high TMB with improved patient response rates and survival benefit from immune checkpoint inhibitors <span class="citation" data-cites="doi.org/10.1002/gcc.22733">[<a href="#ref-doi.org/10.1002/gcc.22733" role="doc-biblioref"><strong>doi.org/10.1002/gcc.22733?</strong></a>]</span>.</p>
@@ -1020,10 +1069,10 @@ For each input participant of an analysis, the independent biospecimen is select
 <div class="csl-left-margin">3. </div><div class="csl-right-inline"><strong>dbGaP Study</strong> <a href="https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002517.v1.p1">https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002517.v1.p1</a></div>
 </div>
 <div id="ref-5VXMHJ7N" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">4. </div><div class="csl-right-inline"><strong>OpenPBTA: The Open Pediatric Brain Tumor Atlas</strong> <div class="csl-block">Joshua A Shapiro, Krutika S Gaonkar, Stephanie J Spielman, Candace L Savonen, Chante J Bethell, Run Jin, Komal S Rathi, Yuankun Zhu, Laura E Egolf, Bailey K Farrow, … Jaclyn N Taroni</div> <em>Cell Genomics</em> (2023-05) <a href="https://doi.org/gr92p6">https://doi.org/gr92p6</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.xgen.2023.100340">10.1016/j.xgen.2023.100340</a></div></div>
+<div class="csl-left-margin">4. </div><div class="csl-right-inline"><strong>OpenPBTA: The Open Pediatric Brain Tumor Atlas</strong> <div class="csl-block">Joshua A Shapiro, Krutika S Gaonkar, Stephanie J Spielman, Candace L Savonen, Chante J Bethell, Run Jin, Komal S Rathi, Yuankun Zhu, Laura E Egolf, Bailey K Farrow, … Jaclyn N Taroni</div> <em>Cell Genomics</em> (2023-07) <a href="https://doi.org/gr92p6">https://doi.org/gr92p6</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.xgen.2023.100340">10.1016/j.xgen.2023.100340</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/37492101">37492101</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10363844">PMC10363844</a></div></div>
 </div>
 <div id="ref-HIcmeg1x" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">5. </div><div class="csl-right-inline"><strong>FY21 X01 Projects for the Gabriella Miller Kids First Program</strong> (2021-09-02) <a href="https://commonfund.nih.gov/kidsfirst/2021x01projects">https://commonfund.nih.gov/kidsfirst/2021x01projects</a></div>
+<div class="csl-left-margin">5. </div><div class="csl-right-inline"><strong>2021 X01 Projects Abstracts | NIH Common Fund</strong> <a href="https://commonfund.nih.gov/kidsfirst/2021X01projects#FY21_Resnick">https://commonfund.nih.gov/kidsfirst/2021X01projects#FY21_Resnick</a></div>
 </div>
 <div id="ref-OePr0Q2g" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">6. </div><div class="csl-right-inline"><strong>Home</strong> <div class="csl-block">Chordoma Foundation</div> <a href="https://www.chordomafoundation.org/">https://www.chordomafoundation.org/</a></div>
@@ -1050,7 +1099,7 @@ For each input participant of an analysis, the independent biospecimen is select
 <div class="csl-left-margin">13. </div><div class="csl-right-inline"><strong>Genome-wide somatic variant calling using localized colored de Bruijn graphs</strong> <div class="csl-block">Giuseppe Narzisi, André Corvelo, Kanika Arora, Ewa A Bergmann, Minita Shah, Rajeeva Musunuri, Anne-Katrin Emde, Nicolas Robine, Vladimir Vacic, Michael C Zody</div> <em>Communications Biology</em> (2018-03-22) <a href="https://doi.org/gfcfr8">https://doi.org/gfcfr8</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s42003-018-0023-9">10.1038/s42003-018-0023-9</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30271907">30271907</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6123722">PMC6123722</a></div></div>
 </div>
 <div id="ref-lxeJKtdW" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">14. </div><div class="csl-right-inline"><a href="https://academic.oup.com/bioinformatics/article/27/2/268/285534?login=false">https://academic.oup.com/bioinformatics/article/27/2/268/285534?login=false</a></div>
+<div class="csl-left-margin">14. </div><div class="csl-right-inline"><a href="https://doi.org/10.1093/bioinformatics/btq635">https://doi.org/10.1093/bioinformatics/btq635</a></div>
 </div>
 <div id="ref-SkCgiJ0s" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">15. </div><div class="csl-right-inline"><a href="https://academic.oup.com/bioinformatics/article/28/3/423/189142">https://academic.oup.com/bioinformatics/article/28/3/423/189142</a></div>

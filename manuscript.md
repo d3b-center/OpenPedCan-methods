@@ -7,7 +7,7 @@ keywords:
 - classification
 - somatic variation
 lang: en-US
-date-meta: '2023-06-27'
+date-meta: '2024-05-07'
 author-meta:
 - Eric Wafula
 - Sangeeta Shukla
@@ -43,18 +43,22 @@ author-meta:
 - Alvin Farrel
 - Deanne Taylor
 - Jo Lynne Rokita^
-header-includes: |-
+header-includes: |
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
   Suggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html
   -->
   <meta name="dc.format" content="text/html" />
+  <meta property="og:type" content="article" />
   <meta name="dc.title" content="The Open Pediatric Cancer Project" />
   <meta name="citation_title" content="The Open Pediatric Cancer Project" />
   <meta property="og:title" content="The Open Pediatric Cancer Project" />
   <meta property="twitter:title" content="The Open Pediatric Cancer Project" />
-  <meta name="dc.date" content="2023-06-27" />
-  <meta name="citation_publication_date" content="2023-06-27" />
+  <meta name="dc.date" content="2024-05-07" />
+  <meta name="citation_publication_date" content="2024-05-07" />
+  <meta property="article:published_time" content="2024-05-07" />
+  <meta name="dc.modified" content="2024-05-07T13:53:27+00:00" />
+  <meta property="article:modified_time" content="2024-05-07T13:53:27+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -207,9 +211,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://d3b-center.github.io/OpenPedCan-methods/" />
   <meta name="citation_pdf_url" content="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/bbbb01b204201588f89d655a107f66b798a2ad18/" />
-  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/bbbb01b204201588f89d655a107f66b798a2ad18/" />
-  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/bbbb01b204201588f89d655a107f66b798a2ad18/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/721aab75e5dc02b14b325df4e744ecdb385fb0ac/" />
+  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/721aab75e5dc02b14b325df4e744ecdb385fb0ac/" />
+  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/721aab75e5dc02b14b325df4e744ecdb385fb0ac/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -231,10 +235,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/bbbb01b204201588f89d655a107f66b798a2ad18/))
+([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/721aab75e5dc02b14b325df4e744ecdb385fb0ac/))
 was automatically generated
-from [d3b-center/OpenPedCan-methods@bbbb01b](https://github.com/d3b-center/OpenPedCan-methods/tree/bbbb01b204201588f89d655a107f66b798a2ad18)
-on June 27, 2023.
+from [d3b-center/OpenPedCan-methods@721aab7](https://github.com/d3b-center/OpenPedCan-methods/tree/721aab75e5dc02b14b325df4e744ecdb385fb0ac)
+on 2024-05-07.
 </em></small>
 
 ## Authors
@@ -542,6 +546,50 @@ on June 27, 2023.
 
 ## Introduction
 
+The Open Pediatric Cancer (OpenPedCan) project at the Children’s Hospital of Philadelphia is an open analysis effort in which we harmonize pediatric cancer data from multiple sources, perform downstream cancer analyses on these data, and provide them on PedcBioPortal and v2.1 of NCI's [Pediatric Molecular Targets Platform (MTP)](https://moleculartargets.ccdi.cancer.gov/).
+The OpenPedCan analyses currently include the following datasets, described more fully below:
+
+- TARGET
+- Kids First Neuroblastoma
+- OpenPBTA
+- GTEx
+- TCGA
+- DGD (CHOP P30 Panel)
+
+**Open Pediatric Brain Tumor Atlas (OpenPBTA)**
+In September of 2018, the [Children's Brain Tumor Network (CBTN)](https://cbtn.org/) released the [Pediatric Brain Tumor Atlas (PBTA)](https://cbtn.org/pediatric-brain-tumor-atlas/), a genomic dataset (whole genome sequencing, whole exome sequencing, RNA sequencing, proteomic, and clinical data) for nearly 1,000 tumors, available from the [Gabriella Miller Kids First Portal](https://kidsfirstdrc.org/).
+In September of 2019, the Open Pediatric Brain Tumor Atlas (OpenPBTA) Project was launched.
+OpenPBTA was a global open science initiative to comprehensively define the molecular landscape of tumors of 943 patients from the CBTN and the PNOC003 DIPG clinical trial from the [Pediatric Pacific Neuro-oncology Consortium](http://www.pnoc.us/) through real-time, collaborative analyses and [collaborative manuscript writing](https://github.com/AlexsLemonade/OpenPBTA-manuscript/) on GitHub, now published in [_Cell Genomics_](10.1016/j.xgen.2023.100340).
+Additional PBTA data has been, and will be continually added to, OpenPedCan.
+
+**Therapeutically Applicable Research to Generate Effective Treatments [(TARGET)](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000218.v23.p8)**
+The Therapeutically Applicable Research to Generate Effective Treatments (TARGET) Initiative is an NCI-funded collection of disease-specific projects that seeks to identify the genomic changes of pediatric cancers. 
+The overall goal is to collect genomic data to accelerate the development of more effective therapies.
+OpenPedCan analyses include the seven diseases present in the TARGET dataset: Acute Lymphoblastic Leukemia (ALL), Acute Myeloid Leukemia (AML), Clear cell sarcoma of the kidney, Neuroblastoma, Osteosarcoma, Rhabdoid tumor, and Wilm’s Tumor.
+
+**Gabriella Miller Kids First Neuroblastoma [(Kids First)](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001436.v1.p1)**
+The Gabriella Miller Kids First Pediatric Research Program (Kids First) is a large-scale effort to accelerate research and gene discovery in pediatric cancers and structural birth defects.
+The program includes whole genome sequencing (WGS) from patients with pediatric cancers and structural birth defects and their families.
+OpenPedCan analyses include Neuroblastoma data from the Kids First project.
+
+**The Genotype-Tissue Expression [(GTEx)](https://gtexportal.org/home/)**
+GTEx project is an ongoing effort to build a comprehensive public data resource and tissue bank to study tissue-specific gene expression, regulation and their relationship with genetic variants.
+Samples were collected from 54 non-diseased tissue sites across nearly 1000 individuals, primarily for molecular assays including WGS, WES, and RNA-Seq.
+OpenPedCan project includes 17,382 GTEx RNA-Seq samples from GTEx v8 release, which span across 31 GTEx groups in the v12 release.
+
+**The Cancer Genome Atlas Program [(TCGA)](https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga)**
+TCGA is a landmark cancer genomics program that molecularly characterized over 20,000 primary cancer and matched normal samples spanning 33 cancer types.
+It is a joint effort between NCI and the National Human Genome Research Institute.
+OpenPedCan project includes 10,414 TCGA RNA-Seq samples (716 normal and 9698 tumor) from [33 cancer types](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/blob/0a5c14705a385c99a6a16e34e932e94009b7a11c/analyses/molecular-subtyping-integrate/results/tcga_cancer_groups.tsv) in the v12 release.
+
+**DGD [(CHOP P30 Panel)](https://www.chop.edu/cancer-panels)**
+CHOP's [Division of Genome Diagnostics](https://www.chop.edu/centers-programs/division-genomic-diagnostics) has partnered with CCDI to add somatic panel sequencing data to OpenPedCan and the Molecular Targets Platform.
+
+The OpenPedCan operates on a pull request model to accept contributions from community participants.
+The maintainers have set up continuous integration software via GitHub Actions to confirm the reproducibility of analyses within the project’s Docker container.
+
+The project maintainers include scientists from the [Center for Data-Driven Discovery in Biomedicine at the Children's Hospital of Philadelphia](https://d3b.center/).
+We invite researchers to join OpenPedCan to help rigorously characterize the genomic landscape of these diseases to enable more rapid discovery of additional mechanisms contributing to the pathogenesis of pediatric brain and spinal cord tumors and overall accelerate clinical translation on behalf of patients.
 
 
 ## Results
@@ -624,8 +672,8 @@ This study did not create new, unique reagents.
 
 #### Data and code availability
 
-Within OpenPedCan (OPC), we harmonized, aggregated, and analyzed data from multiple sources. 
-We harmonized data from the Therapeutically Applicable Research to Generate Effective Treatments (TARGET cohort) Initiative, an NCI-funded collection of disease-specific projects that seeks to identify the genomic changes of pediatric cancers [@dbgap:phs000218.v23.p8]. 
+Within OpenPedCan (OPC), we harmonized, aggregated, and analyzed data from multiple sources.
+We harmonized data from the Therapeutically Applicable Research to Generate Effective Treatments (TARGET cohort) Initiative, an NCI-funded collection of disease-specific projects that seeks to identify the genomic changes of pediatric cancers [@dbgap:phs000218.v23.p8].
 We included already harmonized neuroblastoma samples from the Gabriella Miller Kids First (GMKF cohort) Pediatric Research Program, a large-scale effort to accelerate research and gene discovery in pediatric cancers and structural birth defects [@dbgap:phs001436.v1.p1].
 Additionally, we re-harmonized all samples from the Open Pediatric Brain Tumor Atlas (OpenPBTA, PBTA cohort), an open science initiative led by Alex’s Lemonade Stand Foundation Childhood Cancer Data Lab and the Center for Data-Driven Discovery (D3B) at the Children’s Hospital of Philadelphia (CHOP), which genomically characterized pediatric brain tumor data from the Children’s Brain Tumor Network (CBTN), and the Pacific Pediatric Neuro-oncology Consortium (PNOC) [@dbgap:phs002517.v1.p1; @doi:10.1016/j.xgen.2023.100340].
 Building on the work of OpenPBTA, OPC added the PBTA X01 data [@https://commonfund.nih.gov/kidsfirst/2021X01projects#FY21_Resnick], the Chordoma Foundation data [@https://www.chordomafoundation.org/], and the MI-ONCOSEQ Study [@https://www.pathology.med.umich.edu/mctp/mi-oncoseq-study], donated to CBTN by the University of Michigan, to the PBTA cohort.
@@ -641,7 +689,7 @@ OpenPBTA module analyses can be found at [https://github.com/AlexsLemonade/OpenP
 OpenPedCan module analyses can be found at [https://github.com/PediatricOpenTargets/OpenPedCan-analysis](https://github.com/PediatricOpenTargets/OpenPedCan-analysis).
 OpenPedCan api code can be found at [https://github.com/PediatricOpenTargets/OpenPedCan-api](https://github.com/PediatricOpenTargets/OpenPedCan-api).
 
-All original code was developed within the following modules in the OpenPedCan analyses repository as listed below. Links to the modules are available here, and within each module is a detailed README that describes the purpose and intended usage of the scripts, along with pointers to the results from the data those scripts process. 
+All original code was developed within the following modules in the OpenPedCan analyses repository as listed below. Links to the modules are available here, and within each module is a detailed README that describes the purpose and intended usage of the scripts, along with pointers to the results from the data those scripts process.
 
 
 | List of OpenPedCan Analyses Modules                                                                                                                                   |
@@ -688,7 +736,7 @@ All original code was developed within the following modules in the OpenPedCan a
 | [rna-seq-expression-summary-stats](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/rna-seq-expression-summary-stats)           |
 | [rnaseq-batch-correct](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/rnaseq-batch-correct)                                   |
 | [run-gistic](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/run-gistic)                                                       |
-| [snv-frequencies](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/snv-frequencies)                                             |
+| [snv-frequencies](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/snv-frequencies)
 | [tmb-calculation](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/tmb-calculation)                                             |
 | [tp53_nf1_score](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/tp53_nf1_score)                                               |
 | [tumor-gtex-plots](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/tumor-gtex-plots)                                           |
@@ -698,8 +746,8 @@ All original code was developed within the following modules in the OpenPedCan a
 Software versions are documented in **Table XX**.
 
 #### Data releases
-We maintained a data release folder on Amazon S3, downloadable directly from S3 or our open-access CAVATICA project, with merged files for each analysis (See data and code availability section). 
-As we produced new results that we expected to be used across multiple analyses, or identified data issues, we created new data releases in a versioned manner. 
+We maintained a data release folder on Amazon S3, downloadable directly from S3 or our open-access CAVATICA project, with merged files for each analysis (See data and code availability section).
+As we produced new results that we expected to be used across multiple analyses, or identified data issues, we created new data releases in a versioned manner.
 
 ### METHOD DETAILS
 
@@ -707,20 +755,20 @@ As we produced new results that we expected to be used across multiple analyses,
 For the PBTA X01 cohort, libraries were prepped using the Illumina TruSeq Strand-Specific Protocol to pull out poly-adenylated transcripts.
 
 **cDNA Library Construction**
-Total RNA was quantified using the Quant-iT™ RiboGreen® RNA Assay Kit and normalized to 5ng/ul. 
-Following plating, 2 uL of ERCC controls (using a 1:1000 dilution) were spiked into each sample. 
-An aliquot of 325 ng for each sample was transferred into library preparation. 
-The resultant 400bp cDNA went through dual-indexed library preparation: ‘A’ base addition, adapter ligation using P7 adapters, and PCR enrichment using P5 adapters. 
-After enrichment, the libraries were quantified using Quant-iT PicoGreen (1:200 dilution). 
-Samples were normalized to 5 ng/uL. 
-The sample set was pooled and quantified using the KAPA Library Quantification Kit for Illumina Sequencing Platforms. 
+Total RNA was quantified using the Quant-iT™ RiboGreen® RNA Assay Kit and normalized to 5ng/ul.
+Following plating, 2 uL of ERCC controls (using a 1:1000 dilution) were spiked into each sample.
+An aliquot of 325 ng for each sample was transferred into library preparation.
+The resultant 400bp cDNA went through dual-indexed library preparation: ‘A’ base addition, adapter ligation using P7 adapters, and PCR enrichment using P5 adapters.
+After enrichment, the libraries were quantified using Quant-iT PicoGreen (1:200 dilution).
+Samples were normalized to 5 ng/uL.
+The sample set was pooled and quantified using the KAPA Library Quantification Kit for Illumina Sequencing Platforms.
 
 
 #### Data generation
 **PBTA X01 Illumina Sequencing**
-Pooled libraries were normalized to 2nM and denatured using 0.1 N NaOH prior to sequencing. 
-Flowcell cluster amplification and sequencing were performed according to the manufacturer’s protocols using the NovaSeq 6000. 
-Each run was a 151bp paired-end with an eight-base index barcode read. 
+Pooled libraries were normalized to 2nM and denatured using 0.1 N NaOH prior to sequencing.
+Flowcell cluster amplification and sequencing were performed according to the manufacturer’s protocols using the NovaSeq 6000.
+Each run was a 151bp paired-end with an eight-base index barcode read.
 Data was analyzed using the Broad Picard Pipeline which includes de-multiplexing and data aggregation.
 
 #### DNA WGS Alignment
@@ -742,13 +790,13 @@ Somatic variants were annotated by the Ensembl Variant Effect Predictor (VEP v.1
 <!-- TODO: needs update -->
 
 ##### Consensus SNV Calling
-We adopted the consensus SNV calling method described in OpenPBTA manuscript with adjustment [@doi:10.1016/j.xgen.2023.100340]. 
+We adopted the consensus SNV calling method described in OpenPBTA manuscript with adjustment [@doi:10.1016/j.xgen.2023.100340].
 For SNV calling, we combined four consensus SNV calling algorithms, including Strelka2[@doi:10.1038/s41592-018-0051-x], Mutect2[@doi:10.1101/861054], Lancet[@doi:10.1038/s42003-018-0023-9], and VarDict[@doi: 10.1093/nar/gkw227].
 Strelka2 outputs multi-nucleotide polymorphisms (MNPs) as consecutive single-nucleotide polymorphisms.
 In order preserve MNPs, we gather MNP calls from the other caller inputs, and search for evidence supporting these consecutive SNP calls as MNP candidates.
 Once found, the Strelka2 SNP calls supporting a MNP are converted to a single MNP call.
 This is done to preserve the predicted gene model as accurately as possible in our consensus calls.
-Consensus SNV from all four callers were collected and by default, calls that were detected in at least two calling algorithms or marked as "HotSpotAllele" were retained. 
+Consensus SNV from all four callers were collected and by default, calls that were detected in at least two calling algorithms or marked as "HotSpotAllele" were retained.
 Potential non-hotspot germline variants were removed if they had a normal depth <= 7 and gnomAD allele frequency > 0.001.
 Final results were saved in MAF format.
 
@@ -756,14 +804,14 @@ Final results were saved in MAF format.
 <!-- TODO: needs update -->
 
 ##### Consensus CNV Calling
-We adopted the consensus CNV calling described in OpenPBTA manuscript [doi:10.1016/j.xgen.2023.100340] with minor adjustments. 
+We adopted the consensus CNV calling described in OpenPBTA manuscript [doi:10.1016/j.xgen.2023.100340] with minor adjustments.
 For each caller and sample with WGS performed, we called CNVs based on consensus among Control-FREEC ([@https://doi.org/10.1093/bioinformatics/btq635]; [@https://doi.org/10.1093/bioinformatics/btr670]), CNVkit ([@doi: 10.1371/journal.pcbi.1004873]), and GATK ([@doi:
-10.1101/gr.107524.110]). 
-Sample and consensus caller files with more than 2,500 CNVs were removed to de-noise and increase data quality, based on cutoffs used in GISTIC ([@https://doi.org/10.1186/gb-2011-12-4-r41]). 
-For each sample, we included the following regions in the final consensus set: 1) regions with reciprocal overlap of 50% or more between at least two of the callers; 2) smaller CNV regions in which more than 90% of regions were covered by another caller. 
-For GATK, if a panel of normal was not able to be created (required 30 male and 30 female with the same sequencing platform), consensus was not run for tumors with WGS performed on that sequencing platform. 
-We defined copy number as NA for any regions that had a neutral call for the samples included in the consensus file. 
-We merged CNV regions within 10,000 bp of each other with the same direction of gain or loss into single region. 
+10.1101/gr.107524.110]).
+Sample and consensus caller files with more than 2,500 CNVs were removed to de-noise and increase data quality, based on cutoffs used in GISTIC ([@https://doi.org/10.1186/gb-2011-12-4-r41]).
+For each sample, we included the following regions in the final consensus set: 1) regions with reciprocal overlap of 50% or more between at least two of the callers; 2) smaller CNV regions in which more than 90% of regions were covered by another caller.
+For GATK, if a panel of normal was not able to be created (required 30 male and 30 female with the same sequencing platform), consensus was not run for tumors with WGS performed on that sequencing platform.
+We defined copy number as NA for any regions that had a neutral call for the samples included in the consensus file.
+We merged CNV regions within 10,000 bp of each other with the same direction of gain or loss into single region.
 Any CNVs that overlapped 50% or more with immunoglobulin, telomeric, centromeric, segment duplicated regions, or that were shorter than 3000 bp were filtered out.
 The CNVKit calls for WXS samples were appended to the consensus CNV file.
 
@@ -772,49 +820,49 @@ Please refer to the OpenPBTA manuscript for details [@doi:10.1016/j.xgen.2023.10
 
 #### Methylation Analysis
 ##### Methylation array preprocessing
-We preprocessed raw Illumina 450K and EPIC 850K Infinium Human Methylation Bead Array intensities using the array preprocessing methods implemented in the `minfi Bioconductor package` [@doi:10.1093/bioinformatics/btw691]. 
-We utilized either `preprocessFunnorm` when an array dataset had both tumor and normal samples or multiple OpenPedcan-defined `cancer_groups` and `preprocessQuantile` when an array dataset had only tumor samples from a single OpenPedcan-defined `cancer_group` to estimate usable methylation measurements (`beta-values` and `m-values`) and copy number (`cn-values`). 
-Some Illumina Infinium array probes targeting CpG loci contain single-nucleotide polymorphisms (SNPs) near or within the probe [@doi:10.1038/bjc.2013.496], which could affect DNA methylation measurements [@doi:10.1186/s12864-015-2202-0]. 
+We preprocessed raw Illumina 450K and EPIC 850K Infinium Human Methylation Bead Array intensities using the array preprocessing methods implemented in the `minfi Bioconductor package` [@doi:10.1093/bioinformatics/btw691].
+We utilized either `preprocessFunnorm` when an array dataset had both tumor and normal samples or multiple OpenPedcan-defined `cancer_groups` and `preprocessQuantile` when an array dataset had only tumor samples from a single OpenPedcan-defined `cancer_group` to estimate usable methylation measurements (`beta-values` and `m-values`) and copy number (`cn-values`).
+Some Illumina Infinium array probes targeting CpG loci contain single-nucleotide polymorphisms (SNPs) near or within the probe [@doi:10.1038/bjc.2013.496], which could affect DNA methylation measurements [@doi:10.1186/s12864-015-2202-0].
 As the minfi preprocessing workflow recommends, we dropped probes containing common SNPs in dbSNP (minor allele frequency > 1%) at the CpG interrogation or the single nucleotide extensions.
 
 Details of methylation array preprocessing are available in the [OpenPedCan methylation-preprocessing module](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/methylation-preprocessing).
 
 ##### Methylation beta-values summaries
-We comprehensively summarized gene-level and isoform-level metrics for the methylation `beta-values` estimated by array preprocessing to provide insight into the variations in overall genomic DNA methylation levels observed across different pediatric tumors by computing CpG probe-level summary metrics in each cancer group within a cohort, including 1) `beta-values quantiles`, 2) `gene expression (TPM) and methylation (beta-values) correlation`, 3) `TPM median expression`, and 4) `transcript representation` - a proxy for percent isoform expression in a gene. 
-In addition, each CpG probe was annotated with a gene feature to identify the genomic regions likely involved in regulating gene expression. 
+We comprehensively summarized gene-level and isoform-level metrics for the methylation `beta-values` estimated by array preprocessing to provide insight into the variations in overall genomic DNA methylation levels observed across different pediatric tumors by computing CpG probe-level summary metrics in each cancer group within a cohort, including 1) `beta-values quantiles`, 2) `gene expression (TPM) and methylation (beta-values) correlation`, 3) `TPM median expression`, and 4) `transcript representation` - a proxy for percent isoform expression in a gene.
+In addition, each CpG probe was annotated with a gene feature to identify the genomic regions likely involved in regulating gene expression.
 
 Details of the analysis are available in the [OpenPedCan methylation-summary module](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/methylation-summary).
 
 ##### Methylation sample classification
-We ran the [dkfz's brain classifier version 12.5](https://www.molecularneuropathology.org/mnp/classifiers/11), a comprehensive DNA methylation-based classification of CNS tumors across all entities and age groups [@doi:10.1038/nature26000]. 
+We ran the [dkfz's brain classifier version 12.5](https://www.molecularneuropathology.org/mnp/classifiers/11), a comprehensive DNA methylation-based classification of CNS tumors across all entities and age groups [@doi:10.1038/nature26000].
 Unprocessed IDAT-files from the [Children's Brain Tumor Network (CBTN)](https://cbtn.org/) `Infinium Human Methylation EPIC (850k) BeadChip arrays` were used as input and the following information was compiled into the `histologies.tsv` file: `dkfz_v12_methylation_subclass` (predicted methylation subtype), `dkfz_v12_methylation_subclass_score` (classification score), `dkfz_v12_methylation_mgmt_status` (_MGMT_ methylation status), and `dkfz_v12_methylation_mgmt_estimated` (estimated _MGMT_ methylation fraction).
 
 
 
 #### Gene Expression
-The [`tumor-normal-differential-expression`](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/tumor-normal-differential-expression) module perfoms differential expression analyses for all sets of Disease (`cancer_group`) and Dataset (`cohort`) across all genes found in the `gene-expression-rsem-tpm-collapsed.rds` table. 
-The purpose of this analysis is to highlight the correlation and understand the variability in gene expression in different cancer conditions across different histological tissues. 
-For OpenPedCan v12 data release, this module performs expression analysis over 102 cancer groups across 52 histological tissues for all 54,346 genes found in the dataset. 
-This analysis was performed on the Children's Hospital of Philadelphia HPC and was configured to use 96G of RAM per CPU, with one task (one iteration of expression analysis for each set of tissue and cancer group) per CPU (total 102*52=5304 CPUs) using the [R/DESeq2](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-014-0550-8) package. 
-Please refer to script `run-tumor-normal-differential-expression.sh` in the module for additional details on Slurm processing configuration. 
+The [`tumor-normal-differential-expression`](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/tumor-normal-differential-expression) module perfoms differential expression analyses for all sets of Disease (`cancer_group`) and Dataset (`cohort`) across all genes found in the `gene-expression-rsem-tpm-collapsed.rds` table.
+The purpose of this analysis is to highlight the correlation and understand the variability in gene expression in different cancer conditions across different histological tissues.
+For OpenPedCan v12 data release, this module performs expression analysis over 102 cancer groups across 52 histological tissues for all 54,346 genes found in the dataset.
+This analysis was performed on the Children's Hospital of Philadelphia HPC and was configured to use 96G of RAM per CPU, with one task (one iteration of expression analysis for each set of tissue and cancer group) per CPU (total 102*52=5304 CPUs) using the [R/DESeq2](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-014-0550-8) package.
+Please refer to script `run-tumor-normal-differential-expression.sh` in the module for additional details on Slurm processing configuration.
 The same analysis can also be performed on CAVATICA, but requires further optimization.
-The module describes the steps for CAVATICA set up, and scripts to publish an application on the portal. 
-The required data files are also available publicly on CAVATICA under the [Open Pediatric Cancer (OpenPedCan) Open Access](https://cavatica.sbgenomics.com/u/cavatica/opentarget/files/#q?path=v12). 
+The module describes the steps for CAVATICA set up, and scripts to publish an application on the portal.
+The required data files are also available publicly on CAVATICA under the [Open Pediatric Cancer (OpenPedCan) Open Access](https://cavatica.sbgenomics.com/u/cavatica/opentarget/files/#q?path=v12).
 Refer to the module for detailed description and scripts.
 
 ##### Abundance Estimation
-Among the data sources used for OpenPedCan, GTEx and TCGA used GENCODE versions v26 and v36, respectively. 
-Moreover, the gene symbols used in these different GENCODE versions also varied. 
+Among the data sources used for OpenPedCan, GTEx and TCGA used GENCODE versions v26 and v36, respectively.
+Moreover, the gene symbols used in these different GENCODE versions also varied.
 Therefore, the gene symbols had to be harmonized for compatibility to map unique gene identifiers to their gene symbols.
 ENSG IDs from each data source were pulled and mapped to the GTF/GFF3 file from [`GENCODE v39`](https://www.gencodegenes.org/human/release_39.html) to extract unique gene symbols and remove duplicates.
 Additionally, the gene expression matrices had some instances where multiple Ensembl gene identifiers mapped to the same gene symbol.
-This was dealt with by filtering the expression matrix to only genes with [FPKM/TPM] > 0 and then selecting the instance of the gene symbol with the maximum mean [FPKM/TPM/Expected_count] value across samples. 
+This was dealt with by filtering the expression matrix to only genes with [FPKM/TPM] > 0 and then selecting the instance of the gene symbol with the maximum mean [FPKM/TPM/Expected_count] value across samples.
 This enabled many downstream modules that require RNA-seq data have gene symbols as unique gene identifiers.
 Refer to [collapse-rnaseq](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/collapse-rnaseq) module for scripts and details.
 
 ##### Gene Expression Summary Statistics
 We generated RNA-Seq gene expression (TPM) summary statistics for independent tumor samples from the combined OpenPedCan gene expression matrices, including cancers from pediatric cohorts (`PBTA`, `GMKF`, and `TARGET`) and adult cancers from the `TCGA` cohort.
-We grouped selected samples into two groups containing samples from a cancer group in either each cohort or all cohorts, and calculated `TPM means`, `standard deviations`, `gene-wise z-scores`, `group-wise z-scores`, and `ranks` for each group as described in the [OpenPedCan rna-seq-expression-summary-stats module](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/rna-seq-expression-summary-stats) in detail. 
+We grouped selected samples into two groups containing samples from a cancer group in either each cohort or all cohorts, and calculated `TPM means`, `standard deviations`, `gene-wise z-scores`, `group-wise z-scores`, and `ranks` for each group as described in the [OpenPedCan rna-seq-expression-summary-stats module](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/rna-seq-expression-summary-stats) in detail.
 The resulting `gene-wise` and `group-wise` summary statistics tables were annotated with `EFO` and `MONDO` disease codes associated with the cancer groups.
 
 ##### Gene fusion detection
@@ -824,9 +872,9 @@ The resulting `gene-wise` and `group-wise` summary statistics tables were annota
 ### QUANTIFICATION AND STATISTICAL ANALYSIS
 
 ##### Focal Copy Number Calling (`focal-cn-file-preparation` analysis module)
-Please refer to the OpenPBTA manuscript for details on assignment of copy number status values to CNV segments, cytobands, and genes [@doi:10.1016/j.xgen.2023.100340]. 
-We applied criteria to resolve instances of multiple conflicting status calls for the same gene and sample, which are described in detail in the [focal-cn-file-preparation](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/focal-cn-file-preparation) module. 
-Briefly, we prioritized 1) non-neutral status calls, 2) calls made from dominant segments with respect to gene overlap, and 3) amplification and deep deletion status calls over gain and loss calls, respectively, when selecting a dominant status call per gene and sample. 
+Please refer to the OpenPBTA manuscript for details on assignment of copy number status values to CNV segments, cytobands, and genes [@doi:10.1016/j.xgen.2023.100340].
+We applied criteria to resolve instances of multiple conflicting status calls for the same gene and sample, which are described in detail in the [focal-cn-file-preparation](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/focal-cn-file-preparation) module.
+Briefly, we prioritized 1) non-neutral status calls, 2) calls made from dominant segments with respect to gene overlap, and 3) amplification and deep deletion status calls over gain and loss calls, respectively, when selecting a dominant status call per gene and sample.
 These methods resolved >99% of duplicated gene-level status calls.    
 
 
@@ -842,19 +890,25 @@ After artifact filtering, fusions were prioritized and annotated as "putative on
 Fusions were retained in this module if they were called by both callers, recurrent or specific to a cancer group, or annotated as a putative oncogenic fusion.
 Please refer to the module linked above for more detailed documentation and scripts.
 
+##### Splicing quantification
+
+To detect alternative splicing events, we utilized rMATS turbo (v. 4.1.0) with Ensembl/GENCODE v39 GFF annotations using the [Kids First RNA-Seq workflow](https://github.com/kids-first/kf-rnaseq-workflow/blob/master/workflow/rmats_wf.cwl).
+We used `--variable-read-length` and `-t paired` options and applied an additional filter to include only splicing events with total junction read counts greater than 10.
+
+
 #### Mutational Signatures (`mutational-signatures` analysis module)
 
 
 
 ### Tumor Mutation Burden [TMB] (`tmb-calculation` analysis module)
 
-Recent clinical studies have associated high TMB with improved patient response rates and survival benefit from immune checkpoint inhibitors [@doi.org/10.1002/gcc.22733]. 
+Recent clinical studies have associated high TMB with improved patient response rates and survival benefit from immune checkpoint inhibitors [@doi.org/10.1002/gcc.22733].
 
 The [Tumor Mutation Burden (TMB) `tmb-calculation`](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/tmb-calculation) module was adapted from the [`snv-callers` module](https://github.com/AlexsLemonade/OpenPBTA-analysis/tree/master/analyses/snv-callers) of the OpenPBTA project [@doi:10.1016/j.xgen.2023.100340].
-Here, we use mutations in the `snv-consensus-plus-hotspots.maf.tsv.gz` file which is generated using [Kids First DRC Consensus Calling Workflow](https://github.com/kids-first/kf-somatic-workflow/blob/master/docs/kfdrc-consensus-calling.md) and is included in the OpenPedCan data download. 
+Here, we use mutations in the `snv-consensus-plus-hotspots.maf.tsv.gz` file which is generated using [Kids First DRC Consensus Calling Workflow](https://github.com/kids-first/kf-somatic-workflow/blob/master/docs/kfdrc-consensus-calling.md) and is included in the OpenPedCan data download.
 The consensus MAF contains SNVs or MNVs called in at least 2 of the 4 callers (Mutect2, Strelka2, Lancet, and Vardict) plus hotspot mutations if called in 1 of the 4 callers.
 We calculated TMB for tumor samples sequenced  with either WGS or WXS.
-Briefly, we split the SNV consensus MAF into SNVs and multinucleotide variants (MNVs). 
+Briefly, we split the SNV consensus MAF into SNVs and multinucleotide variants (MNVs).
 We split the MNV subset into SNV calls, merged those back with the SNVs subset, and then removed sample-specific redundant calls.
 The resulting merged and non-redundant SNV consensus calls were used as input for the TMB calculation.
 We tallied only nonsynonymous variants with classifications of high/moderate consequence ("Missense_Mutation", "Frame_Shift_Del", "In_Frame_Ins", "Frame_Shift_Ins", "Splice_Site", "Nonsense_Mutation", "In_Frame_Del", "Nonstop_Mutation", and "Translation_Start_Site") for the numerator.
@@ -867,7 +921,7 @@ For WXS samples, we used the size of the WXS bed region file as the denominator.
 
 **Coding only TMB**
 We generated coding only TMB from the consensus MAF as well.
-We calculated the intersection for Strelka2 and Mutect2 surveyed regions using the coding sequence ranges in the GENCODE v39 gtf supplied in the OpenPedCan data download. 
+We calculated the intersection for Strelka2 and Mutect2 surveyed regions using the coding sequence ranges in the GENCODE v39 gtf supplied in the OpenPedCan data download.
 We removed SNVs outside of these coding sequences prior to implementing the TMB calculation below:
 `WGS_coding_only_TMB = (total # coding mutations in consensus MAF) / intersection_wgs_strelka_mutect_vardict_CDS_genome_size`
 For WXS samples, we intersected each WXS bed region file with the GENCODE v39 coding sequence, sum only variants within this region for the numerator, and calculate the size of this region as the denominator.
@@ -888,30 +942,30 @@ Here, we build upon the molecular subtyping performed in OpenPBTA [@doi:10.1016/
 <!-- TODO: needs update - DHG, IHG -->
 
 A new high-grade glioma entity called infant-type hemispheric gliomas (IHGs), characterized by distinct gene fusions enriched in receptor tyrosine kinase (RTK) genes including _ALK_, _NTRK1/2/3_, _ROS1_ or _MET_, was identified in 2021 [@doi: 10.1038/s41467-019-12187-5].
-To identify IHG tumors, first, tumors which were classified as "IHG" by the DKFZ methylation classifier or diagnosed as "infant type hemispheric glioma" from `pathology_free_text_diagnosis` were selected [@doi:10.1038/nature26000]. 
-Then, the corresponding tumor RNA-seq data were utilized to seek the evidence for RTK gene fusion. 
-Based on the specific RTK gene fusion present in the samples, IHGs were further classified as "IHG, ALK-altered", "IHG, NTRK-altered", "IHG, ROS1-altered", or "IHG, MET-altered". 
-If no fusion was observed, the samples were identified as "IHG, To be classified". 
+To identify IHG tumors, first, tumors which were classified as "IHG" by the DKFZ methylation classifier or diagnosed as "infant type hemispheric glioma" from `pathology_free_text_diagnosis` were selected [@doi:10.1038/nature26000].
+Then, the corresponding tumor RNA-seq data were utilized to seek the evidence for RTK gene fusion.
+Based on the specific RTK gene fusion present in the samples, IHGs were further classified as "IHG, ALK-altered", "IHG, NTRK-altered", "IHG, ROS1-altered", or "IHG, MET-altered".
+If no fusion was observed, the samples were identified as "IHG, To be classified".
 
 
 **Atypical teratoid rhabdoid tumors.**
 
-Atypical teratoid rhabdoid tumors (ATRT) tumors were categorized into three subtypes: "ATRT, MYC", "ATRT, SHH", and "ATRT, TYR" [@doi:10.1093/neuonc/noz235]. 
-In OpenPedCan, the molecular subtyping of ATRT was based solely on the DNA methylation data. 
-Briefly, ATRT samples with a high confidence DKFZ methylation subclass score (>= 0.8) were selected and subtypes were assigned based on the DKFZ methylation subclass [@doi10.1038/nature26000]. 
-Samples with low confidence DKFZ methylation subclass scores (< 0.8) were identified as "ATRT, To be classified". 
+Atypical teratoid rhabdoid tumors (ATRT) tumors were categorized into three subtypes: "ATRT, MYC", "ATRT, SHH", and "ATRT, TYR" [@doi:10.1093/neuonc/noz235].
+In OpenPedCan, the molecular subtyping of ATRT was based solely on the DNA methylation data.
+Briefly, ATRT samples with a high confidence DKFZ methylation subclass score (>= 0.8) were selected and subtypes were assigned based on the DKFZ methylation subclass [@doi10.1038/nature26000].
+Samples with low confidence DKFZ methylation subclass scores (< 0.8) were identified as "ATRT, To be classified".
 
 **Neuroblastoma tumors.**
 
-Neuroblastoma (NBL) tumors with a pathology diagnosis of neuroblastoma, ganglioneuroblastoma, or ganglioneuroma were subtyped based on their MYCN copy number status as either "NBL, MYCN amplified" or "NBL, MYCN non-amplified". 
-If `pathology_free_text_diagnosis` was "NBL, MYCN non-amplified" and the genetic data suggested MYCN amplification, the samples were subtyped as "NBL, MYCN amplified". 
-On the other hand, if `pathology_free_text_diagnosis` was "NBL, MYCN amplified" and the genetic data suggested MYCN non-amplification, the RNA-Seq gene expression level of _MYCN_ was used as a prediction indicator. 
-In those cases, samples with _MYCN_ gene expression above or below the cutoff (TPM >= 140.83 based on visual inspection of MYCN CNV status) were subtyped as "NBL, MYCN amplified" and "NBL, MYCN non-amplified", respectively. 
-_MYCN_ gene expression was also used to subtype samples without DNA sequencing data. 
+Neuroblastoma (NBL) tumors with a pathology diagnosis of neuroblastoma, ganglioneuroblastoma, or ganglioneuroma were subtyped based on their MYCN copy number status as either "NBL, MYCN amplified" or "NBL, MYCN non-amplified".
+If `pathology_free_text_diagnosis` was "NBL, MYCN non-amplified" and the genetic data suggested MYCN amplification, the samples were subtyped as "NBL, MYCN amplified".
+On the other hand, if `pathology_free_text_diagnosis` was "NBL, MYCN amplified" and the genetic data suggested MYCN non-amplification, the RNA-Seq gene expression level of _MYCN_ was used as a prediction indicator.
+In those cases, samples with _MYCN_ gene expression above or below the cutoff (TPM >= 140.83 based on visual inspection of MYCN CNV status) were subtyped as "NBL, MYCN amplified" and "NBL, MYCN non-amplified", respectively.
+_MYCN_ gene expression was also used to subtype samples without DNA sequencing data.
 If a sample did not fit none of these situations, it was denoted as "NBL, To be classified".  
 
 
-###### Integration of brain tumor methylation classifications 
+###### Integration of brain tumor methylation classifications
 
 
 #### TP53 Alteration Annotation (`tp53_nf1_score` analysis module)
@@ -925,7 +979,6 @@ For analyses that require all input biospecimens to be independent, we use the O
 For each input participant of an analysis, the independent biospecimen is selected based on the analysis-specific filters and preferences for the biospecimen metadata, such as experimental strategy, cancer group, and tumor descriptor.
 
 
-
 ## Supplemental Information Titles and Legends
 
 
@@ -937,3 +990,4 @@ For each input participant of an analysis, the independent biospecimen is select
 
 <!-- Explicitly insert bibliography here -->
 <div id="refs"></div>
+
