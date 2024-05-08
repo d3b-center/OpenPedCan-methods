@@ -23,14 +23,14 @@ chordoma
 Chuwei
 cn
 cnv
-CNVkit
+CNVKit
 CNVs
 consortiums
 Corbett
 CpG
 CPUs
 CRANIO
-curation
+Curation
 cytobands
 dataset
 datasets
@@ -68,7 +68,7 @@ genomically
 Genotype
 germline
 GFF
-gistic
+GISTIC
 glioma
 gliomas
 GMKF
@@ -80,7 +80,6 @@ histological
 HL
 hotspot
 HotSpotAllele
-Hotspots
 HPC
 IDAT
 IHG
@@ -101,7 +100,7 @@ Lueder
 Lymphoblastic
 MAF
 Mariarita
-Methylation
+methylation
 MGMT
 minfi
 Missense
@@ -111,7 +110,7 @@ MNV
 MNVs
 molecularly
 mondo
-mtp
+MTP
 multinucleotide
 Mutect
 MYC
@@ -132,7 +131,7 @@ oncogenic
 ONCOSEQ
 OPC
 OpenPBTA
-OpenPedCan
+OpenPedcan
 Osteosarcoma
 pathogenesis
 PBTA
@@ -170,7 +169,7 @@ Sickler
 Slurm
 SNP
 SNPs
-snv
+SNV
 SNVs
 Strelka
 subtype
@@ -187,7 +186,7 @@ TruSeq
 TYR
 tyrosine
 utils
-VarDict
+Vardict
 VCF
 VEP
 Wafula
