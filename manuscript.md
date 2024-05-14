@@ -7,7 +7,7 @@ keywords:
 - classification
 - somatic variation
 lang: en-US
-date-meta: '2024-05-08'
+date-meta: '2024-05-14'
 author-meta:
 - Eric Wafula
 - Sangeeta Shukla
@@ -54,11 +54,11 @@ header-includes: |
   <meta name="citation_title" content="The Open Pediatric Cancer Project" />
   <meta property="og:title" content="The Open Pediatric Cancer Project" />
   <meta property="twitter:title" content="The Open Pediatric Cancer Project" />
-  <meta name="dc.date" content="2024-05-08" />
-  <meta name="citation_publication_date" content="2024-05-08" />
-  <meta property="article:published_time" content="2024-05-08" />
-  <meta name="dc.modified" content="2024-05-08T14:25:14+00:00" />
-  <meta property="article:modified_time" content="2024-05-08T14:25:14+00:00" />
+  <meta name="dc.date" content="2024-05-14" />
+  <meta name="citation_publication_date" content="2024-05-14" />
+  <meta property="article:published_time" content="2024-05-14" />
+  <meta name="dc.modified" content="2024-05-14T17:50:24+00:00" />
+  <meta property="article:modified_time" content="2024-05-14T17:50:24+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -211,9 +211,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://d3b-center.github.io/OpenPedCan-methods/" />
   <meta name="citation_pdf_url" content="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/7ca766856caa35f3170009e47f9f77c3400399b5/" />
-  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/7ca766856caa35f3170009e47f9f77c3400399b5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/7ca766856caa35f3170009e47f9f77c3400399b5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/3c232b87bea9dc3d741aedbd42120761b356849d/" />
+  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/3c232b87bea9dc3d741aedbd42120761b356849d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/3c232b87bea9dc3d741aedbd42120761b356849d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -235,10 +235,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/7ca766856caa35f3170009e47f9f77c3400399b5/))
+([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/3c232b87bea9dc3d741aedbd42120761b356849d/))
 was automatically generated
-from [d3b-center/OpenPedCan-methods@7ca7668](https://github.com/d3b-center/OpenPedCan-methods/tree/7ca766856caa35f3170009e47f9f77c3400399b5)
-on 2024-05-08.
+from [d3b-center/OpenPedCan-methods@3c232b8](https://github.com/d3b-center/OpenPedCan-methods/tree/3c232b87bea9dc3d741aedbd42120761b356849d)
+on 2024-05-14.
 </em></small>
 
 ## Authors
@@ -805,18 +805,24 @@ Consensus SNV from all four callers were collected and by default, calls that we
 For all SNVs, potential non-hotspot germline variants were removed if they had a normal depth <= 7 and gnomAD allele frequency > 0.001.
 Final results were saved in MAF format.
 
-#### Somatic Copy Number Variant Calling
-<!-- TODO: needs update -->
+#### Somatic Copy Number Variant (CNV) Calling
+We called copy number variants for tumor/normal samples using Control-FREEC [@doi:10/ckt4vz; @doi:10/c6bcps] and CNVkit [@doi:10.1371/journal.pcbi.1004873] as described in the OpenPBTA manuscript [@doi:10.1016/j.xgen.2023.100340].
+We used GATK [@doi:10.1101/gr.107524.110] to call CNVs for matched tumor/normal WGS samples when there were at least 30 male and 30 female normals from the same sequencing platform available for panel of normal creation.
+For tumor only samples, we used Control-FREEC with the following modifications.
+Instead of the b-allele frequency germline input file, we used the `dbSNP_v153_ucsc-compatible.converted.vt.decomp.norm.common_snps.vcf.gz` [dbSNP common snps file](s3://kids-first-seq-data/pipeline_references/dbSNP_v153_ucsc-compatible.converted.vt.decomp.norm.common_snps.vcf.gz) and to avoid hard-to-call regions, utilized the `hg38_canonical_150.mappability` [mappability file](s3://kids-first-seq-data/pipeline_references/hg38_canonical_150.mappability).
+Both are also linked in the public [Kids First references CAVATICA project](https://cavatica.sbgenomics.com/u/kfdrc-harmonization/kf-references).
+The Control-FREEC tumor only workflow can be found [here](https://github.com/kids-first/kf-tumor-workflow/blob/v0.3.0-beta/workflows/kfdrc_controlfreec_tumor_only_wf.cwl).
 
-##### Consensus CNV Calling
-We adopted the consensus CNV calling described in OpenPBTA manuscript [doi:10.1016/j.xgen.2023.100340] with minor adjustments.
-For each caller and sample with WGS performed, we called CNVs based on consensus among Control-FREEC ([@https://doi.org/10.1093/bioinformatics/btq635]; [@https://doi.org/10.1093/bioinformatics/btr670]), CNVkit ([@doi: 10.1371/journal.pcbi.1004873]), and GATK ([@doi:
-10.1101/gr.107524.110]).
-Sample and consensus caller files with more than 2,500 CNVs were removed to de-noise and increase data quality, based on cutoffs used in GISTIC ([@https://doi.org/10.1186/gb-2011-12-4-r41]).
-For each sample, we included the following regions in the final consensus set: 1) regions with reciprocal overlap of 50% or more between at least two of the callers; 2) smaller CNV regions in which more than 90% of regions were covered by another caller.
-For GATK, if a panel of normal was not able to be created (required 30 male and 30 female with the same sequencing platform), consensus was not run for tumors with WGS performed on that sequencing platform.
-We defined copy number as NA for any regions that had a neutral call for the samples included in the consensus file.
-We merged CNV regions within 10,000 bp of each other with the same direction of gain or loss into single region.
+##### Consensus CNV Calling (WGS samples only)
+We adopted the consensus CNV calling described in OpenPBTA manuscript [@doi:10.1016/j.xgen.2023.100340] with minor adjustments. 
+For each caller and sample with WGS performed, we called CNVs based on consensus among Control-FREEC [@doi:10/ckt4vz; @doi:10/c6bcps], CNVkit [@doi:10.1371/journal.pcbi.1004873], and GATK [@doi:
+10.1101/gr.107524.110]. 
+Sample and consensus caller files with more than 2,500 CNVs were removed to de-noise and increase data quality, based on cutoffs used in GISTIC [@https://doi.org/10.1186/gb-2011-12-4-r41]. 
+For each sample, we included the following regions in the final consensus set: 1) regions with reciprocal overlap of 50% or more between at least two of the callers; 2) smaller CNV regions in which more than 90% of regions were covered by another caller. 
+For GATK, if a panel of normal was not able to be created (required 30 male and 30 female with the same sequencing platform), consensus was run for that tumor using Control-FREEC, CNVkit, and MantaSV. 
+We defined copy number as NA for any regions that had a neutral call for the samples included in the consensus file. 
+We merged CNV regions within 10,000 bp of each other with the same direction of gain or loss into single region. 
+
 Any CNVs that overlapped 50% or more with immunoglobulin, telomeric, centromeric, segment duplicated regions, or that were shorter than 3000 bp were filtered out.
 The CNVKit calls for WXS samples were appended to the consensus CNV file.
 
