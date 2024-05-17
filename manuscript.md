@@ -7,7 +7,7 @@ keywords:
 - classification
 - somatic variation
 lang: en-US
-date-meta: '2024-05-14'
+date-meta: '2024-05-17'
 author-meta:
 - Eric Wafula
 - Sangeeta Shukla
@@ -54,11 +54,11 @@ header-includes: |
   <meta name="citation_title" content="The Open Pediatric Cancer Project" />
   <meta property="og:title" content="The Open Pediatric Cancer Project" />
   <meta property="twitter:title" content="The Open Pediatric Cancer Project" />
-  <meta name="dc.date" content="2024-05-14" />
-  <meta name="citation_publication_date" content="2024-05-14" />
-  <meta property="article:published_time" content="2024-05-14" />
-  <meta name="dc.modified" content="2024-05-14T17:50:24+00:00" />
-  <meta property="article:modified_time" content="2024-05-14T17:50:24+00:00" />
+  <meta name="dc.date" content="2024-05-17" />
+  <meta name="citation_publication_date" content="2024-05-17" />
+  <meta property="article:published_time" content="2024-05-17" />
+  <meta name="dc.modified" content="2024-05-17T18:34:20+00:00" />
+  <meta property="article:modified_time" content="2024-05-17T18:34:20+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -238,7 +238,7 @@ This manuscript
 ([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/3c232b87bea9dc3d741aedbd42120761b356849d/))
 was automatically generated
 from [d3b-center/OpenPedCan-methods@3c232b8](https://github.com/d3b-center/OpenPedCan-methods/tree/3c232b87bea9dc3d741aedbd42120761b356849d)
-on 2024-05-14.
+on 2024-05-17.
 </em></small>
 
 ## Authors
