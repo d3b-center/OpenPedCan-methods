@@ -7,7 +7,7 @@ keywords:
 - classification
 - somatic variation
 lang: en-US
-date-meta: '2024-05-17'
+date-meta: '2024-05-20'
 author-meta:
 - Eric Wafula
 - Sangeeta Shukla
@@ -54,11 +54,11 @@ header-includes: |
   <meta name="citation_title" content="The Open Pediatric Cancer Project" />
   <meta property="og:title" content="The Open Pediatric Cancer Project" />
   <meta property="twitter:title" content="The Open Pediatric Cancer Project" />
-  <meta name="dc.date" content="2024-05-17" />
-  <meta name="citation_publication_date" content="2024-05-17" />
-  <meta property="article:published_time" content="2024-05-17" />
-  <meta name="dc.modified" content="2024-05-17T18:34:20+00:00" />
-  <meta property="article:modified_time" content="2024-05-17T18:34:20+00:00" />
+  <meta name="dc.date" content="2024-05-20" />
+  <meta name="citation_publication_date" content="2024-05-20" />
+  <meta property="article:published_time" content="2024-05-20" />
+  <meta name="dc.modified" content="2024-05-20T00:50:23+00:00" />
+  <meta property="article:modified_time" content="2024-05-20T00:50:23+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -211,9 +211,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://d3b-center.github.io/OpenPedCan-methods/" />
   <meta name="citation_pdf_url" content="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/3c232b87bea9dc3d741aedbd42120761b356849d/" />
-  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/3c232b87bea9dc3d741aedbd42120761b356849d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/3c232b87bea9dc3d741aedbd42120761b356849d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/3da0f4b7a2ef28133ce5a7b111805af139606ac5/" />
+  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/3da0f4b7a2ef28133ce5a7b111805af139606ac5/" />
+  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/3da0f4b7a2ef28133ce5a7b111805af139606ac5/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -235,10 +235,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/3c232b87bea9dc3d741aedbd42120761b356849d/))
+([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/3da0f4b7a2ef28133ce5a7b111805af139606ac5/))
 was automatically generated
-from [d3b-center/OpenPedCan-methods@3c232b8](https://github.com/d3b-center/OpenPedCan-methods/tree/3c232b87bea9dc3d741aedbd42120761b356849d)
-on 2024-05-17.
+from [d3b-center/OpenPedCan-methods@3da0f4b](https://github.com/d3b-center/OpenPedCan-methods/tree/3da0f4b7a2ef28133ce5a7b111805af139606ac5)
+on 2024-05-20.
 </em></small>
 
 ## Authors
@@ -764,6 +764,15 @@ After enrichment, the libraries were quantified using Quant-iT PicoGreen (1:200 
 Samples were normalized to 5 ng/uL.
 The sample set was pooled and quantified using the KAPA Library Quantification Kit for Illumina Sequencing Platforms.
 
+**miRNA Extraction and Library Preparation**
+Total RNA for CBTN samples was extracted as described in OpenPBTA [@doi:10.1016/j.xgen.2023.100340] and prepared according to the HTG Edge Seq protocol for the extracted RNA miRNA Whole transcriptome assay (WTA). 
+15ng of RNA were mixed in 25ul of lysis buffer, which were then loaded onto a 96-well plate.
+Human Fetal Brain Total RNA (Takara Bio USA, #636526) and Human Brain Total RNA (Ambion, Inc., Austin, TX, USA) were used as controls.
+The plate was loaded into the HTG EdgeSeq processor along with the miRNA WTA assay reagent pack. 
+Samples were processed for 18-20 hours, then were barcoded and amplified using a unique forward and reverse primer combination. 
+PCR settings used for barcoding and amplification were 95C for 4 min, 16 cycles of (95C for 15 sec, 56C for 45 sec, 68C for 45 sec), and 68C for 10 min. 
+Barcoded and amplified samples were cleaned using AMPure magnetic beads (Ampure XP,Cat# A63881). 
+Libraries were quantified using the KAPA Biosystem assay qPCR kit (Kapa Biosystems Cat#KK4824) and CT values were used to determine the pM concentration of each library. 
 
 #### Data generation
 **PBTA X01 Illumina Sequencing**
@@ -771,6 +780,12 @@ Pooled libraries were normalized to 2nM and denatured using 0.1 N NaOH prior to 
 Flowcell cluster amplification and sequencing were performed according to the manufacturer’s protocols using the NovaSeq 6000.
 Each run was a 151bp paired-end with an eight-base index barcode read.
 Data was analyzed using the Broad Picard Pipeline which includes de-multiplexing and data aggregation.
+
+**PBTA miRNA Sequencing**
+Libraries were pooled, denatured, and loaded onto sequencing cartridge. 
+Libraries were sequenced using an Illumina Nextseq 500 per manufacturer guidelines.
+FASTQ files were generated from raw sequencing data using Illumina BaseSpace and analyzed with the HTG EdgeSeq Parser software v5.4.0.7543 to generate an excel file containing quantification of 2083 miRNAs per sample. 
+Any sample that did not pass the quality control set by the HTG REVEAL software version 2.0.1 (Tuscon, AR, USA) was excluded from the analysis.
 
 #### DNA WGS Alignment
 Please refer to the OpenPBTA manuscript for details [@doi:10.1016/j.xgen.2023.100340].
