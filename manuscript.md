@@ -10,6 +10,7 @@ lang: en-US
 date-meta: '2024-05-20'
 author-meta:
 - Eric Wafula
+- Zhuangzhuang Geng
 - Sangeeta Shukla
 - Aditya Lahiri
 - Krutika S. Gaonkar
@@ -23,7 +24,6 @@ author-meta:
 - Xiaoyan Huang
 - Bo Zhang
 - Chuwei Zhong
-- Zhuangzhuang Geng
 - Brian M. Ennis
 - Ryan J. Corbett
 - Sharon J. Diskin
@@ -57,8 +57,8 @@ header-includes: |
   <meta name="dc.date" content="2024-05-20" />
   <meta name="citation_publication_date" content="2024-05-20" />
   <meta property="article:published_time" content="2024-05-20" />
-  <meta name="dc.modified" content="2024-05-20T00:50:23+00:00" />
-  <meta property="article:modified_time" content="2024-05-20T00:50:23+00:00" />
+  <meta name="dc.modified" content="2024-05-20T14:51:49+00:00" />
+  <meta property="article:modified_time" content="2024-05-20T14:51:49+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -68,6 +68,10 @@ header-includes: |
   <meta name="citation_author" content="Eric Wafula" />
   <meta name="citation_author_institution" content="Department of Bioinformatics and Health Informatics, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_orcid" content="0000-0001-8073-3797" />
+  <meta name="citation_author" content="Zhuangzhuang Geng" />
+  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_orcid" content="0009-0007-6883-0691" />
   <meta name="citation_author" content="Sangeeta Shukla" />
   <meta name="citation_author_institution" content="Department of Bioinformatics and Health Informatics, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_orcid" content="0000-0002-3727-9602" />
@@ -123,10 +127,6 @@ header-includes: |
   <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_orcid" content="0000-0003-2406-2735" />
-  <meta name="citation_author" content="Zhuangzhuang Geng" />
-  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
-  <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
-  <meta name="citation_author_orcid" content="0009-0007-6883-0691" />
   <meta name="citation_author" content="Brian M. Ennis" />
   <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
@@ -211,9 +211,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://d3b-center.github.io/OpenPedCan-methods/" />
   <meta name="citation_pdf_url" content="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/3da0f4b7a2ef28133ce5a7b111805af139606ac5/" />
-  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/3da0f4b7a2ef28133ce5a7b111805af139606ac5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/3da0f4b7a2ef28133ce5a7b111805af139606ac5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/240fc9f7a43362788541d49a5d93c703665f8084/" />
+  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/240fc9f7a43362788541d49a5d93c703665f8084/" />
+  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/240fc9f7a43362788541d49a5d93c703665f8084/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -235,9 +235,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/3da0f4b7a2ef28133ce5a7b111805af139606ac5/))
+([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/240fc9f7a43362788541d49a5d93c703665f8084/))
 was automatically generated
-from [d3b-center/OpenPedCan-methods@3da0f4b](https://github.com/d3b-center/OpenPedCan-methods/tree/3da0f4b7a2ef28133ce5a7b111805af139606ac5)
+from [d3b-center/OpenPedCan-methods@240fc9f](https://github.com/d3b-center/OpenPedCan-methods/tree/240fc9f7a43362788541d49a5d93c703665f8084)
 on 2024-05-20.
 </em></small>
 
@@ -251,6 +251,14 @@ on 2024-05-20.
   <br>
   <small>
      Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  </small>
+
++ **Zhuangzhuang Geng**<br>
+    ![ORCID icon](images/orcid.png){.inline_icon}
+    [0009-0007-6883-0691](https://orcid.org/0009-0007-6883-0691)
+  <br>
+  <small>
+     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
   </small>
 
 + **Sangeeta Shukla**<br>
@@ -352,14 +360,6 @@ on 2024-05-20.
 + **Chuwei Zhong**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0003-2406-2735](https://orcid.org/0000-0003-2406-2735)
-  <br>
-  <small>
-     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
-  </small>
-
-+ **Zhuangzhuang Geng**<br>
-    ![ORCID icon](images/orcid.png){.inline_icon}
-    [0009-0007-6883-0691](https://orcid.org/0009-0007-6883-0691)
   <br>
   <small>
      Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
@@ -574,7 +574,7 @@ OpenPedCan analyses include Neuroblastoma data from the Kids First project.
 
 **The Genotype-Tissue Expression [(GTEx)](https://gtexportal.org/home/)**
 GTEx project is an ongoing effort to build a comprehensive public data resource and tissue bank to study tissue-specific gene expression, regulation and their relationship with genetic variants.
-Samples were collected from 54 non-diseased tissue sites across nearly 1000 individuals, primarily for molecular assays including WGS, WES, and RNA-Seq.
+Samples were collected from 54 non-diseased tissue sites across nearly 1000 individuals, primarily for molecular assays including WGS, WXS, and RNA-Seq.
 OpenPedCan project includes 17,382 GTEx RNA-Seq samples from GTEx v8 release, which span across 31 GTEx groups in the v12 release.
 
 **The Cancer Genome Atlas Program [(TCGA)](https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga)**
@@ -611,6 +611,7 @@ We invite researchers to join OpenPedCan to help rigorously characterize the gen
 |Author|Contributions|
 |---|---|
 |Eric Wafula|Formal analysis, Software|
+|Zhuangzhuang Geng|Data curation, Formal analysis, Investigation, Methodology, Software, Writing – Original draft|
 |Sangeeta Shukla|Data curation, Formal analysis, Investigation, Methodology, Software, Writing – Original draft, Writing - Review and editing|
 |Aditya Lahiri|Data curation, Formal analysis, Investigation, Methodology, Software, Writing – Original draft, Writing - Review and editing|
 |Krutika S. Gaonkar|Data curation, Formal analysis, Investigation, Methodology, Software, Writing – Original draft, Writing - Review and editing|
@@ -624,7 +625,6 @@ We invite researchers to join OpenPedCan to help rigorously characterize the gen
 |Xiaoyan Huang|Formal analysis|
 |Bo Zhang|Data curation, Formal analysis|
 |Chuwei Zhong|Formal analysis|
-|Zhuangzhuang Geng|Data curation, Formal analysis, Investigation, Methodology, Software, Writing – Original draft|
 |Brian M. Ennis|Data curation, Formal analysis|
 |Ryan J. Corbett|Formal analysis|
 |Sharon J. Diskin|Investigation, Supervision, Validation, Funding acquisition, Writing - Review and editing|
@@ -678,7 +678,7 @@ We included already harmonized neuroblastoma samples from the Gabriella Miller K
 Additionally, we re-harmonized all samples from the Open Pediatric Brain Tumor Atlas (OpenPBTA, PBTA cohort), an open science initiative led by Alex’s Lemonade Stand Foundation Childhood Cancer Data Lab and the Center for Data-Driven Discovery (D3B) at the Children’s Hospital of Philadelphia (CHOP), which genomically characterized pediatric brain tumor data from the Children’s Brain Tumor Network (CBTN), and the Pacific Pediatric Neuro-oncology Consortium (PNOC) [@dbgap:phs002517.v1.p1; @doi:10.1016/j.xgen.2023.100340].
 Building on the work of OpenPBTA, OPC added the PBTA X01 data [@https://commonfund.nih.gov/kidsfirst/2021X01projects#FY21_Resnick], the Chordoma Foundation data [@https://www.chordomafoundation.org/], and the MI-ONCOSEQ Study [@https://www.pathology.med.umich.edu/mctp/mi-oncoseq-study], donated to CBTN by the University of Michigan, to the PBTA cohort.
 Finally, OPC includes the Children's Hospital of Philadelphia (CHOP) P30 Panel data generated by CHOP's Division of Genomic Diagnostics (DGD cohort) which includes targeted DNA and fusion panel data [@dbgap:phs002517.v1.p1].
-In addition to pediatric cancer data, OpenPedCan contains adult data from large science consortiums as references.
+In addition to pediatric cancer data, OpenPedCan contains adult data from large science consortia as references.
 For normal gene expression, GTEx [@dbgap:phs000424.v9.p2] was used, and for comparison with adult cancers, The Cancer Genome Atlas (TCGA) [@https://www.cancer.gov/tcga] was included.
 
 Merged summary files for the latest release of OpenPedCan are openly accessible in [CAVATICA](https://cavatica.sbgenomics.com/u/cavatica/opentarget) or via `download-data.sh` script in the [https://github.com/PediatricOpenTargets/OpenPedCan-analysis](https://github.com/PediatricOpenTargets/OpenPedCan-analysis) repository.
@@ -860,11 +860,11 @@ In addition, each CpG probe was annotated with a gene feature to identify the ge
 Details of the analysis are available in the [OpenPedCan methylation-summary module](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/methylation-summary).
 
 ##### Methylation sample classification
-We ran the [dkfz's brain classifier version 12.5](https://www.molecularneuropathology.org/mnp/classifiers/11), a comprehensive DNA methylation-based classification of CNS tumors across all entities and age groups [@doi:10.1038/nature26000].
+We ran the [DKFZ brain classifier version 12.5](https://www.molecularneuropathology.org/mnp/classifiers/11), a comprehensive DNA methylation-based classification of CNS tumors across all entities and age groups [@doi:10.1038/nature26000].
 Unprocessed IDAT-files from the [Children's Brain Tumor Network (CBTN)](https://cbtn.org/) `Infinium Human Methylation EPIC (850k) BeadChip arrays` were used as input and the following information was compiled into the `histologies.tsv` file: `dkfz_v12_methylation_subclass` (predicted methylation subtype), `dkfz_v12_methylation_subclass_score` (classification score), `dkfz_v12_methylation_mgmt_status` (_MGMT_ methylation status), and `dkfz_v12_methylation_mgmt_estimated` (estimated _MGMT_ methylation fraction).
 
 #### Gene Expression
-The [`tumor-normal-differential-expression`](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/tumor-normal-differential-expression) module perfoms differential expression analyses for all sets of Disease (`cancer_group`) and Dataset (`cohort`) across all genes found in the `gene-expression-rsem-tpm-collapsed.rds` table.
+The [`tumor-normal-differential-expression`](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/tumor-normal-differential-expression) module performs differential expression analyses for all sets of Disease (`cancer_group`) and Dataset (`cohort`) across all genes found in the `gene-expression-rsem-tpm-collapsed.rds` table.
 The purpose of this analysis is to highlight the correlation and understand the variability in gene expression in different cancer conditions across different histological tissues.
 For OpenPedCan v12 data release, this module performs expression analysis over 102 cancer groups across 52 histological tissues for all 54,346 genes found in the dataset.
 This analysis was performed on the Children's Hospital of Philadelphia HPC and was configured to use 96G of RAM per CPU, with one task (one iteration of expression analysis for each set of tissue and cancer group) per CPU (total 102*52=5304 CPUs) using the [R/DESeq2](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-014-0550-8) package.
