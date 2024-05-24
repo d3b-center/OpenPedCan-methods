@@ -1,2 +1,0 @@
-content/06.methods.md:101:ng
-content/06.methods.md:104:ng

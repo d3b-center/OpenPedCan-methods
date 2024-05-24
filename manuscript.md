@@ -57,8 +57,8 @@ header-includes: |
   <meta name="dc.date" content="2024-05-24" />
   <meta name="citation_publication_date" content="2024-05-24" />
   <meta property="article:published_time" content="2024-05-24" />
-  <meta name="dc.modified" content="2024-05-24T19:42:04+00:00" />
-  <meta property="article:modified_time" content="2024-05-24T19:42:04+00:00" />
+  <meta name="dc.modified" content="2024-05-24T19:53:54+00:00" />
+  <meta property="article:modified_time" content="2024-05-24T19:53:54+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -211,9 +211,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://d3b-center.github.io/OpenPedCan-methods/" />
   <meta name="citation_pdf_url" content="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/a8c9c2fc2a03fbeab6e0cbb0deca2a5784c9d338/" />
-  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/a8c9c2fc2a03fbeab6e0cbb0deca2a5784c9d338/" />
-  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/a8c9c2fc2a03fbeab6e0cbb0deca2a5784c9d338/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/ff4311b98fa27f0ef88318143a58e75aa18d54e4/" />
+  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/ff4311b98fa27f0ef88318143a58e75aa18d54e4/" />
+  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/ff4311b98fa27f0ef88318143a58e75aa18d54e4/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -235,9 +235,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/a8c9c2fc2a03fbeab6e0cbb0deca2a5784c9d338/))
+([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/ff4311b98fa27f0ef88318143a58e75aa18d54e4/))
 was automatically generated
-from [d3b-center/OpenPedCan-methods@a8c9c2f](https://github.com/d3b-center/OpenPedCan-methods/tree/a8c9c2fc2a03fbeab6e0cbb0deca2a5784c9d338)
+from [d3b-center/OpenPedCan-methods@ff4311b](https://github.com/d3b-center/OpenPedCan-methods/tree/ff4311b98fa27f0ef88318143a58e75aa18d54e4)
 on 2024-05-24.
 </em></small>
 
@@ -549,12 +549,18 @@ on 2024-05-24.
 The Open Pediatric Cancer (OpenPedCan) project at the Children’s Hospital of Philadelphia is an open analysis effort in which we harmonize pediatric cancer data from multiple sources, perform downstream cancer analyses on these data, and provide them on PedcBioPortal and v2.1 of NCI's [Pediatric Molecular Targets Platform (MTP)](https://moleculartargets.ccdi.cancer.gov/).
 The OpenPedCan analyses currently include the following datasets, described more fully below:
 
-- TARGET
-- Kids First Neuroblastoma
 - OpenPBTA
+- TARGET
+- Kids First Neuroblastoma (X01)
+- Kids First PBTA (X01)
+- Chordoma Foundation
+- MI-ONCOSEQ Study
+- DGD (CHOP P30 Panel)
 - GTEx
 - TCGA
-- DGD (CHOP P30 Panel)
+- CPTAC PBTA
+- CPTAC GBM
+- HOPE proteomics
 
 **Open Pediatric Brain Tumor Atlas (OpenPBTA)**
 In September of 2018, the [Children's Brain Tumor Network (CBTN)](https://cbtn.org/) released the [Pediatric Brain Tumor Atlas (PBTA)](https://cbtn.org/pediatric-brain-tumor-atlas/), a genomic dataset (whole genome sequencing, whole exome sequencing, RNA sequencing, proteomic, and clinical data) for nearly 1,000 tumors, available from the [Gabriella Miller Kids First Portal](https://kidsfirstdrc.org/).
@@ -567,10 +573,19 @@ The Therapeutically Applicable Research to Generate Effective Treatments (TARGET
 The overall goal is to collect genomic data to accelerate the development of more effective therapies.
 OpenPedCan analyses include the seven diseases present in the TARGET dataset: Acute Lymphoblastic Leukemia (ALL), Acute Myeloid Leukemia (AML), Clear cell sarcoma of the kidney, Neuroblastoma, Osteosarcoma, Rhabdoid tumor, and Wilm’s Tumor.
 
-**Gabriella Miller Kids First Neuroblastoma [(Kids First)](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001436.v1.p1)**
+**Gabriella Miller Kids First [(Neuroblastoma)](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001436.v1.p1) and [PBTA](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002517.v2.p2)**
 The Gabriella Miller Kids First Pediatric Research Program (Kids First) is a large-scale effort to accelerate research and gene discovery in pediatric cancers and structural birth defects.
 The program includes whole genome sequencing (WGS) from patients with pediatric cancers and structural birth defects and their families.
-OpenPedCan analyses include Neuroblastoma data from the Kids First project.
+OpenPedCan analyses include Neuroblastoma and PBTA data from the Kids First projects.
+
+**Chordoma Foundation [@https://www.chordomafoundation.org]**
+The Chordoma Foundation seeks to advance research and improve healthcare for patients diagnosed with chordoma.
+
+**MI-ONCOSEQ Study [@https://www.pathology.med.umich.edu/mctp/mi-oncoseq-study]**
+These clinical sequencing data from the University of Michigan were donated to CBTN and added to the PBTA cohort.
+
+**DGD [(CHOP P30 Panel)](https://www.chop.edu/cancer-panels)**
+CHOP's [Division of Genome Diagnostics](https://www.chop.edu/centers-programs/division-genomic-diagnostics) has partnered with CCDI to add somatic panel sequencing data to OpenPedCan and the Molecular Targets Platform.
 
 **The Genotype-Tissue Expression [(GTEx)](https://gtexportal.org/home/)**
 GTEx project is an ongoing effort to build a comprehensive public data resource and tissue bank to study tissue-specific gene expression, regulation and their relationship with genetic variants.
@@ -580,10 +595,16 @@ OpenPedCan project includes 17,382 GTEx RNA-Seq samples from GTEx v8 release, wh
 **The Cancer Genome Atlas Program [(TCGA)](https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga)**
 TCGA is a landmark cancer genomics program that molecularly characterized over 20,000 primary cancer and matched normal samples spanning 33 cancer types.
 It is a joint effort between NCI and the National Human Genome Research Institute.
-OpenPedCan project includes 10,414 TCGA RNA-Seq samples (716 normal and 9698 tumor) from [33 cancer types](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/blob/0a5c14705a385c99a6a16e34e932e94009b7a11c/analyses/molecular-subtyping-integrate/results/tcga_cancer_groups.tsv) in the v12 release.
+OpenPedCan project includes 10,414 TCGA RNA-Seq samples (716 normal and 9698 tumor) from [33 cancer types](https://github.com/d3b-center/OpenPedCan-analysis/blob/dev/analyses/molecular-subtyping-integrate/results/tcga_cancer_groups.tsv).
 
-**DGD [(CHOP P30 Panel)](https://www.chop.edu/cancer-panels)**
-CHOP's [Division of Genome Diagnostics](https://www.chop.edu/centers-programs/division-genomic-diagnostics) has partnered with CCDI to add somatic panel sequencing data to OpenPedCan and the Molecular Targets Platform.
+**Clinical Proteomic Tumor Analysis Consortium (CPTAC) PBTA proteomics study** 
+The CPTAC pediatric pan-brain tumor study [@doi:10.1016/j.cell.2020.10.044] contains 218 tumors profiled by proteogenomics and are included in OPC.
+
+**CPTAC adult GBM proteomics study** 
+This CPTAC adult GBM study [@doi:10.1016/j.ccell.2021.01.006] contains 99 tumors profiled by proteogenomics and are included in OPC.
+
+**Project HOPE proteomics study**
+Project HOPE is an adolescent and young adult high-grade glioma study (in preparation for publication) that contains 90 tumors profiled by proteogenomics and are included in OPC.
 
 The OpenPedCan operates on a pull request model to accept contributions from community participants.
 The maintainers have set up continuous integration software via GitHub Actions to confirm the reproducibility of analyses within the project’s Docker container.
@@ -676,8 +697,16 @@ Within OpenPedCan (OPC), we harmonized, aggregated, and analyzed data from multi
 We harmonized data from the Therapeutically Applicable Research to Generate Effective Treatments (TARGET cohort) Initiative, an NCI-funded collection of disease-specific projects that seeks to identify the genomic changes of pediatric cancers [@dbgap:phs000218.v23.p8].
 We included already harmonized neuroblastoma samples from the Gabriella Miller Kids First (GMKF cohort) Pediatric Research Program, a large-scale effort to accelerate research and gene discovery in pediatric cancers and structural birth defects [@dbgap:phs001436.v1.p1].
 Additionally, we re-harmonized all samples from the Open Pediatric Brain Tumor Atlas (OpenPBTA, PBTA cohort), an open science initiative led by Alex’s Lemonade Stand Foundation Childhood Cancer Data Lab and the Center for Data-Driven Discovery (D3B) at the Children’s Hospital of Philadelphia (CHOP), which genomically characterized pediatric brain tumor data from the Children’s Brain Tumor Network (CBTN), and the Pacific Pediatric Neuro-oncology Consortium (PNOC) [@dbgap:phs002517.v1.p1; @doi:10.1016/j.xgen.2023.100340].
-Building on the work of OpenPBTA, OPC added the PBTA X01 data [@https://commonfund.nih.gov/kidsfirst/2021X01projects#FY21_Resnick], the Chordoma Foundation data [@https://www.chordomafoundation.org/], and the MI-ONCOSEQ Study [@https://www.pathology.med.umich.edu/mctp/mi-oncoseq-study], donated to CBTN by the University of Michigan, to the PBTA cohort.
-Finally, OPC includes the Children's Hospital of Philadelphia (CHOP) P30 Panel data generated by CHOP's Division of Genomic Diagnostics (DGD cohort) which includes targeted DNA and fusion panel data [@dbgap:phs002517.v1.p1].
+Building on the work of OpenPBTA, OPC contains additional data from the following studies:
+
+- PBTA X01 [@https://commonfund.nih.gov/kidsfirst/2021X01projects#FY21_Resnick]
+- Chordoma Foundation [@https://www.chordomafoundation.org]
+- MI-ONCOSEQ Study [@https://www.pathology.med.umich.edu/mctp/mi-oncoseq-study], donated to CBTN by the University of Michigan, to the PBTA cohort
+- Children's Hospital of Philadelphia (CHOP) P30 Panel data generated by CHOP's Division of Genomic Diagnostics (DGD cohort) which includes targeted DNA and fusion panel data [@dbgap:phs002517.v1.p1].
+- National Cancer Institute's Clinical Proteomic Tumor Analysis Consortium (CPTAC) PBTA proteomics study [@doi:10.1016/j.cell.2020.10.044]
+- CPTAC adult GBM proteomics study [@doi:10.1016/j.ccell.2021.01.006]
+- Project HOPE adolescent and young adult high-grade glioma proteomics study (in preparation for publication)
+
 In addition to pediatric cancer data, OpenPedCan contains adult data from large science consortia as references.
 For normal gene expression, GTEx [@dbgap:phs000424.v9.p2] was used, and for comparison with adult cancers, The Cancer Genome Atlas (TCGA) [@https://www.cancer.gov/tcga] was included.
 
@@ -867,7 +896,7 @@ Unprocessed IDAT-files from the [Children's Brain Tumor Network (CBTN)](https://
 The [`tumor-normal-differential-expression`](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/tumor-normal-differential-expression) module performs differential expression analyses for all sets of Disease (`cancer_group`) and Dataset (`cohort`) across all genes found in the `gene-expression-rsem-tpm-collapsed.rds` table.
 The purpose of this analysis is to highlight the correlation and understand the variability in gene expression in different cancer conditions across different histological tissues.
 For OpenPedCan v12 data release, this module performs expression analysis over 102 cancer groups across 52 histological tissues for all 54,346 genes found in the dataset.
-This analysis was performed on the Children's Hospital of Philadelphia HPC and was configured to use 96G of RAM per CPU, with one task (one iteration of expression analysis for each set of tissue and cancer group) per CPU (total 102*52=5304 CPUs) using the [R/DESeq2](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-014-0550-8) package.
+This analysis was performed on the Children's Hospital of Philadelphia HPC and was configured to use 96G of RAM per CPU, with one task (one iteration of expression analysis for each set of tissue and cancer group) per CPU (total 102x52=5304 CPUs) using the [R/DESeq2](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-014-0550-8) package.
 Please refer to script `run-tumor-normal-differential-expression.sh` in the module for additional details on Slurm processing configuration.
 The same analysis can also be performed on CAVATICA, but requires further optimization.
 The module describes the steps for CAVATICA set up, and scripts to publish an application on the portal.
@@ -891,6 +920,38 @@ The resulting `gene-wise` and `group-wise` summary statistics tables were annota
 
 ##### Gene fusion detection
 <!-- TODO: needs update -->
+
+#### CPTAC PBTA, CPTAC GBM, and HOPE proteogenomics
+The following methods are the general proteomics approaches used for the CPTAC PBTA [@doi:10.1016/j.cell.2020.10.044], CPTAC GBM [@doi:10.1016/j.ccell.2021.01.006], and HOPE (pre-publication, correspondence with Dr. Pei Wang) studies. 
+For specific descriptions of sample preparation, mass spectrometry instrumentation and approaches, and data generation, processing, or analysis please refer to the relevant publications.
+
+##### TMT-11 Labeling and Phosphopeptide Enrichment
+Proteome and phosphoproteome analysis of brain cancer samples in the CPTAC PBTA (pediatric), CPTAC GBM (adult), and HOPE (adolescent and young adult, AYA) cohort studies were structured as TMT11-plex experiments. 
+Tumor samples were digested with LysC and trypsin. 
+Digested peptides were labeled with TMT11-plex reagent and prepared for phosphopeptide enrichment. 
+For each dataset, a common reference sample was compiled from representative samples within the cohort. 
+Phosphopeptides were enriched using Immobilized Metal Affinity Chromatography (IMAC) with Fe3+-NTA-agarose bead kits.
+
+##### Liquid Chromatography with Tandem Mass Spectrometry (LC-MS/MS) Analysis
+To reduce sample complexity, peptide samples were separated by high pH reversed phase HPLC fractionation. 
+For CPTAC PBTA a total of 96 fractions were consolidated into 12 final fractions for LC-MS/MS analysis. 
+For CPTAC GBM and HOPE cohorts a total of 96 fractions were consolidated into 24 fractions. 
+For CPTAC PBTA, global proteome mass spectrometry analyses were performed on an Orbitrap Fusion Tribrid Mass Spectrometer and phosphoproteome analyses were performed on an Orbitrap Fusion Lumos Tribrid Mass Spectrometer. 
+For CPTAC GBM and HOPE studies, mass spectrometry analysis was performed using an Orbitrap Fusion Lumos Mass Spectrometer. 
+
+##### Protein Identification
+The CPTAC PBTA spectra data were analyzed with MSFragger version 20190628 [@doi:10.1038/nmeth.4256] searching against a CPTAC harmonized RefSeq-based sequence database containing 41,457 proteins mapped to the human reference genome (GRCh38/hg38) obtained via the UCSC Table Browser on June 29, 2018, with the addition of 13 proteins encoded in the human mitochondrial genome, 264 common laboratory contaminant proteins, and an equal number of decoy sequences. 
+The CPTAC GBM and HOPE spectra data were analyzed with MS-GF+ v9881 [@doi:10.1093/bioinformatics/btv437; @doi:10.1038/ncomms6277; @doi:10.1186/1471-2164-15-S1-S9] searching against the RefSeq human protein sequence database downloaded on June 29, 2018 (hg38; 41,734 proteins), combined with 264 contaminants, and a decoy database composed of the forward and reversed protein sequences. 
+
+##### Protein Quantification and Data Analysis
+Relative protein (gene) abundance was calculated as the ratio of sample abundance to reference abundance using the summed reporter ion intensities from peptides mapped to the respective gene. 
+For phosphoproteomic datasets, data were not summarized by protein but left at the phosphopeptide level. 
+Global normalization was performed on the gene-level abundance matrix (log2 ratio) for global proteomic and on the site-level abundance matrix (log2 ratio) for phosphoproteomic data. 
+The median, log2 relative protein or peptide abundance for each sample was calculated and used to normalize each sample to achieve a common median of 0. 
+To identify TMT outliers, inter-TMT t-tests were performed for each individual protein or phosphopeptide. 
+Batch effects were checked using the log2 relative protein or phosphopeptide abundance and corrected using the Combat algorithm [@doi:10.1038/nbt1240]. 
+Imputation was performed after batch effect correction for proteins or phosphopeptides with a missing rate < 50%. 
+For the phosphopeptide datasets, 440 markers associated with cold-regulated ischemia genes were filtered and removed.
 
 
 ### QUANTIFICATION AND STATISTICAL ANALYSIS
