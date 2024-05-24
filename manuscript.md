@@ -7,7 +7,7 @@ keywords:
 - classification
 - somatic variation
 lang: en-US
-date-meta: '2024-05-20'
+date-meta: '2024-05-24'
 author-meta:
 - Eric Wafula
 - Zhuangzhuang Geng
@@ -54,11 +54,11 @@ header-includes: |
   <meta name="citation_title" content="The Open Pediatric Cancer Project" />
   <meta property="og:title" content="The Open Pediatric Cancer Project" />
   <meta property="twitter:title" content="The Open Pediatric Cancer Project" />
-  <meta name="dc.date" content="2024-05-20" />
-  <meta name="citation_publication_date" content="2024-05-20" />
-  <meta property="article:published_time" content="2024-05-20" />
-  <meta name="dc.modified" content="2024-05-20T14:51:49+00:00" />
-  <meta property="article:modified_time" content="2024-05-20T14:51:49+00:00" />
+  <meta name="dc.date" content="2024-05-24" />
+  <meta name="citation_publication_date" content="2024-05-24" />
+  <meta property="article:published_time" content="2024-05-24" />
+  <meta name="dc.modified" content="2024-05-24T19:42:04+00:00" />
+  <meta property="article:modified_time" content="2024-05-24T19:42:04+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -211,9 +211,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://d3b-center.github.io/OpenPedCan-methods/" />
   <meta name="citation_pdf_url" content="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/240fc9f7a43362788541d49a5d93c703665f8084/" />
-  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/240fc9f7a43362788541d49a5d93c703665f8084/" />
-  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/240fc9f7a43362788541d49a5d93c703665f8084/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/a8c9c2fc2a03fbeab6e0cbb0deca2a5784c9d338/" />
+  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/a8c9c2fc2a03fbeab6e0cbb0deca2a5784c9d338/" />
+  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/a8c9c2fc2a03fbeab6e0cbb0deca2a5784c9d338/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -235,10 +235,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/240fc9f7a43362788541d49a5d93c703665f8084/))
+([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/a8c9c2fc2a03fbeab6e0cbb0deca2a5784c9d338/))
 was automatically generated
-from [d3b-center/OpenPedCan-methods@240fc9f](https://github.com/d3b-center/OpenPedCan-methods/tree/240fc9f7a43362788541d49a5d93c703665f8084)
-on 2024-05-20.
+from [d3b-center/OpenPedCan-methods@a8c9c2f](https://github.com/d3b-center/OpenPedCan-methods/tree/a8c9c2fc2a03fbeab6e0cbb0deca2a5784c9d338)
+on 2024-05-24.
 </em></small>
 
 ## Authors
@@ -860,8 +860,8 @@ In addition, each CpG probe was annotated with a gene feature to identify the ge
 Details of the analysis are available in the [OpenPedCan methylation-summary module](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/methylation-summary).
 
 ##### Methylation sample classification
-We ran the [DKFZ brain classifier version 12.5](https://www.molecularneuropathology.org/mnp/classifiers/11), a comprehensive DNA methylation-based classification of CNS tumors across all entities and age groups [@doi:10.1038/nature26000].
-Unprocessed IDAT-files from the [Children's Brain Tumor Network (CBTN)](https://cbtn.org/) `Infinium Human Methylation EPIC (850k) BeadChip arrays` were used as input and the following information was compiled into the `histologies.tsv` file: `dkfz_v12_methylation_subclass` (predicted methylation subtype), `dkfz_v12_methylation_subclass_score` (classification score), `dkfz_v12_methylation_mgmt_status` (_MGMT_ methylation status), and `dkfz_v12_methylation_mgmt_estimated` (estimated _MGMT_ methylation fraction).
+The Clinical Methylation Unit Laboratory of Pathology at the National Cancer Institute Center for Cancer Research ran the [DKFZ brain classifier version 12.6](https://www.molecularneuropathology.org/mnp/classifiers/11), a comprehensive DNA methylation-based classification of CNS tumors across all entities and age groups [@doi:10.1038/nature26000] and/or the Bethesda Brain tumor classifier v2.0 (NIH_v2) and the combo reporter pipeline v2.0 on docker container trust1/bethesda:latest.
+Unprocessed IDAT-files from the [Children's Brain Tumor Network (CBTN)](https://cbtn.org/) `Infinium Human Methylation EPIC (850k) BeadChip arrays` were used as input and the following information was compiled into the `histologies.tsv` file: `dkfz_v12_methylation_subclass` (predicted methylation subtype), `dkfz_v12_methylation_subclass_score` (classification score), `dkfz_v12_methylation_mgmt_status` (_MGMT_ methylation status), `dkfz_v12_methylation_mgmt_estimated` (estimated _MGMT_ methylation fraction), `NIH_v2_methylation_Superfamily`, `NIH_v2_methylation_Superfamily_mean_score`, `NIH_v2_methylation_Superfamily_Consistency_score`, `NIH_v2_methylation_Class`, `NIH_v2_methylation_Class_mean_score`, `NIH_v2_methylation_Class_consistency_score`, `NIH_v2_methylation_Superfamily_match`, and `NIH_v2_methylation_Class_match`. 
 
 #### Gene Expression
 The [`tumor-normal-differential-expression`](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/tumor-normal-differential-expression) module performs differential expression analyses for all sets of Disease (`cancer_group`) and Dataset (`cohort`) across all genes found in the `gene-expression-rsem-tpm-collapsed.rds` table.
