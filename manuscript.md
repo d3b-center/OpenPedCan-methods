@@ -57,8 +57,8 @@ header-includes: |
   <meta name="dc.date" content="2024-05-29" />
   <meta name="citation_publication_date" content="2024-05-29" />
   <meta property="article:published_time" content="2024-05-29" />
-  <meta name="dc.modified" content="2024-05-29T14:30:43+00:00" />
-  <meta property="article:modified_time" content="2024-05-29T14:30:43+00:00" />
+  <meta name="dc.modified" content="2024-05-29T16:56:44+00:00" />
+  <meta property="article:modified_time" content="2024-05-29T16:56:44+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -211,9 +211,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://d3b-center.github.io/OpenPedCan-methods/" />
   <meta name="citation_pdf_url" content="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/084e9777d4253115341c24d9d908e0715c41b824/" />
-  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/084e9777d4253115341c24d9d908e0715c41b824/" />
-  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/084e9777d4253115341c24d9d908e0715c41b824/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/3cfcb7b501eafbba82bb84ace8b5dd32bd1e7209/" />
+  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/3cfcb7b501eafbba82bb84ace8b5dd32bd1e7209/" />
+  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/3cfcb7b501eafbba82bb84ace8b5dd32bd1e7209/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -235,9 +235,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/084e9777d4253115341c24d9d908e0715c41b824/))
+([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/3cfcb7b501eafbba82bb84ace8b5dd32bd1e7209/))
 was automatically generated
-from [d3b-center/OpenPedCan-methods@084e977](https://github.com/d3b-center/OpenPedCan-methods/tree/084e9777d4253115341c24d9d908e0715c41b824)
+from [d3b-center/OpenPedCan-methods@3cfcb7b](https://github.com/d3b-center/OpenPedCan-methods/tree/3cfcb7b501eafbba82bb84ace8b5dd32bd1e7209)
 on 2024-05-29.
 </em></small>
 
@@ -904,10 +904,13 @@ The required data files are also available publicly on CAVATICA under the [Open 
 Refer to the module for detailed description and scripts.
 
 ##### Abundance Estimation
-Among the data sources used for OpenPedCan, GTEx and TCGA used GENCODE versions v26 and v36, respectively.
-Moreover, the gene symbols used in these different GENCODE versions also varied.
-Therefore, the gene symbols had to be harmonized for compatibility to map unique gene identifiers to their gene symbols.
-ENSG IDs from each data source were pulled and mapped to the GTF/GFF3 file from [`GENCODE v39`](https://www.gencodegenes.org/human/release_39.html) to extract unique gene symbols and remove duplicates.
+Among the data sources used for OpenPedCan, GTEx and TCGA used GENCODE v26 and v36, respectively.
+Therefore, the gene symbols had to be harmonized to GENCODE v39 for compatibility with the rest of the dataset.
+The liftover process was done via a [custom script](https://github.com/d3b-center/D3b-DGD-Collaboration/blob/main/scripts/update_gene_symbols.py). 
+The script first constructs an object detailing the gene symbol changes from the [HGNC symbol database](https://https://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/archive/monthly/tsv/hgnc_complete_set_2021-06-01.txt). 
+Using the symbol-change object, the script updates any columns containing gene symbols.
+This liftover process was used on GTEx RNA-Seq, TCGA RNA-Seq, DGD fusions, and DNA hotspot files.
+
 Additionally, the gene expression matrices had some instances where multiple Ensembl gene identifiers mapped to the same gene symbol.
 This was dealt with by filtering the expression matrix to only genes with [FPKM/TPM] > 0 and then selecting the instance of the gene symbol with the maximum mean [FPKM/TPM/Expected_count] value across samples.
 This enabled many downstream modules that require RNA-seq data have gene symbols as unique gene identifiers.
