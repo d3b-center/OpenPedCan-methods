@@ -7,7 +7,7 @@ keywords:
 - classification
 - somatic variation
 lang: en-US
-date-meta: '2024-05-24'
+date-meta: '2024-05-29'
 author-meta:
 - Eric Wafula
 - Zhuangzhuang Geng
@@ -54,11 +54,11 @@ header-includes: |
   <meta name="citation_title" content="The Open Pediatric Cancer Project" />
   <meta property="og:title" content="The Open Pediatric Cancer Project" />
   <meta property="twitter:title" content="The Open Pediatric Cancer Project" />
-  <meta name="dc.date" content="2024-05-24" />
-  <meta name="citation_publication_date" content="2024-05-24" />
-  <meta property="article:published_time" content="2024-05-24" />
-  <meta name="dc.modified" content="2024-05-24T19:53:54+00:00" />
-  <meta property="article:modified_time" content="2024-05-24T19:53:54+00:00" />
+  <meta name="dc.date" content="2024-05-29" />
+  <meta name="citation_publication_date" content="2024-05-29" />
+  <meta property="article:published_time" content="2024-05-29" />
+  <meta name="dc.modified" content="2024-05-29T14:30:43+00:00" />
+  <meta property="article:modified_time" content="2024-05-29T14:30:43+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -211,9 +211,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://d3b-center.github.io/OpenPedCan-methods/" />
   <meta name="citation_pdf_url" content="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/ff4311b98fa27f0ef88318143a58e75aa18d54e4/" />
-  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/ff4311b98fa27f0ef88318143a58e75aa18d54e4/" />
-  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/ff4311b98fa27f0ef88318143a58e75aa18d54e4/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/084e9777d4253115341c24d9d908e0715c41b824/" />
+  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/084e9777d4253115341c24d9d908e0715c41b824/" />
+  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/084e9777d4253115341c24d9d908e0715c41b824/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -235,10 +235,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/ff4311b98fa27f0ef88318143a58e75aa18d54e4/))
+([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/084e9777d4253115341c24d9d908e0715c41b824/))
 was automatically generated
-from [d3b-center/OpenPedCan-methods@ff4311b](https://github.com/d3b-center/OpenPedCan-methods/tree/ff4311b98fa27f0ef88318143a58e75aa18d54e4)
-on 2024-05-24.
+from [d3b-center/OpenPedCan-methods@084e977](https://github.com/d3b-center/OpenPedCan-methods/tree/084e9777d4253115341c24d9d908e0715c41b824)
+on 2024-05-29.
 </em></small>
 
 ## Authors
@@ -1026,6 +1026,16 @@ Here, we build upon the molecular subtyping performed in OpenPBTA [@doi:10.1016/
 **High-grade gliomas.**
 <!-- TODO: needs update - DHG, IHG -->
 
+High-grade gliomas (HGG) were categorized based on a combination of clinical information, molecular features, and DNA methylation data. 
+H3 K28-altered diffuse midline gliomas (DMG) were classified based on the presence of a p.K28M or p.K28I mutation in _H3F3A_, _HIST1H3B_, _HIST1H3C_, or _HIST2H3C_, or a high-confidence DKFZ methylation score (>=0.8) in the appropriate subclass. 
+Oligodendroglioma, IDH-mutant tumors were classified based on high-confidence "O_IDH" methylation classifications, and oligosarcoma, IDH-mutant tumors were defined as those with high-confidence "OLIGOSARC_IDH" methylation classifications. 
+Pleomorphic xanthoastrocytomas (PXA) were classified using the following criteria: 1) methylation subtype is high-confidence "PXA" or `pathology_free_text_diagnosis` contains "pleomorphic xanthoastrocytoma" or "pxa", and 2) tumor contains a BRAF V600E mutation and a _CDKN2A_ or _CDKN2B_ homozygous deletion. 
+Methylation classifications were used in classifying the following subtypes: 
+
+1. DHG, H3 G35 ("DHG_G34" and "GBM_G34" classifications)
+2. HGG, IDH ("A_IDH_HG" and "GBM_IDH" classifications)
+3. HGG, H3 wild type (methylation classification contains "GBM_MES", "GBM_RTK", "HGG_", "HGAP", "AAP", or "ped_")
+
 A new high-grade glioma entity called infant-type hemispheric gliomas (IHGs), characterized by distinct gene fusions enriched in receptor tyrosine kinase (RTK) genes including _ALK_, _NTRK1/2/3_, _ROS1_ or _MET_, was identified in 2021 [@doi: 10.1038/s41467-019-12187-5].
 To identify IHG tumors, first, tumors which were classified as "IHG" by the DKFZ methylation classifier or diagnosed as "infant type hemispheric glioma" from `pathology_free_text_diagnosis` were selected [@doi:10.1038/nature26000].
 Then, the corresponding tumor RNA-seq data were utilized to seek the evidence for RTK gene fusion.
@@ -1047,7 +1057,67 @@ If `pathology_free_text_diagnosis` was "NBL, MYCN non-amplified" and the genetic
 On the other hand, if `pathology_free_text_diagnosis` was "NBL, MYCN amplified" and the genetic data suggested MYCN non-amplification, the RNA-Seq gene expression level of _MYCN_ was used as a prediction indicator.
 In those cases, samples with _MYCN_ gene expression above or below the cutoff (TPM >= 140.83 based on visual inspection of MYCN CNV status) were subtyped as "NBL, MYCN amplified" and "NBL, MYCN non-amplified", respectively.
 _MYCN_ gene expression was also used to subtype samples without DNA sequencing data.
-If a sample did not fit none of these situations, it was denoted as "NBL, To be classified".  
+If a sample did not fit none of these situations, it was denoted as "NBL, To be classified". 
+
+**Craniopharyngiomas**
+
+In addition to molecular criteria established in OpenPBTA [@doi:10.1016/j.xgen.2023.100340], craniopharyngiomas (CRANIO) are now subtyped using DNA methylation classifiers. 
+Craniopharyngiomas with a high-confidence methylation subclass containing "CPH_PAP" were classified as papillary (CRANIO, PAP), and those with high-confidence methylation subclass containing "CPH_ADM" were classified as adamantinomatous (CRANIO, ADAM), respectively. 
+
+**Ependymomas**
+
+Ependymomas (EPN) are subtyped using the following criteria: 
+
+1. Any spinal tumor with _MYCN_ amplification or with a high-confidence "EPN, SP-MYCN" methylation classification was subtyped as EPN, spinal and MYCN-amplified (SP-MYCN).
+2. EPN tumors containing one or more gene fusions of _YAP1::MAMLD1_, _YAP1::MAML2_, or _YAP1::FAM118B_, or else had a high-confidence "EPN, ST YAP1" methylation classification were subtyped as EPN, ST YAP1.
+3. EPN tumors containing one or more gene fusions of _ZFTA::RELA_ or _ZFTA::MAML2_, or else had a high-confidence "EPN, ST ZFTA" methylation classification were subtyped as EPN, ST ZFTA. 
+This reflects an update to WHO classifications that now characterizes this subtype based on _ZFTA_ fusions rather than _RELA_ fusions. 
+4. EPN tumors with 1) chromosome 1q gain and _TKTL1_ over-expression, or 2) _EZHIP_ over-expression, or 3) posterior fossa anatomical location and a histone H3 K28 mutation in _H3F3A_, _HIST1H3B_, _HIST1H3C_, or _HIST2H3C_, or 4) a high-confidence "EPN, PF A" methylation classification were subtyped as posterior fossa group A ependymomas (EPN, PF A). 
+5. Tumors with 1) chr 6p or 6q loss and _GPBP1_ or _IFT46_ over-expression, or 2) a high-confidence "EPN, PF B" methylation classification were subtyped as posterior fossa group B ependymomas (EPN, PF B).
+6. EPN tumors with a high-confidence "EPN, MPE" methylation classification were subtyped as myxopapillary ependymomas (EPN, MPE).
+7. EPN tumors with a high-confidence "EPN, PF SE" methylation classification were subtyped as posterior fossa subependymomas (EPN, PF SE).
+8. EPN tumors with a high-confidence "EPN, SP SE" methylation classification were subtyped as spinal subependymomas (EPN, SP SE).
+9. EPN tumors with a high-confidence "EPN, SP" methylation classification were subtyped as spinal ependymomas (EPN, SP).
+10. All other EPN tumors were classified as "EPN, To be classified".
+
+**Low-grade gliomas**
+
+In addition to subtyping methods described in OpenPBTA [@doi:10.1016/j.xgen.2023.100340], high-confidence methylation classifications are now used in classifying the following low-grade glioma (LGG) subtypes: 
+
+1. LGG, other MAPK-altered (methylation subclass "PA_MID" or "PLNTY")
+2. LGG, FGFR-altered (methylation subclass "PA_INF_FGFR")
+3. LGG, IDH-altered (methylation subclass "A_IDH_LG")
+4. LGG, MYB/MYBL1 fusion (methylation subclass "AG_MYB" or "LGG_MYB")
+5. LGG, MAPK-altered (methylation subclass "LGG, MAPK")
+6. LGG, BRAF- and MAPK-altered (methylation subclass "LGG, BRAF/MAPK")
+7. SEGA, to be classified (methylation subclass "SEGA, To be classified")
+
+**Medulloblastoma**
+
+Medulloblastomas (MB) are now subtyped using high-confidence methylation classifications in addition to MedulloClassifier [@doi:10.1371/journal.pcbi.1008263] as follows:
+
+1. MB tumors with methylation classification that contains "MB_SHH" are subtyped as SHH-activated medulloblastoma (MB, SHH)
+2. MB tumors with "MB_G34_I", "MB_G34_II", "MB_G34_III", and "MB_G334_IV" methylation classifications are subtyped as medulloblastoma group 3 (MB, group 3)
+3. MB tumors with "MB_G34_V", "MB_G34_VI", "MB_G34_VII", and "MB_G334_VIII" methylation classifications are subtyped as medulloblastoma group 4 (MB, group 4)
+4. MB tumors with "MB_WNT" methylation classification are subtyped as WNT-activated MB (MB, WNT)
+5. MB tumors with "MB_MYO" methylation classification are subtyped as medulloblastomas with myogenic differentiation (MB, MYO)
+
+**Pineoblastomas**
+
+Pineoblastomas (PB) are classified as follows using high-confidence methylation classifications:
+
+1. Pineoblastoma, MYC/FOXR2-activated ("PB_FOXR2" methylation classification)
+2. Pineoblastoma, RB1-altered ("PB_RB1" methylation classification)
+3. Pineoblastoma, group 1 ("PB_GRP1A" and "PB_GRP1B" methylation classifications) 
+4. Pineoblastoma, group 2 ("PB_GRP2" methylation classification)
+5. All other pineoblastomas were classified as "PB, To be classified"
+
+**non-MB, non-ATRT Embryonal Tumors**
+
+Updates were made to non-MB, non-ATRT embryonal tumor subtyping as follows: 
+
+1. Embryonal tumors with multilayered rosettes and C19MC-altered (ETMR, C19MC-altered) were classified based on 1) high-confidence "ETMR_C19MC" methylation classification or 2) _TTYH1_ gene fusion and either chromosome 19 amplification or _LIN28A_ over-expression. 
+2. ETMR, not otherwise specified (NOS) were classified based on _LIN28A_ over-expression and no _TTYH1_ gene fusion. 
 
 
 ###### Integration of brain tumor methylation classifications
