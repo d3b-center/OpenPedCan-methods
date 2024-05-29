@@ -38,7 +38,7 @@
   <meta name="author" content="Alvin Farrel" />
   <meta name="author" content="Deanne Taylor" />
   <meta name="author" content="Jo Lynne Rokita^" />
-  <meta name="dcterms.date" content="2024-05-24" />
+  <meta name="dcterms.date" content="2024-05-29" />
   <meta name="keywords" content="pediatric cancer, reproducibility, open science, classification, somatic variation" />
   <title>The Open Pediatric Cancer Project</title>
   <style>
@@ -83,11 +83,11 @@
   <meta name="citation_title" content="The Open Pediatric Cancer Project" />
   <meta property="og:title" content="The Open Pediatric Cancer Project" />
   <meta property="twitter:title" content="The Open Pediatric Cancer Project" />
-  <meta name="dc.date" content="2024-05-24" />
-  <meta name="citation_publication_date" content="2024-05-24" />
-  <meta property="article:published_time" content="2024-05-24" />
-  <meta name="dc.modified" content="2024-05-24T19:53:54+00:00" />
-  <meta property="article:modified_time" content="2024-05-24T19:53:54+00:00" />
+  <meta name="dc.date" content="2024-05-29" />
+  <meta name="citation_publication_date" content="2024-05-29" />
+  <meta property="article:published_time" content="2024-05-29" />
+  <meta name="dc.modified" content="2024-05-29T14:30:43+00:00" />
+  <meta property="article:modified_time" content="2024-05-29T14:30:43+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -240,9 +240,9 @@
   <meta name="citation_fulltext_html_url" content="https://d3b-center.github.io/OpenPedCan-methods/" />
   <meta name="citation_pdf_url" content="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/ff4311b98fa27f0ef88318143a58e75aa18d54e4/" />
-  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/ff4311b98fa27f0ef88318143a58e75aa18d54e4/" />
-  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/ff4311b98fa27f0ef88318143a58e75aa18d54e4/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/084e9777d4253115341c24d9d908e0715c41b824/" />
+  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/084e9777d4253115341c24d9d908e0715c41b824/" />
+  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/084e9777d4253115341c24d9d908e0715c41b824/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -259,10 +259,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://d3b-center.github.io/OpenPedCan-methods/v/ff4311b98fa27f0ef88318143a58e75aa18d54e4/">permalink</a>)
+(<a href="https://d3b-center.github.io/OpenPedCan-methods/v/084e9777d4253115341c24d9d908e0715c41b824/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/d3b-center/OpenPedCan-methods/tree/ff4311b98fa27f0ef88318143a58e75aa18d54e4">d3b-center/OpenPedCan-methods@ff4311b</a>
-on 2024-05-24.
+from <a href="https://github.com/d3b-center/OpenPedCan-methods/tree/084e9777d4253115341c24d9d908e0715c41b824">d3b-center/OpenPedCan-methods@084e977</a>
+on 2024-05-29.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -1103,6 +1103,16 @@ For WXS samples, we intersected each WXS bed region file with the GENCODE v39 co
 <p>Here, we build upon the molecular subtyping performed in OpenPBTA <span class="citation" data-cites="5VXMHJ7N">[<a href="#ref-5VXMHJ7N" role="doc-biblioref">8</a>]</span>.</p>
 <p><strong>High-grade gliomas.</strong>
 <!-- TODO: needs update - DHG, IHG --></p>
+<p>High-grade gliomas (HGG) were categorized based on a combination of clinical information, molecular features, and DNA methylation data.
+H3 K28-altered diffuse midline gliomas (DMG) were classified based on the presence of a p.K28M or p.K28I mutation in <em>H3F3A</em>, <em>HIST1H3B</em>, <em>HIST1H3C</em>, or <em>HIST2H3C</em>, or a high-confidence DKFZ methylation score (&gt;=0.8) in the appropriate subclass.
+Oligodendroglioma, IDH-mutant tumors were classified based on high-confidence “O_IDH” methylation classifications, and oligosarcoma, IDH-mutant tumors were defined as those with high-confidence “OLIGOSARC_IDH” methylation classifications.
+Pleomorphic xanthoastrocytomas (PXA) were classified using the following criteria: 1) methylation subtype is high-confidence “PXA” or <code>pathology_free_text_diagnosis</code> contains “pleomorphic xanthoastrocytoma” or “pxa”, and 2) tumor contains a BRAF V600E mutation and a <em>CDKN2A</em> or <em>CDKN2B</em> homozygous deletion.
+Methylation classifications were used in classifying the following subtypes:</p>
+<ol type="1">
+<li>DHG, H3 G35 (“DHG_G34” and “GBM_G34” classifications)</li>
+<li>HGG, IDH (“A_IDH_HG” and “GBM_IDH” classifications)</li>
+<li>HGG, H3 wild type (methylation classification contains “GBM_MES”, “GBM_RTK”, “HGG_”, “HGAP”, “AAP”, or “ped_”)</li>
+</ol>
 <p>A new high-grade glioma entity called infant-type hemispheric gliomas (IHGs), characterized by distinct gene fusions enriched in receptor tyrosine kinase (RTK) genes including <em>ALK</em>, <em>NTRK1/2/3</em>, <em>ROS1</em> or <em>MET</em>, was identified in 2021 <span class="citation" data-cites="doi">[<a href="#ref-doi" role="doc-biblioref"><strong>doi?</strong></a> 10.1038/s41467-019-12187-5]</span>.
 To identify IHG tumors, first, tumors which were classified as “IHG” by the DKFZ methylation classifier or diagnosed as “infant type hemispheric glioma” from <code>pathology_free_text_diagnosis</code> were selected <span class="citation" data-cites="19a3Xf4h3">[<a href="#ref-19a3Xf4h3" role="doc-biblioref">25</a>]</span>.
 Then, the corresponding tumor RNA-seq data were utilized to seek the evidence for RTK gene fusion.
@@ -1120,6 +1130,59 @@ On the other hand, if <code>pathology_free_text_diagnosis</code> was “NBL, MYC
 In those cases, samples with <em>MYCN</em> gene expression above or below the cutoff (TPM &gt;= 140.83 based on visual inspection of MYCN CNV status) were subtyped as “NBL, MYCN amplified” and “NBL, MYCN non-amplified”, respectively.
 <em>MYCN</em> gene expression was also used to subtype samples without DNA sequencing data.
 If a sample did not fit none of these situations, it was denoted as “NBL, To be classified”.</p>
+<p><strong>Craniopharyngiomas</strong></p>
+<p>In addition to molecular criteria established in OpenPBTA <span class="citation" data-cites="5VXMHJ7N">[<a href="#ref-5VXMHJ7N" role="doc-biblioref">8</a>]</span>, craniopharyngiomas (CRANIO) are now subtyped using DNA methylation classifiers.
+Craniopharyngiomas with a high-confidence methylation subclass containing “CPH_PAP” were classified as papillary (CRANIO, PAP), and those with high-confidence methylation subclass containing “CPH_ADM” were classified as adamantinomatous (CRANIO, ADAM), respectively.</p>
+<p><strong>Ependymomas</strong></p>
+<p>Ependymomas (EPN) are subtyped using the following criteria:</p>
+<ol type="1">
+<li>Any spinal tumor with <em>MYCN</em> amplification or with a high-confidence “EPN, SP-MYCN” methylation classification was subtyped as EPN, spinal and MYCN-amplified (SP-MYCN).</li>
+<li>EPN tumors containing one or more gene fusions of <em>YAP1::MAMLD1</em>, <em>YAP1::MAML2</em>, or <em>YAP1::FAM118B</em>, or else had a high-confidence “EPN, ST YAP1” methylation classification were subtyped as EPN, ST YAP1.</li>
+<li>EPN tumors containing one or more gene fusions of <em>ZFTA::RELA</em> or <em>ZFTA::MAML2</em>, or else had a high-confidence “EPN, ST ZFTA” methylation classification were subtyped as EPN, ST ZFTA.
+This reflects an update to WHO classifications that now characterizes this subtype based on <em>ZFTA</em> fusions rather than <em>RELA</em> fusions.</li>
+<li>EPN tumors with 1) chromosome 1q gain and <em>TKTL1</em> over-expression, or 2) <em>EZHIP</em> over-expression, or 3) posterior fossa anatomical location and a histone H3 K28 mutation in <em>H3F3A</em>, <em>HIST1H3B</em>, <em>HIST1H3C</em>, or <em>HIST2H3C</em>, or 4) a high-confidence “EPN, PF A” methylation classification were subtyped as posterior fossa group A ependymomas (EPN, PF A).</li>
+<li>Tumors with 1) chr 6p or 6q loss and <em>GPBP1</em> or <em>IFT46</em> over-expression, or 2) a high-confidence “EPN, PF B” methylation classification were subtyped as posterior fossa group B ependymomas (EPN, PF B).</li>
+<li>EPN tumors with a high-confidence “EPN, MPE” methylation classification were subtyped as myxopapillary ependymomas (EPN, MPE).</li>
+<li>EPN tumors with a high-confidence “EPN, PF SE” methylation classification were subtyped as posterior fossa subependymomas (EPN, PF SE).</li>
+<li>EPN tumors with a high-confidence “EPN, SP SE” methylation classification were subtyped as spinal subependymomas (EPN, SP SE).</li>
+<li>EPN tumors with a high-confidence “EPN, SP” methylation classification were subtyped as spinal ependymomas (EPN, SP).</li>
+<li>All other EPN tumors were classified as “EPN, To be classified”.</li>
+</ol>
+<p><strong>Low-grade gliomas</strong></p>
+<p>In addition to subtyping methods described in OpenPBTA <span class="citation" data-cites="5VXMHJ7N">[<a href="#ref-5VXMHJ7N" role="doc-biblioref">8</a>]</span>, high-confidence methylation classifications are now used in classifying the following low-grade glioma (LGG) subtypes:</p>
+<ol type="1">
+<li>LGG, other MAPK-altered (methylation subclass “PA_MID” or “PLNTY”)</li>
+<li>LGG, FGFR-altered (methylation subclass “PA_INF_FGFR”)</li>
+<li>LGG, IDH-altered (methylation subclass “A_IDH_LG”)</li>
+<li>LGG, MYB/MYBL1 fusion (methylation subclass “AG_MYB” or “LGG_MYB”)</li>
+<li>LGG, MAPK-altered (methylation subclass “LGG, MAPK”)</li>
+<li>LGG, BRAF- and MAPK-altered (methylation subclass “LGG, BRAF/MAPK”)</li>
+<li>SEGA, to be classified (methylation subclass “SEGA, To be classified”)</li>
+</ol>
+<p><strong>Medulloblastoma</strong></p>
+<p>Medulloblastomas (MB) are now subtyped using high-confidence methylation classifications in addition to MedulloClassifier <span class="citation" data-cites="12DKhuCiy">[<a href="#ref-12DKhuCiy" role="doc-biblioref">32</a>]</span> as follows:</p>
+<ol type="1">
+<li>MB tumors with methylation classification that contains “MB_SHH” are subtyped as SHH-activated medulloblastoma (MB, SHH)</li>
+<li>MB tumors with “MB_G34_I”, “MB_G34_II”, “MB_G34_III”, and “MB_G334_IV” methylation classifications are subtyped as medulloblastoma group 3 (MB, group 3)</li>
+<li>MB tumors with “MB_G34_V”, “MB_G34_VI”, “MB_G34_VII”, and “MB_G334_VIII” methylation classifications are subtyped as medulloblastoma group 4 (MB, group 4)</li>
+<li>MB tumors with “MB_WNT” methylation classification are subtyped as WNT-activated MB (MB, WNT)</li>
+<li>MB tumors with “MB_MYO” methylation classification are subtyped as medulloblastomas with myogenic differentiation (MB, MYO)</li>
+</ol>
+<p><strong>Pineoblastomas</strong></p>
+<p>Pineoblastomas (PB) are classified as follows using high-confidence methylation classifications:</p>
+<ol type="1">
+<li>Pineoblastoma, MYC/FOXR2-activated (“PB_FOXR2” methylation classification)</li>
+<li>Pineoblastoma, RB1-altered (“PB_RB1” methylation classification)</li>
+<li>Pineoblastoma, group 1 (“PB_GRP1A” and “PB_GRP1B” methylation classifications)</li>
+<li>Pineoblastoma, group 2 (“PB_GRP2” methylation classification)</li>
+<li>All other pineoblastomas were classified as “PB, To be classified”</li>
+</ol>
+<p><strong>non-MB, non-ATRT Embryonal Tumors</strong></p>
+<p>Updates were made to non-MB, non-ATRT embryonal tumor subtyping as follows:</p>
+<ol type="1">
+<li>Embryonal tumors with multilayered rosettes and C19MC-altered (ETMR, C19MC-altered) were classified based on 1) high-confidence “ETMR_C19MC” methylation classification or 2) <em>TTYH1</em> gene fusion and either chromosome 19 amplification or <em>LIN28A</em> over-expression.</li>
+<li>ETMR, not otherwise specified (NOS) were classified based on <em>LIN28A</em> over-expression and no <em>TTYH1</em> gene fusion.</li>
+</ol>
 <h6 id="integration-of-brain-tumor-methylation-classifications">Integration of brain tumor methylation classifications</h6>
 <h4 id="tp53-alteration-annotation-tp53_nf1_score-analysis-module">TP53 Alteration Annotation (<code>tp53_nf1_score</code> analysis module)</h4>
 <p>Please refer to the OpenPBTA manuscript for details <span class="citation" data-cites="5VXMHJ7N">[<a href="#ref-5VXMHJ7N" role="doc-biblioref">8</a>]</span>.</p>
@@ -1225,6 +1288,9 @@ For each input participant of an analysis, the independent biospecimen is select
 </div>
 <div id="ref-5NHLHVO3" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">31. </div><div class="csl-right-inline"><strong>Molecular subgrouping of atypical teratoid/rhabdoid tumors—a reinvestigation and current consensus</strong> <div class="csl-block">Ben Ho, Pascal D Johann, Yura Grabovska, Mamy Jean De Dieu Andrianteranagna, Fupan Yao, Michael Frühwald, Martin Hasselblatt, Franck Bourdeaut, Daniel Williamson, Annie Huang, Marcel Kool</div> <em>Neuro-Oncology</em> (2019-12-31) <a href="https://doi.org/gn3kcm">https://doi.org/gn3kcm</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/neuonc/noz235">10.1093/neuonc/noz235</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31889194">31889194</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7229260">PMC7229260</a></div></div>
+</div>
+<div id="ref-12DKhuCiy" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">32. </div><div class="csl-right-inline"><strong>A transcriptome-based classifier to determine molecular subtypes in medulloblastoma</strong> <div class="csl-block">Komal S Rathi, Sherjeel Arif, Mateusz Koptyra, Ammar S Naqvi, Deanne M Taylor, Phillip B Storm, Adam C Resnick, Jo Lynne Rokita, Pichai Raman</div> <em>PLOS Computational Biology</em> (2020-10-29) <a href="https://doi.org/gm84kq">https://doi.org/gm84kq</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1371/journal.pcbi.1008263">10.1371/journal.pcbi.1008263</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/33119584">33119584</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7654754">PMC7654754</a></div></div>
 </div>
 </div>
 <!-- default theme -->
