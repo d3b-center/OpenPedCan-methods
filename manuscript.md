@@ -7,7 +7,7 @@ keywords:
 - classification
 - somatic variation
 lang: en-US
-date-meta: '2024-05-29'
+date-meta: '2024-05-30'
 author-meta:
 - Eric Wafula
 - Zhuangzhuang Geng
@@ -54,11 +54,11 @@ header-includes: |
   <meta name="citation_title" content="The Open Pediatric Cancer Project" />
   <meta property="og:title" content="The Open Pediatric Cancer Project" />
   <meta property="twitter:title" content="The Open Pediatric Cancer Project" />
-  <meta name="dc.date" content="2024-05-29" />
-  <meta name="citation_publication_date" content="2024-05-29" />
-  <meta property="article:published_time" content="2024-05-29" />
-  <meta name="dc.modified" content="2024-05-29T16:56:44+00:00" />
-  <meta property="article:modified_time" content="2024-05-29T16:56:44+00:00" />
+  <meta name="dc.date" content="2024-05-30" />
+  <meta name="citation_publication_date" content="2024-05-30" />
+  <meta property="article:published_time" content="2024-05-30" />
+  <meta name="dc.modified" content="2024-05-30T18:53:09+00:00" />
+  <meta property="article:modified_time" content="2024-05-30T18:53:09+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -211,9 +211,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://d3b-center.github.io/OpenPedCan-methods/" />
   <meta name="citation_pdf_url" content="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/3cfcb7b501eafbba82bb84ace8b5dd32bd1e7209/" />
-  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/3cfcb7b501eafbba82bb84ace8b5dd32bd1e7209/" />
-  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/3cfcb7b501eafbba82bb84ace8b5dd32bd1e7209/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/938b1e222f0195a3251cccc6204cae71885c2346/" />
+  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/938b1e222f0195a3251cccc6204cae71885c2346/" />
+  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/938b1e222f0195a3251cccc6204cae71885c2346/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -235,10 +235,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/3cfcb7b501eafbba82bb84ace8b5dd32bd1e7209/))
+([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/938b1e222f0195a3251cccc6204cae71885c2346/))
 was automatically generated
-from [d3b-center/OpenPedCan-methods@3cfcb7b](https://github.com/d3b-center/OpenPedCan-methods/tree/3cfcb7b501eafbba82bb84ace8b5dd32bd1e7209)
-on 2024-05-29.
+from [d3b-center/OpenPedCan-methods@938b1e2](https://github.com/d3b-center/OpenPedCan-methods/tree/938b1e222f0195a3251cccc6204cae71885c2346)
+on 2024-05-30.
 </em></small>
 
 ## Authors
@@ -554,6 +554,8 @@ The OpenPedCan analyses currently include the following datasets, described more
 - Kids First Neuroblastoma (X01)
 - Kids First PBTA (X01)
 - Chordoma Foundation
+- PPTC
+- Maris
 - MI-ONCOSEQ Study
 - DGD (CHOP P30 Panel)
 - GTEx
@@ -578,8 +580,12 @@ The Gabriella Miller Kids First Pediatric Research Program (Kids First) is a lar
 The program includes whole genome sequencing (WGS) from patients with pediatric cancers and structural birth defects and their families.
 OpenPedCan analyses include Neuroblastoma and PBTA data from the Kids First projects.
 
-**Chordoma Foundation [@https://www.chordomafoundation.org]**
+**[Chordoma Foundation](@https://www.chordomafoundation.org)**
 The Chordoma Foundation seeks to advance research and improve healthcare for patients diagnosed with chordoma.
+
+**Pediatric Preclinical Testing Consortium [(PPTC)](@https://ctep.cancer.gov/MajorInitiatives/Pediatric_PIVOT_Program.htm])**
+The National Cancer Institute's (NCI) former PPTC,  now the [Pediatric Preclinical in Vivo Testing (PIVOT) Program](https://preclinicalpivot.org/about-pivot/), molecularly and pharmacologically characterizes cell-derived and patient-derived xenograft (PDX) models. 
+OpenPedCan includes re-harmonized RNA-Seq data for 244 models from the initial PPTC study [@doi:10.1016/j.celrep.2019.09.071]. 
 
 **MI-ONCOSEQ Study [@https://www.pathology.med.umich.edu/mctp/mi-oncoseq-study]**
 These clinical sequencing data from the University of Michigan were donated to CBTN and added to the PBTA cohort.
@@ -679,7 +685,7 @@ We invite researchers to join OpenPedCan to help rigorously characterize the gen
 
 
 
-## OPENPEDCAN METHODS
+## METHODS
 
 ### RESOURCE AVAILABILITY
 
@@ -701,6 +707,8 @@ Building on the work of OpenPBTA, OPC contains additional data from the followin
 
 - PBTA X01 [@https://commonfund.nih.gov/kidsfirst/2021X01projects#FY21_Resnick]
 - Chordoma Foundation [@https://www.chordomafoundation.org]
+- National Cancer Institute's (NCI) Pediatric Preclinical Testing Consortium (PPTC) patient-derived xenograft data [@doi:10.1016/j.celrep.2019.09.071], now the Pediatric Preclinical in Vivo Testing (PIVOT) Program
+- Neuroblastoma cell line transcriptomes [@doi:10.1038/sdata.2017.33] (Maris)
 - MI-ONCOSEQ Study [@https://www.pathology.med.umich.edu/mctp/mi-oncoseq-study], donated to CBTN by the University of Michigan, to the PBTA cohort
 - Children's Hospital of Philadelphia (CHOP) P30 Panel data generated by CHOP's Division of Genomic Diagnostics (DGD cohort) which includes targeted DNA and fusion panel data [@dbgap:phs002517.v1.p1].
 - National Cancer Institute's Clinical Proteomic Tumor Analysis Consortium (CPTAC) PBTA proteomics study [@doi:10.1016/j.cell.2020.10.044]

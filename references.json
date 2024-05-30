@@ -9,7 +9,7 @@
         [
           "2024",
           5,
-          29
+          30
         ]
       ]
     },
@@ -25,7 +25,7 @@
         [
           "2024",
           5,
-          29
+          30
         ]
       ]
     },
@@ -41,7 +41,7 @@
         [
           "2024",
           5,
-          29
+          30
         ]
       ]
     },
@@ -57,7 +57,7 @@
         [
           "2024",
           5,
-          29
+          30
         ]
       ]
     },
@@ -1649,6 +1649,310 @@
   },
   {
     "publisher": "Elsevier BV",
+    "issue": "6",
+    "DOI": "10.1016/j.celrep.2019.09.071",
+    "type": "article-journal",
+    "page": "1675-1689.e9",
+    "source": "Crossref",
+    "title": "Genomic Profiling of Childhood Tumor Patient-Derived Xenograft Models to Enable Rational Clinical Trial Design",
+    "volume": "29",
+    "author": [
+      {
+        "given": "Jo Lynne",
+        "family": "Rokita"
+      },
+      {
+        "given": "Komal S.",
+        "family": "Rathi"
+      },
+      {
+        "given": "Maria F.",
+        "family": "Cardenas"
+      },
+      {
+        "given": "Kristen A.",
+        "family": "Upton"
+      },
+      {
+        "given": "Joy",
+        "family": "Jayaseelan"
+      },
+      {
+        "given": "Katherine L.",
+        "family": "Cross"
+      },
+      {
+        "given": "Jacob",
+        "family": "Pfeil"
+      },
+      {
+        "given": "Laura E.",
+        "family": "Egolf"
+      },
+      {
+        "given": "Gregory P.",
+        "family": "Way"
+      },
+      {
+        "given": "Alvin",
+        "family": "Farrel"
+      },
+      {
+        "given": "Nathan M.",
+        "family": "Kendsersky"
+      },
+      {
+        "given": "Khushbu",
+        "family": "Patel"
+      },
+      {
+        "given": "Krutika S.",
+        "family": "Gaonkar"
+      },
+      {
+        "given": "Apexa",
+        "family": "Modi"
+      },
+      {
+        "given": "Esther R.",
+        "family": "Berko"
+      },
+      {
+        "given": "Gonzalo",
+        "family": "Lopez"
+      },
+      {
+        "given": "Zalman",
+        "family": "Vaksman"
+      },
+      {
+        "given": "Chelsea",
+        "family": "Mayoh"
+      },
+      {
+        "given": "Jonas",
+        "family": "Nance"
+      },
+      {
+        "given": "Kristyn",
+        "family": "McCoy"
+      },
+      {
+        "given": "Michelle",
+        "family": "Haber"
+      },
+      {
+        "given": "Kathryn",
+        "family": "Evans"
+      },
+      {
+        "given": "Hannah",
+        "family": "McCalmont"
+      },
+      {
+        "given": "Katerina",
+        "family": "Bendak"
+      },
+      {
+        "given": "Julia W.",
+        "family": "Böhm"
+      },
+      {
+        "given": "Glenn M.",
+        "family": "Marshall"
+      },
+      {
+        "given": "Vanessa",
+        "family": "Tyrrell"
+      },
+      {
+        "given": "Karthik",
+        "family": "Kalletla"
+      },
+      {
+        "given": "Frank K.",
+        "family": "Braun"
+      },
+      {
+        "given": "Lin",
+        "family": "Qi"
+      },
+      {
+        "given": "Yunchen",
+        "family": "Du"
+      },
+      {
+        "given": "Huiyuan",
+        "family": "Zhang"
+      },
+      {
+        "given": "Holly B.",
+        "family": "Lindsay"
+      },
+      {
+        "given": "Sibo",
+        "family": "Zhao"
+      },
+      {
+        "given": "Jack",
+        "family": "Shu"
+      },
+      {
+        "given": "Patricia",
+        "family": "Baxter"
+      },
+      {
+        "given": "Christopher",
+        "family": "Morton"
+      },
+      {
+        "given": "Dias",
+        "family": "Kurmashev"
+      },
+      {
+        "given": "Siyuan",
+        "family": "Zheng"
+      },
+      {
+        "given": "Yidong",
+        "family": "Chen"
+      },
+      {
+        "given": "Jay",
+        "family": "Bowen"
+      },
+      {
+        "given": "Anthony C.",
+        "family": "Bryan"
+      },
+      {
+        "given": "Kristen M.",
+        "family": "Leraas"
+      },
+      {
+        "given": "Sara E.",
+        "family": "Coppens"
+      },
+      {
+        "given": "HarshaVardhan",
+        "family": "Doddapaneni"
+      },
+      {
+        "given": "Zeineen",
+        "family": "Momin"
+      },
+      {
+        "given": "Wendong",
+        "family": "Zhang"
+      },
+      {
+        "given": "Gregory I.",
+        "family": "Sacks"
+      },
+      {
+        "given": "Lori S.",
+        "family": "Hart"
+      },
+      {
+        "given": "Kateryna",
+        "family": "Krytska"
+      },
+      {
+        "given": "Yael P.",
+        "family": "Mosse"
+      },
+      {
+        "given": "Gregory J.",
+        "family": "Gatto"
+      },
+      {
+        "given": "Yolanda",
+        "family": "Sanchez"
+      },
+      {
+        "given": "Casey S.",
+        "family": "Greene"
+      },
+      {
+        "given": "Sharon J.",
+        "family": "Diskin"
+      },
+      {
+        "given": "Olena Morozova",
+        "family": "Vaske"
+      },
+      {
+        "given": "David",
+        "family": "Haussler"
+      },
+      {
+        "given": "Julie M.",
+        "family": "Gastier-Foster"
+      },
+      {
+        "given": "E. Anders",
+        "family": "Kolb"
+      },
+      {
+        "given": "Richard",
+        "family": "Gorlick"
+      },
+      {
+        "given": "Xiao-Nan",
+        "family": "Li"
+      },
+      {
+        "given": "C. Patrick",
+        "family": "Reynolds"
+      },
+      {
+        "given": "Raushan T.",
+        "family": "Kurmasheva"
+      },
+      {
+        "given": "Peter J.",
+        "family": "Houghton"
+      },
+      {
+        "given": "Malcolm A.",
+        "family": "Smith"
+      },
+      {
+        "given": "Richard B.",
+        "family": "Lock"
+      },
+      {
+        "given": "Pichai",
+        "family": "Raman"
+      },
+      {
+        "given": "David A.",
+        "family": "Wheeler"
+      },
+      {
+        "given": "John M.",
+        "family": "Maris"
+      }
+    ],
+    "container-title": "Cell Reports",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          11
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gg596n",
+    "container-title-short": "Cell Reports",
+    "PMCID": "PMC6880934",
+    "PMID": "31693904",
+    "id": "SDwYl8uA",
+    "note": "This CSL Item was generated by Manubot v0.5.6 from its persistent identifier (standard_id).\nstandard_id: doi:10.1016/j.celrep.2019.09.071"
+  },
+  {
+    "publisher": "Elsevier BV",
     "issue": "7",
     "DOI": "10.1016/j.xgen.2023.100340",
     "type": "article-journal",
@@ -2880,6 +3184,75 @@
     "note": "This CSL Item was generated by Manubot v0.5.6 from its persistent identifier (standard_id).\nstandard_id: doi:10.1038/s42003-018-0023-9"
   },
   {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Neuroblastoma cell lines are an important and cost-effective model used to study oncogenic drivers of the disease. While many of these cell lines have been previously characterized with SNP, methylation, and/or mRNA expression microarrays, there has not been an effort to comprehensively sequence these cell lines. Here, we present raw whole transcriptome data generated by RNA sequencing of 39 commonly-used neuroblastoma cell lines. These data can be used to perform differential expression analysis based on a genetic aberration or phenotype in neuroblastoma (e.g., <jats:italic>MYCN</jats:italic> amplification status, <jats:italic>ALK</jats:italic> mutation status, chromosome arm 1p, 11q and/or 17q status, sensitivity to pharmacologic perturbation). Additionally, we designed this experiment to enable structural variant and/or long-noncoding RNA analysis across these cell lines. Finally, as more DNase/ATAC and histone/transcription factor ChIP sequencing is performed in these cell lines, our RNA-Seq data will be an important complement to inform transcriptional targets as well as regulatory (enhancer or repressor) elements in neuroblastoma.</jats:p>",
+    "DOI": "10.1038/sdata.2017.33",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "Transcriptomic profiling of 39 commonly-used neuroblastoma cell lines",
+    "volume": "4",
+    "author": [
+      {
+        "given": "Jo Lynne",
+        "family": "Harenza"
+      },
+      {
+        "given": "Maura A.",
+        "family": "Diamond"
+      },
+      {
+        "given": "Rebecca N.",
+        "family": "Adams"
+      },
+      {
+        "given": "Michael M.",
+        "family": "Song"
+      },
+      {
+        "given": "Heather L.",
+        "family": "Davidson"
+      },
+      {
+        "given": "Lori S.",
+        "family": "Hart"
+      },
+      {
+        "given": "Maiah H.",
+        "family": "Dent"
+      },
+      {
+        "given": "Paolo",
+        "family": "Fortina"
+      },
+      {
+        "given": "C. Patrick",
+        "family": "Reynolds"
+      },
+      {
+        "given": "John M.",
+        "family": "Maris"
+      }
+    ],
+    "container-title": "Scientific Data",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          3,
+          28
+        ]
+      ]
+    },
+    "URL": "https://doi.org/f9v8hh",
+    "container-title-short": "Sci Data",
+    "PMCID": "PMC5369315",
+    "PMID": "28350380",
+    "id": "pWaloozZ",
+    "note": "This CSL Item was generated by Manubot v0.5.6 from its persistent identifier (standard_id).\nstandard_id: doi:10.1038/sdata.2017.33"
+  },
+  {
     "publisher": "Oxford University Press (OUP)",
     "issue": "2",
     "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>Summary: We present a tool for control-free copy number alteration (CNA) detection using deep-sequencing data, particularly useful for cancer studies. The tool deals with two frequent problems in the analysis of cancer deep-sequencing data: absence of control sample and possible polyploidy of cancer cells. FREEC (control-FREE Copy number caller) automatically normalizes and segments copy number profiles (CNPs) and calls CNAs. If ploidy is known, FREEC assigns absolute copy number to each predicted CNA. To normalize raw CNPs, the user can provide a control dataset if available; otherwise GC content is used. We demonstrate that for Illumina single-end, mate-pair or paired-end sequencing, GC-contentr normalization provides smooth profiles that can be further segmented and analyzed in order to predict CNAs.</jats:p>\n               <jats:p>Availability: Source code and sample data are available at http://bioinfo-out.curie.fr/projects/freec/.</jats:p>\n               <jats:p>Contact:  freec@curie.fr</jats:p>\n               <jats:p>Supplementary information:  Supplementary data are available at Bioinformatics online.</jats:p>",
@@ -3647,7 +4020,7 @@
         [
           "2024",
           5,
-          29
+          30
         ]
       ]
     },
@@ -3698,7 +4071,7 @@
         [
           "2024",
           5,
-          29
+          30
         ]
       ]
     },
@@ -3726,7 +4099,7 @@
         [
           "2024",
           5,
-          29
+          30
         ]
       ]
     },
@@ -3754,7 +4127,7 @@
         [
           "2024",
           5,
-          29
+          30
         ]
       ]
     },
@@ -3771,7 +4144,7 @@
         [
           "2024",
           5,
-          29
+          30
         ]
       ]
     },

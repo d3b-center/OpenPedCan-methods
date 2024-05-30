@@ -1,5 +1,5 @@
 input_id	dealiased_id	standard_id	short_id
-https://www.chordomafoundation.org	https://www.chordomafoundation.org	url:https://www.chordomafoundation.org	OePr0Q2g
+doi:10.1016/j.celrep.2019.09.071	doi:10.1016/j.celrep.2019.09.071	doi:10.1016/j.celrep.2019.09.071	SDwYl8uA
 https://www.pathology.med.umich.edu/mctp/mi-oncoseq-study	https://www.pathology.med.umich.edu/mctp/mi-oncoseq-study	url:https://www.pathology.med.umich.edu/mctp/mi-oncoseq-study	ygVj7a6q
 doi:10.1016/j.cell.2020.10.044	doi:10.1016/j.cell.2020.10.044	doi:10.1016/j.cell.2020.10.044	meH98mKZ
 doi:10.1016/j.ccell.2021.01.006	doi:10.1016/j.ccell.2021.01.006	doi:10.1016/j.ccell.2021.01.006	XOVss5Jf
@@ -8,6 +8,8 @@ dbgap:phs001436.v1.p1	dbgap:phs001436.v1.p1	dbgap:phs001436.v1.p1	UVwAVvuW
 dbgap:phs002517.v1.p1	dbgap:phs002517.v1.p1	dbgap:phs002517.v1.p1	HyH6i3JM
 doi:10.1016/j.xgen.2023.100340	doi:10.1016/j.xgen.2023.100340	doi:10.1016/j.xgen.2023.100340	5VXMHJ7N
 https://commonfund.nih.gov/kidsfirst/2021X01projects#FY21_Resnick	https://commonfund.nih.gov/kidsfirst/2021X01projects#FY21_Resnick	url:https://commonfund.nih.gov/kidsfirst/2021X01projects#FY21_Resnick	HIcmeg1x
+https://www.chordomafoundation.org	https://www.chordomafoundation.org	url:https://www.chordomafoundation.org	OePr0Q2g
+doi:10.1038/sdata.2017.33	doi:10.1038/sdata.2017.33	doi:10.1038/sdata.2017.33	pWaloozZ
 dbgap:phs000424.v9.p2	dbgap:phs000424.v9.p2	dbgap:phs000424.v9.p2	sh2asT80
 https://www.cancer.gov/tcga	https://www.cancer.gov/tcga	url:https://www.cancer.gov/tcga	VcHKLBtL
 doi:10.1186/s13073-020-00761-2	doi:10.1186/s13073-020-00761-2	doi:10.1186/s13073-020-00761-2	eoDdE9oT
