@@ -60,8 +60,8 @@ header-includes: |
   <meta name="dc.date" content="2024-05-31" />
   <meta name="citation_publication_date" content="2024-05-31" />
   <meta property="article:published_time" content="2024-05-31" />
-  <meta name="dc.modified" content="2024-05-31T20:59:30+00:00" />
-  <meta property="article:modified_time" content="2024-05-31T20:59:30+00:00" />
+  <meta name="dc.modified" content="2024-05-31T23:04:29+00:00" />
+  <meta property="article:modified_time" content="2024-05-31T23:04:29+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -220,15 +220,15 @@ header-includes: |
   <meta name="citation_author_institution" content="Department of Bioinformatics and Health Informatics, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_orcid" content="0000-0003-2171-3627" />
   <meta name="twitter:creator" content="@jolynnerokita" />
-  <link rel="canonical" href="https://d3b-center.github.io/OpenPedCan-methods/" />
-  <meta property="og:url" content="https://d3b-center.github.io/OpenPedCan-methods/" />
-  <meta property="twitter:url" content="https://d3b-center.github.io/OpenPedCan-methods/" />
-  <meta name="citation_fulltext_html_url" content="https://d3b-center.github.io/OpenPedCan-methods/" />
-  <meta name="citation_pdf_url" content="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
-  <link rel="alternate" type="application/pdf" href="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/f6ab31585f12f9077b3174a13fc87014c57901f9/" />
-  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/f6ab31585f12f9077b3174a13fc87014c57901f9/" />
-  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/f6ab31585f12f9077b3174a13fc87014c57901f9/manuscript.pdf" />
+  <link rel="canonical" href="https://d3b-center.github.io/OpenPedCan-manuscript/" />
+  <meta property="og:url" content="https://d3b-center.github.io/OpenPedCan-manuscript/" />
+  <meta property="twitter:url" content="https://d3b-center.github.io/OpenPedCan-manuscript/" />
+  <meta name="citation_fulltext_html_url" content="https://d3b-center.github.io/OpenPedCan-manuscript/" />
+  <meta name="citation_pdf_url" content="https://d3b-center.github.io/OpenPedCan-manuscript/manuscript.pdf" />
+  <link rel="alternate" type="application/pdf" href="https://d3b-center.github.io/OpenPedCan-manuscript/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-manuscript/v/ff446d427f69d87ef00038d851ce97d8ebf74bad/" />
+  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-manuscript/v/ff446d427f69d87ef00038d851ce97d8ebf74bad/" />
+  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-manuscript/v/ff446d427f69d87ef00038d851ce97d8ebf74bad/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -250,9 +250,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/f6ab31585f12f9077b3174a13fc87014c57901f9/))
+([permalink](https://d3b-center.github.io/OpenPedCan-manuscript/v/ff446d427f69d87ef00038d851ce97d8ebf74bad/))
 was automatically generated
-from [d3b-center/OpenPedCan-methods@f6ab315](https://github.com/d3b-center/OpenPedCan-methods/tree/f6ab31585f12f9077b3174a13fc87014c57901f9)
+from [d3b-center/OpenPedCan-manuscript@ff446d4](https://github.com/d3b-center/OpenPedCan-manuscript/tree/ff446d427f69d87ef00038d851ce97d8ebf74bad)
 on 2024-05-31.
 </em></small>
 
