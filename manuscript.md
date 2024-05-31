@@ -1,13 +1,12 @@
 ---
-title: The Open Pediatric Cancer Project
+title: The Open Pediatric Cancer (OpenPedCan) Project
 keywords:
 - pediatric cancer
 - reproducibility
 - open science
-- classification
-- somatic variation
+- multi-omics
 lang: en-US
-date-meta: '2024-05-30'
+date-meta: '2024-05-31'
 author-meta:
 - Eric Wafula
 - Zhuangzhuang Geng
@@ -50,15 +49,15 @@ header-includes: |
   -->
   <meta name="dc.format" content="text/html" />
   <meta property="og:type" content="article" />
-  <meta name="dc.title" content="The Open Pediatric Cancer Project" />
-  <meta name="citation_title" content="The Open Pediatric Cancer Project" />
-  <meta property="og:title" content="The Open Pediatric Cancer Project" />
-  <meta property="twitter:title" content="The Open Pediatric Cancer Project" />
-  <meta name="dc.date" content="2024-05-30" />
-  <meta name="citation_publication_date" content="2024-05-30" />
-  <meta property="article:published_time" content="2024-05-30" />
-  <meta name="dc.modified" content="2024-05-30T18:53:09+00:00" />
-  <meta property="article:modified_time" content="2024-05-30T18:53:09+00:00" />
+  <meta name="dc.title" content="The Open Pediatric Cancer (OpenPedCan) Project" />
+  <meta name="citation_title" content="The Open Pediatric Cancer (OpenPedCan) Project" />
+  <meta property="og:title" content="The Open Pediatric Cancer (OpenPedCan) Project" />
+  <meta property="twitter:title" content="The Open Pediatric Cancer (OpenPedCan) Project" />
+  <meta name="dc.date" content="2024-05-31" />
+  <meta name="citation_publication_date" content="2024-05-31" />
+  <meta property="article:published_time" content="2024-05-31" />
+  <meta name="dc.modified" content="2024-05-31T18:41:36+00:00" />
+  <meta property="article:modified_time" content="2024-05-31T18:41:36+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -211,9 +210,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://d3b-center.github.io/OpenPedCan-methods/" />
   <meta name="citation_pdf_url" content="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://d3b-center.github.io/OpenPedCan-methods/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/938b1e222f0195a3251cccc6204cae71885c2346/" />
-  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/938b1e222f0195a3251cccc6204cae71885c2346/" />
-  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/938b1e222f0195a3251cccc6204cae71885c2346/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-methods/v/6b9a252228a7e7da2eea0506617fea08ffe08229/" />
+  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/6b9a252228a7e7da2eea0506617fea08ffe08229/" />
+  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-methods/v/6b9a252228a7e7da2eea0506617fea08ffe08229/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -235,13 +234,13 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/938b1e222f0195a3251cccc6204cae71885c2346/))
+([permalink](https://d3b-center.github.io/OpenPedCan-methods/v/6b9a252228a7e7da2eea0506617fea08ffe08229/))
 was automatically generated
-from [d3b-center/OpenPedCan-methods@938b1e2](https://github.com/d3b-center/OpenPedCan-methods/tree/938b1e222f0195a3251cccc6204cae71885c2346)
-on 2024-05-30.
+from [d3b-center/OpenPedCan-methods@6b9a252](https://github.com/d3b-center/OpenPedCan-methods/tree/6b9a252228a7e7da2eea0506617fea08ffe08229)
+on 2024-05-31.
 </em></small>
 
-## Authors
+# Authors
 
 
 
@@ -519,35 +518,42 @@ on 2024-05-30.
 
 ## Contact information
 
-^Lead Contact: Jo Lynne Rokita <rokita@chop.edu>
-
 ✉Correspondence: Jo Lynne Rokita <rokita@chop.edu>
 
-<!-- Cell Genomics author instructions: https://marlin-prod.literatumonline.com/pb-assets/journals/research/cell-genomics/cell-genomics_IfA.pdf -->
 
-## In Brief
-<!-- aka the eTOC blurb. A short summary that describes the context and significance of the findings for the broader readership in 80 words or less. -->
-
-
-## Highlights
-<!-- Highlights are bullet points that convey the core findings of your paper. You may include up to four highlights. The length of each highlight cannot exceed 85 characters (including spaces).-->
+<!-- The title of the article, which should include an accurate, clear and concise description of the reported work, avoiding abbreviations; and the full names, institutional addresses, e-mail addresses for all authors. The corresponding author should also be indicated. It is suitable, should the authors of the work prefer, to designate authorship as a Consortium or Project. In such a case, a contact author must still be provided, and a complete author list/institutions/emails/etc should be included in the Authors' Contribution section. -->
 
 
 
 
-## Summary
-<!-- The summary is a single paragraph no longer than 150 words. An effective summary includes the following elements: (1) a brief background of the question that avoids statements about how a process is not well understood; (2) a description of the results and approaches/model systems framed in the context of their conceptual interest; and (3) an indication of the broader significance of the work. We discourage novelty claims (e.g., use of the word “novel”) because they are overused, tend not to add meaning, and are difficult to verify. Please do not include references in the summary. CURRENT WORD COUNT 148 -->
+## Abstract
+<!-- 250 words maximum for abstract. Abstract must be structured into separate sections: 1). Background; 2). Findings; 3). Conclusions. -->
+
+### Background 
+<!-- A presentation of the interest or relevance of these data for the broader community -->
+
+### Findings
+<!-- A very brief preview of the data type(s) produced, the methods used, and information relevant to data validation -->
+
+### Conclusions
+<!-- A short summary of the potential uses of these data and implications for the field. -->
+
+
 
 
 ## Keywords
-<!-- We encourage you to include up to ten keywords with your paper. These keywords will be associated with your paper on Cell Press platforms and on PubMed. These keywords should be listed in the manuscript after the summary, separated by commas. -->
+Pediatric cancer, open science, reproducibility, multi-omics
 
 
 
-## Introduction
+## Data Description
 
-The Open Pediatric Cancer (OpenPedCan) project at the Children’s Hospital of Philadelphia is an open analysis effort in which we harmonize pediatric cancer data from multiple sources, perform downstream cancer analyses on these data, and provide them on PedcBioPortal and v2.1 of NCI's [Pediatric Molecular Targets Platform (MTP)](https://moleculartargets.ccdi.cancer.gov/).
-The OpenPedCan analyses currently include the following datasets, described more fully below:
+<!-- A brief statement providing background and purpose for collection of these data should be presented for readers without specialist knowledge in that area. A clear, concise, description of the data, the protocol(s) for data collection, data curation and quality control, as well as potential uses should then follow. -->
+
+The Open Pediatric Cancer (OpenPedCan) project at the Children’s Hospital of Philadelphia is an open analysis effort in which we harmonize pediatric cancer data from multiple sources, perform downstream cancer analyses on these data, and provide them on PedcBioPortal and v2.1 of NCI's [Pediatric Molecular Targets Platform (MTP)](https://moleculartargets.ccdi.cancer.gov/). 
+We harmonized, aggregated, and analyzed data from multiple pediatric and adult data sources.
+Building on the work of OpenPBTA, OPC contains additional data from the following studies:
+OpenPedCan currently include the following datasets, described more fully below:
 
 - OpenPBTA
 - TARGET
@@ -598,7 +604,7 @@ GTEx project is an ongoing effort to build a comprehensive public data resource 
 Samples were collected from 54 non-diseased tissue sites across nearly 1000 individuals, primarily for molecular assays including WGS, WXS, and RNA-Seq.
 OpenPedCan project includes 17,382 GTEx RNA-Seq samples from GTEx v8 release, which span across 31 GTEx groups in the v12 release.
 
-**The Cancer Genome Atlas Program [(TCGA)](https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga)**
+**The Cancer Genome Atlas Program [(TCGA)](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000178.v11.p8)**
 TCGA is a landmark cancer genomics program that molecularly characterized over 20,000 primary cancer and matched normal samples spanning 33 cancer types.
 It is a joint effort between NCI and the National Human Genome Research Institute.
 OpenPedCan project includes 10,414 TCGA RNA-Seq samples (716 normal and 9698 tumor) from [33 cancer types](https://github.com/d3b-center/OpenPedCan-analysis/blob/dev/analyses/molecular-subtyping-integrate/results/tcga_cancer_groups.tsv).
@@ -612,182 +618,33 @@ This CPTAC adult GBM study [@doi:10.1016/j.ccell.2021.01.006] contains 99 tumors
 **Project HOPE proteomics study**
 Project HOPE is an adolescent and young adult high-grade glioma study (in preparation for publication) that contains 90 tumors profiled by proteogenomics and are included in OPC.
 
-The OpenPedCan operates on a pull request model to accept contributions from community participants.
+OpenPedCan operates on a pull request model to accept contributions from community participants.
 The maintainers have set up continuous integration software via GitHub Actions to confirm the reproducibility of analyses within the project’s Docker container.
 
-The project maintainers include scientists from the [Center for Data-Driven Discovery in Biomedicine at the Children's Hospital of Philadelphia](https://d3b.center/).
-We invite researchers to join OpenPedCan to help rigorously characterize the genomic landscape of these diseases to enable more rapid discovery of additional mechanisms contributing to the pathogenesis of pediatric brain and spinal cord tumors and overall accelerate clinical translation on behalf of patients.
+We maintained a data release folder on Amazon S3, downloadable directly from S3 or our open-access CAVATICA project, with merged files for each analysis.
+As we produced new results, identified data issues, or added additional data, we created new data releases in a versioned manner.
 
+The project maintainers includes scientists from the [Center for Data-Driven Discovery in Biomedicine](https://d3b.center/) and [Department of Biomedical and Health Informatics](https://www.research.chop.edu/department-of-biomedical-and-health-informatics) at the Children's Hospital of Philadelphia.
 
-## Results
+## Context
 
+Creation of this dataset had multiple motivations.
+First, we sought to harmonize, summarize, and contextualize pediatric cancer genomics data among normal tissues (GTEx) and adult cancer tissues (TCGA) to enable the creation of the National Cancer Institute's Molecular Targets Platform (MTP) at https://moleculartargets.ccdi.cancer.gov/.
+Next, we created this resource for broad community use to promote rapid reuse and accelerate the discovery of additional mechanisms contributing to the pathogenesis of pediatric cancers.
 
+<!-- Please state what motivated you to produced this data, and give some background on the area of research to relate the work to previous studies and help understand its utility and potential for reuse. -->
 
+## Methods
+<!-- This section can potentially be further broken up into subheadings a) Sampling strategy and b) Steps. Related methods can also be grouped under corresponding subheadings. This section should provide enough detail to allow other researchers to interpret and repeat the study. In addition to including the design of the study, it needs to provide detail on the type of reagents, instrumentation and kits used (including any identifiers such as RRIDs).
 
-## Discussion
+Please include and cite the URLs (or DOIs if snapshots have been archived in a repository such as Zenodo or GigaDB) to any publically available bioinformatics tools that are used in the production of the data, including the exact version used. If you are using new bioinformatics tools that you have developed for production or processing of the data described here, this may be suitable for submission as a Technical Note. We strongly encourage the use of workflow management systems such as Galaxy and container systems such as Docker, to save the details of the methods to encourage reproducibility as well as conciseness. Our GigaDB repository can also be used to archive data, workflows and snapshots of the code with an accompanying DOI. We also offer integration with Code Ocean, a cloud-based computational reproducibility platform.
 
+For any article that presents software, in addition to making the source code available, we encourage submission to Code Ocean, a cloud-based computational reproducibility platform. Code Ocean supports any open-source programming language (as well as MATLAB and Stata). Authors should upload their code and data, specifying the appropriate languages and dependencies within the computational environment, to create a “compute capsule” that reproduces the results.
 
+Once the code is published on Code Ocean, you will be issued DOI, which should be used to cite the compute capsule in the software section and any other relevant reference in the paper. Readers will then be able to view and verify the article’s results without needing to download or install anything. To submit, sign up to CodeOcean.
+-->
 
-
-## Acknowledgments
-
-
-
-## Author Contributions
-
-|Author|Contributions|
-|---|---|
-|Eric Wafula|Formal analysis, Software|
-|Zhuangzhuang Geng|Data curation, Formal analysis, Investigation, Methodology, Software, Writing – Original draft|
-|Sangeeta Shukla|Data curation, Formal analysis, Investigation, Methodology, Software, Writing – Original draft, Writing - Review and editing|
-|Aditya Lahiri|Data curation, Formal analysis, Investigation, Methodology, Software, Writing – Original draft, Writing - Review and editing|
-|Krutika S. Gaonkar|Data curation, Formal analysis, Investigation, Methodology, Software, Writing – Original draft, Writing - Review and editing|
-|Run Jin|Data curation, Formal analysis, Visualization, Writing – Original draft, Writing - Review and editing|
-|Komal S. Rathi|Formal analysis, Investigation, Methodology, Writing – Original draft|
-|Yuankun Zhu|Data curation, Formal analysis, Investigation, Methodology, Supervision|
-|Bailey K. Farrow|Data curation, Software|
-|Daniel P. Miller|Formal analysis|
-|Mariarita Santi|Investigation, Validation, Writing - Review and editing|
-|Adam A. Kraya|Methodology|
-|Xiaoyan Huang|Formal analysis|
-|Bo Zhang|Data curation, Formal analysis|
-|Chuwei Zhong|Formal analysis|
-|Brian M. Ennis|Data curation, Formal analysis|
-|Ryan J. Corbett|Formal analysis|
-|Sharon J. Diskin|Investigation, Supervision, Validation, Funding acquisition, Writing - Review and editing|
-|Nicholas Van Kuren|Data curation, Software|
-|Matthew R. Lueder|Data curation|
-|Noel Coleman|Data curation|
-|Christopher Blackden|Resources|
-|Jennifer L. Mason|Supervision|
-|Saksham Phul|Data curation, Methodology, Formal analysis|
-|Miguel A. Brown|Data curation, Methodology, Formal analysis|
-|Alex Sickler|Methodology, Formal analysis|
-|Kelsey Keith|Software, Writing - original draft, API, Formal Analysis, Data Curation, Visualization|
-|Dave Hill|Software, Writing - original draft, API, Data Curation|
-|Asif T Chinwalla|Project Administration, Supervision, Methodology, Investigation, Validation, API|
-|Yuanchao Zhang|API, Software, Formal Analysis, Writing - original draft|
-|Adam C. Resnick|Conceptualization, Funding acquisition, Resources, Supervision|
-|Alvin Farrel|Supervision, Investigation, Visualization, Methodology, Funding acquisition|
-|Deanne Taylor|Conceptualization, Data curation, Formal analysis, Funding acquisition, Investigation, Methodology, Software, Supervision, Writing – Original draft, Writing - Review and editing|
-|Jo Lynne Rokita^|Conceptualization, Data curation, Formal analysis, Funding acquisition, Investigation, Methodology, Software, Supervision, Writing – Original draft, Writing - Review and editing|
-
-
-## Declarations of Interest
-
-
-## Figure Titles and Legends
-
-
-
-## Table Titles and Legends
-
-
-
-
-## METHODS
-
-### RESOURCE AVAILABILITY
-
-#### Lead contact
-
-Requests for access to OpenPedCan raw data and/or specimens may be directed to, and will be fulfilled by Jo Lynne Rokita (rokita@chop.edu).
-
-#### Materials availability
-
-This study did not create new, unique reagents.
-
-#### Data and code availability
-
-Within OpenPedCan (OPC), we harmonized, aggregated, and analyzed data from multiple sources.
-We harmonized data from the Therapeutically Applicable Research to Generate Effective Treatments (TARGET cohort) Initiative, an NCI-funded collection of disease-specific projects that seeks to identify the genomic changes of pediatric cancers [@dbgap:phs000218.v23.p8].
-We included already harmonized neuroblastoma samples from the Gabriella Miller Kids First (GMKF cohort) Pediatric Research Program, a large-scale effort to accelerate research and gene discovery in pediatric cancers and structural birth defects [@dbgap:phs001436.v1.p1].
-Additionally, we re-harmonized all samples from the Open Pediatric Brain Tumor Atlas (OpenPBTA, PBTA cohort), an open science initiative led by Alex’s Lemonade Stand Foundation Childhood Cancer Data Lab and the Center for Data-Driven Discovery (D3B) at the Children’s Hospital of Philadelphia (CHOP), which genomically characterized pediatric brain tumor data from the Children’s Brain Tumor Network (CBTN), and the Pacific Pediatric Neuro-oncology Consortium (PNOC) [@dbgap:phs002517.v1.p1; @doi:10.1016/j.xgen.2023.100340].
-Building on the work of OpenPBTA, OPC contains additional data from the following studies:
-
-- PBTA X01 [@https://commonfund.nih.gov/kidsfirst/2021X01projects#FY21_Resnick]
-- Chordoma Foundation [@https://www.chordomafoundation.org]
-- National Cancer Institute's (NCI) Pediatric Preclinical Testing Consortium (PPTC) patient-derived xenograft data [@doi:10.1016/j.celrep.2019.09.071], now the Pediatric Preclinical in Vivo Testing (PIVOT) Program
-- Neuroblastoma cell line transcriptomes [@doi:10.1038/sdata.2017.33] (Maris)
-- MI-ONCOSEQ Study [@https://www.pathology.med.umich.edu/mctp/mi-oncoseq-study], donated to CBTN by the University of Michigan, to the PBTA cohort
-- Children's Hospital of Philadelphia (CHOP) P30 Panel data generated by CHOP's Division of Genomic Diagnostics (DGD cohort) which includes targeted DNA and fusion panel data [@dbgap:phs002517.v1.p1].
-- National Cancer Institute's Clinical Proteomic Tumor Analysis Consortium (CPTAC) PBTA proteomics study [@doi:10.1016/j.cell.2020.10.044]
-- CPTAC adult GBM proteomics study [@doi:10.1016/j.ccell.2021.01.006]
-- Project HOPE adolescent and young adult high-grade glioma proteomics study (in preparation for publication)
-
-In addition to pediatric cancer data, OpenPedCan contains adult data from large science consortia as references.
-For normal gene expression, GTEx [@dbgap:phs000424.v9.p2] was used, and for comparison with adult cancers, The Cancer Genome Atlas (TCGA) [@https://www.cancer.gov/tcga] was included.
-
-Merged summary files for the latest release of OpenPedCan are openly accessible in [CAVATICA](https://cavatica.sbgenomics.com/u/cavatica/opentarget) or via `download-data.sh` script in the [https://github.com/PediatricOpenTargets/OpenPedCan-analysis](https://github.com/PediatricOpenTargets/OpenPedCan-analysis) repository.
-Cancer group summary data from release v11 are visible within the NCI's pediatric [Molecular Targets Platform](https://moleculartargets.ccdi.cancer.gov/). 
-Cohort, cancer group, and individual data are visible within [PedcBioPortal](https://pedcbioportal.kidsfirstdrc.org/study/summary?id=openpedcan_v15)
-
-OpenPedCan analysis modules were developed within OpenPBTA [@doi:10.1016/j.xgen.2023.100340], modified based on OpenPBTA, or newly created and can be found within the following publicly available repositories.
-OpenPBTA module analyses can be found at [https://github.com/AlexsLemonade/OpenPBTA-analysis](https://github.com/AlexsLemonade/OpenPBTA-analysis).
-OpenPedCan module analyses can be found at [https://github.com/PediatricOpenTargets/OpenPedCan-analysis](https://github.com/PediatricOpenTargets/OpenPedCan-analysis).
-OpenPedCan api code can be found at [https://github.com/PediatricOpenTargets/OpenPedCan-api](https://github.com/PediatricOpenTargets/OpenPedCan-api).
-
-All original code was developed within the following modules in the OpenPedCan analyses repository as listed below. Links to the modules are available here, and within each module is a detailed README that describes the purpose and intended usage of the scripts, along with pointers to the results from the data those scripts process.
-
-
-| List of OpenPedCan Analyses Modules                                                                                                                                   |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [chromosomal-instability](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/chromosomal-instability)                             |
-| [cnv-frequencies](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/cnv-frequencies)                                             |
-| [collapse-rnaseq](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/collapse-rnaseq)                                             |
-| [compare-gistic](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/compare-gistic)                                               |
-| [copy_number_consensus_call](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/copy_number_consensus_call)                       |
-| [create-subset-files](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/create-subset-files)                                     |
-| [data-pre-release-qc](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/data-pre-release-qc)                                     |
-| [efo-mondo-mapping](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/efo-mondo-mapping)                                         |
-| [filter-mtp-tables](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/filter-mtp-tables)                                         |
-| [focal-cn-file-preparation](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/focal-cn-file-preparation)                         |
-| [fusion-frequencies](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/fusion-frequencies)                                       |
-| [fusion-summary](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/fusion-summary)                                               |
-| [fusion_filtering](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/fusion_filtering)                                           |
-| [gene-set-enrichment-analysis](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/gene-set-enrichment-analysis)                   |
-| [gene_match](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/gene_match)                                                       |
-| [immune-deconv](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/immune-deconv)                                                 |
-| [independent-samples](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/independent-samples)                                     |
-| [long-format-table-utils](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/long-format-table-utils)                             |
-| [methylation-preprocessing](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/methylation-preprocessing)                         |
-| [methylation-summary](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/methylation-summary)                                     |
-| [molecular-subtyping-ATRT](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/molecular-subtyping-ATRT)                           |
-| [molecular-subtyping-CRANIO](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/molecular-subtyping-CRANIO)                       |
-| [molecular-subtyping-EPN](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/molecular-subtyping-EPN)                             |
-| [molecular-subtyping-EWS](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/molecular-subtyping-EWS)                             |
-| [molecular-subtyping-HGG](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/molecular-subtyping-HGG)                             |
-| [molecular-subtyping-LGAT](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/molecular-subtyping-LGAT)                           |
-| [molecular-subtyping-MB](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/molecular-subtyping-MB)                               |
-| [molecular-subtyping-NBL](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/molecular-subtyping-NBL)                             |
-| [molecular-subtyping-chordoma](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/molecular-subtyping-chordoma)                   |
-| [molecular-subtyping-embryonal](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/molecular-subtyping-embryonal)                 |
-| [molecular-subtyping-integrate](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/molecular-subtyping-integrate)                 |
-| [molecular-subtyping-neurocytoma](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/molecular-subtyping-neurocytoma)             |
-| [molecular-subtyping-pathology](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/molecular-subtyping-pathology)                 |
-| [mtp-annotations](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/mtp-annotations)                                             |
-| [mtp-tables-qc-checks](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/mtp-tables-qc-checks)                                   |
-| [mutational-signatures](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/mutational-signatures)                                 |
-| [pedcbio-cnv-prepare](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/pedcbio-cnv-prepare)                                     |
-| [pedcbio-sample-name](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/pedcbio-sample-name)                                     |
-| [pedot-table-column-display-order-name](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/pedot-table-column-display-order-name) |
-| [rna-seq-expression-summary-stats](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/rna-seq-expression-summary-stats)           |
-| [rnaseq-batch-correct](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/rnaseq-batch-correct)                                   |
-| [run-gistic](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/run-gistic)                                                       |
-| [snv-frequencies](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/snv-frequencies)
-| [tmb-calculation](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/tmb-calculation)                                             |
-| [tp53_nf1_score](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/tp53_nf1_score)                                               |
-| [tumor-gtex-plots](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/tumor-gtex-plots)                                           |
-| [tumor-normal-differential-expression](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/tumor-normal-differential-expression)   |
-
-
-Software versions are documented in **Table XX**.
-
-#### Data releases
-We maintained a data release folder on Amazon S3, downloadable directly from S3 or our open-access CAVATICA project, with merged files for each analysis (See data and code availability section).
-As we produced new results that we expected to be used across multiple analyses, or identified data issues, we created new data releases in a versioned manner.
-
-### METHOD DETAILS
+### Method Details
 
 #### Nucleic acids extraction and library preparation
 For the PBTA X01 cohort, libraries were prepped using the Illumina TruSeq Strand-Specific Protocol to pull out poly-adenylated transcripts.
@@ -973,10 +830,8 @@ We applied criteria to resolve instances of multiple conflicting status calls fo
 Briefly, we prioritized 1) non-neutral status calls, 2) calls made from dominant segments with respect to gene overlap, and 3) amplification and deep deletion status calls over gain and loss calls, respectively, when selecting a dominant status call per gene and sample.
 These methods resolved >99% of duplicated gene-level status calls.    
 
-
 ##### Gene Set Variation Analysis (`gene-set-enrichment-analysis` analysis module)
 Please refer to the OpenPBTA manuscript for details [@doi:10.1016/j.xgen.2023.100340].
-
 
 
 ##### Fusion prioritization (`fusion_filtering` analysis module)
@@ -995,7 +850,6 @@ We used `--variable-read-length` and `-t paired` options and applied an addition
 #### Mutational Signatures (`mutational-signatures` analysis module)
 
 
-
 ### Tumor Mutation Burden [TMB] (`tmb-calculation` analysis module)
 
 Recent clinical studies have associated high TMB with improved patient response rates and survival benefit from immune checkpoint inhibitors [@doi.org/10.1002/gcc.22733].
@@ -1010,12 +864,14 @@ The resulting merged and non-redundant SNV consensus calls were used as input fo
 We tallied only nonsynonymous variants with classifications of high/moderate consequence ("Missense_Mutation", "Frame_Shift_Del", "In_Frame_Ins", "Frame_Shift_Ins", "Splice_Site", "Nonsense_Mutation", "In_Frame_Del", "Nonstop_Mutation", and "Translation_Start_Site") for the numerator.
 
 **All mutation TMB**
+
 For WGS samples, we calculated the size of the genome covered as the intersection of Strelka2 and Mutect2's effectively surveyed areas, regions common to all variant callers, and used this as the denominator.
 `WGS_all_mutations_TMB = (total # mutations in consensus MAF) / intersection_strelka_mutect_vardict_genome_size`
 For WXS samples, we used the size of the WXS bed region file as the denominator.
 `WXS_all_mutations_TMB = (total # mutations in consensus MAF)) / wxs_genome_size`
 
 **Coding only TMB**
+
 We generated coding only TMB from the consensus MAF as well.
 We calculated the intersection for Strelka2 and Mutect2 surveyed regions using the coding sequence ranges in the GENCODE v39 gtf supplied in the OpenPedCan data download.
 We removed SNVs outside of these coding sequences prior to implementing the TMB calculation below:
@@ -1131,9 +987,6 @@ Updates were made to non-MB, non-ATRT embryonal tumor subtyping as follows:
 2. ETMR, not otherwise specified (NOS) were classified based on _LIN28A_ over-expression and no _TTYH1_ gene fusion. 
 
 
-###### Integration of brain tumor methylation classifications
-
-
 #### TP53 Alteration Annotation (`tp53_nf1_score` analysis module)
 Please refer to the OpenPBTA manuscript for details [@doi:10.1016/j.xgen.2023.100340].
 
@@ -1145,11 +998,111 @@ For analyses that require all input biospecimens to be independent, we use the O
 For each input participant of an analysis, the independent biospecimen is selected based on the analysis-specific filters and preferences for the biospecimen metadata, such as experimental strategy, cancer group, and tumor descriptor.
 
 
+## Availability of source code and requirements
+
+Project name: The Open Pediatric Cancer (OpenPedCan) Project
+Project home page: https://github.com/d3b-center/OpenPedCan-analysis
+Operating system(s): Platform independent
+Programming languages: R, Python, bash
+Other requirements: CAVATICA, Docker image at pgc-images.sbgenomics.com/d3b-bixu/openpedcanverse:latest
+License: CC-BY 4.0
+
+Primary analyses were performed using Gabriella Miller Kids First pipelines and are listed in the methods section.
+Analysis modules were developed within [https://github.com/AlexsLemonade/OpenPBTA-analysis](https://github.com/AlexsLemonade/OpenPBTA-analysis) [@doi:10.1016/j.xgen.2023.100340], modified based on OpenPBTA, or newly created and can be found within the [https://github.com/d3b-center/OpenPedCan-analysis](https://github.com/d3b-center/OpenPedCan-analysis) publicly available repository.
+
+Software versions are documented in **Table XX**.
+
+
+
+## Data Availability
+
+<!-- GigaScience requires authors to deposit the dataset(s) supporting the results reported in submitted manuscripts in a publicly-accessible data repository such as GigaDB (see GigaDB database terms of use for complete details). This section should be included when supporting data are available and must include the name of the repository and the permanent identifier or accession number and persistent hyperlinks for the datasets (if appropriate). The following format is recommended:
+
+"The dataset(s) supporting the results of this article is(are) available in the [repository name] repository, [cite unique persistent identifier]."
+
+Following the Joint Declaration of Data Citation Principles, where appropriate we ask that the data sets be cited where it is first mentioned in the manuscript, and included in the reference list. If a DOI has been issued to a dataset please always cite it using the DOI rather than the less stable URL the DOI resolves to (e.g., http://dx.doi.org/10.5524/100044 rather than http://gigadb.org/dataset/100044). For more see:
+
+A list of available scientific research data repositories can be found in res3data and FAIRsharing.
+
+A Data availability statement is required for all papers, and the code snapshots should be cited here. -->
+
+### Datasets
+The datasets supporting this study are available as follows:
+The TARGET dataset is available in dbGAP under phs000218.v23.p8 [@dbgap:phs000218.v23.p8].
+The GMKF Neuroblastoma dataset is available in dbGAP under phs001436.v1.p1[@dbgap:phs001436.v1.p1].
+The Pediatric Brain Tumor Atlas data (PBTA), containing the subcohorts OpenPBTA, Kids First PBTA (X01), Chordoma Foundation, MI-ONCOSEQ Study, PNOC, and DGD is available in dbGAP under phs002517.v2.p2 [@dbgap:phs002517.v2.p2] or in the Kids First Portal (kidsfirstdrc.org).
+The raw Genotype-Tissue Expression (GTEx) dataset is available in dbGAP under phs000424.v9.p2 and publicly available at https://gtexportal.org/home/.
+The Cancer Genome Atlas (TCGA) dataset is available in dbGAP under phs000178.v11.p8 [@dbgap:phs000178.v11.p8].
+
+Merged summary files for the latest release of OpenPedCan are openly accessible in [CAVATICA](https://cavatica.sbgenomics.com/u/cavatica/opentarget) or via `download-data.sh` script in the [https://github.com/d3b-center/OpenPedCan-analysis](https://github.com/d3b-center/OpenPedCan-analysis) repository.
+Cancer group summary data from release v11 are visible within the NCI's pediatric [Molecular Targets Platform](https://moleculartargets.ccdi.cancer.gov/). 
+Cohort, cancer group, and individual data are visible within [PedcBioPortal](https://pedcbioportal.kidsfirstdrc.org/study/summary?id=openpedcan_v15)
+
+
+
+
+## Acknowledgments
+We are incredibly grateful to each patient and family for donating tissue and associated metadata and clinical data to their respective consortia.
+
+
+## Author Contributions
+
+|Author|Contributions|
+|---|---|
+|Eric Wafula|Formal analysis, Software|
+|Zhuangzhuang Geng|Data curation, Formal analysis, Investigation, Methodology, Software, Writing – Original draft|
+|Sangeeta Shukla|Data curation, Formal analysis, Investigation, Methodology, Software, Writing – Original draft, Writing - Review and editing|
+|Aditya Lahiri|Data curation, Formal analysis, Investigation, Methodology, Software, Writing – Original draft, Writing - Review and editing|
+|Krutika S. Gaonkar|Data curation, Formal analysis, Investigation, Methodology, Software, Writing – Original draft, Writing - Review and editing|
+|Run Jin|Data curation, Formal analysis, Visualization, Writing – Original draft, Writing - Review and editing|
+|Komal S. Rathi|Formal analysis, Investigation, Methodology, Writing – Original draft|
+|Yuankun Zhu|Data curation, Formal analysis, Investigation, Methodology, Supervision|
+|Bailey K. Farrow|Data curation, Software|
+|Daniel P. Miller|Formal analysis|
+|Mariarita Santi|Investigation, Validation, Writing - Review and editing|
+|Adam A. Kraya|Methodology|
+|Xiaoyan Huang|Formal analysis|
+|Bo Zhang|Data curation, Formal analysis|
+|Chuwei Zhong|Formal analysis|
+|Brian M. Ennis|Data curation, Formal analysis|
+|Ryan J. Corbett|Formal analysis|
+|Sharon J. Diskin|Investigation, Supervision, Validation, Funding acquisition, Writing - Review and editing|
+|Nicholas Van Kuren|Data curation, Software|
+|Matthew R. Lueder|Data curation|
+|Noel Coleman|Data curation|
+|Christopher Blackden|Resources|
+|Jennifer L. Mason|Supervision|
+|Saksham Phul|Data curation, Methodology, Formal analysis|
+|Miguel A. Brown|Data curation, Methodology, Formal analysis|
+|Alex Sickler|Methodology, Formal analysis|
+|Kelsey Keith|Software, Writing - original draft, API, Formal Analysis, Data Curation, Visualization|
+|Dave Hill|Software, Writing - original draft, API, Data Curation|
+|Asif T Chinwalla|Project Administration, Supervision, Methodology, Investigation, Validation, API|
+|Yuanchao Zhang|API, Software, Formal Analysis, Writing - original draft|
+|Adam C. Resnick|Conceptualization, Funding acquisition, Resources, Supervision|
+|Alvin Farrel|Supervision, Investigation, Visualization, Methodology, Funding acquisition|
+|Deanne Taylor|Conceptualization, Data curation, Formal analysis, Funding acquisition, Investigation, Methodology, Software, Supervision, Writing – Original draft, Writing - Review and editing|
+|Jo Lynne Rokita^|Conceptualization, Data curation, Formal analysis, Funding acquisition, Investigation, Methodology, Software, Supervision, Writing – Original draft, Writing - Review and editing|
+
+
+## Declarations of Interest
+The authors declare no conflicts.
+
+## Figure Titles and Legends
+
+
+
+## Table Titles and Legends
+
+
+
+
+## List of Abbreviations
+
+<!-- If abbreviations are used in the text they should be defined in the text at first use, and a list of abbreviations should be provided in alphabetical order. -->
+
 ## Supplemental Information Titles and Legends
 
-
-
-## Consortia
 
 
 ## References {.page_break_before}
