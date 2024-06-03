@@ -6,7 +6,7 @@ keywords:
 - open science
 - multi-omics
 lang: en-US
-date-meta: '2024-05-31'
+date-meta: '2024-06-03'
 author-meta:
 - Zhuangzhuang Geng
 - Eric Wafula
@@ -40,6 +40,8 @@ author-meta:
 - Bailey K. Farrow
 - Adam C. Resnick
 - Sharon J. Diskin
+- John M. Maris
+- Sarah Tasian
 - Yuankun Zhu
 - Jennifer L. Mason
 - Ammar S. Naqvi
@@ -57,11 +59,11 @@ header-includes: |
   <meta name="citation_title" content="The Open Pediatric Cancer (OpenPedCan) Project" />
   <meta property="og:title" content="The Open Pediatric Cancer (OpenPedCan) Project" />
   <meta property="twitter:title" content="The Open Pediatric Cancer (OpenPedCan) Project" />
-  <meta name="dc.date" content="2024-05-31" />
-  <meta name="citation_publication_date" content="2024-05-31" />
-  <meta property="article:published_time" content="2024-05-31" />
-  <meta name="dc.modified" content="2024-05-31T23:04:29+00:00" />
-  <meta property="article:modified_time" content="2024-05-31T23:04:29+00:00" />
+  <meta name="dc.date" content="2024-06-03" />
+  <meta name="citation_publication_date" content="2024-06-03" />
+  <meta property="article:published_time" content="2024-06-03" />
+  <meta name="dc.modified" content="2024-06-03T16:40:49+00:00" />
+  <meta property="article:modified_time" content="2024-06-03T16:40:49+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -194,6 +196,12 @@ header-includes: |
   <meta name="citation_author_institution" content="Department of Pediatrics, University of Pennsylvania, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_orcid" content="0000-0002-7200-8939" />
   <meta name="twitter:creator" content="@sjdiskin" />
+  <meta name="citation_author" content="John M. Maris" />
+  <meta name="citation_author_institution" content="Division of Oncology, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_institution" content="Department of Pediatrics, University of Pennsylvania, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author" content="Sarah Tasian" />
+  <meta name="citation_author_institution" content="Division of Oncology, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_institution" content="Department of Pediatrics, University of Pennsylvania, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author" content="Yuankun Zhu" />
   <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
@@ -226,9 +234,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://d3b-center.github.io/OpenPedCan-manuscript/" />
   <meta name="citation_pdf_url" content="https://d3b-center.github.io/OpenPedCan-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://d3b-center.github.io/OpenPedCan-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-manuscript/v/ff446d427f69d87ef00038d851ce97d8ebf74bad/" />
-  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-manuscript/v/ff446d427f69d87ef00038d851ce97d8ebf74bad/" />
-  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-manuscript/v/ff446d427f69d87ef00038d851ce97d8ebf74bad/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-manuscript/v/a22572b15acf0acacc7e501ca7a5aadea77f6341/" />
+  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-manuscript/v/a22572b15acf0acacc7e501ca7a5aadea77f6341/" />
+  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-manuscript/v/a22572b15acf0acacc7e501ca7a5aadea77f6341/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -250,10 +258,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://d3b-center.github.io/OpenPedCan-manuscript/v/ff446d427f69d87ef00038d851ce97d8ebf74bad/))
+([permalink](https://d3b-center.github.io/OpenPedCan-manuscript/v/a22572b15acf0acacc7e501ca7a5aadea77f6341/))
 was automatically generated
-from [d3b-center/OpenPedCan-manuscript@ff446d4](https://github.com/d3b-center/OpenPedCan-manuscript/tree/ff446d427f69d87ef00038d851ce97d8ebf74bad)
-on 2024-05-31.
+from [d3b-center/OpenPedCan-manuscript@a22572b](https://github.com/d3b-center/OpenPedCan-manuscript/tree/a22572b15acf0acacc7e501ca7a5aadea77f6341)
+on 2024-06-03.
 </em></small>
 
 # Authors
@@ -505,6 +513,18 @@ on 2024-05-31.
 + **Sharon J. Diskin**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0002-7200-8939](https://orcid.org/0000-0002-7200-8939)
+  <br>
+  <small>
+     Division of Oncology, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Department of Pediatrics, University of Pennsylvania, Philadelphia, PA, 19104, USA
+  </small>
+
++ **John M. Maris**<br>
+  <br>
+  <small>
+     Division of Oncology, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Department of Pediatrics, University of Pennsylvania, Philadelphia, PA, 19104, USA
+  </small>
+
++ **Sarah Tasian**<br>
   <br>
   <small>
      Division of Oncology, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Department of Pediatrics, University of Pennsylvania, Philadelphia, PA, 19104, USA
@@ -1090,43 +1110,45 @@ We are incredibly grateful to each patient and family for donating tissue and as
 |Author|Contributions|
 |---|---|
 |Zhuangzhuang Geng|Data curation, Formal analysis, Investigation, Methodology, Software, Writing – Original draft|
-|Eric Wafula|Formal analysis, Software|
-|Yuanchao Zhang|API, Software, Formal Analysis, Writing - original draft|
-|Run Jin|Data curation, Formal analysis, Visualization, Writing – Original draft, Writing - Review and editing|
-|Krutika S. Gaonkar|Data curation, Formal analysis, Investigation, Methodology, Software, Writing – Original draft, Writing - Review and editing|
-|Komal S. Rathi|Formal analysis, Investigation, Methodology, Writing – Original draft|
-|Sangeeta Shukla|Data curation, Formal analysis, Investigation, Methodology, Software, Writing – Original draft, Writing - Review and editing|
-|Dave Hill|Software, Writing - original draft, API, Data Curation|
-|Ryan J. Corbett|Formal analysis|
-|Aditya Lahiri|Data curation, Formal analysis, Investigation, Methodology, Software, Writing – Original draft, Writing - Review and editing|
-|Daniel P. Miller|Formal analysis|
+|Eric Wafula|Formal analysis, Software, Investigation, Writing – Original draft|
+|Yuanchao Zhang|Software, Formal Analysis, Methodology, Writing – Original draft|
+|Run Jin|Formal analysis|
+|Krutika S. Gaonkar|Data curation, Formal analysis, Investigation|
+|Komal S. Rathi|Formal analysis, Investigation, Methodology|
+|Sangeeta Shukla|Formal analysis, Investigation, Methodology, Writing – Original draft, Writing - Review and editing|
+|Dave Hill|Formal analysis, Writing - original draft|
+|Ryan J. Corbett|Formal analysis, Writing - original draft|
+|Aditya Lahiri|Formal analysis, Investigation, Methodology, Writing – Original draft|
+|Daniel P. Miller|Formal analysis, Writing – Original draft|
 |Alex Sickler|Methodology, Formal analysis|
-|Kelsey Keith|Software, Writing - original draft, API, Formal Analysis, Data Curation, Visualization|
+|Kelsey Keith|Writing - original draft, Formal Analysis|
 |Rocky Breslow|Software|
 |Antonia Chroni|Validation|
 |Christopher Blackden|Software|
 |Adam A. Kraya|Methodology|
-|Miguel A. Brown|Data curation, Methodology, Formal analysis|
-|Xiaoyan Huang|Formal analysis|
-|Mariarita Santi|Investigation, Validation, Writing - Review and editing|
-|Asif T Chinwalla|Project Administration, Supervision, Methodology, Investigation, Validation, API|
-|Brian M. Ennis|Data curation, Formal analysis|
+|Miguel A. Brown|Data curation, Methodology, Formal analysis, Investigation, Software, Supervision, Writing – Original draft|
+|Xiaoyan Huang|Formal analysis, Software|
+|Mariarita Santi|Investigation, Validation|
+|Asif T Chinwalla|Project Administration, Supervision, Methodology, Investigation, Validation|
+|Brian M. Ennis|Formal analysis|
 |Noel Coleman|Data curation|
-|Alvin Farrel|Supervision, Investigation, Visualization, Methodology, Funding acquisition|
+|Alvin Farrel|Supervision, Investigation, Methodology, Funding acquisition|
 |Chuwei Zhong|Formal analysis|
 |Nicholas Van Kuren|Data curation, Software|
 |Matthew R. Lueder|Data curation|
-|Saksham Phul|Data curation, Methodology, Formal analysis|
+|Saksham Phul|Formal analysis|
 |Bo Zhang|Data curation, Formal analysis|
-|Bailey K. Farrow|Data curation, Software|
-|Adam C. Resnick|Conceptualization, Funding acquisition, Resources, Supervision|
-|Sharon J. Diskin|Investigation, Supervision, Validation, Funding acquisition, Writing - Review and editing|
-|Yuankun Zhu|Data curation, Formal analysis, Investigation, Methodology, Supervision|
+|Bailey K. Farrow|Data curation, Software, Project Administration, Supervision|
+|Adam C. Resnick|Funding acquisition, Resources|
+|Sharon J. Diskin|Funding acquisition|
+|John M. Maris|Funding acquisition|
+|Sarah Tasian|Funding acquisition|
+|Yuankun Zhu|Supervision|
 |Jennifer L. Mason|Supervision|
-|Ammar S. Naqvi|Methodology, Writing|
-|Joseph Dybas|Writing, Methodology|
-|Deanne Taylor|Conceptualization, Data curation, Formal analysis, Funding acquisition, Investigation, Methodology, Software, Supervision, Writing – Original draft, Writing - Review and editing|
-|Jo Lynne Rokita|Conceptualization, Data curation, Formal analysis, Funding acquisition, Investigation, Methodology, Software, Supervision, Writing – Original draft, Writing - Review and editing|
+|Ammar S. Naqvi|Methodology, Writing – Original draft|
+|Joseph Dybas|Writing – Original draft, Methodology|
+|Deanne Taylor|Conceptualization, Data curation, Funding acquisition, Investigation, Methodology, Supervision, Project Administration|
+|Jo Lynne Rokita|Conceptualization, Data curation, Formal analysis, Funding acquisition, Project Administration, Investigation, Methodology, Software, Supervision, Writing – Original draft, Writing - Review and editing|
 
 
 ## Declarations of Interest
