@@ -6,46 +6,46 @@ keywords:
 - open science
 - multi-omics
 lang: en-US
-date-meta: '2024-06-03'
+date-meta: '2024-06-04'
 author-meta:
 - Zhuangzhuang Geng
 - Eric Wafula
 - Yuanchao Zhang
+- Ryan J. Corbett
 - Run Jin
 - Krutika S. Gaonkar
 - Komal S. Rathi
 - Sangeeta Shukla
 - Dave Hill
-- Ryan J. Corbett
 - Aditya Lahiri
 - Daniel P. Miller
 - Alex Sickler
 - Kelsey Keith
+- Christopher Blackden
 - Rocky Breslow
 - Antonia Chroni
-- Christopher Blackden
 - Adam A. Kraya
 - Miguel A. Brown
-- Xiaoyan Huang
-- Mariarita Santi
-- Asif T Chinwalla
 - Brian M. Ennis
-- Noel Coleman
-- Alvin Farrel
-- Chuwei Zhong
-- Nicholas Van Kuren
-- Matthew R. Lueder
-- Saksham Phul
-- Bo Zhang
-- Bailey K. Farrow
-- Adam C. Resnick
-- Sharon J. Diskin
-- John M. Maris
-- Sarah Tasian
-- Yuankun Zhu
-- Jennifer L. Mason
 - Ammar S. Naqvi
+- Sharon J. Diskin
+- Bo Zhang
 - Joseph Dybas
+- Alvin Farrel
+- Jennifer L. Mason
+- Bailey K. Farrow
+- Yuankun Zhu
+- Matthew R. Lueder
+- Nicholas Van Kuren
+- Chuwei Zhong
+- Noel Coleman
+- Mariarita Santi
+- John M. Maris
+- Saksham Phul
+- Xiaoyan Huang
+- Asif T Chinwalla
+- Adam C. Resnick
+- Sarah Tasian
 - Deanne Taylor
 - Jo Lynne Rokita
 header-includes: |
@@ -59,11 +59,11 @@ header-includes: |
   <meta name="citation_title" content="The Open Pediatric Cancer (OpenPedCan) Project" />
   <meta property="og:title" content="The Open Pediatric Cancer (OpenPedCan) Project" />
   <meta property="twitter:title" content="The Open Pediatric Cancer (OpenPedCan) Project" />
-  <meta name="dc.date" content="2024-06-03" />
-  <meta name="citation_publication_date" content="2024-06-03" />
-  <meta property="article:published_time" content="2024-06-03" />
-  <meta name="dc.modified" content="2024-06-03T16:40:49+00:00" />
-  <meta property="article:modified_time" content="2024-06-03T16:40:49+00:00" />
+  <meta name="dc.date" content="2024-06-04" />
+  <meta name="citation_publication_date" content="2024-06-04" />
+  <meta property="article:published_time" content="2024-06-04" />
+  <meta name="dc.modified" content="2024-06-04T21:15:39+00:00" />
+  <meta property="article:modified_time" content="2024-06-04T21:15:39+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -79,6 +79,10 @@ header-includes: |
   <meta name="citation_author_orcid" content="0000-0001-8073-3797" />
   <meta name="citation_author" content="Yuanchao Zhang" />
   <meta name="citation_author_institution" content="Department of Biomedical and Health Informatics, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author" content="Ryan J. Corbett" />
+  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_orcid" content="0000-0002-3478-0784" />
   <meta name="citation_author" content="Run Jin" />
   <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
@@ -101,10 +105,6 @@ header-includes: |
   <meta name="citation_author" content="Dave Hill" />
   <meta name="citation_author_institution" content="Department of Biomedical and Health Informatics, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_orcid" content="0000-0002-1337-1789" />
-  <meta name="citation_author" content="Ryan J. Corbett" />
-  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
-  <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
-  <meta name="citation_author_orcid" content="0000-0002-3478-0784" />
   <meta name="citation_author" content="Aditya Lahiri" />
   <meta name="citation_author_institution" content="Department of Bioinformatics and Health Informatics, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_orcid" content="0000-0001-9352-1312" />
@@ -119,12 +119,12 @@ header-includes: |
   <meta name="citation_author" content="Kelsey Keith" />
   <meta name="citation_author_institution" content="Department of Biomedical and Health Informatics, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_orcid" content="0000-0002-7451-5117" />
+  <meta name="citation_author" content="Christopher Blackden" />
+  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author" content="Rocky Breslow" />
   <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author" content="Antonia Chroni" />
-  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
-  <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
-  <meta name="citation_author" content="Christopher Blackden" />
   <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author" content="Adam A. Kraya" />
@@ -136,88 +136,88 @@ header-includes: |
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_orcid" content="0000-0001-6782-1442" />
   <meta name="twitter:creator" content="@migbro" />
-  <meta name="citation_author" content="Xiaoyan Huang" />
-  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
-  <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
-  <meta name="citation_author_orcid" content="0000-0001-7267-4512" />
-  <meta name="citation_author" content="Mariarita Santi" />
-  <meta name="citation_author_institution" content="Department of Pathology and Laboratory Medicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
-  <meta name="citation_author_institution" content="Department of Pathology and Laboratory Medicine, University of Pennsylvania Perelman School of Medicine, Philadelphia, PA, 19104, USA" />
-  <meta name="citation_author_orcid" content="0000-0002-6728-3450" />
-  <meta name="citation_author" content="Asif T Chinwalla" />
-  <meta name="citation_author_institution" content="Department of Biomedical and Health Informatics, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
-  <meta name="citation_author_orcid" content="0000-0001-7831-3996" />
   <meta name="citation_author" content="Brian M. Ennis" />
   <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_orcid" content="0000-0002-2653-5009" />
-  <meta name="citation_author" content="Noel Coleman" />
+  <meta name="citation_author" content="Ammar S. Naqvi" />
   <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
-  <meta name="citation_author_orcid" content="0000-0001-6454-1285" />
-  <meta name="citation_author" content="Alvin Farrel" />
-  <meta name="citation_author_institution" content="Department of Biomedical and Health Informatics, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
-  <meta name="citation_author_institution" content="Division of Oncology, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
-  <meta name="citation_author_institution" content="Center for Childhood Cancer Research, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
-  <meta name="citation_author_orcid" content="0000-0003-1087-9840" />
-  <meta name="citation_author" content="Chuwei Zhong" />
-  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
-  <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
-  <meta name="citation_author_orcid" content="0000-0003-2406-2735" />
-  <meta name="citation_author" content="Nicholas Van Kuren" />
-  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
-  <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
-  <meta name="citation_author_orcid" content="0000-0002-7414-9516" />
-  <meta name="citation_author" content="Matthew R. Lueder" />
-  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
-  <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
-  <meta name="citation_author_institution" content="Department of Pathology and Laboratory Medicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
-  <meta name="citation_author_orcid" content="0009-0002-7370-102X" />
-  <meta name="citation_author" content="Saksham Phul" />
-  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
-  <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
-  <meta name="citation_author_orcid" content="0000-0002-2771-2572" />
-  <meta name="twitter:creator" content="@migbro" />
-  <meta name="citation_author" content="Bo Zhang" />
-  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
-  <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
-  <meta name="citation_author_orcid" content="0000-0002-0743-5379" />
-  <meta name="citation_author" content="Bailey K. Farrow" />
-  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
-  <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
-  <meta name="citation_author_orcid" content="0000-0001-6727-6333" />
-  <meta name="citation_author" content="Adam C. Resnick" />
-  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
-  <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
-  <meta name="citation_author_orcid" content="0000-0003-0436-4189" />
-  <meta name="twitter:creator" content="@adamcresnick" />
+  <meta name="twitter:creator" content="@jenn0307" />
   <meta name="citation_author" content="Sharon J. Diskin" />
   <meta name="citation_author_institution" content="Division of Oncology, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_institution" content="Department of Pediatrics, University of Pennsylvania, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_orcid" content="0000-0002-7200-8939" />
   <meta name="twitter:creator" content="@sjdiskin" />
-  <meta name="citation_author" content="John M. Maris" />
+  <meta name="citation_author" content="Bo Zhang" />
+  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_orcid" content="0000-0002-0743-5379" />
+  <meta name="citation_author" content="Joseph Dybas" />
+  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author" content="Alvin Farrel" />
+  <meta name="citation_author_institution" content="Department of Biomedical and Health Informatics, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_institution" content="Division of Oncology, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
-  <meta name="citation_author_institution" content="Department of Pediatrics, University of Pennsylvania, Philadelphia, PA, 19104, USA" />
-  <meta name="citation_author" content="Sarah Tasian" />
-  <meta name="citation_author_institution" content="Division of Oncology, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
-  <meta name="citation_author_institution" content="Department of Pediatrics, University of Pennsylvania, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_institution" content="Center for Childhood Cancer Research, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_orcid" content="0000-0003-1087-9840" />
+  <meta name="citation_author" content="Jennifer L. Mason" />
+  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="twitter:creator" content="@jenn0307" />
+  <meta name="citation_author" content="Bailey K. Farrow" />
+  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_orcid" content="0000-0001-6727-6333" />
   <meta name="citation_author" content="Yuankun Zhu" />
   <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_orcid" content="0000-0002-2455-9525" />
   <meta name="twitter:creator" content="@zhuyuankun" />
-  <meta name="citation_author" content="Jennifer L. Mason" />
+  <meta name="citation_author" content="Matthew R. Lueder" />
   <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
-  <meta name="twitter:creator" content="@jenn0307" />
-  <meta name="citation_author" content="Ammar S. Naqvi" />
+  <meta name="citation_author_institution" content="Department of Pathology and Laboratory Medicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_orcid" content="0009-0002-7370-102X" />
+  <meta name="citation_author" content="Nicholas Van Kuren" />
   <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
-  <meta name="twitter:creator" content="@jenn0307" />
-  <meta name="citation_author" content="Joseph Dybas" />
+  <meta name="citation_author_orcid" content="0000-0002-7414-9516" />
+  <meta name="citation_author" content="Chuwei Zhong" />
   <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_orcid" content="0000-0003-2406-2735" />
+  <meta name="citation_author" content="Noel Coleman" />
+  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_orcid" content="0000-0001-6454-1285" />
+  <meta name="citation_author" content="Mariarita Santi" />
+  <meta name="citation_author_institution" content="Department of Pathology and Laboratory Medicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_institution" content="Department of Pathology and Laboratory Medicine, University of Pennsylvania Perelman School of Medicine, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_orcid" content="0000-0002-6728-3450" />
+  <meta name="citation_author" content="John M. Maris" />
+  <meta name="citation_author_institution" content="Division of Oncology, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_institution" content="Department of Pediatrics, University of Pennsylvania, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author" content="Saksham Phul" />
+  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_orcid" content="0000-0002-2771-2572" />
+  <meta name="twitter:creator" content="@migbro" />
+  <meta name="citation_author" content="Xiaoyan Huang" />
+  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_orcid" content="0000-0001-7267-4512" />
+  <meta name="citation_author" content="Asif T Chinwalla" />
+  <meta name="citation_author_institution" content="Department of Biomedical and Health Informatics, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_orcid" content="0000-0001-7831-3996" />
+  <meta name="citation_author" content="Adam C. Resnick" />
+  <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_orcid" content="0000-0003-0436-4189" />
+  <meta name="twitter:creator" content="@adamcresnick" />
+  <meta name="citation_author" content="Sarah Tasian" />
+  <meta name="citation_author_institution" content="Division of Oncology, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_institution" content="Department of Pediatrics, University of Pennsylvania, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author" content="Deanne Taylor" />
   <meta name="citation_author_institution" content="Department of Bioinformatics and Health Informatics, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_institution" content="Department of Pediatrics, University of Pennsylvania Perelman Medical School, Philadelphia, PA, 19104, USA" />
@@ -234,9 +234,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://d3b-center.github.io/OpenPedCan-manuscript/" />
   <meta name="citation_pdf_url" content="https://d3b-center.github.io/OpenPedCan-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://d3b-center.github.io/OpenPedCan-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-manuscript/v/a22572b15acf0acacc7e501ca7a5aadea77f6341/" />
-  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-manuscript/v/a22572b15acf0acacc7e501ca7a5aadea77f6341/" />
-  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-manuscript/v/a22572b15acf0acacc7e501ca7a5aadea77f6341/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-manuscript/v/0cde5f1fa934987950e0fa7dcf72787da2b3ebc5/" />
+  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-manuscript/v/0cde5f1fa934987950e0fa7dcf72787da2b3ebc5/" />
+  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-manuscript/v/0cde5f1fa934987950e0fa7dcf72787da2b3ebc5/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -258,10 +258,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://d3b-center.github.io/OpenPedCan-manuscript/v/a22572b15acf0acacc7e501ca7a5aadea77f6341/))
+([permalink](https://d3b-center.github.io/OpenPedCan-manuscript/v/0cde5f1fa934987950e0fa7dcf72787da2b3ebc5/))
 was automatically generated
-from [d3b-center/OpenPedCan-manuscript@a22572b](https://github.com/d3b-center/OpenPedCan-manuscript/tree/a22572b15acf0acacc7e501ca7a5aadea77f6341)
-on 2024-06-03.
+from [d3b-center/OpenPedCan-manuscript@0cde5f1](https://github.com/d3b-center/OpenPedCan-manuscript/tree/0cde5f1fa934987950e0fa7dcf72787da2b3ebc5)
+on 2024-06-04.
 </em></small>
 
 # Authors
@@ -288,6 +288,14 @@ on 2024-06-03.
   <br>
   <small>
      Department of Biomedical and Health Informatics, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  </small>
+
++ **Ryan J. Corbett**<br>
+    ![ORCID icon](images/orcid.png){.inline_icon}
+    [0000-0002-3478-0784](https://orcid.org/0000-0002-3478-0784)
+  <br>
+  <small>
+     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
   </small>
 
 + **Run Jin**<br>
@@ -330,14 +338,6 @@ on 2024-06-03.
      Department of Biomedical and Health Informatics, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
   </small>
 
-+ **Ryan J. Corbett**<br>
-    ![ORCID icon](images/orcid.png){.inline_icon}
-    [0000-0002-3478-0784](https://orcid.org/0000-0002-3478-0784)
-  <br>
-  <small>
-     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
-  </small>
-
 + **Aditya Lahiri**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0001-9352-1312](https://orcid.org/0000-0001-9352-1312)
@@ -370,6 +370,12 @@ on 2024-06-03.
      Department of Biomedical and Health Informatics, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
   </small>
 
++ **Christopher Blackden**<br>
+  <br>
+  <small>
+     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  </small>
+
 + **Rocky Breslow**<br>
   <br>
   <small>
@@ -377,12 +383,6 @@ on 2024-06-03.
   </small>
 
 + **Antonia Chroni**<br>
-  <br>
-  <small>
-     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
-  </small>
-
-+ **Christopher Blackden**<br>
   <br>
   <small>
      Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
@@ -404,30 +404,6 @@ on 2024-06-03.
      Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
   </small>
 
-+ **Xiaoyan Huang**<br>
-    ![ORCID icon](images/orcid.png){.inline_icon}
-    [0000-0001-7267-4512](https://orcid.org/0000-0001-7267-4512)
-  <br>
-  <small>
-     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
-  </small>
-
-+ **Mariarita Santi**<br>
-    ![ORCID icon](images/orcid.png){.inline_icon}
-    [0000-0002-6728-3450](https://orcid.org/0000-0002-6728-3450)
-  <br>
-  <small>
-     Department of Pathology and Laboratory Medicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Department of Pathology and Laboratory Medicine, University of Pennsylvania Perelman School of Medicine, Philadelphia, PA, 19104, USA
-  </small>
-
-+ **Asif T Chinwalla**<br>
-    ![ORCID icon](images/orcid.png){.inline_icon}
-    [0000-0001-7831-3996](https://orcid.org/0000-0001-7831-3996)
-  <br>
-  <small>
-     Department of Biomedical and Health Informatics, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
-  </small>
-
 + **Brian M. Ennis**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0002-2653-5009](https://orcid.org/0000-0002-2653-5009)
@@ -436,9 +412,29 @@ on 2024-06-03.
      Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
   </small>
 
-+ **Noel Coleman**<br>
++ **Ammar S. Naqvi**<br>
+  <br>
+  <small>
+     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  </small>
+
++ **Sharon J. Diskin**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
-    [0000-0001-6454-1285](https://orcid.org/0000-0001-6454-1285)
+    [0000-0002-7200-8939](https://orcid.org/0000-0002-7200-8939)
+  <br>
+  <small>
+     Division of Oncology, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Department of Pediatrics, University of Pennsylvania, Philadelphia, PA, 19104, USA
+  </small>
+
++ **Bo Zhang**<br>
+    ![ORCID icon](images/orcid.png){.inline_icon}
+    [0000-0002-0743-5379](https://orcid.org/0000-0002-0743-5379)
+  <br>
+  <small>
+     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  </small>
+
++ **Joseph Dybas**<br>
   <br>
   <small>
      Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
@@ -453,41 +449,7 @@ on 2024-06-03.
      · Funded by NCI/NIH Contract No. 75N91019D00024, Task Order No. 75N91020F00003
   </small>
 
-+ **Chuwei Zhong**<br>
-    ![ORCID icon](images/orcid.png){.inline_icon}
-    [0000-0003-2406-2735](https://orcid.org/0000-0003-2406-2735)
-  <br>
-  <small>
-     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
-  </small>
-
-+ **Nicholas Van Kuren**<br>
-    ![ORCID icon](images/orcid.png){.inline_icon}
-    [0000-0002-7414-9516](https://orcid.org/0000-0002-7414-9516)
-  <br>
-  <small>
-     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
-  </small>
-
-+ **Matthew R. Lueder**<br>
-    ![ORCID icon](images/orcid.png){.inline_icon}
-    [0009-0002-7370-102X](https://orcid.org/0009-0002-7370-102X)
-  <br>
-  <small>
-     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Department of Pathology and Laboratory Medicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
-  </small>
-
-+ **Saksham Phul**<br>
-    ![ORCID icon](images/orcid.png){.inline_icon}
-    [0000-0002-2771-2572](https://orcid.org/0000-0002-2771-2572)
-  <br>
-  <small>
-     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
-  </small>
-
-+ **Bo Zhang**<br>
-    ![ORCID icon](images/orcid.png){.inline_icon}
-    [0000-0002-0743-5379](https://orcid.org/0000-0002-0743-5379)
++ **Jennifer L. Mason**<br>
   <br>
   <small>
      Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
@@ -501,6 +463,84 @@ on 2024-06-03.
      Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
   </small>
 
++ **Yuankun Zhu**<br>
+    ![ORCID icon](images/orcid.png){.inline_icon}
+    [0000-0002-2455-9525](https://orcid.org/0000-0002-2455-9525)
+  <br>
+  <small>
+     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  </small>
+
++ **Matthew R. Lueder**<br>
+    ![ORCID icon](images/orcid.png){.inline_icon}
+    [0009-0002-7370-102X](https://orcid.org/0009-0002-7370-102X)
+  <br>
+  <small>
+     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Department of Pathology and Laboratory Medicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  </small>
+
++ **Nicholas Van Kuren**<br>
+    ![ORCID icon](images/orcid.png){.inline_icon}
+    [0000-0002-7414-9516](https://orcid.org/0000-0002-7414-9516)
+  <br>
+  <small>
+     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  </small>
+
++ **Chuwei Zhong**<br>
+    ![ORCID icon](images/orcid.png){.inline_icon}
+    [0000-0003-2406-2735](https://orcid.org/0000-0003-2406-2735)
+  <br>
+  <small>
+     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  </small>
+
++ **Noel Coleman**<br>
+    ![ORCID icon](images/orcid.png){.inline_icon}
+    [0000-0001-6454-1285](https://orcid.org/0000-0001-6454-1285)
+  <br>
+  <small>
+     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  </small>
+
++ **Mariarita Santi**<br>
+    ![ORCID icon](images/orcid.png){.inline_icon}
+    [0000-0002-6728-3450](https://orcid.org/0000-0002-6728-3450)
+  <br>
+  <small>
+     Department of Pathology and Laboratory Medicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Department of Pathology and Laboratory Medicine, University of Pennsylvania Perelman School of Medicine, Philadelphia, PA, 19104, USA
+  </small>
+
++ **John M. Maris**<br>
+  <br>
+  <small>
+     Division of Oncology, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Department of Pediatrics, University of Pennsylvania, Philadelphia, PA, 19104, USA
+  </small>
+
++ **Saksham Phul**<br>
+    ![ORCID icon](images/orcid.png){.inline_icon}
+    [0000-0002-2771-2572](https://orcid.org/0000-0002-2771-2572)
+  <br>
+  <small>
+     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  </small>
+
++ **Xiaoyan Huang**<br>
+    ![ORCID icon](images/orcid.png){.inline_icon}
+    [0000-0001-7267-4512](https://orcid.org/0000-0001-7267-4512)
+  <br>
+  <small>
+     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  </small>
+
++ **Asif T Chinwalla**<br>
+    ![ORCID icon](images/orcid.png){.inline_icon}
+    [0000-0001-7831-3996](https://orcid.org/0000-0001-7831-3996)
+  <br>
+  <small>
+     Department of Biomedical and Health Informatics, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+  </small>
+
 + **Adam C. Resnick**<br>
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0003-0436-4189](https://orcid.org/0000-0003-0436-4189)
@@ -510,50 +550,10 @@ on 2024-06-03.
      · Funded by Children's Brain Tumor Network; NIH 3P30 CA016520-44S5, U2C HL138346-03, U24 CA220457-03; NCI/NIH Contract No. 75N91019D00024, Task Order No. 75N91020F00003; Children’s Hospital of Philadelphia Division of Neurosurgery
   </small>
 
-+ **Sharon J. Diskin**<br>
-    ![ORCID icon](images/orcid.png){.inline_icon}
-    [0000-0002-7200-8939](https://orcid.org/0000-0002-7200-8939)
-  <br>
-  <small>
-     Division of Oncology, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Department of Pediatrics, University of Pennsylvania, Philadelphia, PA, 19104, USA
-  </small>
-
-+ **John M. Maris**<br>
-  <br>
-  <small>
-     Division of Oncology, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Department of Pediatrics, University of Pennsylvania, Philadelphia, PA, 19104, USA
-  </small>
-
 + **Sarah Tasian**<br>
   <br>
   <small>
      Division of Oncology, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Department of Pediatrics, University of Pennsylvania, Philadelphia, PA, 19104, USA
-  </small>
-
-+ **Yuankun Zhu**<br>
-    ![ORCID icon](images/orcid.png){.inline_icon}
-    [0000-0002-2455-9525](https://orcid.org/0000-0002-2455-9525)
-  <br>
-  <small>
-     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
-  </small>
-
-+ **Jennifer L. Mason**<br>
-  <br>
-  <small>
-     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
-  </small>
-
-+ **Ammar S. Naqvi**<br>
-  <br>
-  <small>
-     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
-  </small>
-
-+ **Joseph Dybas**<br>
-  <br>
-  <small>
-     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
   </small>
 
 + **Deanne Taylor**<br>
@@ -1112,41 +1112,41 @@ We are incredibly grateful to each patient and family for donating tissue and as
 |Zhuangzhuang Geng|Data curation, Formal analysis, Investigation, Methodology, Software, Writing – Original draft|
 |Eric Wafula|Formal analysis, Software, Investigation, Writing – Original draft|
 |Yuanchao Zhang|Software, Formal Analysis, Methodology, Writing – Original draft|
+|Ryan J. Corbett|Formal analysis, Writing - original draft|
 |Run Jin|Formal analysis|
 |Krutika S. Gaonkar|Data curation, Formal analysis, Investigation|
 |Komal S. Rathi|Formal analysis, Investigation, Methodology|
 |Sangeeta Shukla|Formal analysis, Investigation, Methodology, Writing – Original draft, Writing - Review and editing|
 |Dave Hill|Formal analysis, Writing - original draft|
-|Ryan J. Corbett|Formal analysis, Writing - original draft|
 |Aditya Lahiri|Formal analysis, Investigation, Methodology, Writing – Original draft|
 |Daniel P. Miller|Formal analysis, Writing – Original draft|
 |Alex Sickler|Methodology, Formal analysis|
 |Kelsey Keith|Writing - original draft, Formal Analysis|
+|Christopher Blackden|Software|
 |Rocky Breslow|Software|
 |Antonia Chroni|Validation|
-|Christopher Blackden|Software|
 |Adam A. Kraya|Methodology|
 |Miguel A. Brown|Data curation, Methodology, Formal analysis, Investigation, Software, Supervision, Writing – Original draft|
-|Xiaoyan Huang|Formal analysis, Software|
-|Mariarita Santi|Investigation, Validation|
-|Asif T Chinwalla|Project Administration, Supervision, Methodology, Investigation, Validation|
 |Brian M. Ennis|Formal analysis|
-|Noel Coleman|Data curation|
-|Alvin Farrel|Supervision, Investigation, Methodology, Funding acquisition|
-|Chuwei Zhong|Formal analysis|
-|Nicholas Van Kuren|Data curation, Software|
-|Matthew R. Lueder|Data curation|
-|Saksham Phul|Formal analysis|
-|Bo Zhang|Data curation, Formal analysis|
-|Bailey K. Farrow|Data curation, Software, Project Administration, Supervision|
-|Adam C. Resnick|Funding acquisition, Resources|
-|Sharon J. Diskin|Funding acquisition|
-|John M. Maris|Funding acquisition|
-|Sarah Tasian|Funding acquisition|
-|Yuankun Zhu|Supervision|
-|Jennifer L. Mason|Supervision|
 |Ammar S. Naqvi|Methodology, Writing – Original draft|
+|Sharon J. Diskin|Funding acquisition|
+|Bo Zhang|Data curation, Formal analysis|
 |Joseph Dybas|Writing – Original draft, Methodology|
+|Alvin Farrel|Supervision, Investigation, Methodology, Funding acquisition|
+|Jennifer L. Mason|Supervision|
+|Bailey K. Farrow|Data curation, Software, Project Administration, Supervision|
+|Yuankun Zhu|Supervision|
+|Matthew R. Lueder|Data curation|
+|Nicholas Van Kuren|Data curation, Software|
+|Chuwei Zhong|Formal analysis|
+|Noel Coleman|Data curation|
+|Mariarita Santi|Investigation, Validation|
+|John M. Maris|Funding acquisition|
+|Saksham Phul|Formal analysis|
+|Xiaoyan Huang|Formal analysis, Software|
+|Asif T Chinwalla|Project Administration, Supervision, Methodology, Investigation, Validation|
+|Adam C. Resnick|Funding acquisition, Resources|
+|Sarah Tasian|Funding acquisition|
 |Deanne Taylor|Conceptualization, Data curation, Funding acquisition, Investigation, Methodology, Supervision, Project Administration|
 |Jo Lynne Rokita|Conceptualization, Data curation, Formal analysis, Funding acquisition, Project Administration, Investigation, Methodology, Software, Supervision, Writing – Original draft, Writing - Review and editing|
 
