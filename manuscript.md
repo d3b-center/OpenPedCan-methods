@@ -68,8 +68,8 @@ header-includes: |
   <meta name="dc.date" content="2024-06-05" />
   <meta name="citation_publication_date" content="2024-06-05" />
   <meta property="article:published_time" content="2024-06-05" />
-  <meta name="dc.modified" content="2024-06-05T19:52:47+00:00" />
-  <meta property="article:modified_time" content="2024-06-05T19:52:47+00:00" />
+  <meta name="dc.modified" content="2024-06-05T23:00:29+00:00" />
+  <meta property="article:modified_time" content="2024-06-05T23:00:29+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -258,9 +258,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://d3b-center.github.io/OpenPedCan-manuscript/" />
   <meta name="citation_pdf_url" content="https://d3b-center.github.io/OpenPedCan-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://d3b-center.github.io/OpenPedCan-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-manuscript/v/6755f2cd5d8c00df24cbf74965aabc34d3e6ebc1/" />
-  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-manuscript/v/6755f2cd5d8c00df24cbf74965aabc34d3e6ebc1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-manuscript/v/6755f2cd5d8c00df24cbf74965aabc34d3e6ebc1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-manuscript/v/987c4f53fdc502e55c9a1b1446560e6c2c71ec03/" />
+  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-manuscript/v/987c4f53fdc502e55c9a1b1446560e6c2c71ec03/" />
+  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-manuscript/v/987c4f53fdc502e55c9a1b1446560e6c2c71ec03/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -282,9 +282,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://d3b-center.github.io/OpenPedCan-manuscript/v/6755f2cd5d8c00df24cbf74965aabc34d3e6ebc1/))
+([permalink](https://d3b-center.github.io/OpenPedCan-manuscript/v/987c4f53fdc502e55c9a1b1446560e6c2c71ec03/))
 was automatically generated
-from [d3b-center/OpenPedCan-manuscript@6755f2c](https://github.com/d3b-center/OpenPedCan-manuscript/tree/6755f2cd5d8c00df24cbf74965aabc34d3e6ebc1)
+from [d3b-center/OpenPedCan-manuscript@987c4f5](https://github.com/d3b-center/OpenPedCan-manuscript/tree/987c4f53fdc502e55c9a1b1446560e6c2c71ec03)
 on 2024-06-05.
 </em></small>
 
@@ -1055,7 +1055,7 @@ Finally, we include an option (`nonsynfilter_focr`) to use specific nonsynonymou
 ##### Molecular Subtyping
 Here, we build upon the molecular subtyping performed in OpenPBTA [@doi:10.1016/j.xgen.2023.100340].
 
-**High-grade gliomas.**
+**High-grade gliomas**
 <!-- TODO: needs update - DHG, IHG -->
 
 High-grade gliomas (HGG) were categorized based on a combination of clinical information, molecular features, and DNA methylation data. 
@@ -1075,14 +1075,14 @@ Based on the specific RTK gene fusion present in the samples, IHGs were further 
 If no fusion was observed, the samples were identified as "IHG, To be classified".
 
 
-**Atypical teratoid rhabdoid tumors.**
+**Atypical teratoid rhabdoid tumors**
 
 Atypical teratoid rhabdoid tumors (ATRT) tumors were categorized into three subtypes: "ATRT, MYC", "ATRT, SHH", and "ATRT, TYR" [@doi:10.1093/neuonc/noz235].
 In OpenPedCan, the molecular subtyping of ATRT was based solely on the DNA methylation data.
 Briefly, ATRT samples with a high confidence DKFZ methylation subclass score (>= 0.8) were selected and subtypes were assigned based on the DKFZ methylation subclass [@doi10.1038/nature26000].
 Samples with low confidence DKFZ methylation subclass scores (< 0.8) were identified as "ATRT, To be classified".
 
-**Neuroblastoma tumors.**
+**Neuroblastoma tumors**
 
 Neuroblastoma (NBL) tumors with a pathology diagnosis of neuroblastoma, ganglioneuroblastoma, or ganglioneuroma were subtyped based on their MYCN copy number status as either "NBL, MYCN amplified" or "NBL, MYCN non-amplified".
 If `pathology_free_text_diagnosis` was "NBL, MYCN non-amplified" and the genetic data suggested MYCN amplification, the samples were subtyped as "NBL, MYCN amplified".
@@ -1124,7 +1124,7 @@ In addition to subtyping methods described in OpenPBTA [@doi:10.1016/j.xgen.2023
 6. LGG, BRAF- and MAPK-altered (methylation subclass "LGG, BRAF/MAPK")
 7. SEGA, to be classified (methylation subclass "SEGA, To be classified")
 
-**Medulloblastoma**
+**Medulloblastomas**
 
 Medulloblastomas (MB) are now subtyped using high-confidence methylation classifications in addition to MedulloClassifier [@doi:10.1371/journal.pcbi.1008263] as follows:
 
