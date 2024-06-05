@@ -44,7 +44,7 @@
   <meta name="author" content="Sarah Tasian" />
   <meta name="author" content="Deanne Taylor" />
   <meta name="author" content="Jo Lynne Rokita" />
-  <meta name="dcterms.date" content="2024-06-04" />
+  <meta name="dcterms.date" content="2024-06-05" />
   <meta name="keywords" content="pediatric cancer, reproducibility, open science, multi-omics" />
   <title>The Open Pediatric Cancer (OpenPedCan) Project</title>
   <style>
@@ -89,11 +89,11 @@
   <meta name="citation_title" content="The Open Pediatric Cancer (OpenPedCan) Project" />
   <meta property="og:title" content="The Open Pediatric Cancer (OpenPedCan) Project" />
   <meta property="twitter:title" content="The Open Pediatric Cancer (OpenPedCan) Project" />
-  <meta name="dc.date" content="2024-06-04" />
-  <meta name="citation_publication_date" content="2024-06-04" />
-  <meta property="article:published_time" content="2024-06-04" />
-  <meta name="dc.modified" content="2024-06-04T21:15:39+00:00" />
-  <meta property="article:modified_time" content="2024-06-04T21:15:39+00:00" />
+  <meta name="dc.date" content="2024-06-05" />
+  <meta name="citation_publication_date" content="2024-06-05" />
+  <meta property="article:published_time" content="2024-06-05" />
+  <meta name="dc.modified" content="2024-06-05T17:25:39+00:00" />
+  <meta property="article:modified_time" content="2024-06-05T17:25:39+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -264,9 +264,9 @@
   <meta name="citation_fulltext_html_url" content="https://d3b-center.github.io/OpenPedCan-manuscript/" />
   <meta name="citation_pdf_url" content="https://d3b-center.github.io/OpenPedCan-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://d3b-center.github.io/OpenPedCan-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-manuscript/v/0cde5f1fa934987950e0fa7dcf72787da2b3ebc5/" />
-  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-manuscript/v/0cde5f1fa934987950e0fa7dcf72787da2b3ebc5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-manuscript/v/0cde5f1fa934987950e0fa7dcf72787da2b3ebc5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-manuscript/v/e7426e99b07aa628c19aeda899e88137f04b4d16/" />
+  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-manuscript/v/e7426e99b07aa628c19aeda899e88137f04b4d16/" />
+  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-manuscript/v/e7426e99b07aa628c19aeda899e88137f04b4d16/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -283,10 +283,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://d3b-center.github.io/OpenPedCan-manuscript/v/0cde5f1fa934987950e0fa7dcf72787da2b3ebc5/">permalink</a>)
+(<a href="https://d3b-center.github.io/OpenPedCan-manuscript/v/e7426e99b07aa628c19aeda899e88137f04b4d16/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/d3b-center/OpenPedCan-manuscript/tree/0cde5f1fa934987950e0fa7dcf72787da2b3ebc5">d3b-center/OpenPedCan-manuscript@0cde5f1</a>
-on 2024-06-04.
+from <a href="https://github.com/d3b-center/OpenPedCan-manuscript/tree/e7426e99b07aa628c19aeda899e88137f04b4d16">d3b-center/OpenPedCan-manuscript@e7426e9</a>
+on 2024-06-05.
 </em></small></p>
 <h1 id="authors">Authors</h1>
 <ul>
@@ -809,6 +809,10 @@ Please refer to the module linked above for more detailed documentation and scri
 <p>To detect alternative splicing events, we utilized rMATS turbo (v. 4.1.0) with Ensembl/GENCODE v39 GFF annotations using the <a href="https://github.com/kids-first/kf-rnaseq-workflow/blob/master/workflow/rmats_wf.cwl">Kids First RNA-Seq workflow</a>.
 We used <code>--variable-read-length</code> and <code>-t paired</code> options and applied an additional filter to include only splicing events with total junction read counts greater than 10.</p>
 <h4 id="mutational-signatures-mutational-signatures-analysis-module">Mutational Signatures (<code>mutational-signatures</code> analysis module)</h4>
+<p>We obtained mutational signature weights (i.e., exposures) from consensus SNVs using the deconstructSigs R package <span class="citation" data-cites="KhxTOfIb">[<a href="#ref-KhxTOfIb" role="doc-biblioref">25</a>]</span>.
+We estimated weights for single- and double-base substitution (SBS and DBS, respectively) signatures from the Catalogue of Somatic Mutations in Cancer (COSMIC) database versions 2 and 3.3, as well as SBS signatures from Alexandrov et al. 2013 <span class="citation" data-cites="kG8qNLrs">[<a href="#ref-kG8qNLrs" role="doc-biblioref">26</a>]</span>.
+The following COSMIC SBS signatures were excluded from weight estimation in all tumors: 1) sequencing artifact signatures, 2) signatures associated with environmental exposure, and 3) signatures with an unknown etiology.
+Additionally, we excluded therapy-associated signatures from mutational signature weight estimation in tumors collected prior to treatment (i.e. “Initial CNS Tumor” or “Primary Tumor”).</p>
 <h3 id="tumor-mutation-burden-tmb-tmb-calculation-analysis-module">Tumor Mutation Burden [TMB] (<code>tmb-calculation</code> analysis module)</h3>
 <p>Recent clinical studies have associated high TMB with improved patient response rates and survival benefit from immune checkpoint inhibitors <span class="citation" data-cites="doi.org/10.1002/gcc.22733">[<a href="#ref-doi.org/10.1002/gcc.22733" role="doc-biblioref"><strong>doi.org/10.1002/gcc.22733?</strong></a>]</span>.</p>
 <p>The <a href="https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/tmb-calculation">Tumor Mutation Burden (TMB) <code>tmb-calculation</code></a> module was adapted from the <a href="https://github.com/AlexsLemonade/OpenPBTA-analysis/tree/master/analyses/snv-callers"><code>snv-callers</code> module</a> of the OpenPBTA project <span class="citation" data-cites="5VXMHJ7N">[<a href="#ref-5VXMHJ7N" role="doc-biblioref">5</a>]</span>.
@@ -854,7 +858,7 @@ Then, the corresponding tumor RNA-seq data were utilized to seek the evidence fo
 Based on the specific RTK gene fusion present in the samples, IHGs were further classified as “IHG, ALK-altered”, “IHG, NTRK-altered”, “IHG, ROS1-altered”, or “IHG, MET-altered”.
 If no fusion was observed, the samples were identified as “IHG, To be classified”.</p>
 <p><strong>Atypical teratoid rhabdoid tumors.</strong></p>
-<p>Atypical teratoid rhabdoid tumors (ATRT) tumors were categorized into three subtypes: “ATRT, MYC”, “ATRT, SHH”, and “ATRT, TYR” <span class="citation" data-cites="5NHLHVO3">[<a href="#ref-5NHLHVO3" role="doc-biblioref">25</a>]</span>.
+<p>Atypical teratoid rhabdoid tumors (ATRT) tumors were categorized into three subtypes: “ATRT, MYC”, “ATRT, SHH”, and “ATRT, TYR” <span class="citation" data-cites="5NHLHVO3">[<a href="#ref-5NHLHVO3" role="doc-biblioref">27</a>]</span>.
 In OpenPedCan, the molecular subtyping of ATRT was based solely on the DNA methylation data.
 Briefly, ATRT samples with a high confidence DKFZ methylation subclass score (&gt;= 0.8) were selected and subtypes were assigned based on the DKFZ methylation subclass <span class="citation" data-cites="doi10.1038/nature26000">[<a href="#ref-doi10.1038/nature26000" role="doc-biblioref"><strong>doi10.1038/nature26000?</strong></a>]</span>.
 Samples with low confidence DKFZ methylation subclass scores (&lt; 0.8) were identified as “ATRT, To be classified”.</p>
@@ -895,7 +899,7 @@ This reflects an update to WHO classifications that now characterizes this subty
 <li>SEGA, to be classified (methylation subclass “SEGA, To be classified”)</li>
 </ol>
 <p><strong>Medulloblastoma</strong></p>
-<p>Medulloblastomas (MB) are now subtyped using high-confidence methylation classifications in addition to MedulloClassifier <span class="citation" data-cites="12DKhuCiy">[<a href="#ref-12DKhuCiy" role="doc-biblioref">26</a>]</span> as follows:</p>
+<p>Medulloblastomas (MB) are now subtyped using high-confidence methylation classifications in addition to MedulloClassifier <span class="citation" data-cites="12DKhuCiy">[<a href="#ref-12DKhuCiy" role="doc-biblioref">28</a>]</span> as follows:</p>
 <ol type="1">
 <li>MB tumors with methylation classification that contains “MB_SHH” are subtyped as SHH-activated medulloblastoma (MB, SHH)</li>
 <li>MB tumors with “MB_G34_I”, “MB_G34_II”, “MB_G34_III”, and “MB_G334_IV” methylation classifications are subtyped as medulloblastoma group 3 (MB, group 3)</li>
@@ -947,11 +951,11 @@ A list of available scientific research data repositories can be found in res3da
 A Data availability statement is required for all papers, and the code snapshots should be cited here. -->
 <h3 id="datasets">Datasets</h3>
 <p>The datasets supporting this study are available as follows:
-The TARGET dataset is available in dbGAP under phs000218.v23.p8 <span class="citation" data-cites="17Erd7F9J">[<a href="#ref-17Erd7F9J" role="doc-biblioref">27</a>]</span>.
-The GMKF Neuroblastoma dataset is available in dbGAP under phs001436.v1.p1<span class="citation" data-cites="UVwAVvuW">[<a href="#ref-UVwAVvuW" role="doc-biblioref">28</a>]</span>.
-The Pediatric Brain Tumor Atlas data (PBTA), containing the subcohorts OpenPBTA, Kids First PBTA (X01), Chordoma Foundation, MI-ONCOSEQ Study, PNOC, and DGD is available in dbGAP under phs002517.v2.p2 <span class="citation" data-cites="16JieTeo0">[<a href="#ref-16JieTeo0" role="doc-biblioref">29</a>]</span> or in the Kids First Portal (kidsfirstdrc.org).
+The TARGET dataset is available in dbGAP under phs000218.v23.p8 <span class="citation" data-cites="17Erd7F9J">[<a href="#ref-17Erd7F9J" role="doc-biblioref">29</a>]</span>.
+The GMKF Neuroblastoma dataset is available in dbGAP under phs001436.v1.p1<span class="citation" data-cites="UVwAVvuW">[<a href="#ref-UVwAVvuW" role="doc-biblioref">30</a>]</span>.
+The Pediatric Brain Tumor Atlas data (PBTA), containing the subcohorts OpenPBTA, Kids First PBTA (X01), Chordoma Foundation, MI-ONCOSEQ Study, PNOC, and DGD is available in dbGAP under phs002517.v2.p2 <span class="citation" data-cites="16JieTeo0">[<a href="#ref-16JieTeo0" role="doc-biblioref">31</a>]</span> or in the Kids First Portal (kidsfirstdrc.org).
 The raw Genotype-Tissue Expression (GTEx) dataset is available in dbGAP under phs000424.v9.p2 and publicly available at https://gtexportal.org/home/.
-The Cancer Genome Atlas (TCGA) dataset is available in dbGAP under phs000178.v11.p8 <span class="citation" data-cites="A9rC7i7X">[<a href="#ref-A9rC7i7X" role="doc-biblioref">30</a>]</span>.</p>
+The Cancer Genome Atlas (TCGA) dataset is available in dbGAP under phs000178.v11.p8 <span class="citation" data-cites="A9rC7i7X">[<a href="#ref-A9rC7i7X" role="doc-biblioref">32</a>]</span>.</p>
 <p>Merged summary files for the latest release of OpenPedCan are openly accessible in <a href="https://cavatica.sbgenomics.com/u/cavatica/opentarget">CAVATICA</a> or via <code>download-data.sh</code> script in the <a href="https://github.com/d3b-center/OpenPedCan-analysis">https://github.com/d3b-center/OpenPedCan-analysis</a> repository.
 Cancer group summary data from release v11 are visible within the NCI’s pediatric <a href="https://moleculartargets.ccdi.cancer.gov/">Molecular Targets Platform</a>.
 Cohort, cancer group, and individual data are visible within <a href="https://pedcbioportal.kidsfirstdrc.org/study/summary?id=openpedcan_v15">PedcBioPortal</a></p>
@@ -1212,25 +1216,31 @@ Cohort, cancer group, and individual data are visible within <a href="https://pe
 <div class="csl-left-margin">23. </div><div class="csl-right-inline"><strong>Spectral probabilities of top-down tandem mass spectra</strong> <div class="csl-block">Xiaowen Liu, Matthew W Segar, Shuai Cheng Li, Sangtae Kim</div> <em>BMC Genomics</em> (2014-01) <a href="https://doi.org/gb3gzt">https://doi.org/gb3gzt</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/1471-2164-15-s1-s9">10.1186/1471-2164-15-s1-s9</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/24564718">24564718</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4046700">PMC4046700</a></div></div>
 </div>
 <div id="ref-VLwxfMaF" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">24. </div><div class="csl-right-inline"><strong>A probability-based approach for high-throughput protein phosphorylation analysis and site localization</strong> <div class="csl-block">Sean A Beausoleil, Judit Villén, Scott A Gerber, John Rush, Steven P Gygi</div> <em>Nature Biotechnology</em> (2006-09-10) <a href="https://doi.org/dbwqf4">https://doi.org/dbwqf4</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/nbt1240">10.1038/nbt1240</a></div></div>
+<div class="csl-left-margin">24. </div><div class="csl-right-inline"><strong>A probability-based approach for high-throughput protein phosphorylation analysis and site localization</strong> <div class="csl-block">Sean A Beausoleil, Judit Villén, Scott A Gerber, John Rush, Steven P Gygi</div> <em>Nature Biotechnology</em> (2006-09-10) <a href="https://doi.org/dbwqf4">https://doi.org/dbwqf4</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/nbt1240">10.1038/nbt1240</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/16964243">16964243</a></div></div>
+</div>
+<div id="ref-KhxTOfIb" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">25. </div><div class="csl-right-inline"><strong>deconstructSigs: delineating mutational processes in single tumors distinguishes DNA repair deficiencies and patterns of carcinoma evolution</strong> <div class="csl-block">Rachel Rosenthal, Nicholas McGranahan, Javier Herrero, Barry S Taylor, Charles Swanton</div> <em>Genome Biology</em> (2016-02-22) <a href="https://doi.org/f8bdsq">https://doi.org/f8bdsq</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/s13059-016-0893-4">10.1186/s13059-016-0893-4</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/26899170">26899170</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4762164">PMC4762164</a></div></div>
+</div>
+<div id="ref-kG8qNLrs" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">26. </div><div class="csl-right-inline"><strong>Signatures of mutational processes in human cancer</strong> <div class="csl-block">Ludmil B Alexandrov, Serena Nik-Zainal, David C Wedge, Samuel AJR Aparicio, Sam Behjati, Andrew V Biankin, Graham R Bignell, Niccolò Bolli, Ake Borg, … </div> <em>Nature</em> (2013-08-14) <a href="https://doi.org/f22m2q">https://doi.org/f22m2q</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/nature12477">10.1038/nature12477</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/23945592">23945592</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3776390">PMC3776390</a></div></div>
 </div>
 <div id="ref-5NHLHVO3" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">25. </div><div class="csl-right-inline"><strong>Molecular subgrouping of atypical teratoid/rhabdoid tumors—a reinvestigation and current consensus</strong> <div class="csl-block">Ben Ho, Pascal D Johann, Yura Grabovska, Mamy Jean De Dieu Andrianteranagna, Fupan Yao, Michael Frühwald, Martin Hasselblatt, Franck Bourdeaut, Daniel Williamson, Annie Huang, Marcel Kool</div> <em>Neuro-Oncology</em> (2019-12-31) <a href="https://doi.org/gn3kcm">https://doi.org/gn3kcm</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/neuonc/noz235">10.1093/neuonc/noz235</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31889194">31889194</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7229260">PMC7229260</a></div></div>
+<div class="csl-left-margin">27. </div><div class="csl-right-inline"><strong>Molecular subgrouping of atypical teratoid/rhabdoid tumors—a reinvestigation and current consensus</strong> <div class="csl-block">Ben Ho, Pascal D Johann, Yura Grabovska, Mamy Jean De Dieu Andrianteranagna, Fupan Yao, Michael Frühwald, Martin Hasselblatt, Franck Bourdeaut, Daniel Williamson, Annie Huang, Marcel Kool</div> <em>Neuro-Oncology</em> (2019-12-31) <a href="https://doi.org/gn3kcm">https://doi.org/gn3kcm</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/neuonc/noz235">10.1093/neuonc/noz235</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31889194">31889194</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7229260">PMC7229260</a></div></div>
 </div>
 <div id="ref-12DKhuCiy" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">26. </div><div class="csl-right-inline"><strong>A transcriptome-based classifier to determine molecular subtypes in medulloblastoma</strong> <div class="csl-block">Komal S Rathi, Sherjeel Arif, Mateusz Koptyra, Ammar S Naqvi, Deanne M Taylor, Phillip B Storm, Adam C Resnick, Jo Lynne Rokita, Pichai Raman</div> <em>PLOS Computational Biology</em> (2020-10-29) <a href="https://doi.org/gm84kq">https://doi.org/gm84kq</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1371/journal.pcbi.1008263">10.1371/journal.pcbi.1008263</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/33119584">33119584</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7654754">PMC7654754</a></div></div>
+<div class="csl-left-margin">28. </div><div class="csl-right-inline"><strong>A transcriptome-based classifier to determine molecular subtypes in medulloblastoma</strong> <div class="csl-block">Komal S Rathi, Sherjeel Arif, Mateusz Koptyra, Ammar S Naqvi, Deanne M Taylor, Phillip B Storm, Adam C Resnick, Jo Lynne Rokita, Pichai Raman</div> <em>PLOS Computational Biology</em> (2020-10-29) <a href="https://doi.org/gm84kq">https://doi.org/gm84kq</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1371/journal.pcbi.1008263">10.1371/journal.pcbi.1008263</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/33119584">33119584</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7654754">PMC7654754</a></div></div>
 </div>
 <div id="ref-17Erd7F9J" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">27. </div><div class="csl-right-inline"><strong>dbGaP Study</strong> <a href="https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000218.v23.p8">https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000218.v23.p8</a></div>
+<div class="csl-left-margin">29. </div><div class="csl-right-inline"><strong>dbGaP Study</strong> <a href="https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000218.v23.p8">https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000218.v23.p8</a></div>
 </div>
 <div id="ref-UVwAVvuW" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">28. </div><div class="csl-right-inline"><strong>dbGaP Study</strong> <a href="https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001436.v1.p1">https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001436.v1.p1</a></div>
+<div class="csl-left-margin">30. </div><div class="csl-right-inline"><strong>dbGaP Study</strong> <a href="https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001436.v1.p1">https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001436.v1.p1</a></div>
 </div>
 <div id="ref-16JieTeo0" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">29. </div><div class="csl-right-inline"><strong>dbGaP Study</strong> <a href="https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002517.v2.p2">https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002517.v2.p2</a></div>
+<div class="csl-left-margin">31. </div><div class="csl-right-inline"><strong>dbGaP Study</strong> <a href="https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002517.v2.p2">https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002517.v2.p2</a></div>
 </div>
 <div id="ref-A9rC7i7X" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">30. </div><div class="csl-right-inline"><strong>dbGaP Study</strong> <a href="https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000178.v11.p8">https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000178.v11.p8</a></div>
+<div class="csl-left-margin">32. </div><div class="csl-right-inline"><strong>dbGaP Study</strong> <a href="https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000178.v11.p8">https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000178.v11.p8</a></div>
 </div>
 </div>
 <!-- default theme -->

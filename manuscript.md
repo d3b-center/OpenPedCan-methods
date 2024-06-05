@@ -6,7 +6,7 @@ keywords:
 - open science
 - multi-omics
 lang: en-US
-date-meta: '2024-06-04'
+date-meta: '2024-06-05'
 author-meta:
 - Zhuangzhuang Geng
 - Eric Wafula
@@ -59,11 +59,11 @@ header-includes: |
   <meta name="citation_title" content="The Open Pediatric Cancer (OpenPedCan) Project" />
   <meta property="og:title" content="The Open Pediatric Cancer (OpenPedCan) Project" />
   <meta property="twitter:title" content="The Open Pediatric Cancer (OpenPedCan) Project" />
-  <meta name="dc.date" content="2024-06-04" />
-  <meta name="citation_publication_date" content="2024-06-04" />
-  <meta property="article:published_time" content="2024-06-04" />
-  <meta name="dc.modified" content="2024-06-04T21:15:39+00:00" />
-  <meta property="article:modified_time" content="2024-06-04T21:15:39+00:00" />
+  <meta name="dc.date" content="2024-06-05" />
+  <meta name="citation_publication_date" content="2024-06-05" />
+  <meta property="article:published_time" content="2024-06-05" />
+  <meta name="dc.modified" content="2024-06-05T17:25:39+00:00" />
+  <meta property="article:modified_time" content="2024-06-05T17:25:39+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -234,9 +234,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://d3b-center.github.io/OpenPedCan-manuscript/" />
   <meta name="citation_pdf_url" content="https://d3b-center.github.io/OpenPedCan-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://d3b-center.github.io/OpenPedCan-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-manuscript/v/0cde5f1fa934987950e0fa7dcf72787da2b3ebc5/" />
-  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-manuscript/v/0cde5f1fa934987950e0fa7dcf72787da2b3ebc5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-manuscript/v/0cde5f1fa934987950e0fa7dcf72787da2b3ebc5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-manuscript/v/e7426e99b07aa628c19aeda899e88137f04b4d16/" />
+  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-manuscript/v/e7426e99b07aa628c19aeda899e88137f04b4d16/" />
+  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-manuscript/v/e7426e99b07aa628c19aeda899e88137f04b4d16/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -258,10 +258,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://d3b-center.github.io/OpenPedCan-manuscript/v/0cde5f1fa934987950e0fa7dcf72787da2b3ebc5/))
+([permalink](https://d3b-center.github.io/OpenPedCan-manuscript/v/e7426e99b07aa628c19aeda899e88137f04b4d16/))
 was automatically generated
-from [d3b-center/OpenPedCan-manuscript@0cde5f1](https://github.com/d3b-center/OpenPedCan-manuscript/tree/0cde5f1fa934987950e0fa7dcf72787da2b3ebc5)
-on 2024-06-04.
+from [d3b-center/OpenPedCan-manuscript@e7426e9](https://github.com/d3b-center/OpenPedCan-manuscript/tree/e7426e99b07aa628c19aeda899e88137f04b4d16)
+on 2024-06-05.
 </em></small>
 
 # Authors
@@ -908,6 +908,11 @@ We used `--variable-read-length` and `-t paired` options and applied an addition
 
 
 #### Mutational Signatures (`mutational-signatures` analysis module)
+
+We obtained mutational signature weights (i.e., exposures) from consensus SNVs using the deconstructSigs R package [@doi:10.1186/s13059-016-0893-4]. 
+We estimated weights for single- and double-base substitution (SBS and DBS, respectively) signatures from the Catalogue of Somatic Mutations in Cancer (COSMIC) database versions 2 and 3.3, as well as SBS signatures from Alexandrov et al. 2013 [@doi:10.1038/nature12477].
+The following COSMIC SBS signatures were excluded from weight estimation in all tumors: 1) sequencing artifact signatures, 2) signatures associated with environmental exposure, and 3) signatures with an unknown etiology.
+Additionally, we excluded therapy-associated signatures from mutational signature weight estimation in tumors collected prior to treatment (i.e. "Initial CNS Tumor" or "Primary Tumor"). 
 
 
 ### Tumor Mutation Burden [TMB] (`tmb-calculation` analysis module)
