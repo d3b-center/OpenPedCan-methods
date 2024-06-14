@@ -69,8 +69,8 @@ header-includes: |
   <meta name="dc.date" content="2024-06-14" />
   <meta name="citation_publication_date" content="2024-06-14" />
   <meta property="article:published_time" content="2024-06-14" />
-  <meta name="dc.modified" content="2024-06-14T18:30:26+00:00" />
-  <meta property="article:modified_time" content="2024-06-14T18:30:26+00:00" />
+  <meta name="dc.modified" content="2024-06-14T19:49:49+00:00" />
+  <meta property="article:modified_time" content="2024-06-14T19:49:49+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -82,7 +82,7 @@ header-includes: |
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_orcid" content="0009-0007-6883-0691" />
   <meta name="citation_author" content="Eric Wafula" />
-  <meta name="citation_author_institution" content="Department of Bioinformatics and Health Informatics, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_institution" content="Department of Biomedical and Health Informatics, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_orcid" content="0000-0001-8073-3797" />
   <meta name="citation_author" content="Yuanchao Zhang" />
   <meta name="citation_author_institution" content="Department of Biomedical and Health Informatics, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
@@ -98,22 +98,22 @@ header-includes: |
   <meta name="citation_author" content="Krutika S. Gaonkar" />
   <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
-  <meta name="citation_author_institution" content="Department of Bioinformatics and Health Informatics, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_institution" content="Department of Biomedical and Health Informatics, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_orcid" content="0000-0003-0838-2405" />
   <meta name="twitter:creator" content="@aggokittu" />
   <meta name="citation_author" content="Sangeeta Shukla" />
-  <meta name="citation_author_institution" content="Department of Bioinformatics and Health Informatics, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_institution" content="Department of Biomedical and Health Informatics, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_orcid" content="0000-0002-3727-9602" />
   <meta name="citation_author" content="Komal S. Rathi" />
   <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
-  <meta name="citation_author_institution" content="Department of Bioinformatics and Health Informatics, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_institution" content="Department of Biomedical and Health Informatics, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_orcid" content="0000-0001-5534-6904" />
   <meta name="twitter:creator" content="@komalsrathi" />
   <meta name="citation_author" content="Dave Hill" />
   <meta name="citation_author_institution" content="Department of Biomedical and Health Informatics, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_orcid" content="0000-0002-1337-1789" />
   <meta name="citation_author" content="Aditya Lahiri" />
-  <meta name="citation_author_institution" content="Department of Bioinformatics and Health Informatics, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_institution" content="Department of Biomedical and Health Informatics, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_orcid" content="0000-0001-9352-1312" />
   <meta name="citation_author" content="Daniel P. Miller" />
   <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
@@ -129,6 +129,7 @@ header-includes: |
   <meta name="citation_author" content="Christopher Blackden" />
   <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_orcid" content="0000-0002-4928-090X" />
   <meta name="citation_author" content="Antonia Chroni" />
   <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
@@ -247,13 +248,13 @@ header-includes: |
   <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author" content="Deanne Taylor" />
-  <meta name="citation_author_institution" content="Department of Bioinformatics and Health Informatics, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_institution" content="Department of Biomedical and Health Informatics, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_institution" content="Department of Pediatrics, University of Pennsylvania Perelman Medical School, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_orcid" content="0000-0002-3302-4610" />
   <meta name="citation_author" content="Jo Lynne Rokita" />
   <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
-  <meta name="citation_author_institution" content="Department of Bioinformatics and Health Informatics, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
+  <meta name="citation_author_institution" content="Department of Biomedical and Health Informatics, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_orcid" content="0000-0003-2171-3627" />
   <meta name="twitter:creator" content="@jolynnerokita" />
   <link rel="canonical" href="https://d3b-center.github.io/OpenPedCan-manuscript/" />
@@ -262,9 +263,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://d3b-center.github.io/OpenPedCan-manuscript/" />
   <meta name="citation_pdf_url" content="https://d3b-center.github.io/OpenPedCan-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://d3b-center.github.io/OpenPedCan-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-manuscript/v/2a9bea93dd0270677218b7b6dd5b0d29cc0306eb/" />
-  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-manuscript/v/2a9bea93dd0270677218b7b6dd5b0d29cc0306eb/" />
-  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-manuscript/v/2a9bea93dd0270677218b7b6dd5b0d29cc0306eb/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-manuscript/v/71f7443e8add86a2680a353f37b87364d756b30c/" />
+  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-manuscript/v/71f7443e8add86a2680a353f37b87364d756b30c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-manuscript/v/71f7443e8add86a2680a353f37b87364d756b30c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -286,9 +287,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://d3b-center.github.io/OpenPedCan-manuscript/v/2a9bea93dd0270677218b7b6dd5b0d29cc0306eb/))
+([permalink](https://d3b-center.github.io/OpenPedCan-manuscript/v/71f7443e8add86a2680a353f37b87364d756b30c/))
 was automatically generated
-from [d3b-center/OpenPedCan-manuscript@2a9bea9](https://github.com/d3b-center/OpenPedCan-manuscript/tree/2a9bea93dd0270677218b7b6dd5b0d29cc0306eb)
+from [d3b-center/OpenPedCan-manuscript@71f7443](https://github.com/d3b-center/OpenPedCan-manuscript/tree/71f7443e8add86a2680a353f37b87364d756b30c)
 on 2024-06-14.
 </em></small>
 
@@ -311,7 +312,7 @@ on 2024-06-14.
     · ![GitHub icon](images/github.png){.inline_icon}
     [ewafula](https://github.com/ewafula)<br>
   <small>
-     Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+     Department of Biomedical and Health Informatics, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
   </small>
 
 + **Yuanchao Zhang**<br><br>
@@ -341,7 +342,7 @@ on 2024-06-14.
     ![ORCID icon](images/orcid.png){.inline_icon}
     [0000-0003-0838-2405](https://orcid.org/0000-0003-0838-2405)<br>
   <small>
-     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Department of Biomedical and Health Informatics, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
   </small>
 
 + **Sangeeta Shukla**<br>
@@ -350,7 +351,7 @@ on 2024-06-14.
     · ![GitHub icon](images/github.png){.inline_icon}
     [sangeetashukla](https://github.com/sangeetashukla)<br>
   <small>
-     Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+     Department of Biomedical and Health Informatics, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
   </small>
 
 + **Komal S. Rathi**<br>
@@ -359,7 +360,7 @@ on 2024-06-14.
     · ![GitHub icon](images/github.png){.inline_icon}
     [komalsrathi](https://github.com/komalsrathi)<br>
   <small>
-     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Department of Biomedical and Health Informatics, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
   </small>
 
 + **Dave Hill**<br>
@@ -377,7 +378,7 @@ on 2024-06-14.
     · ![GitHub icon](images/github.png){.inline_icon}
     [adilahiri](https://github.com/adilahiri)<br>
   <small>
-     Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+     Department of Biomedical and Health Informatics, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
   </small>
 
 + **Daniel P. Miller**<br>
@@ -408,6 +409,8 @@ on 2024-06-14.
   </small>
 
 + **Christopher Blackden**<br>
+    ![ORCID icon](images/orcid.png){.inline_icon}
+    [0000-0002-4928-090X](https://orcid.org/0000-0002-4928-090X)
     · ![GitHub icon](images/github.png){.inline_icon}
     [devbyaccident](https://github.com/devbyaccident)<br>
   <small>
@@ -647,7 +650,7 @@ on 2024-06-14.
     · ![GitHub icon](images/github.png){.inline_icon}
     [taylordm](https://github.com/taylordm)<br>
   <small>
-     Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Department of Pediatrics, University of Pennsylvania Perelman Medical School, Philadelphia, PA, 19104, USA
+     Department of Biomedical and Health Informatics, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Department of Pediatrics, University of Pennsylvania Perelman Medical School, Philadelphia, PA, 19104, USA
      · Funded by NCI/NIH Contract No. 75N91019D00024, Task Order No. 75N91020F00003
   </small>
 
@@ -658,7 +661,7 @@ on 2024-06-14.
     · ![GitHub icon](images/github.png){.inline_icon}
     [jharenza](https://github.com/jharenza)<br>
   <small>
-     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Department of Bioinformatics and Health Informatics, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
+     Center for Data-Driven Discovery in Biomedicine, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Division of Neurosurgery, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Department of Biomedical and Health Informatics, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA
      · Funded by NCI/NIH Contract No. 75N91019D00024, Task Order No. 75N91020F00003
   </small>
 
@@ -686,6 +689,7 @@ Combined with RNA-Seq from the Genotype-Tissue Expression (GTEx) and The Cancer 
 We integrated summarized CPTAC proteomics and phospho-proteomics data, miRNA-Seq data, and have developed a methylation array harmonization workflow to include m-values, beta-vales, and copy number calls. 
 OpenPedCan contains reproducible, dockerized workflows in GitHub, CAVATICA, and Amazon Web Services (AWS) to deliver harmonized and processed data from over 60 scalable modules which can be leveraged both locally and on AWS. 
 The processed data are released in a versioned manner and accessible through CAVATICA or AWS S3 download (from GitHub), and queryable through PedcBioPortal and the NCI's pediatric Molecular Targets Platform. 
+Notably, we have expanded PBTA molecular subtyping to include methylation information to align with the WHO 2021 Central Nervous System Tumor classifications, allowing us to create research-grade integrated diagnoses for these tumors.
 
 <!-- A short summary of the potential uses of these data and implications for the field. -->
 **Conclusions:** OpenPedCan data and its reproducible analysis module framework are openly available and can be utilized and/or adapted by researchers to accelerate discovery, validation, and clinical translation.
@@ -708,7 +712,7 @@ Pediatric cancer, open science, reproducibility, multi-omics
 The Open Pediatric Cancer (OpenPedCan) project at the Children’s Hospital of Philadelphia (CHOP) is an open analysis effort in which we harmonize pediatric cancer data from multiple sources, perform downstream cancer analyses on these data, and provide them on PedcBioPortal and v2.1 of NCI's [Pediatric Molecular Targets Platform (MTP)](https://moleculartargets.ccdi.cancer.gov/).
 We harmonized, aggregated, and analyzed data from multiple pediatric and adult data sources, building upon the work of the OpenPBTA (**Figure {@fig:Fig1}**).
 
-![**OpenPedCan Data.** A, OpenPedCan contains multi-omic data from seven cohorts of pediatric tumors (A-B), RNA-Seq from adult tumors from The Cancer Genome Atlas (TCGA) Program (C-D) and RNA-Seq from normal adult tissues from the Genotype-Tissue Expression (GTeX) project (E). (Abbreviations: TARGET = Therapeutically Applicable Research to Generate Effective Treatments , PPTC = Pediatric Preclinical Testing Consortium, PBTA = Pediatric Brain Tumor Atlas, Maris = Neuroblastoma cell lines from the Maris Laboratory at CHOP, GMKF = Gabriella Miller Kids First, DGD = Division of Genomic Diagnostics at CHOP, CPTAC = Clinical Proteomic Tumor Analysis Consortium)](https://raw.githubusercontent.com/d3b-center/OpenPedCan-analysis/66840de10c21494445c3fbd3e3098646e7b048d5/figures/manuscript_OPC/figure1/Figure1.png?sanitize=true){#fig:Fig1 width="7in"}
+![**OpenPedCan Data.** A, OpenPedCan contains multi-omic data from seven cohorts of pediatric tumors (A-B), RNA-Seq from adult tumors from The Cancer Genome Atlas (TCGA) Program (C-D) and RNA-Seq from normal adult tissues from the Genotype-Tissue Expression (GTeX) project (E). (Abbreviations: TARGET = Therapeutically Applicable Research to Generate Effective Treatments , PPTC = Pediatric Preclinical Testing Consortium, PBTA = Pediatric Brain Tumor Atlas, Maris = Neuroblastoma cell lines from the Maris Laboratory at CHOP, GMKF = Gabriella Miller Kids First, DGD = Division of Genomic Diagnostics at CHOP, CPTAC = Clinical Proteomic Tumor Analysis Consortium)](https://raw.githubusercontent.com/d3b-center/OpenPedCan-analysis/e0e35bb13fd8542b807f7ea75ffd3ab857c522cb/figures/manuscript_OPC/figure1/Figure1.png?sanitize=true){#fig:Fig1 width="7in"}
 
 OpenPedCan currently include the following datasets, described more fully below:
 
@@ -802,8 +806,11 @@ The project maintainers include scientists from the [Center for Data-Driven Disc
 
 ## Methods
 An overview of the OpenPedCan methods is depicted in **Figure {@fig:Fig2}**.
+Briefly, most primary harmonization analysis workflows were performed with Kids First pipelines written in Common Workflow Language (CWL) using CAVATICA (detailed below). 
+Alignment and expression quantification for GTEx and TCGA RNA-Seq was performed by the respective consortium.
+Custom python, R, and/or bash scripts were then created in OpenPedCan using the primary harmonized output files.
 
-![**OpenPedCan Analysis Workflow.** Depicted are the datasets (yellow, orange, and grey) contained within OpenPedCan. These datasets are made available in a harmonized manner through primary analysis workflows (blue) for DNA, RNA, and/or proteogenomics data. Files derived from the primary analysis workflows (green) are released within OpenPedCan. Additional analysis modules developed within OpenPedCan (red) also generate results files (green) which are released within OpenPedCan.](https://raw.githubusercontent.com/d3b-center/OpenPedCan-analysis/66840de10c21494445c3fbd3e3098646e7b048d5/figures/manuscript_OPC/figure2/Figure2.png?sanitize=true){#fig:Fig2 width="7in"}
+![**OpenPedCan Analysis Workflow.** Depicted are the datasets (yellow, orange, and grey) contained within OpenPedCan. These datasets are made available in a harmonized manner through primary analysis workflows (blue) for DNA, RNA, and/or proteogenomics data. Files derived from the primary analysis workflows (green) are released within OpenPedCan. Additional analysis modules developed within OpenPedCan (red) also generate results files (green) which are released within OpenPedCan.](https://raw.githubusercontent.com/d3b-center/OpenPedCan-analysis/e0e35bb13fd8542b807f7ea75ffd3ab857c522cb/figures/manuscript_OPC/figure2/Figure2.png?sanitize=true){#fig:Fig2 width="7in"}
 
 <!-- This section can potentially be further broken up into subheadings a) Sampling strategy and b) Steps. Related methods can also be grouped under corresponding subheadings. This section should provide enough detail to allow other researchers to interpret and repeat the study. In addition to including the design of the study, it needs to provide detail on the type of reagents, instrumentation and kits used (including any identifiers such as RRIDs).
 
@@ -821,6 +828,7 @@ For detailed methods about the OpenPBTA cohort, please refer to the manuscript [
 For the PBTA X01 cohort, libraries were prepped using the Illumina TruSeq Strand-Specific Protocol to pull out poly-adenylated transcripts.
 
 **cDNA Library Construction**
+
 Total RNA was quantified using the Quant-iT™ RiboGreen® RNA Assay Kit and normalized to 5ng/ul.
 Following plating, 2 uL of ERCC controls (using a 1:1000 dilution) were spiked into each sample.
 An aliquot of 325 ng for each sample was transferred into library preparation.
@@ -830,6 +838,7 @@ Samples were normalized to 5 ng/uL.
 The sample set was pooled and quantified using the KAPA Library Quantification Kit for Illumina Sequencing Platforms.
 
 **miRNA Extraction and Library Preparation**
+
 Total RNA for CBTN samples was extracted as described in OpenPBTA [@doi:10.1016/j.xgen.2023.100340] and prepared according to the HTG Edge Seq protocol for the extracted RNA miRNA Whole transcriptome assay (WTA). 
 15ng of RNA were mixed in 25ul of lysis buffer, which were then loaded onto a 96-well plate.
 Human Fetal Brain Total RNA (Takara Bio USA, #636526) and Human Brain Total RNA (Ambion, Inc., Austin, TX, USA) were used as controls.
@@ -934,10 +943,15 @@ This was dealt with by filtering the expression matrix to only genes with [FPKM/
 This enabled many downstream modules that require RNA-seq data have gene symbols as unique gene identifiers.
 Refer to [collapse-rnaseq](https://github.com/PediatricOpenTargets/OpenPedCan-analysis/tree/dev/analyses/collapse-rnaseq) module for scripts and details.
 
-**Gene fusion detection**
+**Gene fusion detection from RNA-Seq**
 
+Gene fusions were called using Arriba [@doi:10.1101/gr.257246.119] and STAR-Fusion [@doi:10.1101/120295] as previously reported in OpenPBTA [@doi:10.1016/j.xgen.2023.100340].
 We updated the [`annoFuseData` R package](https://github.com/d3b-center/annoFusedata) to liftover gene symbols to be concordant with VEP v. 105.
 Fusions are now filtered with annoFuse [@doi:10.1186/s12859-020-03922-7] upstream and released in `fusion-annoFuse.tsv.gz`.
+
+**Gene fusion detection from fusion panels (DGD only)**
+
+Clinical RNA fusion calls from the [CHOP DGD fusion panel](https://www.testmenu.com/chop/Tests/785504) are included in the data release in the `fusion-dgd.tsv.gz` file.
 
 #### Splicing quantification
 
@@ -1026,6 +1040,7 @@ Briefly, we split the SNV consensus MAF into SNVs and multinucleotide variants (
 We split the MNV subset into SNV calls, merged those back with the SNVs subset, and then removed sample-specific redundant calls.
 The resulting merged and non-redundant SNV consensus calls were used as input for the TMB calculation.
 We tallied only nonsynonymous variants with classifications of high/moderate consequence ("Missense_Mutation", "Frame_Shift_Del", "In_Frame_Ins", "Frame_Shift_Ins", "Splice_Site", "Nonsense_Mutation", "In_Frame_Del", "Nonstop_Mutation", and "Translation_Start_Site") for the numerator.
+All BED files are provided in the data release.
 
 **All mutation TMB**
 
