@@ -51,7 +51,7 @@
   <meta name="author" content="Gerri R. Trooskin" />
   <meta name="author" content="Deanne Taylor" />
   <meta name="author" content="Jo Lynne Rokita" />
-  <meta name="dcterms.date" content="2024-06-06" />
+  <meta name="dcterms.date" content="2024-06-14" />
   <meta name="keywords" content="pediatric cancer, reproducibility, open science, multi-omics" />
   <title>The Open Pediatric Cancer Project</title>
   <style>
@@ -96,11 +96,11 @@
   <meta name="citation_title" content="The Open Pediatric Cancer Project" />
   <meta property="og:title" content="The Open Pediatric Cancer Project" />
   <meta property="twitter:title" content="The Open Pediatric Cancer Project" />
-  <meta name="dc.date" content="2024-06-06" />
-  <meta name="citation_publication_date" content="2024-06-06" />
-  <meta property="article:published_time" content="2024-06-06" />
-  <meta name="dc.modified" content="2024-06-06T01:25:39+00:00" />
-  <meta property="article:modified_time" content="2024-06-06T01:25:39+00:00" />
+  <meta name="dc.date" content="2024-06-14" />
+  <meta name="citation_publication_date" content="2024-06-14" />
+  <meta property="article:published_time" content="2024-06-14" />
+  <meta name="dc.modified" content="2024-06-14T18:30:26+00:00" />
+  <meta property="article:modified_time" content="2024-06-14T18:30:26+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -292,9 +292,9 @@
   <meta name="citation_fulltext_html_url" content="https://d3b-center.github.io/OpenPedCan-manuscript/" />
   <meta name="citation_pdf_url" content="https://d3b-center.github.io/OpenPedCan-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://d3b-center.github.io/OpenPedCan-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-manuscript/v/5471ce91d866d37987e3bc141e01f5fd7a477988/" />
-  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-manuscript/v/5471ce91d866d37987e3bc141e01f5fd7a477988/" />
-  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-manuscript/v/5471ce91d866d37987e3bc141e01f5fd7a477988/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-manuscript/v/2a9bea93dd0270677218b7b6dd5b0d29cc0306eb/" />
+  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-manuscript/v/2a9bea93dd0270677218b7b6dd5b0d29cc0306eb/" />
+  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-manuscript/v/2a9bea93dd0270677218b7b6dd5b0d29cc0306eb/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -311,10 +311,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://d3b-center.github.io/OpenPedCan-manuscript/v/5471ce91d866d37987e3bc141e01f5fd7a477988/">permalink</a>)
+(<a href="https://d3b-center.github.io/OpenPedCan-manuscript/v/2a9bea93dd0270677218b7b6dd5b0d29cc0306eb/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/d3b-center/OpenPedCan-manuscript/tree/5471ce91d866d37987e3bc141e01f5fd7a477988">d3b-center/OpenPedCan-manuscript@5471ce9</a>
-on 2024-06-06.
+from <a href="https://github.com/d3b-center/OpenPedCan-manuscript/tree/2a9bea93dd0270677218b7b6dd5b0d29cc0306eb">d3b-center/OpenPedCan-manuscript@2a9bea9</a>
+on 2024-06-14.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -657,7 +657,7 @@ The processed data are released in a versioned manner and accessible through CAV
 <p>Pediatric cancer, open science, reproducibility, multi-omics</p>
 <h2 id="data-description">Data Description</h2>
 <!-- A brief statement providing background and purpose for collection of these data should be presented for readers without specialist knowledge in that area. A clear, concise, description of the data, the protocol(s) for data collection, data curation and quality control, as well as potential uses should then follow. -->
-<p>The Open Pediatric Cancer (OpenPedCan) project at the Children’s Hospital of Philadelphia is an open analysis effort in which we harmonize pediatric cancer data from multiple sources, perform downstream cancer analyses on these data, and provide them on PedcBioPortal and v2.1 of NCI’s <a href="https://moleculartargets.ccdi.cancer.gov/">Pediatric Molecular Targets Platform (MTP)</a>.
+<p>The Open Pediatric Cancer (OpenPedCan) project at the Children’s Hospital of Philadelphia (CHOP) is an open analysis effort in which we harmonize pediatric cancer data from multiple sources, perform downstream cancer analyses on these data, and provide them on PedcBioPortal and v2.1 of NCI’s <a href="https://moleculartargets.ccdi.cancer.gov/">Pediatric Molecular Targets Platform (MTP)</a>.
 We harmonized, aggregated, and analyzed data from multiple pediatric and adult data sources, building upon the work of the OpenPBTA (<strong>Figure <a href="#fig:Fig1">1</a></strong>).</p>
 <div id="fig:Fig1" class="fignos">
 <figure>
@@ -776,17 +776,12 @@ Libraries were pooled, denatured, and loaded onto sequencing cartridge.
 Libraries were sequenced using an Illumina Nextseq 500 per manufacturer guidelines.
 FASTQ files were generated from raw sequencing data using Illumina BaseSpace and analyzed with the HTG EdgeSeq Parser software v5.4.0.7543 to generate an excel file containing quantification of 2083 miRNAs per sample.
 Any sample that did not pass the quality control set by the HTG REVEAL software version 2.0.1 (Tuscon, AR, USA) was excluded from the analysis.</p>
-<h4 id="dna-wgs-alignment">DNA WGS Alignment</h4>
-<p>Please refer to the OpenPBTA manuscript for details <span class="citation" data-cites="5VXMHJ7N">[<a href="#ref-5VXMHJ7N" role="doc-biblioref">1</a>]</span>.</p>
-<h4 id="prediction-of-participants-genetic-sex">Prediction of participants’ genetic sex</h4>
-<p>Please refer to the OpenPBTA manuscript for details <span class="citation" data-cites="5VXMHJ7N">[<a href="#ref-5VXMHJ7N" role="doc-biblioref">1</a>]</span>.</p>
-<h4 id="quality-control-of-sequencing-data">Quality Control of Sequencing Data</h4>
-<p>Please refer to the OpenPBTA manuscript for details <span class="citation" data-cites="5VXMHJ7N">[<a href="#ref-5VXMHJ7N" role="doc-biblioref">1</a>]</span>.
-We also ran <code>somalier relate</code> <span class="citation" data-cites="eoDdE9oT">[<a href="#ref-eoDdE9oT" role="doc-biblioref">6</a>]</span> to identify potential mismatched samples.
+<h4 id="dna-wgs-alignment-quality-control-and-snp-calling">DNA WGS Alignment, Quality Control, and SNP Calling</h4>
+<p>Please refer to the OpenPBTA manuscript for details on DNA WGS Alignment, prediction of participants’ genetic sex, SNP calling for B-allele Frequency (BAF) generation, and initial quality control steps. <span class="citation" data-cites="5VXMHJ7N">[<a href="#ref-5VXMHJ7N" role="doc-biblioref">1</a>]</span>.</p>
+<h4 id="additional-quality-control-of-sequencing-data">Additional Quality Control of Sequencing Data</h4>
+<p>We also ran <code>somalier relate</code> <span class="citation" data-cites="eoDdE9oT">[<a href="#ref-eoDdE9oT" role="doc-biblioref">6</a>]</span> to identify potential mismatched samples.
 We required that at least 20M total reads with 50% of RNA-Seq reads mapped to the human reference for samples to be included in analysis.
 We required at least 20X coverage for tumor DNA samples to be included in this analysis.</p>
-<h5 id="snp-calling-for-b-allele-frequency-baf-generation">SNP calling for B-allele Frequency (BAF) generation</h5>
-<p>Please refer to the OpenPBTA manuscript for details <span class="citation" data-cites="5VXMHJ7N">[<a href="#ref-5VXMHJ7N" role="doc-biblioref">1</a>]</span>.</p>
 <h4 id="somatic-mutation-and-indel-calling">Somatic Mutation and INDEL Calling</h4>
 <p>For matched tumor/normal samples, we used the same mutation calling methods as described in OpenPBTA manuscript for details <span class="citation" data-cites="5VXMHJ7N">[<a href="#ref-5VXMHJ7N" role="doc-biblioref">1</a>]</span>.
 For tumor only samples, we ran Mutect2 from GATK v4.2.2.0 using the following <a href="https://github.com/kids-first/kf-tumor-workflow/tree/v0.3.0-beta">workflow</a>.</p>
