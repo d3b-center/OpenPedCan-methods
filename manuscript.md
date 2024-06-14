@@ -40,7 +40,7 @@ author-meta:
 - Ammar S. Naqvi
 - Xiaoyan Huang
 - Sarah Tasian
-- Joseph Dybas
+- Joseph M. Dybas
 - Brian M. Ennis
 - Sharon J. Diskin
 - Kenneth Aldape
@@ -69,8 +69,8 @@ header-includes: |
   <meta name="dc.date" content="2024-06-14" />
   <meta name="citation_publication_date" content="2024-06-14" />
   <meta property="article:published_time" content="2024-06-14" />
-  <meta name="dc.modified" content="2024-06-14T19:49:49+00:00" />
-  <meta property="article:modified_time" content="2024-06-14T19:49:49+00:00" />
+  <meta name="dc.modified" content="2024-06-14T22:08:54+00:00" />
+  <meta property="article:modified_time" content="2024-06-14T22:08:54+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -200,7 +200,7 @@ header-includes: |
   <meta name="citation_author" content="Sarah Tasian" />
   <meta name="citation_author_institution" content="Division of Oncology, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_institution" content="Department of Pediatrics, University of Pennsylvania, Philadelphia, PA, 19104, USA" />
-  <meta name="citation_author" content="Joseph Dybas" />
+  <meta name="citation_author" content="Joseph M. Dybas" />
   <meta name="citation_author_institution" content="Center for Data-Driven Discovery in Biomedicine, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author_institution" content="Division of Neurosurgery, Children&#39;s Hospital of Philadelphia, Philadelphia, PA, 19104, USA" />
   <meta name="citation_author" content="Brian M. Ennis" />
@@ -263,9 +263,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://d3b-center.github.io/OpenPedCan-manuscript/" />
   <meta name="citation_pdf_url" content="https://d3b-center.github.io/OpenPedCan-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://d3b-center.github.io/OpenPedCan-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-manuscript/v/71f7443e8add86a2680a353f37b87364d756b30c/" />
-  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-manuscript/v/71f7443e8add86a2680a353f37b87364d756b30c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-manuscript/v/71f7443e8add86a2680a353f37b87364d756b30c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://d3b-center.github.io/OpenPedCan-manuscript/v/4d5377e73f5ce6079f215755d9f54a8b5df276cb/" />
+  <meta name="manubot_html_url_versioned" content="https://d3b-center.github.io/OpenPedCan-manuscript/v/4d5377e73f5ce6079f215755d9f54a8b5df276cb/" />
+  <meta name="manubot_pdf_url_versioned" content="https://d3b-center.github.io/OpenPedCan-manuscript/v/4d5377e73f5ce6079f215755d9f54a8b5df276cb/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -287,9 +287,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://d3b-center.github.io/OpenPedCan-manuscript/v/71f7443e8add86a2680a353f37b87364d756b30c/))
+([permalink](https://d3b-center.github.io/OpenPedCan-manuscript/v/4d5377e73f5ce6079f215755d9f54a8b5df276cb/))
 was automatically generated
-from [d3b-center/OpenPedCan-manuscript@71f7443](https://github.com/d3b-center/OpenPedCan-manuscript/tree/71f7443e8add86a2680a353f37b87364d756b30c)
+from [d3b-center/OpenPedCan-manuscript@4d5377e](https://github.com/d3b-center/OpenPedCan-manuscript/tree/4d5377e73f5ce6079f215755d9f54a8b5df276cb)
 on 2024-06-14.
 </em></small>
 
@@ -555,7 +555,7 @@ on 2024-06-14.
      Division of Oncology, Children's Hospital of Philadelphia, Philadelphia, PA, 19104, USA; Department of Pediatrics, University of Pennsylvania, Philadelphia, PA, 19104, USA
   </small>
 
-+ **Joseph Dybas**<br>
++ **Joseph M. Dybas**<br>
     · ![GitHub icon](images/github.png){.inline_icon}
     [JosephDybas](https://github.com/JosephDybas)<br>
   <small>
@@ -686,7 +686,7 @@ Combined with RNA-Seq from the Genotype-Tissue Expression (GTEx) and The Cancer 
 
 <!-- A very brief preview of the data type(s) produced, the methods used, and information relevant to data validation -->
 **Findings:** We utilized Gabriella Miller Kids First (GMKF) workflows to harmonize WGS, WXS, RNA-seq, and Targeted Sequencing datasets to include somatic SNVs, InDels, CNVs, SVs, RNA expression, fusions, and splice variants. 
-We integrated summarized CPTAC proteomics and phospho-proteomics data, miRNA-Seq data, and have developed a methylation array harmonization workflow to include m-values, beta-vales, and copy number calls. 
+We integrated summarized CPTAC whole cell proteomics and phospho-proteomics data, miRNA-Seq data, and have developed a methylation array harmonization workflow to include m-values, beta-vales, and copy number calls. 
 OpenPedCan contains reproducible, dockerized workflows in GitHub, CAVATICA, and Amazon Web Services (AWS) to deliver harmonized and processed data from over 60 scalable modules which can be leveraged both locally and on AWS. 
 The processed data are released in a versioned manner and accessible through CAVATICA or AWS S3 download (from GitHub), and queryable through PedcBioPortal and the NCI's pediatric Molecular Targets Platform. 
 Notably, we have expanded PBTA molecular subtyping to include methylation information to align with the WHO 2021 Central Nervous System Tumor classifications, allowing us to create research-grade integrated diagnoses for these tumors.
@@ -712,7 +712,7 @@ Pediatric cancer, open science, reproducibility, multi-omics
 The Open Pediatric Cancer (OpenPedCan) project at the Children’s Hospital of Philadelphia (CHOP) is an open analysis effort in which we harmonize pediatric cancer data from multiple sources, perform downstream cancer analyses on these data, and provide them on PedcBioPortal and v2.1 of NCI's [Pediatric Molecular Targets Platform (MTP)](https://moleculartargets.ccdi.cancer.gov/).
 We harmonized, aggregated, and analyzed data from multiple pediatric and adult data sources, building upon the work of the OpenPBTA (**Figure {@fig:Fig1}**).
 
-![**OpenPedCan Data.** A, OpenPedCan contains multi-omic data from seven cohorts of pediatric tumors (A-B), RNA-Seq from adult tumors from The Cancer Genome Atlas (TCGA) Program (C-D) and RNA-Seq from normal adult tissues from the Genotype-Tissue Expression (GTeX) project (E). (Abbreviations: TARGET = Therapeutically Applicable Research to Generate Effective Treatments , PPTC = Pediatric Preclinical Testing Consortium, PBTA = Pediatric Brain Tumor Atlas, Maris = Neuroblastoma cell lines from the Maris Laboratory at CHOP, GMKF = Gabriella Miller Kids First, DGD = Division of Genomic Diagnostics at CHOP, CPTAC = Clinical Proteomic Tumor Analysis Consortium)](https://raw.githubusercontent.com/d3b-center/OpenPedCan-analysis/e0e35bb13fd8542b807f7ea75ffd3ab857c522cb/figures/manuscript_OPC/figure1/Figure1.png?sanitize=true){#fig:Fig1 width="7in"}
+![**OpenPedCan Data.** A, OpenPedCan contains multi-omic data from seven cohorts of pediatric tumors (A-B) with counts by tumor event, RNA-Seq from adult tumors from The Cancer Genome Atlas (TCGA) Program (C-D) and RNA-Seq from normal adult tissues from the Genotype-Tissue Expression (GTeX) project (E) with counts by specimen. (Abbreviations: TARGET = Therapeutically Applicable Research to Generate Effective Treatments , PPTC = Pediatric Preclinical Testing Consortium, PBTA = Pediatric Brain Tumor Atlas, Maris = Neuroblastoma cell lines from the Maris Laboratory at CHOP, GMKF = Gabriella Miller Kids First, DGD = Division of Genomic Diagnostics at CHOP, CPTAC = Clinical Proteomic Tumor Analysis Consortium)](https://raw.githubusercontent.com/d3b-center/OpenPedCan-analysis/e0e35bb13fd8542b807f7ea75ffd3ab857c522cb/figures/manuscript_OPC/figure1/Figure1.png?sanitize=true){#fig:Fig1 width="7in"}
 
 OpenPedCan currently include the following datasets, described more fully below:
 
@@ -1251,7 +1251,7 @@ We thank Rocky Breslow for GitHub actions contributions and Rust Turakulov for c
 |Ammar S. Naqvi|Methodology, Writing – Original draft|
 |Xiaoyan Huang|Formal analysis, Software|
 |Sarah Tasian|Funding acquisition|
-|Joseph Dybas|Writing – Original draft, Methodology|
+|Joseph M. Dybas|Writing – Original draft, Methodology|
 |Brian M. Ennis|Formal analysis|
 |Sharon J. Diskin|Funding acquisition|
 |Kenneth Aldape|Formal Analysis, Investigation, Data curation|
